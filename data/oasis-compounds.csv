@@ -1,0 +1,218 @@
+id,name,observedLoss,predictedLoss,observedRank,predictedRank,measuredSelected,predictedSelected,recovered
+(2r)-2-(4-Chloro-2-methylphenoxy)propanoic acid,(2r)-2-(4-Chloro-2-methylphenoxy)propanoic acid,-0.02562056303672166,-0.009192991471598482,144.0,151.0,False,False,False
+"1,4-Benzodinitrile","1,4-Benzodinitrile",-0.0560956467752871,-0.02053340761928292,195.0,179.0,False,False,False
+"1,6-Dichlorohexane","1,6-Dichlorohexane",-0.07102996720999907,-0.024862434605396066,210.0,194.0,False,False,False
+2-Bromo-4'-hydroxyacetophenone,2-Bromo-4'-hydroxyacetophenone,-0.060067787253554286,-0.01823411327078472,203.0,172.0,False,False,False
+"2-Ethyl-2-(hydroxymethyl)propane-1,3-diol","2-Ethyl-2-(hydroxymethyl)propane-1,3-diol",-0.04543118883410223,-0.040207572591829055,179.0,209.0,False,False,False
+2-Ethylhexan-1-ol,2-Ethylhexan-1-ol,-0.04982850193113517,-0.024254048047495834,191.0,191.0,False,False,False
+"4,4-Dimethyloxazolidine","4,4-Dimethyloxazolidine",-0.04826313891596549,-0.014339162882935816,189.0,164.0,False,False,False
+4-Aminosalicylic acid,4-Aminosalicylic acid,-0.08515309142893637,-0.04511227347849822,214.0,214.0,False,False,False
+4-Nitrophenol,4-Nitrophenol,-0.013571399250540149,0.0329389378865166,127.0,63.0,False,False,False
+5-Azacytidine,5-Azacytidine,0.0832160145206296,0.06818125793429992,44.0,41.0,False,False,False
+5-Hydroxymethylfurfural,5-Hydroxymethylfurfural,-0.0037314988996671322,-0.00031166997060863913,114.0,127.0,False,False,False
+Abemaciclib,Abemaciclib,0.3545510243502972,0.3746695530125837,3.0,3.0,True,True,True
+Acetarsol,Acetarsol,0.015159230301345611,0.020018378761588178,86.0,78.0,False,False,False
+Acetylcholine (chloride),Acetylcholine (chloride),0.026669056006315854,-0.0007252853795579083,76.0,129.0,False,False,False
+Almotriptan,Almotriptan,-0.006487139001272714,0.009356923450124292,121.0,103.0,False,False,False
+Altretamine,Altretamine,-0.04759867046622261,-0.04469792685218144,186.0,213.0,False,False,False
+Ampiroxicam,Ampiroxicam,-0.03504832828606383,-0.04135957170242412,162.0,211.0,False,False,False
+Apalutamide,Apalutamide,0.10610894065188325,-0.0007325848550379793,35.0,130.0,False,False,False
+Aplaviroc (hydrochloride),Aplaviroc (hydrochloride),0.010798416599847281,0.006834818468537884,91.0,107.0,False,False,False
+Argatroban,Argatroban,-0.004526753464470734,0.008475152265939258,116.0,104.0,False,False,False
+Aripiprazole,Aripiprazole,0.18524078673858574,0.12234837187871594,18.0,26.0,False,False,False
+Astemizole,Astemizole,0.24645379319807276,0.2292028897607113,8.0,6.0,True,True,True
+Azelnidipine,Azelnidipine,0.03011744299336621,0.14238713257918037,73.0,19.0,False,False,False
+Aztreonam,Aztreonam,-0.011597450282694606,-0.024408216271655226,126.0,192.0,False,False,False
+Beclometasone,Beclometasone,0.027630415083705527,-0.022684047196030788,75.0,187.0,False,False,False
+Bedaquiline (fumarate),Bedaquiline (fumarate),0.03495657433202304,0.02806025249988755,71.0,66.0,False,False,False
+Benzarone,Benzarone,-0.04832992988868033,-0.008994657782534075,190.0,150.0,False,False,False
+Benzoic acid,Benzoic acid,-0.0375122651727735,-0.009841497506797064,168.0,152.0,False,False,False
+Berotralstat (dihydrochloride),Berotralstat (dihydrochloride),0.13392391971960343,0.08803777018599919,27.0,33.0,False,False,False
+Biperiden,Biperiden,-0.02780359951050384,-0.01526006415455888,150.0,167.0,False,False,False
+Bithionol,Bithionol,0.19085409544894233,0.13152692938568308,17.0,23.0,False,False,False
+Bosentan,Bosentan,0.0014008663162805163,0.017186549755518265,101.0,83.0,False,False,False
+Cabergoline,Cabergoline,0.019674942275320302,0.034607743105846196,79.0,58.0,False,False,False
+Capecitabine,Capecitabine,-0.013710900925207811,0.011845948327546419,128.0,96.0,False,False,False
+Capmatinib,Capmatinib,0.08367397344630699,0.0049083285391989945,43.0,115.0,False,False,False
+Capsaicin,Capsaicin,0.019005829063446653,-0.017519440789373078,80.0,170.0,False,False,False
+Cefaclor,Cefaclor,-0.015611056265407701,0.006662273423875277,129.0,108.0,False,False,False
+Cefdinir,Cefdinir,0.011092435541576247,0.020313957899348315,90.0,77.0,False,False,False
+Cefepime,Cefepime,-0.02500198635718094,0.0007107015760507845,141.0,126.0,False,False,False
+Cenobamate,Cenobamate,-0.0291581370098435,-0.004891236051376422,153.0,140.0,False,False,False
+Chloramphenicol,Chloramphenicol,-0.010037876260669307,0.002734986605666473,125.0,118.0,False,False,False
+Chlorothalonil,Chlorothalonil,0.24713687801504158,0.24682808981320822,7.0,4.0,True,True,True
+Chlorzoxazone,Chlorzoxazone,-0.027102332967131007,-0.020190414083613533,148.0,177.0,False,False,False
+Cilnidipine,Cilnidipine,0.006773924050123822,0.05013198570130278,97.0,51.0,False,False,False
+Cinacalcet,Cinacalcet,0.06793301960156449,0.09129050347123145,51.0,31.0,False,False,False
+Cisapride,Cisapride,0.20919049706687964,0.06502832722173539,13.0,43.0,False,False,False
+Clofazimine,Clofazimine,0.05788370713159661,-0.022876546274091615,56.0,188.0,False,False,False
+Clonidine,Clonidine,-0.02512992138339988,0.018224551384979734,142.0,80.0,False,False,False
+Compound_06965c8b,Compound_06965c8b,0.03549857394418856,0.05572775194211026,70.0,46.0,False,False,False
+Compound_14bca51b,Compound_14bca51b,0.0864764209026876,0.013961871305851067,42.0,88.0,False,False,False
+Compound_26a3141a,Compound_26a3141a,0.05428607162574066,0.04158808713241006,57.0,55.0,False,False,False
+Compound_2aa3c71f,Compound_2aa3c71f,0.1665477321645164,0.19104287202920345,21.0,12.0,False,False,False
+Compound_2aa5e543,Compound_2aa5e543,0.0015294778876114717,-0.00741039169156736,100.0,146.0,False,False,False
+Compound_2d74381f,Compound_2d74381f,0.003499552580541472,-0.016755416893802114,99.0,169.0,False,False,False
+Compound_2e66ae36,Compound_2e66ae36,-0.037307683162499154,0.003382138777744898,167.0,116.0,False,False,False
+Compound_36ff3535,Compound_36ff3535,0.04868024166511453,0.006094577734566868,64.0,111.0,False,False,False
+Compound_43808771,Compound_43808771,-0.005084982222836924,0.007559530363615957,117.0,106.0,False,False,False
+Compound_4e3771a5,Compound_4e3771a5,-0.023630952975456233,-0.0077438923050941345,139.0,148.0,False,False,False
+Compound_567dbb1e,Compound_567dbb1e,0.13505397610150388,0.034310482462624504,25.0,60.0,False,False,False
+Compound_5d6a2392,Compound_5d6a2392,-0.04823625114732892,-0.03643906809960988,188.0,206.0,False,False,False
+Compound_5ec2a600,Compound_5ec2a600,0.14438402860600882,0.16036800853737695,23.0,15.0,False,False,False
+Compound_622f7d94,Compound_622f7d94,0.03155702463202722,0.05539047737782563,72.0,47.0,False,False,False
+Compound_84d1048d,Compound_84d1048d,0.00934491452315582,0.002024623998291718,94.0,119.0,False,False,False
+Compound_a628ede8,Compound_a628ede8,-0.050134513554149766,-0.0016145442601965682,192.0,133.0,False,False,False
+Compound_aab77a44,Compound_aab77a44,-0.03140117082258927,0.025057149702602408,158.0,69.0,False,False,False
+Compound_ab084aae,Compound_ab084aae,-0.047408542744275424,-0.020282717558664766,185.0,178.0,False,False,False
+Compound_baf3c49a,Compound_baf3c49a,-0.0665621498896592,-0.03493212673840234,207.0,205.0,False,False,False
+Compound_cd9dcad3,Compound_cd9dcad3,-0.05864378102663634,-0.056942498336065996,200.0,216.0,False,False,False
+Compound_d4250270,Compound_d4250270,-0.06068598500628402,-0.010131455624829692,204.0,154.0,False,False,False
+Compound_da37299a,Compound_da37299a,-0.04071574895710182,-0.011669100375219954,173.0,157.0,False,False,False
+Compound_ece6ff71,Compound_ece6ff71,-0.01587174047270544,-0.018619846499309485,130.0,175.0,False,False,False
+Compound_ed9176f4,Compound_ed9176f4,0.049863190241697934,0.04213273316086209,63.0,54.0,False,False,False
+Compound_efdb9516,Compound_efdb9516,0.12019072950520703,0.11590602542172541,32.0,27.0,False,False,False
+Compound_f7ec0534,Compound_f7ec0534,0.10147676703290666,0.018019032795989244,36.0,81.0,False,False,False
+Compound_fbc541b1,Compound_fbc541b1,0.013433872789576445,-0.03892132318548602,87.0,207.0,False,False,False
+Coumarin,Coumarin,0.023930878310963757,0.024718420284888368,77.0,70.0,False,False,False
+Dapagliflozin,Dapagliflozin,-0.00010542884684988652,0.004919356101635044,107.0,114.0,False,False,False
+Dapsone,Dapsone,-0.08119052985980026,-0.014084343063446818,213.0,162.0,False,False,False
+Darifenacin,Darifenacin,0.12846119475105539,0.06882966612885436,30.0,40.0,False,False,False
+Darunavir,Darunavir,-0.00010206118442007694,0.010109697496056317,106.0,102.0,False,False,False
+Dasatinib,Dasatinib,0.38232631576449977,0.4142545950259043,2.0,2.0,True,True,True
+Deferiprone,Deferiprone,-0.02804568264147507,0.011528085317137778,151.0,100.0,False,False,False
+Demeclocycline,Demeclocycline,0.01823223711571833,0.032134906789023046,82.0,64.0,False,False,False
+Desloratadine,Desloratadine,0.16794753316418687,0.15787247249715708,19.0,16.0,False,False,False
+Desogestrel,Desogestrel,-0.009281835586264484,-0.011691266672600219,124.0,158.0,False,False,False
+Diatrizoic acid,Diatrizoic acid,0.009517641333134305,0.0012307356791228501,93.0,123.0,False,False,False
+Dibutyl phthalate,Dibutyl phthalate,-0.06762382193751953,-0.031223342352336633,208.0,201.0,False,False,False
+Diclofenac,Diclofenac,-0.11990355721850324,-0.004917222148782145,217.0,141.0,False,False,False
+Difenoconazole,Difenoconazole,0.07426449678082399,0.11476856643514492,49.0,28.0,False,False,False
+Dipropylene glycol,Dipropylene glycol,-0.05946698744335897,-0.028803803884029706,202.0,197.0,False,False,False
+Dolasetron,Dolasetron,0.05976958162542703,0.0373970401786453,54.0,57.0,False,False,False
+Doravirine,Doravirine,-0.027730084604759134,-0.0185474866608129,149.0,174.0,False,False,False
+Eicosapentaenoic acid ethyl ester,Eicosapentaenoic acid ethyl ester,-0.02305962188520292,-0.023973660026345735,138.0,190.0,False,False,False
+Eplerenone,Eplerenone,-0.04496566953974356,-0.0035514549241473306,178.0,134.0,False,False,False
+Esfenvalerate,Esfenvalerate,-0.0005665227392877073,0.053741981214527536,108.0,48.0,False,False,False
+Estradiol,Estradiol,-0.02600504112416417,0.014392208644583876,145.0,87.0,False,False,False
+Estragole,Estragole,-0.07386771181895248,-0.04173331747983328,211.0,212.0,False,False,False
+Estramustine,Estramustine,0.09384551228604457,0.050278182624159826,39.0,50.0,False,False,False
+Ethacrynic acid,Ethacrynic acid,0.11255566784572127,0.14328232346830927,34.0,18.0,False,False,False
+Ethionamide,Ethionamide,-0.002554897488891192,0.0018986385385403501,110.0,120.0,False,False,False
+Ethylene glycol,Ethylene glycol,-0.03908538416136001,-0.02949703030394333,170.0,198.0,False,False,False
+Ethylvanillin,Ethylvanillin,-0.04559945352915404,-0.0012835356987826486,180.0,131.0,False,False,False
+Etomidate,Etomidate,-0.05915742561868996,-0.02149301670291112,201.0,182.0,False,False,False
+Etoposide,Etoposide,-0.0053451614103455225,-0.021793718783262042,119.0,183.0,False,False,False
+Etoricoxib,Etoricoxib,-0.03041658939226812,-0.018398839622718533,155.0,173.0,False,False,False
+Etretinate,Etretinate,-0.0348862556443698,0.03451379944274645,161.0,59.0,False,False,False
+Famoxadone,Famoxadone,0.09859862324336303,0.1294829001042166,37.0,24.0,False,False,False
+Fenhexamid,Fenhexamid,-0.03635881414663961,-0.026488179702257413,165.0,195.0,False,False,False
+Fesoterodine,Fesoterodine,0.15946570498382917,0.16835263864667724,22.0,14.0,False,False,False
+Flecainide,Flecainide,0.0640152315946593,0.02382161623506735,53.0,71.0,False,False,False
+Flonicamid,Flonicamid,-0.0026432201536237196,0.011552903636472272,111.0,99.0,False,False,False
+Fluazinam,Fluazinam,0.2579023234767205,0.22584821789081538,6.0,7.0,True,True,True
+Flutamide,Flutamide,0.11935803439954056,0.02223307784327813,33.0,75.0,False,False,False
+Furosemide,Furosemide,-0.08547085893434889,-0.03323454722841442,215.0,203.0,False,False,False
+Gemfibrozil,Gemfibrozil,-0.017159983542734285,-0.006855891803267217,132.0,144.0,False,False,False
+Hexylresorcinol,Hexylresorcinol,-0.0629302291874436,-0.01484174295142747,205.0,166.0,False,False,False
+Hydroxychloroquine,Hydroxychloroquine,0.1672545360347283,0.13293763996826585,20.0,21.0,False,False,False
+Hydroxyurea,Hydroxyurea,-0.05034241755155548,-0.039020609735010314,193.0,208.0,False,False,False
+Imipramine,Imipramine,0.00014523238591528792,0.02311276825719294,104.0,73.0,False,False,False
+Indocyanine green,Indocyanine green,0.12098989797675094,0.06185950147234237,31.0,44.0,False,False,False
+Irinotecan,Irinotecan,0.09187431036886098,0.13157746494771275,40.0,22.0,False,False,False
+Isoeugenol,Isoeugenol,-0.03643609248641608,-0.012186837079621022,166.0,160.0,False,False,False
+Isoniazid,Isoniazid,-0.04115664961653342,-0.006928376474300489,174.0,145.0,False,False,False
+Lansoprazole,Lansoprazole,0.08972480895834559,0.05099404676222883,41.0,49.0,False,False,False
+Lercanidipine,Lercanidipine,-0.0312711069009442,0.05944831994101864,157.0,45.0,False,False,False
+Levomepromazine,Levomepromazine,0.05079937315937402,0.07472193491416021,61.0,36.0,False,False,False
+Linalool,Linalool,-0.05788389523176178,-0.05130804236678988,198.0,215.0,False,False,False
+Lomustine,Lomustine,-0.003369215902858873,-0.003960747158965296,113.0,135.0,False,False,False
+Lonafarnib,Lonafarnib,0.19875402675698634,0.10029651697725181,14.0,29.0,False,False,False
+Loratadine,Loratadine,0.09402510113474252,0.022224643237900223,38.0,76.0,False,False,False
+Lusutrombopag,Lusutrombopag,0.07656417187789215,0.08616648005517547,46.0,34.0,False,False,False
+Menaquinone-4,Menaquinone-4,0.13020504125650378,0.001289311448765893,29.0,121.0,False,False,False
+Mequitazine,Mequitazine,0.13960687566103175,0.14522149056042127,24.0,17.0,False,False,False
+Metamizole (sodium),Metamizole (sodium),-0.045895647689484155,0.010519154346504501,182.0,101.0,False,False,False
+Metaxalone,Metaxalone,0.02915481475276361,-0.0015619848565958578,74.0,132.0,False,False,False
+Metformin,Metformin,-0.005171480062215197,0.01385583311899236,118.0,89.0,False,False,False
+Methoxsalen,Methoxsalen,-0.02825455702301382,0.0027977956186457714,152.0,117.0,False,False,False
+Methyl carbamate,Methyl carbamate,-0.005841517847949146,-0.011343678309617106,120.0,155.0,False,False,False
+Metoclopramide,Metoclopramide,-0.02957854006925352,-0.021872601338849197,154.0,184.0,False,False,False
+Monocrotaline,Monocrotaline,-0.046346511907767556,-0.0048745960732489695,184.0,139.0,False,False,False
+Moxonidine,Moxonidine,-0.02206720352388808,-0.010121570137518007,137.0,153.0,False,False,False
+"N,N-Dicyclohexylcarbodiimide(DCC)","N,N-Dicyclohexylcarbodiimide(DCC)",0.05075518734267227,0.07416136896618168,62.0,37.0,False,False,False
+"N-(4-fluorophenyl)-N-isopropyl-2-((5-(trifluoromethyl)-1,3,4-thiadiazol-2-yl)oxy)acetamide","N-(4-fluorophenyl)-N-isopropyl-2-((5-(trifluoromethyl)-1,3,4-thiadiazol-2-yl)oxy)acetamide",-0.030932697292039325,-0.004518512514889145,156.0,138.0,False,False,False
+N-Nitrosodiethylamine,N-Nitrosodiethylamine,0.007667105617946486,-0.04055907434475367,96.0,210.0,False,False,False
+Niacin,Niacin,0.0013586801031361465,-0.0006467792737130142,102.0,128.0,False,False,False
+Niflumic acid,Niflumic acid,-0.06620779174609458,-0.02877108735584057,206.0,196.0,False,False,False
+Nisoldipine,Nisoldipine,-0.004154926246922923,0.027504358686543502,115.0,67.0,False,False,False
+Nitrofurazone,Nitrofurazone,0.23103877247405658,0.2197870527359245,11.0,8.0,True,True,True
+Norepinephrine,Norepinephrine,-0.04271234064430427,-0.01163289852160487,176.0,156.0,False,False,False
+Norethindrone,Norethindrone,-0.03608599302453406,-0.014213239198383113,164.0,163.0,False,False,False
+Olmesartan,Olmesartan,0.04297967028358711,0.013470058048606293,67.0,94.0,False,False,False
+Omeprazole,Omeprazole,0.0422985444682232,0.013742292912286997,68.0,92.0,False,False,False
+Oseltamivir,Oseltamivir,0.04486266475008882,0.041481462228051894,66.0,56.0,False,False,False
+Osilodrostat,Osilodrostat,-0.018171128263508057,-0.0245227947534562,134.0,193.0,False,False,False
+Oxadiazon,Oxadiazon,0.017897296588921918,-0.0039693354230302715,83.0,136.0,False,False,False
+Oxyfluorfen,Oxyfluorfen,0.05241870091877123,0.01880807104228964,60.0,79.0,False,False,False
+Ozagrel,Ozagrel,-0.0031435568479524015,0.023813702522213237,112.0,72.0,False,False,False
+Pentagastrin,Pentagastrin,0.010281849625533919,-0.00629896291604606,92.0,143.0,False,False,False
+Perindopril,Perindopril,-0.02630209814811097,-0.018851704772378953,146.0,176.0,False,False,False
+Phenothiazine,Phenothiazine,-0.019598916604898965,-0.004464051851186593,135.0,137.0,False,False,False
+Phenothrin,Phenothrin,-0.0527203822697418,-0.030467578489148255,194.0,199.0,False,False,False
+Phentolamine,Phentolamine,0.054119724942290275,0.025824778894001945,58.0,68.0,False,False,False
+Phenylephrine,Phenylephrine,-0.00830311371364454,0.001268730767271728,122.0,122.0,False,False,False
+Pindolol,Pindolol,-0.05838319324496863,-0.011850775662263951,199.0,159.0,False,False,False
+Pirinixic acid,Pirinixic acid,-0.021574962668228823,0.016151774889042216,136.0,85.0,False,False,False
+Pralsetinib,Pralsetinib,0.236852008268993,0.1989137168381389,10.0,10.0,True,True,True
+Prednisolone,Prednisolone,0.07617616688535699,0.013770685694503248,47.0,90.0,False,False,False
+Probenecid,Probenecid,-0.03353540561553358,0.0008221861412751564,160.0,124.0,False,False,False
+Probucol,Probucol,-0.05750158394052497,-0.022378153943842155,197.0,186.0,False,False,False
+Prochloraz,Prochloraz,-0.023753105730250232,0.03336748121229577,140.0,62.0,False,False,False
+Proguanil,Proguanil,0.19794713554606924,0.1751399064136804,15.0,13.0,False,False,False
+Quinoxyfen,Quinoxyfen,0.05974360998126045,0.005696554459997645,55.0,113.0,False,False,False
+Ramelteon,Ramelteon,-0.047974769053035875,-0.0074835162673672585,187.0,147.0,False,False,False
+Relugolix,Relugolix,-0.009138331681058015,0.015303484637404215,123.0,86.0,False,False,False
+Rifaximin,Rifaximin,0.07493545201377595,-0.008724959399832248,48.0,149.0,False,False,False
+Rilpivirine,Rilpivirine,0.13450733035046986,0.09548903357217152,26.0,30.0,False,False,False
+Risdiplam,Risdiplam,-0.0692489288639331,0.008232775982234647,209.0,105.0,False,False,False
+Risperidone,Risperidone,0.26049369269226125,0.08170978813593706,5.0,35.0,True,False,False
+Roxatidine,Roxatidine,0.018766862866671216,0.022381310868613207,81.0,74.0,False,False,False
+Selinexor,Selinexor,0.35214057537740556,0.19188795734322261,4.0,11.0,True,True,True
+Sildenafil,Sildenafil,0.047445563194544446,-0.013528627111309147,65.0,161.0,False,False,False
+Simethicone,Simethicone,-0.04612001736202963,-0.03227575622519448,183.0,202.0,False,False,False
+Siponimod,Siponimod,0.06509580792508265,0.08844373990144974,52.0,32.0,False,False,False
+Sodium 2-((hydroxymethyl)amino)acetate,Sodium 2-((hydroxymethyl)amino)acetate,-0.04386645531200843,-0.060078341405601754,177.0,217.0,False,False,False
+Sonidegib,Sonidegib,0.08283000768742702,0.06769676232884944,45.0,42.0,False,False,False
+Spiroxamine,Spiroxamine,7.39560826965302e-05,0.04865431181811016,105.0,52.0,False,False,False
+Succimer,Succimer,-0.03894890437199584,-0.030960427754044274,169.0,200.0,False,False,False
+Succinic anhydride,Succinic anhydride,-0.04155148525276907,-0.021028997966818293,175.0,180.0,False,False,False
+Sulfamethizole,Sulfamethizole,-0.01727091067511101,-0.021955496111487213,133.0,185.0,False,False,False
+Tacrine,Tacrine,0.004421297811727606,0.04375848134136945,98.0,53.0,False,False,False
+Tebuconazole,Tebuconazole,0.013201519468988204,0.07309702847653292,88.0,38.0,False,False,False
+Tegaserod,Tegaserod,0.24606621305734946,0.23254608043877956,9.0,5.0,True,True,True
+Telotristat ethyl,Telotristat ethyl,0.07146338087277139,0.12288350420079754,50.0,25.0,False,False,False
+Temafloxacin,Temafloxacin,-0.026581607192106844,-0.017998726903993817,147.0,171.0,False,False,False
+Teniposide,Teniposide,0.13151622701274313,0.07186605534115079,28.0,39.0,False,False,False
+Tetraconazole,Tetraconazole,-0.035597513902230524,0.013746176157518507,163.0,91.0,False,False,False
+Tetracycline,Tetracycline,0.00039797743269501945,0.006387383937609851,103.0,109.0,False,False,False
+Theophylline,Theophylline,-0.03226670998054137,-0.03372521091581483,159.0,204.0,False,False,False
+Tivozanib,Tivozanib,0.19725550091622965,0.13412260588407954,16.0,20.0,False,False,False
+Tizanidine,Tizanidine,0.01650987581714341,0.03413777555250694,85.0,61.0,False,False,False
+Tocainide,Tocainide,-0.08064901342858438,-0.016246759712796904,212.0,168.0,False,False,False
+Tofacitinib,Tofacitinib,-0.05740743465181709,-0.023660552966597068,196.0,189.0,False,False,False
+Tolmetin,Tolmetin,-0.0456144205038098,0.011655804506286196,181.0,98.0,False,False,False
+Trabectedin,Trabectedin,0.8994912047443602,0.8919063245126488,1.0,1.0,True,True,True
+Triclopyr,Triclopyr,-0.017097681355865077,0.017982886008470637,131.0,82.0,False,False,False
+Trimetazidine,Trimetazidine,0.008986461421717773,0.0007857105984090118,95.0,125.0,False,False,False
+Trimethoprim,Trimethoprim,0.012152589830583434,0.013128617996299632,89.0,95.0,False,False,False
+Troxipide,Troxipide,0.039725843439067626,-0.014590482529667624,69.0,165.0,False,False,False
+Tucatinib,Tucatinib,0.02002262359188088,0.011684842433492862,78.0,97.0,False,False,False
+Venlafaxine,Venlafaxine,-0.0007988659368044909,-0.005557429475467423,109.0,142.0,False,False,False
+Vibegron,Vibegron,-0.025379182689863673,0.013608181084444292,143.0,93.0,False,False,False
+Voglibose,Voglibose,-0.03969613127950308,0.006132949120788386,172.0,110.0,False,False,False
+Vorapaxar,Vorapaxar,0.05367110777592315,0.0057604324338825005,59.0,112.0,False,False,False
+Vortioxetine,Vortioxetine,0.2151392012314898,0.21880935809235885,12.0,9.0,False,True,False
+Zafirlukast,Zafirlukast,-0.11902078214114989,-0.02105121561191786,216.0,181.0,False,False,False
+Zileuton,Zileuton,0.01691576463264833,0.01684947249321695,84.0,84.0,False,False,False
+β-Naphthoflavone,β-Naphthoflavone,-0.03912274204734442,0.028705390622706568,171.0,65.0,False,False,False

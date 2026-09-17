@@ -1,0 +1,383 @@
+{
+  "schemaVersion": 1,
+  "renderer": "PyMuPDF 1.28.2",
+  "artworkPolicy": "Full-page raster previews and byte-identical native PDF downloads. No data, labels, scales, ordering or source artwork changed.",
+  "checks": {
+    "reporterJoin": "52 unique IDs; all metric and tier values agree",
+    "reporterOrder": "canonical display_order 1–52",
+    "tierCounts": {
+      "quantitative_proxy": 30,
+      "ranking_proxy": 7,
+      "measurement_required": 3,
+      "not_identifiable": 9,
+      "unresolved": 3
+    },
+    "oasisCompounds": 217,
+    "oasisSelection": {
+      "measuredSelected": 11,
+      "predictedSelected": 11,
+      "retained": 10
+    },
+    "oasisMembership": "Agrees with separate deposited hit table and separators",
+    "jsonFinite": true,
+    "nativePanelText": "live; at least 6 pt; inside page bounds; no panel letters"
+  },
+  "files": [
+    {
+      "path": "paper/figure_sources/final/figure2/panels/a/Figure2a.pdf",
+      "role": "canonical_panel",
+      "bytes": 4130655,
+      "sha256": "5a8ec20a9b3db35577bb413a94fecfda18c2219d2470f4c99877075a5d930428"
+    },
+    {
+      "path": "website/assets/workflow.png",
+      "role": "web_artwork",
+      "bytes": 388863,
+      "sha256": "688df77900f8fda61ed584c5c8177babdc1aace3c75a2d639cf2cd053d763613",
+      "source": "paper/figure_sources/final/figure2/panels/a/Figure2a.pdf",
+      "width_px": 2163,
+      "height_px": 750,
+      "dpi": 300,
+      "transform": "whole page; no crop; native aspect ratio"
+    },
+    {
+      "path": "website/assets/workflow.webp",
+      "role": "web_artwork",
+      "bytes": 214762,
+      "sha256": "bf3d7c4c47caad60c94df3e3ab4819fc375b2a1162d63f24117e6fcd08d73975",
+      "source": "paper/figure_sources/final/figure2/panels/a/Figure2a.pdf",
+      "width_px": 2163,
+      "height_px": 750,
+      "dpi": 300,
+      "transform": "whole page; no crop; native aspect ratio"
+    },
+    {
+      "path": "website/assets/workflow.pdf",
+      "role": "web_artwork",
+      "bytes": 4130655,
+      "sha256": "5a8ec20a9b3db35577bb413a94fecfda18c2219d2470f4c99877075a5d930428",
+      "source": "paper/figure_sources/final/figure2/panels/a/Figure2a.pdf",
+      "width_px": 2163,
+      "height_px": 750,
+      "dpi": null,
+      "transform": "whole page; no crop; native aspect ratio"
+    },
+    {
+      "path": "paper/figure_sources/final/figure6/panels/Figure6c.pdf",
+      "role": "canonical_panel",
+      "bytes": 31588,
+      "sha256": "15b04f58dd6d07364b75c8c762d624bd19746055bb73cd69be72378fd612cbbe"
+    },
+    {
+      "path": "website/assets/decisions.png",
+      "role": "web_artwork",
+      "bytes": 93569,
+      "sha256": "3632603aad70506643600ecfcded81a2c52cdf833253dca501363c628bff73af",
+      "source": "paper/figure_sources/final/figure6/panels/Figure6c.pdf",
+      "width_px": 2162,
+      "height_px": 665,
+      "dpi": 300,
+      "transform": "whole page; no crop; native aspect ratio"
+    },
+    {
+      "path": "website/assets/decisions.webp",
+      "role": "web_artwork",
+      "bytes": 30700,
+      "sha256": "ac143777d07a399a20a327f750802824c26c45f27f15dccc70289491a1ba1255",
+      "source": "paper/figure_sources/final/figure6/panels/Figure6c.pdf",
+      "width_px": 2162,
+      "height_px": 665,
+      "dpi": 300,
+      "transform": "whole page; no crop; native aspect ratio"
+    },
+    {
+      "path": "website/assets/decisions.pdf",
+      "role": "web_artwork",
+      "bytes": 31588,
+      "sha256": "15b04f58dd6d07364b75c8c762d624bd19746055bb73cd69be72378fd612cbbe",
+      "source": "paper/figure_sources/final/figure6/panels/Figure6c.pdf",
+      "width_px": 2162,
+      "height_px": 665,
+      "dpi": null,
+      "transform": "whole page; no crop; native aspect ratio"
+    },
+    {
+      "path": "paper/figure_sources/final/figure6/panels/Figure6d.pdf",
+      "role": "canonical_panel",
+      "bytes": 22459,
+      "sha256": "ca0b0205372e28ee79b781d3daf719d7da717a3ee58ebb6dc213c11ea24d5978"
+    },
+    {
+      "path": "website/assets/oasis-scatter.png",
+      "role": "web_artwork",
+      "bytes": 60728,
+      "sha256": "6c545e6d766e2908d35187e10bd952ac4823182cbfd23d3881f9fdcceb3b3a27",
+      "source": "paper/figure_sources/final/figure6/panels/Figure6d.pdf",
+      "width_px": 1041,
+      "height_px": 758,
+      "dpi": 300,
+      "transform": "whole page; no crop; native aspect ratio"
+    },
+    {
+      "path": "website/assets/oasis-scatter.webp",
+      "role": "web_artwork",
+      "bytes": 27226,
+      "sha256": "4b59eb919c090d61a16d217a9bb0a4b4a4ac6ce424320488b4cac051bec166b5",
+      "source": "paper/figure_sources/final/figure6/panels/Figure6d.pdf",
+      "width_px": 1041,
+      "height_px": 758,
+      "dpi": 300,
+      "transform": "whole page; no crop; native aspect ratio"
+    },
+    {
+      "path": "website/assets/oasis-scatter.pdf",
+      "role": "web_artwork",
+      "bytes": 22459,
+      "sha256": "ca0b0205372e28ee79b781d3daf719d7da717a3ee58ebb6dc213c11ea24d5978",
+      "source": "paper/figure_sources/final/figure6/panels/Figure6d.pdf",
+      "width_px": 1041,
+      "height_px": 758,
+      "dpi": null,
+      "transform": "whole page; no crop; native aspect ratio"
+    },
+    {
+      "path": "paper/figure_sources/final/figure6/panels/Figure6e.pdf",
+      "role": "canonical_panel",
+      "bytes": 21420,
+      "sha256": "6f3b09af93c4e997ac59dc4ca8d2d4a775e0545d00808777da55974de15d6868"
+    },
+    {
+      "path": "website/assets/oasis-comparison.png",
+      "role": "web_artwork",
+      "bytes": 45347,
+      "sha256": "971a47486258eed0270b3ed2b095505b30f83423746ccfe3302e0fb000cf3590",
+      "source": "paper/figure_sources/final/figure6/panels/Figure6e.pdf",
+      "width_px": 1100,
+      "height_px": 758,
+      "dpi": 300,
+      "transform": "whole page; no crop; native aspect ratio"
+    },
+    {
+      "path": "website/assets/oasis-comparison.webp",
+      "role": "web_artwork",
+      "bytes": 16584,
+      "sha256": "b24bea781a7e7e092c8621d3953db2e9bef4e5fc0f3c041a0da2f7b5f3f9e877",
+      "source": "paper/figure_sources/final/figure6/panels/Figure6e.pdf",
+      "width_px": 1100,
+      "height_px": 758,
+      "dpi": 300,
+      "transform": "whole page; no crop; native aspect ratio"
+    },
+    {
+      "path": "website/assets/oasis-comparison.pdf",
+      "role": "web_artwork",
+      "bytes": 21420,
+      "sha256": "6f3b09af93c4e997ac59dc4ca8d2d4a775e0545d00808777da55974de15d6868",
+      "source": "paper/figure_sources/final/figure6/panels/Figure6e.pdf",
+      "width_px": 1100,
+      "height_px": 758,
+      "dpi": null,
+      "transform": "whole page; no crop; native aspect ratio"
+    },
+    {
+      "path": "paper/figure_sources/final/figure6/panels/Figure6f.pdf",
+      "role": "canonical_panel",
+      "bytes": 31369,
+      "sha256": "b91247dc7130e8d365a8dea35e39c9f2b9a51a565505c9aae43eedd5c315843b"
+    },
+    {
+      "path": "website/assets/cross-dataset.png",
+      "role": "web_artwork",
+      "bytes": 100582,
+      "sha256": "74db3a0bd5b4dcf734a69aee935b1f4e6fe7cd50da441cebb7805f620c61e5d6",
+      "source": "paper/figure_sources/final/figure6/panels/Figure6f.pdf",
+      "width_px": 2162,
+      "height_px": 467,
+      "dpi": 300,
+      "transform": "whole page; no crop; native aspect ratio"
+    },
+    {
+      "path": "website/assets/cross-dataset.webp",
+      "role": "web_artwork",
+      "bytes": 41066,
+      "sha256": "29c14f0865d381c4f64b9ab060f2a05c6a416a7dda97b95d99a2a23ffde2c481",
+      "source": "paper/figure_sources/final/figure6/panels/Figure6f.pdf",
+      "width_px": 2162,
+      "height_px": 467,
+      "dpi": 300,
+      "transform": "whole page; no crop; native aspect ratio"
+    },
+    {
+      "path": "website/assets/cross-dataset.pdf",
+      "role": "web_artwork",
+      "bytes": 31369,
+      "sha256": "b91247dc7130e8d365a8dea35e39c9f2b9a51a565505c9aae43eedd5c315843b",
+      "source": "paper/figure_sources/final/figure6/panels/Figure6f.pdf",
+      "width_px": 2162,
+      "height_px": 467,
+      "dpi": null,
+      "transform": "whole page; no crop; native aspect ratio"
+    },
+    {
+      "path": "paper/figure_sources/final/figure5/c_amplitude_spectrum/figure/Figure5-c_amplitude_spectrum.pdf",
+      "role": "canonical_panel",
+      "bytes": 24180,
+      "sha256": "8d37693d0e7ba100befa70680375dfb59626d667e7e52aee0ba902ed5f26ebd6"
+    },
+    {
+      "path": "website/assets/rank-amplitude.png",
+      "role": "web_artwork",
+      "bytes": 84693,
+      "sha256": "202da360df8443ef007aff2eb6c1e0f52e0cab75e71635ad1aab495bf80446c7",
+      "source": "paper/figure_sources/final/figure5/c_amplitude_spectrum/figure/Figure5-c_amplitude_spectrum.pdf",
+      "width_px": 1063,
+      "height_px": 709,
+      "dpi": 300,
+      "transform": "whole page; no crop; native aspect ratio"
+    },
+    {
+      "path": "website/assets/rank-amplitude.webp",
+      "role": "web_artwork",
+      "bytes": 43332,
+      "sha256": "79f4e6c0d54ce8eba364ddb1a68aa1685f1c2565d6a6bf7c256e96d877f9b339",
+      "source": "paper/figure_sources/final/figure5/c_amplitude_spectrum/figure/Figure5-c_amplitude_spectrum.pdf",
+      "width_px": 1063,
+      "height_px": 709,
+      "dpi": 300,
+      "transform": "whole page; no crop; native aspect ratio"
+    },
+    {
+      "path": "website/assets/rank-amplitude.pdf",
+      "role": "web_artwork",
+      "bytes": 24180,
+      "sha256": "8d37693d0e7ba100befa70680375dfb59626d667e7e52aee0ba902ed5f26ebd6",
+      "source": "paper/figure_sources/final/figure5/c_amplitude_spectrum/figure/Figure5-c_amplitude_spectrum.pdf",
+      "width_px": 1063,
+      "height_px": 709,
+      "dpi": null,
+      "transform": "whole page; no crop; native aspect ratio"
+    },
+    {
+      "path": "paper/manuscript.pdf",
+      "role": "canonical_document",
+      "bytes": 13975176,
+      "sha256": "3683e0af746d9672fd0b659695cc86694685eb7086839da105e14f12b2a88562"
+    },
+    {
+      "path": "website/assets/manuscript.pdf",
+      "role": "document_download",
+      "bytes": 13975176,
+      "sha256": "3683e0af746d9672fd0b659695cc86694685eb7086839da105e14f12b2a88562",
+      "source": "paper/manuscript.pdf"
+    },
+    {
+      "path": "paper/supplementary.pdf",
+      "role": "canonical_document",
+      "bytes": 417831,
+      "sha256": "980d04eaec9dd9852e4ee50e246de8b5edf6cf1c878ca2a50008139077564128"
+    },
+    {
+      "path": "website/assets/supplementary.pdf",
+      "role": "document_download",
+      "bytes": 417831,
+      "sha256": "980d04eaec9dd9852e4ee50e246de8b5edf6cf1c878ca2a50008139077564128",
+      "source": "paper/supplementary.pdf"
+    },
+    {
+      "path": "paper/figure_sources/final/figure6/source_data/coherent_ensemble_evidence.csv",
+      "role": "scientific_source",
+      "bytes": 6297,
+      "sha256": "bfa67250a965e0a03222ef3f43979cc8187a1d4d6586d8bbb8c61f119a5c1762"
+    },
+    {
+      "path": "paper/figure_sources/final/figure6/c_decision_ledger/source_data/figure6c_decision_ledger_source.csv",
+      "role": "scientific_source",
+      "bytes": 30692,
+      "sha256": "4ed4437159f756401742b51a38f64bf9fd4b0454eb6645ca569788e4ed59360c"
+    },
+    {
+      "path": "paper/figure_sources/final/figure6/code/rebuild_coherent_statistics.py",
+      "role": "scientific_source",
+      "bytes": 15900,
+      "sha256": "ddda3907d35ef262b6d7ef0f8bc39ff908af8be21f4fa64a159e5aa8a5d49f1b"
+    },
+    {
+      "path": "paper/figure_sources/final/figure6/source_data/external_use/figure_source_data.tsv",
+      "role": "scientific_source",
+      "bytes": 49348,
+      "sha256": "a7db771e9ceaacd7f5796188cecb9975aed1dffb9bca6d0ffe45ce61466998de"
+    },
+    {
+      "path": "paper/figure_sources/final/figure6/source_data/external_use/external_hit_membership.csv",
+      "role": "scientific_source",
+      "bytes": 6455,
+      "sha256": "6c12042a09e05c71618afe490817ed2b573ab4e243f65f7835e9313c0f8da2e5"
+    },
+    {
+      "path": "paper/figure_sources/final/figure6/source_data/external_use/external_selection_boundaries.csv",
+      "role": "scientific_source",
+      "bytes": 227,
+      "sha256": "6d64f27e6411884d582d93e0ae22b679e67c6010a0aec158a00d4e5c35642305"
+    },
+    {
+      "path": "paper/figure_sources/final/figure6/f_cross_context_decisions/figure_source_data.csv",
+      "role": "scientific_source",
+      "bytes": 3502,
+      "sha256": "176e8c30fa9cba42a661a1bd13617c55bfca1aa4456d7ac4265738c16cf0fef9"
+    },
+    {
+      "path": "paper/figure_sources/final/figure6/figure_plot_spec.yaml",
+      "role": "scientific_source",
+      "bytes": 7483,
+      "sha256": "1e7a2d06c16050a5d4f8f79d4316babd25ad7d06f7ca3dc25bcd11159271ffc7"
+    },
+    {
+      "path": "paper/figure_sources/final/figure5/c_amplitude_spectrum/source_data/figure5c_plotted_source.csv",
+      "role": "scientific_source",
+      "bytes": 25779,
+      "sha256": "06427297002539a67d2947efa5b31d011103afa3557c10031f85973c8101bfc5"
+    },
+    {
+      "path": "paper/figure_sources/final/figure5/c_amplitude_spectrum/methods.md",
+      "role": "scientific_source",
+      "bytes": 2037,
+      "sha256": "0518a4a5802a8aa37428a5659c1194342b3c62893baf1c016778912a9c3b3905"
+    },
+    {
+      "path": "paper/supplementary_data/SupplementaryData3/README.md",
+      "role": "scientific_source",
+      "bytes": 5457,
+      "sha256": "5bea43e8ec95595e732834e25c5890577ca18d5d5e77a7294a6b02a62b2b0703"
+    },
+    {
+      "path": "paper/supplementary_data/SupplementaryData3/protocol.md",
+      "role": "scientific_source",
+      "bytes": 5110,
+      "sha256": "fc4fd5f91f6ad54da346b2cf4b3dac66547b9500c6706a7bdd93aa96dd7439b8"
+    },
+    {
+      "path": "website/data/evidence.json",
+      "role": "web_data",
+      "bytes": 98635,
+      "sha256": "64a7c65e90832d62efd9e2b8088bd2042ebe0b7601683ef088929fc89322df07"
+    },
+    {
+      "path": "website/data/evidence.js",
+      "role": "web_data",
+      "bytes": 98718,
+      "sha256": "bf71f11f540f8e17b1afa0282c7508b9d43477d4530b100cdcbbe2bd13f36f43"
+    },
+    {
+      "path": "website/data/reporters.csv",
+      "role": "web_data",
+      "bytes": 8626,
+      "sha256": "b7821df5f27f860dc729985d67f95df498c64374f3f46cdba012ead9e66d4797"
+    },
+    {
+      "path": "website/data/oasis-compounds.csv",
+      "role": "web_data",
+      "bytes": 21724,
+      "sha256": "0b1fd46a5d7e5111529c1b502e27ba85f4a266bb41c17f719e4c744224c19e7b"
+    }
+  ]
+}
