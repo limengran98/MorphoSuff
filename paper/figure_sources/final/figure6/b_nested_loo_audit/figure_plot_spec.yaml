@@ -1,0 +1,26 @@
+panel: Supplementary Figure 4a
+statistical_unit: reporter
+n_units: 52
+prediction_source: frozen_common_scale_strict_outer_loo
+source_tables:
+  - figure_source_nested_loo.csv
+  - figure_source_nested_loo_summary.csv
+  - figure_source_association_bootstrap.csv
+native_draw_function: draw_panel_b
+visual_layers:
+  - observed_predicted_scatter_with_marginal_densities
+  - bland_altman_residual_diagnostic
+  - reporter_bootstrap_forest_plot
+encodings:
+  point_colour: substitutability_tier
+  point_position: observed_and_outer_loo_predicted_utility
+  forest_position: spearman_rho
+  forest_interval: reporter_percentile_bootstrap_95_ci
+label_rule: top_4_absolute_outer_loo_residuals
+bootstrap:
+  unit: reporter
+  repetitions: 10000
+  seed: 20260831
+font: DejaVu Sans
+vector_text: true
+exports: [png, pdf, svg]

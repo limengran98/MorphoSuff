@@ -1,0 +1,38 @@
+scenario_order,scenario_id,scenario_group,scheme,varied_rule,direction,step,recoverability_min,magnitude_spearman_min,top5pct_quantitative_min,top5pct_ranking_min,reliability_min,measurement_recoverability_max_exclusive,variance_ratio_min,variance_ratio_max
+0,baseline,baseline,baseline,none,baseline,0.0,0.7,0.7,0.6,0.5,0.3,0.6,0.5,1.5
+1,absolute:all gates:looser,joint4,absolute,all gates,looser,0.05,0.65,0.65,0.55,0.45,0.25,0.55,0.45,1.55
+2,absolute:all gates:tighter,joint4,absolute,all gates,tighter,0.05,0.75,0.75,0.65,0.55,0.35,0.65,0.55,1.45
+3,absolute:recoverability_min:looser,single32,absolute,recoverability_min,looser,0.05,0.65,0.7,0.6,0.5,0.3,0.6,0.5,1.5
+4,absolute:recoverability_min:tighter,single32,absolute,recoverability_min,tighter,0.05,0.75,0.7,0.6,0.5,0.3,0.6,0.5,1.5
+5,absolute:magnitude_spearman_min:looser,single32,absolute,magnitude_spearman_min,looser,0.05,0.7,0.65,0.6,0.5,0.3,0.6,0.5,1.5
+6,absolute:magnitude_spearman_min:tighter,single32,absolute,magnitude_spearman_min,tighter,0.05,0.7,0.75,0.6,0.5,0.3,0.6,0.5,1.5
+7,absolute:top5pct_quantitative_min:looser,single32,absolute,top5pct_quantitative_min,looser,0.05,0.7,0.7,0.55,0.5,0.3,0.6,0.5,1.5
+8,absolute:top5pct_quantitative_min:tighter,single32,absolute,top5pct_quantitative_min,tighter,0.05,0.7,0.7,0.65,0.5,0.3,0.6,0.5,1.5
+9,absolute:top5pct_ranking_min:looser,single32,absolute,top5pct_ranking_min,looser,0.05,0.7,0.7,0.6,0.45,0.3,0.6,0.5,1.5
+10,absolute:top5pct_ranking_min:tighter,single32,absolute,top5pct_ranking_min,tighter,0.05,0.7,0.7,0.6,0.55,0.3,0.6,0.5,1.5
+11,absolute:reliability_min:looser,single32,absolute,reliability_min,looser,0.05,0.7,0.7,0.6,0.5,0.25,0.6,0.5,1.5
+12,absolute:reliability_min:tighter,single32,absolute,reliability_min,tighter,0.05,0.7,0.7,0.6,0.5,0.35,0.6,0.5,1.5
+13,absolute:measurement_recoverability_max_exclusive:looser,single32,absolute,measurement_recoverability_max_exclusive,looser,0.05,0.7,0.7,0.6,0.5,0.3,0.55,0.5,1.5
+14,absolute:measurement_recoverability_max_exclusive:tighter,single32,absolute,measurement_recoverability_max_exclusive,tighter,0.05,0.7,0.7,0.6,0.5,0.3,0.65,0.5,1.5
+15,absolute:variance_ratio_min:looser,single32,absolute,variance_ratio_min,looser,0.05,0.7,0.7,0.6,0.5,0.3,0.6,0.45,1.5
+16,absolute:variance_ratio_min:tighter,single32,absolute,variance_ratio_min,tighter,0.05,0.7,0.7,0.6,0.5,0.3,0.6,0.55,1.5
+17,absolute:variance_ratio_max:looser,single32,absolute,variance_ratio_max,looser,0.05,0.7,0.7,0.6,0.5,0.3,0.6,0.5,1.55
+18,absolute:variance_ratio_max:tighter,single32,absolute,variance_ratio_max,tighter,0.05,0.7,0.7,0.6,0.5,0.3,0.6,0.5,1.45
+19,relative:all gates:looser,joint4,relative,all gates,looser,0.1,0.63,0.63,0.54,0.45,0.27,0.54,0.45,1.65
+20,relative:all gates:tighter,joint4,relative,all gates,tighter,0.1,0.77,0.77,0.66,0.55,0.33,0.66,0.55,1.35
+21,relative:recoverability_min:looser,single32,relative,recoverability_min,looser,0.1,0.63,0.7,0.6,0.5,0.3,0.6,0.5,1.5
+22,relative:recoverability_min:tighter,single32,relative,recoverability_min,tighter,0.1,0.77,0.7,0.6,0.5,0.3,0.6,0.5,1.5
+23,relative:magnitude_spearman_min:looser,single32,relative,magnitude_spearman_min,looser,0.1,0.7,0.63,0.6,0.5,0.3,0.6,0.5,1.5
+24,relative:magnitude_spearman_min:tighter,single32,relative,magnitude_spearman_min,tighter,0.1,0.7,0.77,0.6,0.5,0.3,0.6,0.5,1.5
+25,relative:top5pct_quantitative_min:looser,single32,relative,top5pct_quantitative_min,looser,0.1,0.7,0.7,0.54,0.5,0.3,0.6,0.5,1.5
+26,relative:top5pct_quantitative_min:tighter,single32,relative,top5pct_quantitative_min,tighter,0.1,0.7,0.7,0.66,0.5,0.3,0.6,0.5,1.5
+27,relative:top5pct_ranking_min:looser,single32,relative,top5pct_ranking_min,looser,0.1,0.7,0.7,0.6,0.45,0.3,0.6,0.5,1.5
+28,relative:top5pct_ranking_min:tighter,single32,relative,top5pct_ranking_min,tighter,0.1,0.7,0.7,0.6,0.55,0.3,0.6,0.5,1.5
+29,relative:reliability_min:looser,single32,relative,reliability_min,looser,0.1,0.7,0.7,0.6,0.5,0.27,0.6,0.5,1.5
+30,relative:reliability_min:tighter,single32,relative,reliability_min,tighter,0.1,0.7,0.7,0.6,0.5,0.33,0.6,0.5,1.5
+31,relative:measurement_recoverability_max_exclusive:looser,single32,relative,measurement_recoverability_max_exclusive,looser,0.1,0.7,0.7,0.6,0.5,0.3,0.54,0.5,1.5
+32,relative:measurement_recoverability_max_exclusive:tighter,single32,relative,measurement_recoverability_max_exclusive,tighter,0.1,0.7,0.7,0.6,0.5,0.3,0.66,0.5,1.5
+33,relative:variance_ratio_min:looser,single32,relative,variance_ratio_min,looser,0.1,0.7,0.7,0.6,0.5,0.3,0.6,0.45,1.5
+34,relative:variance_ratio_min:tighter,single32,relative,variance_ratio_min,tighter,0.1,0.7,0.7,0.6,0.5,0.3,0.6,0.55,1.5
+35,relative:variance_ratio_max:looser,single32,relative,variance_ratio_max,looser,0.1,0.7,0.7,0.6,0.5,0.3,0.6,0.5,1.65
+36,relative:variance_ratio_max:tighter,single32,relative,variance_ratio_max,tighter,0.1,0.7,0.7,0.6,0.5,0.3,0.6,0.5,1.35

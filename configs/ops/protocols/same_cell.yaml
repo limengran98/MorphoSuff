@@ -1,0 +1,17 @@
+name: same_cell_falsification
+primary_estimator: MLP
+scope: all_52_reporters
+split: gene
+folds: 5
+arms:
+  - exact_same_cell
+  - gene_screen_derangement
+  - covariate_matched_derangement
+  - size_shape_only
+  - phase_without_size_shape
+  - cross_fitted_within_gene_screen_residual
+requirements:
+  - exact_one_to_one_pairing
+  - derangements_within_declared_eligibility_strata
+  - residual_condition_means_estimated_out_of_fold
+statistical_unit: reporter

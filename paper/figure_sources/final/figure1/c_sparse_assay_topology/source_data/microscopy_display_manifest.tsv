@@ -1,0 +1,3 @@
+key	reporter	gene	biological_category	pixel_size_um	crop_size_pixels	phase_low	phase_high	fluorescence_low	fluorescence_high	source	npz_file	display_transform	role
+lamp1	LAMP1	BORCS7	Lysosome	0.325	384	-0.3490651994943619	0.6395067185163511	106.61254043579102	211.3301994323731	frozen Figure 1 v2 exact crop	source_data/frozen_inputs/microscopy/lamp1_exact_same_cell.npz	fixed manifest min/max; no content modification	registered assay-definition inset
+ferhonox	FeRhoNox	ALG12	Signaling	0.325	384	-0.775179436802864	1.2993500113487255	492.0	4255.0	FeRhoNox diagnostic smoke	source_data/frozen_inputs/microscopy/ferhonox_exact_same_cell.npz	fixed manifest min/max; no content modification	registered assay-definition inset

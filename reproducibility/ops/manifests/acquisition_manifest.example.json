@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "logical_name": "ops_source_archive",
+      "local_path": "replace-at-run-time",
+      "file_name": "altair.zip",
+      "published_checksum_algorithm": "md5",
+      "published_checksum": "baf7974ac926445c726760fed57525ab",
+      "local_sha256": "replace-after-download-with-local-sha256",
+      "bytes": 57025221,
+      "upstream_locator": "doi:10.5281/zenodo.20495192",
+      "record_revision": 6,
+      "license": "CC-BY-4.0"
+    }
+  ]
+}

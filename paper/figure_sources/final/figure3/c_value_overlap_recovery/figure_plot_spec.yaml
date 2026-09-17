@@ -1,0 +1,14 @@
+figure_type: multivariable_scatter_plus_forest
+statistical_unit: reporter
+n_reporters: 52
+outcome: ten-model-median held-out-gene Pearson r
+predictors:
+  - full_marker_information_value
+  - matched_budget_marker_information_value
+  - phase_marker_tfidf_overlap
+association: Spearman rho
+interval: 3000-draw reporter bootstrap 95% confidence interval
+forest_layout: aligned predictor labels, effect-and-interval axis, and exact-value rail
+direct_labels: frozen predefined reporters
+canvas_mm: [98, 72]
+font: Arial

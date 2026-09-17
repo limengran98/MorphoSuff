@@ -1,0 +1,5 @@
+spearman_rho,ci95_low,ci95_high,n_clusters,n_rows,predictor,outcome
+0.34406215316315203,0.07232433316236883,0.5789115752330046,52,52,original_marker_map_full,consensus10_gene_pearson
+0.09007086143601127,-0.17393806302966286,0.3453469115994992,52,52,original_phase_marker_tfidf_pearson,consensus10_gene_pearson
+0.30487492529667887,0.03474411093829295,0.545789284086985,52,52,original_marker_map_300_cells_per_guide,consensus10_gene_pearson
+0.5468283104243148,0.28858407573839084,0.7460699372951404,52,52,within_screen_split_half_pearson_median,consensus10_gene_pearson

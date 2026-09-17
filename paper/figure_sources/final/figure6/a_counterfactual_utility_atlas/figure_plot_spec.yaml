@@ -1,0 +1,20 @@
+panel: figure6a
+statistical_unit: reporter
+n_units: 52
+source_table: figure_source_data.csv
+native_draw_function: draw_panel_a
+visual_layers:
+  - shared_bandwidth_half_violin
+  - reporter_level_annotated_heatmap
+  - ordered_scientific_utility_rank_rail
+  - biological_system_strip
+  - measurement_tier_strip
+encodings:
+  heatmap_colour: retained_utility_0_to_1
+  rank_position: scientific_utility_index
+  rank_colour: substitutability_tier
+  row_order: frozen_display_order
+inference: descriptive_only
+font: Arial
+vector_text: true
+exports: [png, pdf, svg]

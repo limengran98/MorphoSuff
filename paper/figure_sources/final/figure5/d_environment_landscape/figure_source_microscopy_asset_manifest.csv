@@ -1,0 +1,3 @@
+asset_key,screen_id,relative_path,sha256,bytes
+cell_03,Biohub_OPS0047,source_data/microscopy/cell_03.npz,6e4424f48e566655b3de2ff6b84d0f707f848a6cd0a811fec1d4c6074b594555,892346
+cell_04,Biohub_OPS0067,source_data/microscopy/cell_04.npz,e9bd323a52fedfa0bcf8bf3dcbe9f438202f9a070d8beb4c70eaee69e4ae106a,724044

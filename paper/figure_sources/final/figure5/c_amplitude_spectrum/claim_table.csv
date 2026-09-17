@@ -1,0 +1,2 @@
+claim_id,status,claim,evidence,can_say,cannot_say
+F5C-1,supported,KO-response ranking can persist despite amplitude contraction,"52 reporters; 11 variance ratios below 0.5; 10 of those 11 retain magnitude-rank Spearman rho above 0.5","For most amplitude-compressed reporters the ordering of stronger and weaker KO responses remains informative","Rank preservation implies quantitative recovery of absolute response amplitude"

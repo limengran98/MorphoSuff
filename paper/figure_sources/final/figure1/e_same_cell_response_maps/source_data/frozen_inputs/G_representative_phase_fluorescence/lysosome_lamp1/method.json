@@ -1,0 +1,15 @@
+{
+  "reporter_slug": "lysosome_lamp1",
+  "reporter": "LAMP1",
+  "exact_linked_cells": 124870,
+  "targeting_cells": 118977,
+  "control_cells": 5893,
+  "screens": [
+    "Biohub_OPS0011",
+    "Biohub_OPS0012"
+  ],
+  "target_kos": 1000,
+  "phase_features": 172,
+  "fluorescence_features": 24,
+  "normalization": "within-screen NTC median/MAD; equal-screen KO means; feature-wise robust display z"
+}

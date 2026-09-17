@@ -1,0 +1,31 @@
+{
+  "array_spec": "fluorescence:384x384:float32; phase:384x384:float32",
+  "asset_id": "fastact_actr3_ko",
+  "canonical_relative_path": "raw_assets/fastact_actr3_ko.npz",
+  "display_policy": "Use the per-panel fixed windows in render_spec.csv. Do not alter pixels, register, denoise, enhance, or content-edit this asset.",
+  "file_sha256": "3b74d6daccb9c12282a24d0a640c0c92b41fefd6fb69d8101d80f908e9f90ad4",
+  "orientation": "native stored orientation",
+  "pixel_sha256": "6875712b1581bdf3cda9ff26a28bd8942453e5cbd67ab141466756f3e2f7feae",
+  "provenance": {
+    "asset_id": "fastact_actr3_ko",
+    "channels": "phase=0; fluorescence=2",
+    "figure_panel_usage": "Fig.3a",
+    "filename": "fastact_actr3_ko.npz",
+    "gene": "ACTR3",
+    "note": "",
+    "perturbation_role": "KO",
+    "phase_row_index": "5892936",
+    "pixel_size_um": 0.325,
+    "provenance_uri": "s3://ops-explorer-public/leonetti_ops/ops_data_portal_submission/v1.0.20260521/datasets/Biohub_OPS0033/Biohub_OPS0033.zarr",
+    "reporter": "FastAct",
+    "reporter_slug": "actin_filament_fastact_spy555_live_cell_dye",
+    "screen_id": "Biohub_OPS0033",
+    "segmentation_id": "16150844",
+    "selection_rule": "Frozen pre-specified microscopy roster; selection independent of canonical aggregation repair.",
+    "source_level": "OME-Zarr level 0",
+    "source_relative_path": "figure3/source_data/microscopy/fastact_actr3_ko.npz",
+    "use_status": "rendered",
+    "well": "A/2/0"
+  },
+  "spatial_transform": "none"
+}

@@ -1,0 +1,11 @@
+method,method_order,method_family,method_color,relative_log_auc_0p1_to_20pct
+MIDAS,9,Biological completion,#C85A3C,1.0278772271536838
+CatBoost,3,Classical tabular,#79A8C9,0.9341992318401576
+GBDT,2,Classical tabular,#5E88AD,0.9199314743559232
+MultiTab,8,Generic multi-task,#4FA7B8,0.915794793540382
+ResMLP,7,Generic multi-task,#4F9A70,0.8927777359661679
+scButterfly,6,Neural specialists,#CC79A7,0.8622487383153201
+Ridge,1,Classical tabular,#3E6F9C,0.8594104202517907
+TabM,5,Neural specialists,#A783AD,0.8555831793256352
+scPair,10,Biological completion,#DDA06A,0.8372150093297318
+MLP,4,Neural specialists,#7B6597,0.8140311736087955

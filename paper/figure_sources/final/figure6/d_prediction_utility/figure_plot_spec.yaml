@@ -1,0 +1,15 @@
+panel: Figure 6b
+statistical_unit: reporter
+n: 52
+x: ensemble_recoverability_r
+y: scientific_utility_index
+x_reference: frozen recovery gate at 0.70
+y_reference: cohort median, descriptive only
+colour: frozen substitutability tier
+shape: domain-sensitive flag
+backend: Python matplotlib
+native_canvas_mm: [72.09876543209874, 47.360631475086336]
+panel_letters: compositor_only
+label_coordinates: explicit data coordinates in figure_source_direct_labels.csv
+label_clearance: final-font marker extents and both reference lines checked in native and composite builds
+exports: [svg, pdf, png, tiff]

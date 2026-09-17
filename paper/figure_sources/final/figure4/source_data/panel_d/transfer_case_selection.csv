@@ -1,0 +1,3 @@
+case_order,case_role,reporter_slug,reporter_name,destination_screen,screen_label,selection_rule,mlp_direction_pearson
+1,higher-transfer representative,er_golgi_bridge_vapa,VAPA,Biohub_OPS0021,OPS0021,"MLP reporter nearest matched34 75th percentile, then direction nearest reporter mean",0.7991
+2,boundary representative,mitochondria_tomm70a,TOMM70A,Biohub_OPS0015,OPS0015,"MLP reporter nearest matched34 25th percentile, then direction nearest reporter mean",0.4794

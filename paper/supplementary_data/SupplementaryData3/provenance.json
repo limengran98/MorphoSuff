@@ -1,0 +1,216 @@
+{
+  "publication_bundle": "Supplementary Data 3",
+  "source_record": {
+    "title": "Axiom OASIS",
+    "creator": "Jessica Ewald",
+    "doi": "10.5281/zenodo.17067683",
+    "url": "https://doi.org/10.5281/zenodo.17067683",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "source_paper_doi": "10.1016/j.cels.2026.101566",
+    "brightfield_formatter": "https://github.com/broadinstitute/2024_09_09_Axiom_OASIS/blob/ca4872de0f1f0a4f203bee41271a6512b314a076/0_prepare_data/2B_format_dino.py"
+  },
+  "scope": "Frozen OASIS brightfield-supported metabolic-loss prioritization; release packaging does not retrain or alter outcomes.",
+  "source_processing": "Private filesystem prefixes removed from provenance keys and paths. All deposited numerical tables and the scoring implementation are byte-identical to frozen files; anonymous presentation documents are newly written.",
+  "scoring_frozen_utc": "2026-09-11T04:25:09.878355+00:00",
+  "fitting_frozen_utc": "2026-09-11T04:25:18.381872+00:00",
+  "fit_completed_utc": "2026-09-11T04:25:26.427921+00:00",
+  "original_protocol_sha256": "eae1868f5de4ca726cc9139acf8ba7c53903e4318ff8cdf961ea3bee299ce25f",
+  "original_scoring_sha256": "81b106f13b063bd2ae81f3496d251d742f97cf71f677479dc9dc381792d208b1",
+  "training_compounds": 868,
+  "heldout_compounds": 217,
+  "training_wells": 13157,
+  "heldout_wells": 3300,
+  "primary_model": "BF_Ridge100",
+  "sensitivity_model": "BF_HGB100",
+  "comparators": [
+    "FluorescenceCount_Ridge100",
+    "FluorescenceCount_HGB100",
+    "AcquisitionMetadata_Ridge100",
+    "AcquisitionMetadata_HGB100"
+  ],
+  "ridge": {
+    "alpha": 100
+  },
+  "hgb": {
+    "max_iter": 100,
+    "max_leaf_nodes": 15,
+    "learning_rate": 0.1,
+    "l2_regularization": 10,
+    "early_stopping": false,
+    "random_state": 20260911
+  },
+  "outcome": "Metadata_mtt_normalized",
+  "n_brightfield_features": 768,
+  "upstream_inputs": {
+    "bf": {
+      "basename": "dino_brightfield_only.parquet",
+      "bytes": 94832914,
+      "sha256": "4b449358a41f6e426a86adf69e059ebc12b8c7ffeb17e334e9bc9b6dc0097945",
+      "included": false
+    },
+    "metadata": {
+      "basename": "metadata.parquet",
+      "bytes": 734477,
+      "sha256": "92c2a3c4d305d5a8c17efe467ceb1cde6a6c5505e51d395f1d0300882277f8ff",
+      "included": false
+    },
+    "partition": {
+      "basename": "compound_partition.csv",
+      "bytes": 36314,
+      "sha256": "22663fbd29f6d7c139b279f4230cdb8e5465f2b340584564e8cb5f2c9008c1de",
+      "included": "data/compound_partition.csv"
+    },
+    "protocol": {
+      "basename": "PROTOCOL.md",
+      "bytes": 10263,
+      "sha256": "eae1868f5de4ca726cc9139acf8ba7c53903e4318ff8cdf961ea3bee299ce25f",
+      "included": false
+    },
+    "executable": {
+      "basename": "fit_frozen_predictors.py",
+      "bytes": 8890,
+      "sha256": "1b1d00cf29f8313ec2d465e04a49b2f5b59754418b74541cd9a37df99c17aa13",
+      "included": false
+    }
+  },
+  "fitted_model_hashes": [
+    {
+      "model": "BF_Ridge100",
+      "file": "BF_Ridge100.joblib",
+      "sha256": "59180a8e13469becced7c5afae28909e42631d2fd7abf747a9d47127f112a6cc",
+      "seconds": 1.4459318555891514,
+      "n_train_wells": 13157,
+      "n_test_wells": 3300
+    },
+    {
+      "model": "BF_HGB100",
+      "file": "BF_HGB100.joblib",
+      "sha256": "c6bb2699b4380a5f22ce887d08828758fa09e7d2e7984bcd3de1d7e73e67e459",
+      "seconds": 4.8935455195605755,
+      "n_train_wells": 13157,
+      "n_test_wells": 3300
+    },
+    {
+      "model": "FluorescenceCount_Ridge100",
+      "file": "FluorescenceCount_Ridge100.joblib",
+      "sha256": "e5f9e828f73143b377625faa6da4e4979ccf2f4dab45de44f2a872ac34893b3d",
+      "seconds": 0.01626761257648468,
+      "n_train_wells": 13157,
+      "n_test_wells": 3300
+    },
+    {
+      "model": "FluorescenceCount_HGB100",
+      "file": "FluorescenceCount_HGB100.joblib",
+      "sha256": "db4ea35f50472d8eac2eaa60ec03403776503a94c6fcb5bfbd7b9714086cd8cc",
+      "seconds": 0.19144104048609734,
+      "n_train_wells": 13157,
+      "n_test_wells": 3300
+    },
+    {
+      "model": "AcquisitionMetadata_Ridge100",
+      "file": "AcquisitionMetadata_Ridge100.joblib",
+      "sha256": "3e61a04a8ba768d0040c3711a7b8077cd26533df542a91a1b38a9d4ecea7f4f0",
+      "seconds": 0.1076207309961319,
+      "n_train_wells": 13157,
+      "n_test_wells": 3300
+    },
+    {
+      "model": "AcquisitionMetadata_HGB100",
+      "file": "AcquisitionMetadata_HGB100.joblib",
+      "sha256": "cf48c2e210eefa72b409c16d0fd98d49dece5c44c2f17da56c197c480c2bf0ea",
+      "seconds": 0.5103878900408745,
+      "n_train_wells": 13157,
+      "n_test_wells": 3300
+    }
+  ],
+  "prior_independent_audit": {
+    "status": "PASS",
+    "no_training": true,
+    "production_scorer_imported": false,
+    "raw_prediction_rows": 19800,
+    "score_rows_checked": 144,
+    "ledger_rows_checked": 12366,
+    "bootstrap_draws_per_model_context": 2000,
+    "bootstrap_model_context_groups": 48,
+    "null_distribution_rows_checked": 12000,
+    "source_hashes": {
+      "dino_brightfield_only.parquet": "4b449358a41f6e426a86adf69e059ebc12b8c7ffeb17e334e9bc9b6dc0097945",
+      "metadata.parquet": "92c2a3c4d305d5a8c17efe467ceb1cde6a6c5505e51d395f1d0300882277f8ff",
+      "compound_partition.csv": "22663fbd29f6d7c139b279f4230cdb8e5465f2b340584564e8cb5f2c9008c1de",
+      "PROTOCOL.md": "eae1868f5de4ca726cc9139acf8ba7c53903e4318ff8cdf961ea3bee299ce25f",
+      "fit_frozen_predictors.py": "1b1d00cf29f8313ec2d465e04a49b2f5b59754418b74541cd9a37df99c17aa13",
+      "pre_evaluation_design_audit.md": "61da31afbe630cd7829f2d6ec35f40b3527a94e43d7902e92b2d175c7479d1d6",
+      "score_prioritization.py": "81b106f13b063bd2ae81f3496d251d742f97cf71f677479dc9dc381792d208b1",
+      "heldout_predictions.parquet": "63ef64762e08b1889a84138d5564a5c3f5617e8d534bbf0e98cce89b4f0bb43d",
+      "BF_Ridge100.joblib": "59180a8e13469becced7c5afae28909e42631d2fd7abf747a9d47127f112a6cc",
+      "BF_HGB100.joblib": "c6bb2699b4380a5f22ce887d08828758fa09e7d2e7984bcd3de1d7e73e67e459",
+      "FluorescenceCount_Ridge100.joblib": "e5f9e828f73143b377625faa6da4e4979ccf2f4dab45de44f2a872ac34893b3d",
+      "FluorescenceCount_HGB100.joblib": "db4ea35f50472d8eac2eaa60ec03403776503a94c6fcb5bfbd7b9714086cd8cc",
+      "AcquisitionMetadata_Ridge100.joblib": "3e61a04a8ba768d0040c3711a7b8077cd26533df542a91a1b38a9d4ecea7f4f0",
+      "AcquisitionMetadata_HGB100.joblib": "cf48c2e210eefa72b409c16d0fd98d49dece5c44c2f17da56c197c480c2bf0ea"
+    },
+    "result_hashes": {
+      "AcquisitionMetadata_HGB100.joblib": "cf48c2e210eefa72b409c16d0fd98d49dece5c44c2f17da56c197c480c2bf0ea",
+      "AcquisitionMetadata_Ridge100.joblib": "3e61a04a8ba768d0040c3711a7b8077cd26533df542a91a1b38a9d4ecea7f4f0",
+      "BF_HGB100.joblib": "c6bb2699b4380a5f22ce887d08828758fa09e7d2e7984bcd3de1d7e73e67e459",
+      "BF_Ridge100.joblib": "59180a8e13469becced7c5afae28909e42631d2fd7abf747a9d47127f112a6cc",
+      "FluorescenceCount_HGB100.joblib": "db4ea35f50472d8eac2eaa60ec03403776503a94c6fcb5bfbd7b9714086cd8cc",
+      "FluorescenceCount_Ridge100.joblib": "e5f9e828f73143b377625faa6da4e4979ccf2f4dab45de44f2a872ac34893b3d",
+      "context_compound_scores.csv": "2d1f99c8b312025816b5777a7310474b71397abf154d0373994c8ec3bdd7edc0",
+      "correspondence_null_distribution.csv.gz": "29414a9ba276777cf9829c036f9a4ff3141df29880e86bd9cded4d7d553cec77",
+      "correspondence_null_summary.csv": "b2bc7a6439da887a0a239e5c9a35ede2ed48a6ee9744fa8072b03480692c7332",
+      "fit_completion.json": "9faa9901277178f2d5b4ea1ba52ad1e42345aab286491291a8a3bd1192d67dcd",
+      "frozen_run.json": "6fec1d893daa63e1e9eab0d5875760fed70d60b95d772894130d42ce78f3da5a",
+      "heldout_predictions.parquet": "63ef64762e08b1889a84138d5564a5c3f5617e8d534bbf0e98cce89b4f0bb43d",
+      "selection_ledger.csv": "4675cb0fc2239c0ffd2c95cb1b550df25855b358b40f9cea0d714c57a5de9c27",
+      "test_membership.csv": "c000773f093588ac0bde43934ce0d883582e71dd4dcca986db39c5f2d3aecf5a",
+      "training_membership.csv": "3b58110539cf77137bd816844107d387ec0c1f7fde0292419194e6daa6616b5f",
+      "utility_scores.csv": "38b61c3d6a1b20df5333e81e4e830f14b0db6024081e77e8efd76c49714ebbbe"
+    },
+    "roundoff_policy": "Context values independently reconstructed from raw predictions within tolerance; CSV parsed with round_trip precision and exact stored doubles then used to preserve declared tie behavior for every score and ledger check.",
+    "maximum_absolute_errors": {
+      "raw_MT_reference": 0,
+      "DMSO_relative_reference": 0,
+      "actual_concentration_alignment": 0,
+      "independent_context_reference_loss": 5.551115123125783e-17,
+      "independent_context_prediction_loss": 1.1102230246251565e-16,
+      "independent_context_repeat_loss": 5.551115123125783e-17,
+      "score_n_compounds": 0,
+      "score_k": 0,
+      "score_overlap": 0,
+      "score_recall": 0,
+      "score_recall_lower95": 0,
+      "score_recall_upper95": 0,
+      "score_enrichment_over_random": 1.7763568394002505e-15,
+      "score_signed_spearman": 1.1102230246251565e-16,
+      "score_signed_pearson": 4.440892098500626e-16,
+      "score_selected_reference_loss_mean": 0,
+      "score_selected_reference_loss_min": 0,
+      "score_selected_reference_loss_max": 0,
+      "score_true_top_loss_mean": 0,
+      "score_n_bootstrap": 0,
+      "score_random_expected_overlap": 0,
+      "score_random_expected_recall": 0,
+      "score_random_overlap_lower95": 0,
+      "score_random_overlap_upper95": 0,
+      "score_random_selection_tail_probability": 2.7755575615628914e-16,
+      "ledger_losses": 0,
+      "score_measured_repeat_overlap": 0,
+      "score_measured_repeat_recall": 0,
+      "score_recall_difference_from_repeat": 1.1102230246251565e-16,
+      "score_difference_lower95": 0,
+      "score_difference_upper95": 0,
+      "null_compound_weight_sum": 0,
+      "all_correspondence_null_draws": 0,
+      "null_summary_observed_recall": 0,
+      "null_summary_null_mean_recall": 0,
+      "null_summary_null_lower95": 0,
+      "null_summary_null_upper95": 0,
+      "null_summary_n_permutations": 0,
+      "null_summary_upper_tail_fraction_plus_one": 0,
+      "null_summary_movable_well_fraction": 0,
+      "null_summary_n_strata": 0
+    }
+  }
+}

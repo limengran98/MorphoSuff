@@ -1,0 +1,11 @@
+method_id,method,method_family,method_color,method_order
+ridge,Ridge,Classical tabular,#3E6F9C,1
+gbdt,GBDT,Classical tabular,#5E88AD,2
+catboost_multirmse,CatBoost,Classical tabular,#79A8C9,3
+mlp,MLP,Neural specialists,#7B6597,4
+tabm_specialists,TabM,Neural specialists,#A783AD,5
+scbutterfly_ops_b,scButterfly,Neural specialists,#CC79A7,6
+resmlp_52head,ResMLP,Generic multi-task,#4F9A70,7
+multitab_pilot,MultiTab,Generic multi-task,#4FA7B8,8
+midas_ops,MIDAS,Biological completion,#C85A3C,9
+scpair_ops,scPair,Biological completion,#DDA06A,10

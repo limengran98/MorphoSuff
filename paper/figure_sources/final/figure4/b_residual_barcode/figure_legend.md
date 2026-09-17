@@ -1,0 +1,1 @@
+**b, Cell-specific residual signal.** Marginal rainclouds summarize exact-pair and cross-fitted within-gene×screen residual cell-level correlations. The reporter barcode connects the two values for each of 52 reporters, ordered by residual correlation. The aligned right-hand strip shows exact-minus-residual differences; its dashed line denotes the median.

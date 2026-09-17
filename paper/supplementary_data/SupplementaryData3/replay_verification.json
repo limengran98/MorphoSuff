@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "entrypoint": "code/replay_scores.py",
+  "training_performed": false,
+  "frozen_numerical_files_modified": false,
+  "prediction_rows": 19800,
+  "compound_context_rows": 4122,
+  "utility_rows": 144,
+  "selection_rows": 12366,
+  "null_rows": 12000,
+  "bootstrap_per_model_context": 2000,
+  "verified_environment": {
+    "python": "3.10.20",
+    "numpy": "1.26.4",
+    "pandas": "2.1.4",
+    "scipy": "1.11.4"
+  },
+  "comment": "Portable replay of the deposited production scoring implementation, distinct from the prior independent audit summarized in provenance.json."
+}

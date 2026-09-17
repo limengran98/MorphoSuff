@@ -1,0 +1,9 @@
+{
+  "definition": "Within-screen control-normalized fluorescence response magnitude",
+  "gene_reporter_value": "sqrt(mean(square(equal-screen-weighted KO mean z-score)))",
+  "display_value": "within-reporter percentile across 1,000 target KOs",
+  "technical_features_only": true,
+  "reporters": 52,
+  "target_kos": 1000,
+  "elapsed_seconds": 18.57667565345764
+}

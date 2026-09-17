@@ -1,0 +1,35 @@
+figure_id: Figure2-a
+role: prediction_task_and_generalization_orientation
+canvas: {width_mm: 183.091667, height_mm: 63.5}
+authoritative_source: source/Figure2a.pptx
+canonical_pdf: source/Figure2a.pdf
+generated_panel_pdf: figure/Figure2a.pdf
+export_manifest: source/export_manifest.json
+export_helper: source/export_to_pdf.ps1
+preview_builder: code/build_figure2a.py
+source_policy: "Preserve the author's manual arrow deletion; read-only native export; never rerun an older edit.mjs."
+prediction:
+  input_features: 172
+  methods: 10
+  output_endpoints_per_reporter: "20–72"
+  output_type: "Fluorescence-derived numeric endpoints, not synthesized images."
+holdout_units:
+  field: "Entire screen–well–tile imaging field."
+  gene: "All cells of a withheld knockout gene."
+  whole_screen: "Complete destination screen; same-reporter source screens."
+schematic_boundaries:
+  field_images: "Real cell-centred crops, not complete fields or actual splits."
+  field_image_label: "Example cell crops"
+  gene_cells: "Repeated neutral generated cell, not measured genotype effects."
+  plate: "Screen symbol, not definition of single-plate holdout."
+  validation: "Separate validation fold omitted for clarity."
+microscopy:
+  paired_example: "pRb–FECH; OPS0077"
+  field_views: "pRb–SALL3; OPS0077 wells A1/A2/A3"
+  native_crop_px: [384, 384]
+  micrometres_per_pixel: 0.325
+  scale_bar_um: 20
+  policy: "Frozen display windows and native orientation; no export-time pixel changes."
+export_pipeline: "Native PowerPoint PDF and exact image restoration; one matching native PPT/PDF text clarification recorded in the export manifest."
+font: Arial
+exports: [editable_PPTX, native_text_PDF, PNG_600dpi, SVG_preview]

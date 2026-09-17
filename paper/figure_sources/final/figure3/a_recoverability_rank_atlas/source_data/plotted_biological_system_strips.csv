@@ -1,0 +1,677 @@
+unit,split,entity_id,rank_low_to_high,rank_percentile,component_index,n_components,biological_category,category_color
+Reporter,Field,prb,1,0.0,1,1,Signaling,#7B6597
+Reporter,Field,p53,2,1.9607843137254901,1,1,Signaling,#7B6597
+Reporter,Field,nucleoli_npm1,3,3.9215686274509802,1,1,Nucleus,#3E6F9C
+Reporter,Field,c-myc,4,5.88235294117647,1,1,Signaling,#7B6597
+Reporter,Field,p21,5,7.8431372549019605,1,1,Signaling,#7B6597
+Reporter,Field,proteasome_psmb7,6,9.80392156862745,1,1,Stress/PQC,#CC79A7
+Reporter,Field,b-catenin,7,11.76470588235294,1,1,Signaling,#7B6597
+Reporter,Field,caspase_activity_cellevent-caspase_live-cell_dye,8,13.72549019607843,1,1,Stress/PQC,#CC79A7
+Reporter,Field,ps6,9,15.686274509803921,1,1,Signaling,#7B6597
+Reporter,Field,er_ncln,10,17.64705882352941,1,1,ER/Golgi,#4F9A70
+Reporter,Field,mitochondria_tomm20,11,19.6078431372549,1,1,Mitochondria,#C85A3C
+Reporter,Field,er_cona,12,21.56862745098039,1,1,ER/Golgi,#4F9A70
+Reporter,Field,cell_proliferation_marker_mki67,13,23.52941176470588,1,1,Nucleus,#3E6F9C
+Reporter,Field,oxidative_stress_cellrox_live-cell_dye,14,25.49019607843137,1,1,Signaling,#7B6597
+Reporter,Field,trans-golgi_vamp3,15,27.45098039215686,1,1,ER/Golgi,#4F9A70
+Reporter,Field,autophagosome_atg101,16,29.41176470588235,1,1,Lysosome,#E8943A
+Reporter,Field,microtubules_tubulin,17,31.372549019607842,1,1,Cytoskeleton,#4FA7B8
+Reporter,Field,f-actin_phalloidin,18,33.33333333333333,1,1,Cytoskeleton,#4FA7B8
+Reporter,Field,plasma_membrane_atp1b3,19,35.29411764705882,1,1,Plasma Membrane,#9C8C72
+Reporter,Field,plasma_membrane_wga,20,37.25490196078431,1,1,Plasma Membrane,#9C8C72
+Reporter,Field,mitochondria_tomm70a,21,39.2156862745098,1,1,Mitochondria,#C85A3C
+Reporter,Field,endocytic_vesicle_ph_phrodo-dextran_live_cell_dye,22,41.17647058823529,1,1,Signaling,#7B6597
+Reporter,Field,lipid_droplet_plin2,23,43.13725490196078,1,1,Lysosome,#E8943A
+Reporter,Field,chromatin_h2bc21,24,45.09803921568627,1,1,Nucleus,#3E6F9C
+Reporter,Field,nuclei_hoechst,25,47.05882352941176,1,1,Nucleus,#3E6F9C
+Reporter,Field,lysosome_lamp1,26,49.01960784313725,1,1,Lysosome,#E8943A
+Reporter,Field,chromalive_488_excitation,27,50.98039215686274,1,1,Mitochondria,#C85A3C
+Reporter,Field,5xupre,28,52.94117647058823,1,1,Stress/PQC,#CC79A7
+Reporter,Field,nuclei_nucleolive_live_cell_dye,29,54.90196078431372,1,1,Nucleus,#3E6F9C
+Reporter,Field,nucleolus-dfc_fbl,30,56.86274509803921,1,1,Nucleus,#3E6F9C
+Reporter,Field,mitochondria_chromalive_561_excitation,31,58.8235294117647,1,1,Mitochondria,#C85A3C
+Reporter,Field,nucleolus-gc_npm3,32,60.78431372549019,1,1,Nucleus,#3E6F9C
+Reporter,Field,peroxisome_peroxi_spy650_live_cell_dye,33,62.745098039215684,1,1,Peroxisome,#D56C75
+Reporter,Field,microtubules_map4,34,64.70588235294117,1,1,Cytoskeleton,#4FA7B8
+Reporter,Field,er_golgi_bridge_vapa,35,66.66666666666666,1,1,ER/Golgi,#4F9A70
+Reporter,Field,chaperones_hspa1b,36,68.62745098039215,1,1,Stress/PQC,#CC79A7
+Reporter,Field,er_golgi_cope,37,70.58823529411764,1,1,ER/Golgi,#4F9A70
+Reporter,Field,er_sec61b,38,72.54901960784314,1,1,ER/Golgi,#4F9A70
+Reporter,Field,endosome_vps35,39,74.50980392156862,1,1,Endosome,#C6A16A
+Reporter,Field,nuclear_speckles_srrm2,40,76.47058823529412,1,1,Nucleus,#3E6F9C
+Reporter,Field,recycling_endosome_tfrc,41,78.4313725490196,1,1,Endosome,#C6A16A
+Reporter,Field,fe2+_ferhonox_live-cell_dye,42,80.3921568627451,1,1,Signaling,#7B6597
+Reporter,Field,autophagosome_map1lc3b,43,82.35294117647058,1,1,Lysosome,#E8943A
+Reporter,Field,clathrin_vesicles_clta,44,84.31372549019608,1,1,Lysosome,#E8943A
+Reporter,Field,early_endosome_eea1,45,86.27450980392156,1,1,Endosome,#C6A16A
+Reporter,Field,lipid_droplet_bodipy_live_cell_dye,46,88.23529411764706,1,1,Lysosome,#E8943A
+Reporter,Field,actin_filament_fastact_spy555_live_cell_dye,47,90.19607843137254,1,1,Cytoskeleton,#4FA7B8
+Reporter,Field,late_endosome_rab7a,48,92.15686274509804,1,1,Endosome,#C6A16A
+Reporter,Field,plasma_membrane_slc3a2,49,94.11764705882352,1,1,Plasma Membrane,#9C8C72
+Reporter,Field,er_golgi_cop-ii_sec23a,50,96.07843137254902,1,1,ER/Golgi,#4F9A70
+Reporter,Field,lysosome_lysotracker_live-cell_dye,51,98.0392156862745,1,1,Lysosome,#E8943A
+Reporter,Field,stress_granule_g3bp1,52,100.0,1,1,Stress/PQC,#CC79A7
+Reporter,Gene,prb,1,0.0,1,1,Signaling,#7B6597
+Reporter,Gene,nucleoli_npm1,2,1.9607843137254901,1,1,Nucleus,#3E6F9C
+Reporter,Gene,c-myc,3,3.9215686274509802,1,1,Signaling,#7B6597
+Reporter,Gene,b-catenin,4,5.88235294117647,1,1,Signaling,#7B6597
+Reporter,Gene,p53,5,7.8431372549019605,1,1,Signaling,#7B6597
+Reporter,Gene,caspase_activity_cellevent-caspase_live-cell_dye,6,9.80392156862745,1,1,Stress/PQC,#CC79A7
+Reporter,Gene,ps6,7,11.76470588235294,1,1,Signaling,#7B6597
+Reporter,Gene,proteasome_psmb7,8,13.72549019607843,1,1,Stress/PQC,#CC79A7
+Reporter,Gene,p21,9,15.686274509803921,1,1,Signaling,#7B6597
+Reporter,Gene,er_ncln,10,17.64705882352941,1,1,ER/Golgi,#4F9A70
+Reporter,Gene,oxidative_stress_cellrox_live-cell_dye,11,19.6078431372549,1,1,Signaling,#7B6597
+Reporter,Gene,trans-golgi_vamp3,12,21.56862745098039,1,1,ER/Golgi,#4F9A70
+Reporter,Gene,cell_proliferation_marker_mki67,13,23.52941176470588,1,1,Nucleus,#3E6F9C
+Reporter,Gene,mitochondria_tomm20,14,25.49019607843137,1,1,Mitochondria,#C85A3C
+Reporter,Gene,lipid_droplet_plin2,15,27.45098039215686,1,1,Lysosome,#E8943A
+Reporter,Gene,autophagosome_atg101,16,29.41176470588235,1,1,Lysosome,#E8943A
+Reporter,Gene,er_cona,17,31.372549019607842,1,1,ER/Golgi,#4F9A70
+Reporter,Gene,microtubules_tubulin,18,33.33333333333333,1,1,Cytoskeleton,#4FA7B8
+Reporter,Gene,nuclei_hoechst,19,35.29411764705882,1,1,Nucleus,#3E6F9C
+Reporter,Gene,lysosome_lamp1,20,37.25490196078431,1,1,Lysosome,#E8943A
+Reporter,Gene,mitochondria_tomm70a,21,39.2156862745098,1,1,Mitochondria,#C85A3C
+Reporter,Gene,f-actin_phalloidin,22,41.17647058823529,1,1,Cytoskeleton,#4FA7B8
+Reporter,Gene,plasma_membrane_wga,23,43.13725490196078,1,1,Plasma Membrane,#9C8C72
+Reporter,Gene,5xupre,24,45.09803921568627,1,1,Stress/PQC,#CC79A7
+Reporter,Gene,endocytic_vesicle_ph_phrodo-dextran_live_cell_dye,25,47.05882352941176,1,1,Signaling,#7B6597
+Reporter,Gene,plasma_membrane_atp1b3,26,49.01960784313725,1,1,Plasma Membrane,#9C8C72
+Reporter,Gene,chromatin_h2bc21,27,50.98039215686274,1,1,Nucleus,#3E6F9C
+Reporter,Gene,chromalive_488_excitation,28,52.94117647058823,1,1,Mitochondria,#C85A3C
+Reporter,Gene,nucleolus-dfc_fbl,29,54.90196078431372,1,1,Nucleus,#3E6F9C
+Reporter,Gene,peroxisome_peroxi_spy650_live_cell_dye,30,56.86274509803921,1,1,Peroxisome,#D56C75
+Reporter,Gene,mitochondria_chromalive_561_excitation,31,58.8235294117647,1,1,Mitochondria,#C85A3C
+Reporter,Gene,er_golgi_bridge_vapa,32,60.78431372549019,1,1,ER/Golgi,#4F9A70
+Reporter,Gene,er_sec61b,33,62.745098039215684,1,1,ER/Golgi,#4F9A70
+Reporter,Gene,endosome_vps35,34,64.70588235294117,1,1,Endosome,#C6A16A
+Reporter,Gene,microtubules_map4,35,66.66666666666666,1,1,Cytoskeleton,#4FA7B8
+Reporter,Gene,nuclei_nucleolive_live_cell_dye,36,68.62745098039215,1,1,Nucleus,#3E6F9C
+Reporter,Gene,nucleolus-gc_npm3,37,70.58823529411764,1,1,Nucleus,#3E6F9C
+Reporter,Gene,chaperones_hspa1b,38,72.54901960784314,1,1,Stress/PQC,#CC79A7
+Reporter,Gene,er_golgi_cope,39,74.50980392156862,1,1,ER/Golgi,#4F9A70
+Reporter,Gene,nuclear_speckles_srrm2,40,76.47058823529412,1,1,Nucleus,#3E6F9C
+Reporter,Gene,recycling_endosome_tfrc,41,78.4313725490196,1,1,Endosome,#C6A16A
+Reporter,Gene,fe2+_ferhonox_live-cell_dye,42,80.3921568627451,1,1,Signaling,#7B6597
+Reporter,Gene,autophagosome_map1lc3b,43,82.35294117647058,1,1,Lysosome,#E8943A
+Reporter,Gene,clathrin_vesicles_clta,44,84.31372549019608,1,1,Lysosome,#E8943A
+Reporter,Gene,plasma_membrane_slc3a2,45,86.27450980392156,1,1,Plasma Membrane,#9C8C72
+Reporter,Gene,actin_filament_fastact_spy555_live_cell_dye,46,88.23529411764706,1,1,Cytoskeleton,#4FA7B8
+Reporter,Gene,late_endosome_rab7a,47,90.19607843137254,1,1,Endosome,#C6A16A
+Reporter,Gene,lipid_droplet_bodipy_live_cell_dye,48,92.15686274509804,1,1,Lysosome,#E8943A
+Reporter,Gene,early_endosome_eea1,49,94.11764705882352,1,1,Endosome,#C6A16A
+Reporter,Gene,er_golgi_cop-ii_sec23a,50,96.07843137254902,1,1,ER/Golgi,#4F9A70
+Reporter,Gene,lysosome_lysotracker_live-cell_dye,51,98.0392156862745,1,1,Lysosome,#E8943A
+Reporter,Gene,stress_granule_g3bp1,52,100.0,1,1,Stress/PQC,#CC79A7
+Reporter,Whole-screen,fe2+_ferhonox_live-cell_dye,1,0.0,1,1,Signaling,#7B6597
+Reporter,Whole-screen,lipid_droplet_plin2,2,3.0303030303030303,1,1,Lysosome,#E8943A
+Reporter,Whole-screen,endocytic_vesicle_ph_phrodo-dextran_live_cell_dye,3,6.0606060606060606,1,1,Signaling,#7B6597
+Reporter,Whole-screen,nuclei_nucleolive_live_cell_dye,4,9.09090909090909,1,1,Nucleus,#3E6F9C
+Reporter,Whole-screen,nucleolus-dfc_fbl,5,12.121212121212121,1,1,Nucleus,#3E6F9C
+Reporter,Whole-screen,er_golgi_cope,6,15.151515151515152,1,1,ER/Golgi,#4F9A70
+Reporter,Whole-screen,oxidative_stress_cellrox_live-cell_dye,7,18.18181818181818,1,1,Signaling,#7B6597
+Reporter,Whole-screen,cell_proliferation_marker_mki67,8,21.21212121212121,1,1,Nucleus,#3E6F9C
+Reporter,Whole-screen,caspase_activity_cellevent-caspase_live-cell_dye,9,24.242424242424242,1,1,Stress/PQC,#CC79A7
+Reporter,Whole-screen,trans-golgi_vamp3,10,27.272727272727273,1,1,ER/Golgi,#4F9A70
+Reporter,Whole-screen,proteasome_psmb7,11,30.303030303030305,1,1,Stress/PQC,#CC79A7
+Reporter,Whole-screen,mitochondria_tomm70a,12,33.333333333333336,1,1,Mitochondria,#C85A3C
+Reporter,Whole-screen,nuclear_speckles_srrm2,13,36.36363636363636,1,1,Nucleus,#3E6F9C
+Reporter,Whole-screen,chromalive_488_excitation,14,39.39393939393939,1,1,Mitochondria,#C85A3C
+Reporter,Whole-screen,peroxisome_peroxi_spy650_live_cell_dye,15,42.42424242424242,1,1,Peroxisome,#D56C75
+Reporter,Whole-screen,mitochondria_chromalive_561_excitation,16,45.45454545454545,1,1,Mitochondria,#C85A3C
+Reporter,Whole-screen,nucleolus-gc_npm3,17,48.484848484848484,1,1,Nucleus,#3E6F9C
+Reporter,Whole-screen,autophagosome_map1lc3b,18,51.515151515151516,1,1,Lysosome,#E8943A
+Reporter,Whole-screen,autophagosome_atg101,19,54.54545454545455,1,1,Lysosome,#E8943A
+Reporter,Whole-screen,chromatin_h2bc21,20,57.57575757575758,1,1,Nucleus,#3E6F9C
+Reporter,Whole-screen,plasma_membrane_atp1b3,21,60.60606060606061,1,1,Plasma Membrane,#9C8C72
+Reporter,Whole-screen,lysosome_lamp1,22,63.63636363636363,1,1,Lysosome,#E8943A
+Reporter,Whole-screen,5xupre,23,66.66666666666667,1,1,Stress/PQC,#CC79A7
+Reporter,Whole-screen,chaperones_hspa1b,24,69.6969696969697,1,1,Stress/PQC,#CC79A7
+Reporter,Whole-screen,endosome_vps35,25,72.72727272727272,1,1,Endosome,#C6A16A
+Reporter,Whole-screen,er_golgi_bridge_vapa,26,75.75757575757575,1,1,ER/Golgi,#4F9A70
+Reporter,Whole-screen,recycling_endosome_tfrc,27,78.78787878787878,1,1,Endosome,#C6A16A
+Reporter,Whole-screen,er_sec61b,28,81.81818181818181,1,1,ER/Golgi,#4F9A70
+Reporter,Whole-screen,actin_filament_fastact_spy555_live_cell_dye,29,84.84848484848484,1,1,Cytoskeleton,#4FA7B8
+Reporter,Whole-screen,late_endosome_rab7a,30,87.87878787878788,1,1,Endosome,#C6A16A
+Reporter,Whole-screen,clathrin_vesicles_clta,31,90.9090909090909,1,1,Lysosome,#E8943A
+Reporter,Whole-screen,lipid_droplet_bodipy_live_cell_dye,32,93.93939393939394,1,1,Lysosome,#E8943A
+Reporter,Whole-screen,plasma_membrane_slc3a2,33,96.96969696969697,1,1,Plasma Membrane,#9C8C72
+Reporter,Whole-screen,lysosome_lysotracker_live-cell_dye,34,100.0,1,1,Lysosome,#E8943A
+Physical screen,Field,Biohub_OPS0067,1,0.0,1,1,Signaling,#7B6597
+Physical screen,Field,Biohub_OPS0070,2,1.3888888888888888,1,1,Stress/PQC,#CC79A7
+Physical screen,Field,Biohub_OPS0041,3,2.7777777777777777,1,1,Nucleus,#3E6F9C
+Physical screen,Field,Biohub_OPS0077,4,4.166666666666666,1,1,Signaling,#7B6597
+Physical screen,Field,Biohub_OPS0073,5,5.555555555555555,1,1,Stress/PQC,#CC79A7
+Physical screen,Field,Biohub_OPS0052,6,6.944444444444445,1,1,ER/Golgi,#4F9A70
+Physical screen,Field,Biohub_OPS0050,7,8.333333333333332,1,1,Stress/PQC,#CC79A7
+Physical screen,Field,Biohub_OPS0059,8,9.722222222222221,1,1,ER/Golgi,#4F9A70
+Physical screen,Field,Biohub_OPS0053,9,11.11111111111111,1,1,Signaling,#7B6597
+Physical screen,Field,Biohub_OPS0029,10,12.5,1,1,Stress/PQC,#CC79A7
+Physical screen,Field,Biohub_OPS0069,11,13.88888888888889,1,2,Nucleus,#3E6F9C
+Physical screen,Field,Biohub_OPS0069,11,13.88888888888889,2,2,Signaling,#7B6597
+Physical screen,Field,Biohub_OPS0043,12,15.277777777777777,1,5,ER/Golgi,#4F9A70
+Physical screen,Field,Biohub_OPS0043,12,15.277777777777777,2,5,Cytoskeleton,#4FA7B8
+Physical screen,Field,Biohub_OPS0043,12,15.277777777777777,3,5,Mitochondria,#C85A3C
+Physical screen,Field,Biohub_OPS0043,12,15.277777777777777,4,5,Plasma Membrane,#9C8C72
+Physical screen,Field,Biohub_OPS0043,12,15.277777777777777,5,5,Nucleus,#3E6F9C
+Physical screen,Field,Biohub_OPS0054,13,16.666666666666664,1,1,Lysosome,#E8943A
+Physical screen,Field,Biohub_OPS0017,14,18.055555555555554,1,1,Lysosome,#E8943A
+Physical screen,Field,Biohub_OPS0023,15,19.444444444444443,1,1,ER/Golgi,#4F9A70
+Physical screen,Field,Biohub_OPS0016,16,20.833333333333332,1,1,Lysosome,#E8943A
+Physical screen,Field,Biohub_OPS0068,17,22.22222222222222,1,1,Mitochondria,#C85A3C
+Physical screen,Field,Biohub_OPS0002,18,23.61111111111111,1,1,Mitochondria,#C85A3C
+Physical screen,Field,Biohub_OPS0031,19,25.0,1,1,Lysosome,#E8943A
+Physical screen,Field,Biohub_OPS0045,20,26.38888888888889,1,2,Peroxisome,#D56C75
+Physical screen,Field,Biohub_OPS0045,20,26.38888888888889,2,2,Nucleus,#3E6F9C
+Physical screen,Field,Biohub_OPS0071,21,27.77777777777778,1,1,Plasma Membrane,#9C8C72
+Physical screen,Field,Biohub_OPS0064,22,29.166666666666664,1,2,Nucleus,#3E6F9C
+Physical screen,Field,Biohub_OPS0064,22,29.166666666666664,2,2,Signaling,#7B6597
+Physical screen,Field,Biohub_OPS0036,23,30.555555555555554,1,1,Nucleus,#3E6F9C
+Physical screen,Field,Biohub_OPS0032,24,31.944444444444443,1,1,Plasma Membrane,#9C8C72
+Physical screen,Field,Biohub_OPS0011,25,33.33333333333333,1,1,Lysosome,#E8943A
+Physical screen,Field,Biohub_OPS0030,26,34.72222222222222,1,1,ER/Golgi,#4F9A70
+Physical screen,Field,Biohub_OPS0015,27,36.11111111111111,1,1,Mitochondria,#C85A3C
+Physical screen,Field,Biohub_OPS0061,28,37.5,1,1,Nucleus,#3E6F9C
+Physical screen,Field,Biohub_OPS0051,29,38.888888888888886,1,1,Mitochondria,#C85A3C
+Physical screen,Field,Biohub_OPS0022,30,40.27777777777778,1,1,Lysosome,#E8943A
+Physical screen,Field,Biohub_OPS0057,31,41.666666666666664,1,2,Peroxisome,#D56C75
+Physical screen,Field,Biohub_OPS0057,31,41.666666666666664,2,2,Nucleus,#3E6F9C
+Physical screen,Field,Biohub_OPS0062,32,43.05555555555556,1,1,Nucleus,#3E6F9C
+Physical screen,Field,Biohub_OPS0013,33,44.44444444444444,1,1,Endosome,#C6A16A
+Physical screen,Field,Biohub_OPS0007,34,45.83333333333333,1,2,ER/Golgi,#4F9A70
+Physical screen,Field,Biohub_OPS0007,34,45.83333333333333,2,2,Stress/PQC,#CC79A7
+Physical screen,Field,Biohub_OPS0048,35,47.22222222222222,1,1,Signaling,#7B6597
+Physical screen,Field,Biohub_OPS0075,36,48.61111111111111,1,1,Mitochondria,#C85A3C
+Physical screen,Field,Biohub_OPS0006,37,50.0,1,2,ER/Golgi,#4F9A70
+Physical screen,Field,Biohub_OPS0006,37,50.0,2,2,Stress/PQC,#CC79A7
+Physical screen,Field,Biohub_OPS0065,38,51.388888888888886,1,2,Lysosome,#E8943A
+Physical screen,Field,Biohub_OPS0065,38,51.388888888888886,2,2,Cytoskeleton,#4FA7B8
+Physical screen,Field,Biohub_OPS0042,39,52.77777777777778,1,1,Nucleus,#3E6F9C
+Physical screen,Field,Biohub_OPS0063,40,54.166666666666664,1,1,Mitochondria,#C85A3C
+Physical screen,Field,Biohub_OPS0009,41,55.55555555555556,1,2,ER/Golgi,#4F9A70
+Physical screen,Field,Biohub_OPS0009,41,55.55555555555556,2,2,Stress/PQC,#CC79A7
+Physical screen,Field,Biohub_OPS0058,42,56.94444444444444,1,1,Nucleus,#3E6F9C
+Physical screen,Field,Biohub_OPS0046,43,58.33333333333333,1,1,Cytoskeleton,#4FA7B8
+Physical screen,Field,Biohub_OPS0020,44,59.72222222222222,1,1,ER/Golgi,#4F9A70
+Physical screen,Field,Biohub_OPS0012,45,61.11111111111111,1,1,Lysosome,#E8943A
+Physical screen,Field,Biohub_OPS0005,46,62.5,1,2,ER/Golgi,#4F9A70
+Physical screen,Field,Biohub_OPS0005,46,62.5,2,2,Stress/PQC,#CC79A7
+Physical screen,Field,Biohub_OPS0008,47,63.888888888888886,1,2,ER/Golgi,#4F9A70
+Physical screen,Field,Biohub_OPS0008,47,63.888888888888886,2,2,Stress/PQC,#CC79A7
+Physical screen,Field,Biohub_OPS0021,48,65.27777777777777,1,1,ER/Golgi,#4F9A70
+Physical screen,Field,Biohub_OPS0001,49,66.66666666666666,1,2,ER/Golgi,#4F9A70
+Physical screen,Field,Biohub_OPS0001,49,66.66666666666666,2,2,Stress/PQC,#CC79A7
+Physical screen,Field,Biohub_OPS0027,50,68.05555555555556,1,1,Endosome,#C6A16A
+Physical screen,Field,Biohub_OPS0025,51,69.44444444444444,1,1,Endosome,#C6A16A
+Physical screen,Field,Biohub_OPS0074,52,70.83333333333333,1,2,ER/Golgi,#4F9A70
+Physical screen,Field,Biohub_OPS0074,52,70.83333333333333,2,2,Cytoskeleton,#4FA7B8
+Physical screen,Field,Biohub_OPS0072,53,72.22222222222221,1,2,Cytoskeleton,#4FA7B8
+Physical screen,Field,Biohub_OPS0072,53,72.22222222222221,2,2,Stress/PQC,#CC79A7
+Physical screen,Field,Biohub_OPS0028,54,73.61111111111111,1,1,Stress/PQC,#CC79A7
+Physical screen,Field,Biohub_OPS0076,55,75.0,1,1,Cytoskeleton,#4FA7B8
+Physical screen,Field,Biohub_OPS0060,56,76.38888888888889,1,1,Endosome,#C6A16A
+Physical screen,Field,Biohub_OPS0018,57,77.77777777777777,1,1,Lysosome,#E8943A
+Physical screen,Field,Biohub_OPS0014,58,79.16666666666666,1,1,Endosome,#C6A16A
+Physical screen,Field,Biohub_OPS0047,59,80.55555555555556,1,1,Signaling,#7B6597
+Physical screen,Field,Biohub_OPS0004,60,81.94444444444444,1,1,Plasma Membrane,#9C8C72
+Physical screen,Field,Biohub_OPS0039,61,83.33333333333333,1,1,Endosome,#C6A16A
+Physical screen,Field,Biohub_OPS0040,62,84.72222222222221,1,1,Lysosome,#E8943A
+Physical screen,Field,Biohub_OPS0034,63,86.11111111111111,1,1,Lysosome,#E8943A
+Physical screen,Field,Biohub_OPS0066,64,87.5,1,1,Lysosome,#E8943A
+Physical screen,Field,Biohub_OPS0003,65,88.88888888888889,1,1,Plasma Membrane,#9C8C72
+Physical screen,Field,Biohub_OPS0035,66,90.27777777777777,1,1,ER/Golgi,#4F9A70
+Physical screen,Field,Biohub_OPS0044,67,91.66666666666666,1,1,Lysosome,#E8943A
+Physical screen,Field,Biohub_OPS0033,68,93.05555555555556,1,1,Cytoskeleton,#4FA7B8
+Physical screen,Field,Biohub_OPS0019,69,94.44444444444444,1,1,Lysosome,#E8943A
+Physical screen,Field,Biohub_OPS0026,70,95.83333333333333,1,1,Endosome,#C6A16A
+Physical screen,Field,Biohub_OPS0037,71,97.22222222222221,1,1,Stress/PQC,#CC79A7
+Physical screen,Field,Biohub_OPS0056,72,98.61111111111111,1,1,Lysosome,#E8943A
+Physical screen,Field,Biohub_OPS0055,73,100.0,1,1,Lysosome,#E8943A
+Physical screen,Gene,Biohub_OPS0067,1,0.0,1,1,Signaling,#7B6597
+Physical screen,Gene,Biohub_OPS0073,2,1.3888888888888888,1,1,Stress/PQC,#CC79A7
+Physical screen,Gene,Biohub_OPS0077,3,2.7777777777777777,1,1,Signaling,#7B6597
+Physical screen,Gene,Biohub_OPS0041,4,4.166666666666666,1,1,Nucleus,#3E6F9C
+Physical screen,Gene,Biohub_OPS0070,5,5.555555555555555,1,1,Stress/PQC,#CC79A7
+Physical screen,Gene,Biohub_OPS0050,6,6.944444444444445,1,1,Stress/PQC,#CC79A7
+Physical screen,Gene,Biohub_OPS0059,7,8.333333333333332,1,1,ER/Golgi,#4F9A70
+Physical screen,Gene,Biohub_OPS0053,8,9.722222222222221,1,1,Signaling,#7B6597
+Physical screen,Gene,Biohub_OPS0052,9,11.11111111111111,1,1,ER/Golgi,#4F9A70
+Physical screen,Gene,Biohub_OPS0069,10,12.5,1,2,Nucleus,#3E6F9C
+Physical screen,Gene,Biohub_OPS0069,10,12.5,2,2,Signaling,#7B6597
+Physical screen,Gene,Biohub_OPS0002,11,13.88888888888889,1,1,Mitochondria,#C85A3C
+Physical screen,Gene,Biohub_OPS0029,12,15.277777777777777,1,1,Stress/PQC,#CC79A7
+Physical screen,Gene,Biohub_OPS0016,13,16.666666666666664,1,1,Lysosome,#E8943A
+Physical screen,Gene,Biohub_OPS0017,14,18.055555555555554,1,1,Lysosome,#E8943A
+Physical screen,Gene,Biohub_OPS0023,15,19.444444444444443,1,1,ER/Golgi,#4F9A70
+Physical screen,Gene,Biohub_OPS0054,16,20.833333333333332,1,1,Lysosome,#E8943A
+Physical screen,Gene,Biohub_OPS0043,17,22.22222222222222,1,5,ER/Golgi,#4F9A70
+Physical screen,Gene,Biohub_OPS0043,17,22.22222222222222,2,5,Cytoskeleton,#4FA7B8
+Physical screen,Gene,Biohub_OPS0043,17,22.22222222222222,3,5,Mitochondria,#C85A3C
+Physical screen,Gene,Biohub_OPS0043,17,22.22222222222222,4,5,Plasma Membrane,#9C8C72
+Physical screen,Gene,Biohub_OPS0043,17,22.22222222222222,5,5,Nucleus,#3E6F9C
+Physical screen,Gene,Biohub_OPS0045,18,23.61111111111111,1,2,Peroxisome,#D56C75
+Physical screen,Gene,Biohub_OPS0045,18,23.61111111111111,2,2,Nucleus,#3E6F9C
+Physical screen,Gene,Biohub_OPS0068,19,25.0,1,1,Mitochondria,#C85A3C
+Physical screen,Gene,Biohub_OPS0030,20,26.38888888888889,1,1,ER/Golgi,#4F9A70
+Physical screen,Gene,Biohub_OPS0031,21,27.77777777777778,1,1,Lysosome,#E8943A
+Physical screen,Gene,Biohub_OPS0011,22,29.166666666666664,1,1,Lysosome,#E8943A
+Physical screen,Gene,Biohub_OPS0061,23,30.555555555555554,1,1,Nucleus,#3E6F9C
+Physical screen,Gene,Biohub_OPS0064,24,31.944444444444443,1,2,Nucleus,#3E6F9C
+Physical screen,Gene,Biohub_OPS0064,24,31.944444444444443,2,2,Signaling,#7B6597
+Physical screen,Gene,Biohub_OPS0065,25,33.33333333333333,1,2,Lysosome,#E8943A
+Physical screen,Gene,Biohub_OPS0065,25,33.33333333333333,2,2,Cytoskeleton,#4FA7B8
+Physical screen,Gene,Biohub_OPS0015,26,34.72222222222222,1,1,Mitochondria,#C85A3C
+Physical screen,Gene,Biohub_OPS0013,27,36.11111111111111,1,1,Endosome,#C6A16A
+Physical screen,Gene,Biohub_OPS0007,28,37.5,1,2,ER/Golgi,#4F9A70
+Physical screen,Gene,Biohub_OPS0007,28,37.5,2,2,Stress/PQC,#CC79A7
+Physical screen,Gene,Biohub_OPS0057,29,38.888888888888886,1,2,Peroxisome,#D56C75
+Physical screen,Gene,Biohub_OPS0057,29,38.888888888888886,2,2,Nucleus,#3E6F9C
+Physical screen,Gene,Biohub_OPS0071,30,40.27777777777778,1,1,Plasma Membrane,#9C8C72
+Physical screen,Gene,Biohub_OPS0022,31,41.666666666666664,1,1,Lysosome,#E8943A
+Physical screen,Gene,Biohub_OPS0036,32,43.05555555555556,1,1,Nucleus,#3E6F9C
+Physical screen,Gene,Biohub_OPS0032,33,44.44444444444444,1,1,Plasma Membrane,#9C8C72
+Physical screen,Gene,Biohub_OPS0051,34,45.83333333333333,1,1,Mitochondria,#C85A3C
+Physical screen,Gene,Biohub_OPS0006,35,47.22222222222222,1,2,ER/Golgi,#4F9A70
+Physical screen,Gene,Biohub_OPS0006,35,47.22222222222222,2,2,Stress/PQC,#CC79A7
+Physical screen,Gene,Biohub_OPS0009,36,48.61111111111111,1,2,ER/Golgi,#4F9A70
+Physical screen,Gene,Biohub_OPS0009,36,48.61111111111111,2,2,Stress/PQC,#CC79A7
+Physical screen,Gene,Biohub_OPS0048,37,50.0,1,1,Signaling,#7B6597
+Physical screen,Gene,Biohub_OPS0062,38,51.388888888888886,1,1,Nucleus,#3E6F9C
+Physical screen,Gene,Biohub_OPS0008,39,52.77777777777778,1,2,ER/Golgi,#4F9A70
+Physical screen,Gene,Biohub_OPS0008,39,52.77777777777778,2,2,Stress/PQC,#CC79A7
+Physical screen,Gene,Biohub_OPS0021,40,54.166666666666664,1,1,ER/Golgi,#4F9A70
+Physical screen,Gene,Biohub_OPS0075,41,55.55555555555556,1,1,Mitochondria,#C85A3C
+Physical screen,Gene,Biohub_OPS0005,42,56.94444444444444,1,2,ER/Golgi,#4F9A70
+Physical screen,Gene,Biohub_OPS0005,42,56.94444444444444,2,2,Stress/PQC,#CC79A7
+Physical screen,Gene,Biohub_OPS0063,43,58.33333333333333,1,1,Mitochondria,#C85A3C
+Physical screen,Gene,Biohub_OPS0020,44,59.72222222222222,1,1,ER/Golgi,#4F9A70
+Physical screen,Gene,Biohub_OPS0042,45,61.11111111111111,1,1,Nucleus,#3E6F9C
+Physical screen,Gene,Biohub_OPS0012,46,62.5,1,1,Lysosome,#E8943A
+Physical screen,Gene,Biohub_OPS0046,47,63.888888888888886,1,1,Cytoskeleton,#4FA7B8
+Physical screen,Gene,Biohub_OPS0058,48,65.27777777777777,1,1,Nucleus,#3E6F9C
+Physical screen,Gene,Biohub_OPS0001,49,66.66666666666666,1,2,ER/Golgi,#4F9A70
+Physical screen,Gene,Biohub_OPS0001,49,66.66666666666666,2,2,Stress/PQC,#CC79A7
+Physical screen,Gene,Biohub_OPS0025,50,68.05555555555556,1,1,Endosome,#C6A16A
+Physical screen,Gene,Biohub_OPS0076,51,69.44444444444444,1,1,Cytoskeleton,#4FA7B8
+Physical screen,Gene,Biohub_OPS0027,52,70.83333333333333,1,1,Endosome,#C6A16A
+Physical screen,Gene,Biohub_OPS0074,53,72.22222222222221,1,2,ER/Golgi,#4F9A70
+Physical screen,Gene,Biohub_OPS0074,53,72.22222222222221,2,2,Cytoskeleton,#4FA7B8
+Physical screen,Gene,Biohub_OPS0072,54,73.61111111111111,1,2,Cytoskeleton,#4FA7B8
+Physical screen,Gene,Biohub_OPS0072,54,73.61111111111111,2,2,Stress/PQC,#CC79A7
+Physical screen,Gene,Biohub_OPS0028,55,75.0,1,1,Stress/PQC,#CC79A7
+Physical screen,Gene,Biohub_OPS0060,56,76.38888888888889,1,1,Endosome,#C6A16A
+Physical screen,Gene,Biohub_OPS0018,57,77.77777777777777,1,1,Lysosome,#E8943A
+Physical screen,Gene,Biohub_OPS0014,58,79.16666666666666,1,1,Endosome,#C6A16A
+Physical screen,Gene,Biohub_OPS0047,59,80.55555555555556,1,1,Signaling,#7B6597
+Physical screen,Gene,Biohub_OPS0003,60,81.94444444444444,1,1,Plasma Membrane,#9C8C72
+Physical screen,Gene,Biohub_OPS0034,61,83.33333333333333,1,1,Lysosome,#E8943A
+Physical screen,Gene,Biohub_OPS0044,62,84.72222222222221,1,1,Lysosome,#E8943A
+Physical screen,Gene,Biohub_OPS0040,63,86.11111111111111,1,1,Lysosome,#E8943A
+Physical screen,Gene,Biohub_OPS0004,64,87.5,1,1,Plasma Membrane,#9C8C72
+Physical screen,Gene,Biohub_OPS0039,65,88.88888888888889,1,1,Endosome,#C6A16A
+Physical screen,Gene,Biohub_OPS0026,66,90.27777777777777,1,1,Endosome,#C6A16A
+Physical screen,Gene,Biohub_OPS0066,67,91.66666666666666,1,1,Lysosome,#E8943A
+Physical screen,Gene,Biohub_OPS0033,68,93.05555555555556,1,1,Cytoskeleton,#4FA7B8
+Physical screen,Gene,Biohub_OPS0035,69,94.44444444444444,1,1,ER/Golgi,#4F9A70
+Physical screen,Gene,Biohub_OPS0037,70,95.83333333333333,1,1,Stress/PQC,#CC79A7
+Physical screen,Gene,Biohub_OPS0019,71,97.22222222222221,1,1,Lysosome,#E8943A
+Physical screen,Gene,Biohub_OPS0056,72,98.61111111111111,1,1,Lysosome,#E8943A
+Physical screen,Gene,Biohub_OPS0055,73,100.0,1,1,Lysosome,#E8943A
+Physical screen,Whole-screen,Biohub_OPS0067,1,0.0,1,1,Signaling,#7B6597
+Physical screen,Whole-screen,Biohub_OPS0047,2,1.5384615384615385,1,1,Signaling,#7B6597
+Physical screen,Whole-screen,Biohub_OPS0053,3,3.076923076923077,1,1,Signaling,#7B6597
+Physical screen,Whole-screen,Biohub_OPS0022,4,4.615384615384616,1,1,Lysosome,#E8943A
+Physical screen,Whole-screen,Biohub_OPS0062,5,6.153846153846154,1,1,Nucleus,#3E6F9C
+Physical screen,Whole-screen,Biohub_OPS0041,6,7.6923076923076925,1,1,Nucleus,#3E6F9C
+Physical screen,Whole-screen,Biohub_OPS0061,7,9.230769230769232,1,1,Nucleus,#3E6F9C
+Physical screen,Whole-screen,Biohub_OPS0023,8,10.76923076923077,1,1,ER/Golgi,#4F9A70
+Physical screen,Whole-screen,Biohub_OPS0064,9,12.307692307692308,1,2,Nucleus,#3E6F9C
+Physical screen,Whole-screen,Biohub_OPS0064,9,12.307692307692308,2,2,Signaling,#7B6597
+Physical screen,Whole-screen,Biohub_OPS0069,10,13.846153846153847,1,2,Nucleus,#3E6F9C
+Physical screen,Whole-screen,Biohub_OPS0069,10,13.846153846153847,2,2,Signaling,#7B6597
+Physical screen,Whole-screen,Biohub_OPS0070,11,15.384615384615385,1,1,Stress/PQC,#CC79A7
+Physical screen,Whole-screen,Biohub_OPS0073,12,16.923076923076923,1,1,Stress/PQC,#CC79A7
+Physical screen,Whole-screen,Biohub_OPS0059,13,18.461538461538463,1,1,ER/Golgi,#4F9A70
+Physical screen,Whole-screen,Biohub_OPS0068,14,20.0,1,1,Mitochondria,#C85A3C
+Physical screen,Whole-screen,Biohub_OPS0050,15,21.53846153846154,1,1,Stress/PQC,#CC79A7
+Physical screen,Whole-screen,Biohub_OPS0030,16,23.076923076923077,1,1,ER/Golgi,#4F9A70
+Physical screen,Whole-screen,Biohub_OPS0065,17,24.615384615384617,1,2,Lysosome,#E8943A
+Physical screen,Whole-screen,Biohub_OPS0065,17,24.615384615384617,2,2,Cytoskeleton,#4FA7B8
+Physical screen,Whole-screen,Biohub_OPS0045,18,26.153846153846157,1,2,Peroxisome,#D56C75
+Physical screen,Whole-screen,Biohub_OPS0045,18,26.153846153846157,2,2,Nucleus,#3E6F9C
+Physical screen,Whole-screen,Biohub_OPS0029,19,27.692307692307693,1,1,Stress/PQC,#CC79A7
+Physical screen,Whole-screen,Biohub_OPS0057,20,29.230769230769234,1,2,Peroxisome,#D56C75
+Physical screen,Whole-screen,Biohub_OPS0057,20,29.230769230769234,2,2,Nucleus,#3E6F9C
+Physical screen,Whole-screen,Biohub_OPS0048,21,30.76923076923077,1,1,Signaling,#7B6597
+Physical screen,Whole-screen,Biohub_OPS0015,22,32.30769230769231,1,1,Mitochondria,#C85A3C
+Physical screen,Whole-screen,Biohub_OPS0002,23,33.84615384615385,1,1,Mitochondria,#C85A3C
+Physical screen,Whole-screen,Biohub_OPS0036,24,35.38461538461539,1,1,Nucleus,#3E6F9C
+Physical screen,Whole-screen,Biohub_OPS0074,25,36.92307692307693,1,2,ER/Golgi,#4F9A70
+Physical screen,Whole-screen,Biohub_OPS0074,25,36.92307692307693,2,2,Cytoskeleton,#4FA7B8
+Physical screen,Whole-screen,Biohub_OPS0058,26,38.46153846153847,1,1,Nucleus,#3E6F9C
+Physical screen,Whole-screen,Biohub_OPS0016,27,40.0,1,1,Lysosome,#E8943A
+Physical screen,Whole-screen,Biohub_OPS0017,28,41.53846153846154,1,1,Lysosome,#E8943A
+Physical screen,Whole-screen,Biohub_OPS0051,29,43.07692307692308,1,1,Mitochondria,#C85A3C
+Physical screen,Whole-screen,Biohub_OPS0054,30,44.61538461538462,1,1,Lysosome,#E8943A
+Physical screen,Whole-screen,Biohub_OPS0063,31,46.15384615384615,1,1,Mitochondria,#C85A3C
+Physical screen,Whole-screen,Biohub_OPS0075,32,47.69230769230769,1,1,Mitochondria,#C85A3C
+Physical screen,Whole-screen,Biohub_OPS0011,33,49.23076923076923,1,1,Lysosome,#E8943A
+Physical screen,Whole-screen,Biohub_OPS0042,34,50.769230769230774,1,1,Nucleus,#3E6F9C
+Physical screen,Whole-screen,Biohub_OPS0031,35,52.307692307692314,1,1,Lysosome,#E8943A
+Physical screen,Whole-screen,Biohub_OPS0013,36,53.84615384615385,1,1,Endosome,#C6A16A
+Physical screen,Whole-screen,Biohub_OPS0040,37,55.38461538461539,1,1,Lysosome,#E8943A
+Physical screen,Whole-screen,Biohub_OPS0071,38,56.92307692307693,1,1,Plasma Membrane,#9C8C72
+Physical screen,Whole-screen,Biohub_OPS0007,39,58.46153846153847,1,2,ER/Golgi,#4F9A70
+Physical screen,Whole-screen,Biohub_OPS0007,39,58.46153846153847,2,2,Stress/PQC,#CC79A7
+Physical screen,Whole-screen,Biohub_OPS0032,40,60.0,1,1,Plasma Membrane,#9C8C72
+Physical screen,Whole-screen,Biohub_OPS0006,41,61.53846153846154,1,2,ER/Golgi,#4F9A70
+Physical screen,Whole-screen,Biohub_OPS0006,41,61.53846153846154,2,2,Stress/PQC,#CC79A7
+Physical screen,Whole-screen,Biohub_OPS0009,42,63.07692307692308,1,2,ER/Golgi,#4F9A70
+Physical screen,Whole-screen,Biohub_OPS0009,42,63.07692307692308,2,2,Stress/PQC,#CC79A7
+Physical screen,Whole-screen,Biohub_OPS0012,43,64.61538461538461,1,1,Lysosome,#E8943A
+Physical screen,Whole-screen,Biohub_OPS0025,44,66.15384615384616,1,1,Endosome,#C6A16A
+Physical screen,Whole-screen,Biohub_OPS0021,45,67.6923076923077,1,1,ER/Golgi,#4F9A70
+Physical screen,Whole-screen,Biohub_OPS0020,46,69.23076923076924,1,1,ER/Golgi,#4F9A70
+Physical screen,Whole-screen,Biohub_OPS0072,47,70.76923076923077,1,2,Cytoskeleton,#4FA7B8
+Physical screen,Whole-screen,Biohub_OPS0072,47,70.76923076923077,2,2,Stress/PQC,#CC79A7
+Physical screen,Whole-screen,Biohub_OPS0028,48,72.3076923076923,1,1,Stress/PQC,#CC79A7
+Physical screen,Whole-screen,Biohub_OPS0008,49,73.84615384615385,1,2,ER/Golgi,#4F9A70
+Physical screen,Whole-screen,Biohub_OPS0008,49,73.84615384615385,2,2,Stress/PQC,#CC79A7
+Physical screen,Whole-screen,Biohub_OPS0027,50,75.38461538461539,1,1,Endosome,#C6A16A
+Physical screen,Whole-screen,Biohub_OPS0005,51,76.92307692307693,1,2,ER/Golgi,#4F9A70
+Physical screen,Whole-screen,Biohub_OPS0005,51,76.92307692307693,2,2,Stress/PQC,#CC79A7
+Physical screen,Whole-screen,Biohub_OPS0076,52,78.46153846153847,1,1,Cytoskeleton,#4FA7B8
+Physical screen,Whole-screen,Biohub_OPS0001,53,80.0,1,2,ER/Golgi,#4F9A70
+Physical screen,Whole-screen,Biohub_OPS0001,53,80.0,2,2,Stress/PQC,#CC79A7
+Physical screen,Whole-screen,Biohub_OPS0060,54,81.53846153846155,1,1,Endosome,#C6A16A
+Physical screen,Whole-screen,Biohub_OPS0014,55,83.07692307692308,1,1,Endosome,#C6A16A
+Physical screen,Whole-screen,Biohub_OPS0018,56,84.61538461538461,1,1,Lysosome,#E8943A
+Physical screen,Whole-screen,Biohub_OPS0026,57,86.15384615384616,1,1,Endosome,#C6A16A
+Physical screen,Whole-screen,Biohub_OPS0003,58,87.6923076923077,1,1,Plasma Membrane,#9C8C72
+Physical screen,Whole-screen,Biohub_OPS0034,59,89.23076923076924,1,1,Lysosome,#E8943A
+Physical screen,Whole-screen,Biohub_OPS0044,60,90.76923076923077,1,1,Lysosome,#E8943A
+Physical screen,Whole-screen,Biohub_OPS0033,61,92.3076923076923,1,1,Cytoskeleton,#4FA7B8
+Physical screen,Whole-screen,Biohub_OPS0066,62,93.84615384615385,1,1,Lysosome,#E8943A
+Physical screen,Whole-screen,Biohub_OPS0019,63,95.38461538461539,1,1,Lysosome,#E8943A
+Physical screen,Whole-screen,Biohub_OPS0056,64,96.92307692307693,1,1,Lysosome,#E8943A
+Physical screen,Whole-screen,Biohub_OPS0004,65,98.46153846153847,1,1,Plasma Membrane,#9C8C72
+Physical screen,Whole-screen,Biohub_OPS0055,66,100.0,1,1,Lysosome,#E8943A
+Reporter × screen,Field,fe2+_ferhonox_live-cell_dye::Biohub_OPS0067,1,0.0,1,1,Signaling,#7B6597
+Reporter × screen,Field,prb::Biohub_OPS0077,2,1.0204081632653061,1,1,Signaling,#7B6597
+Reporter × screen,Field,p53::Biohub_OPS0077,3,2.0408163265306123,1,1,Signaling,#7B6597
+Reporter × screen,Field,proteasome_psmb7::Biohub_OPS0070,4,3.0612244897959187,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Field,nucleoli_npm1::Biohub_OPS0043,5,4.081632653061225,1,1,Nucleus,#3E6F9C
+Reporter × screen,Field,nucleolus-dfc_fbl::Biohub_OPS0041,6,5.1020408163265305,1,1,Nucleus,#3E6F9C
+Reporter × screen,Field,c-myc::Biohub_OPS0077,7,6.122448979591837,1,1,Signaling,#7B6597
+Reporter × screen,Field,p21::Biohub_OPS0077,8,7.142857142857143,1,1,Signaling,#7B6597
+Reporter × screen,Field,caspase_activity_cellevent-caspase_live-cell_dye::Biohub_OPS0073,9,8.16326530612245,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Field,b-catenin::Biohub_OPS0077,10,9.183673469387756,1,1,Signaling,#7B6597
+Reporter × screen,Field,oxidative_stress_cellrox_live-cell_dye::Biohub_OPS0069,11,10.204081632653061,1,1,Signaling,#7B6597
+Reporter × screen,Field,ps6::Biohub_OPS0077,12,11.224489795918368,1,1,Signaling,#7B6597
+Reporter × screen,Field,er_ncln::Biohub_OPS0052,13,12.244897959183675,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Field,caspase_activity_cellevent-caspase_live-cell_dye::Biohub_OPS0050,14,13.26530612244898,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Field,trans-golgi_vamp3::Biohub_OPS0059,15,14.285714285714286,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Field,lipid_droplet_plin2::Biohub_OPS0065,16,15.306122448979592,1,1,Lysosome,#E8943A
+Reporter × screen,Field,cell_proliferation_marker_mki67::Biohub_OPS0045,17,16.3265306122449,1,1,Nucleus,#3E6F9C
+Reporter × screen,Field,nuclei_nucleolive_live_cell_dye::Biohub_OPS0061,18,17.346938775510203,1,1,Nucleus,#3E6F9C
+Reporter × screen,Field,mitochondria_tomm20::Biohub_OPS0043,19,18.367346938775512,1,1,Mitochondria,#C85A3C
+Reporter × screen,Field,endocytic_vesicle_ph_phrodo-dextran_live_cell_dye::Biohub_OPS0053,20,19.387755102040817,1,1,Signaling,#7B6597
+Reporter × screen,Field,proteasome_psmb7::Biohub_OPS0029,21,20.408163265306122,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Field,er_cona::Biohub_OPS0043,22,21.42857142857143,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Field,autophagosome_atg101::Biohub_OPS0054,23,22.448979591836736,1,1,Lysosome,#E8943A
+Reporter × screen,Field,autophagosome_map1lc3b::Biohub_OPS0017,24,23.46938775510204,1,1,Lysosome,#E8943A
+Reporter × screen,Field,cell_proliferation_marker_mki67::Biohub_OPS0057,25,24.48979591836735,1,1,Nucleus,#3E6F9C
+Reporter × screen,Field,er_golgi_cope::Biohub_OPS0023,26,25.510204081632654,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Field,autophagosome_map1lc3b::Biohub_OPS0016,27,26.53061224489796,1,1,Lysosome,#E8943A
+Reporter × screen,Field,microtubules_tubulin::Biohub_OPS0043,28,27.551020408163264,1,1,Cytoskeleton,#4FA7B8
+Reporter × screen,Field,mitochondria_tomm70a::Biohub_OPS0068,29,28.571428571428573,1,1,Mitochondria,#C85A3C
+Reporter × screen,Field,chromalive_488_excitation::Biohub_OPS0002,30,29.591836734693878,1,1,Mitochondria,#C85A3C
+Reporter × screen,Field,autophagosome_atg101::Biohub_OPS0031,31,30.612244897959183,1,1,Lysosome,#E8943A
+Reporter × screen,Field,plasma_membrane_atp1b3::Biohub_OPS0071,32,31.63265306122449,1,1,Plasma Membrane,#9C8C72
+Reporter × screen,Field,f-actin_phalloidin::Biohub_OPS0043,33,32.6530612244898,1,1,Cytoskeleton,#4FA7B8
+Reporter × screen,Field,endocytic_vesicle_ph_phrodo-dextran_live_cell_dye::Biohub_OPS0064,34,33.673469387755105,1,1,Signaling,#7B6597
+Reporter × screen,Field,plasma_membrane_wga::Biohub_OPS0043,35,34.69387755102041,1,1,Plasma Membrane,#9C8C72
+Reporter × screen,Field,chromatin_h2bc21::Biohub_OPS0064,36,35.714285714285715,1,1,Nucleus,#3E6F9C
+Reporter × screen,Field,nuclear_speckles_srrm2::Biohub_OPS0036,37,36.734693877551024,1,1,Nucleus,#3E6F9C
+Reporter × screen,Field,nuclei_nucleolive_live_cell_dye::Biohub_OPS0062,38,37.755102040816325,1,1,Nucleus,#3E6F9C
+Reporter × screen,Field,plasma_membrane_atp1b3::Biohub_OPS0032,39,38.775510204081634,1,1,Plasma Membrane,#9C8C72
+Reporter × screen,Field,lysosome_lamp1::Biohub_OPS0011,40,39.79591836734694,1,1,Lysosome,#E8943A
+Reporter × screen,Field,trans-golgi_vamp3::Biohub_OPS0030,41,40.816326530612244,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Field,mitochondria_tomm70a::Biohub_OPS0015,42,41.83673469387755,1,1,Mitochondria,#C85A3C
+Reporter × screen,Field,chromatin_h2bc21::Biohub_OPS0069,43,42.85714285714286,1,1,Nucleus,#3E6F9C
+Reporter × screen,Field,nuclei_hoechst::Biohub_OPS0043,44,43.87755102040816,1,1,Nucleus,#3E6F9C
+Reporter × screen,Field,5xupre::Biohub_OPS0007,45,44.89795918367347,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Field,chromalive_488_excitation::Biohub_OPS0051,46,45.91836734693878,1,1,Mitochondria,#C85A3C
+Reporter × screen,Field,5xupre::Biohub_OPS0009,47,46.93877551020408,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Field,lipid_droplet_plin2::Biohub_OPS0022,48,47.95918367346939,1,1,Lysosome,#E8943A
+Reporter × screen,Field,5xupre::Biohub_OPS0006,49,48.9795918367347,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Field,5xupre::Biohub_OPS0005,50,50.0,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Field,5xupre::Biohub_OPS0001,51,51.02040816326531,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Field,endosome_vps35::Biohub_OPS0013,52,52.04081632653061,1,1,Endosome,#C6A16A
+Reporter × screen,Field,5xupre::Biohub_OPS0008,53,53.06122448979592,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Field,peroxisome_peroxi_spy650_live_cell_dye::Biohub_OPS0045,54,54.08163265306123,1,1,Peroxisome,#D56C75
+Reporter × screen,Field,oxidative_stress_cellrox_live-cell_dye::Biohub_OPS0048,55,55.10204081632653,1,1,Signaling,#7B6597
+Reporter × screen,Field,mitochondria_chromalive_561_excitation::Biohub_OPS0075,56,56.12244897959184,1,1,Mitochondria,#C85A3C
+Reporter × screen,Field,nucleolus-gc_npm3::Biohub_OPS0042,57,57.142857142857146,1,1,Nucleus,#3E6F9C
+Reporter × screen,Field,mitochondria_chromalive_561_excitation::Biohub_OPS0063,58,58.16326530612245,1,1,Mitochondria,#C85A3C
+Reporter × screen,Field,er_sec61b::Biohub_OPS0006,59,59.183673469387756,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Field,er_sec61b::Biohub_OPS0007,60,60.204081632653065,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Field,chaperones_hspa1b::Biohub_OPS0072,61,61.224489795918366,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Field,nucleolus-dfc_fbl::Biohub_OPS0062,62,62.244897959183675,1,1,Nucleus,#3E6F9C
+Reporter × screen,Field,nucleolus-gc_npm3::Biohub_OPS0058,63,63.26530612244898,1,1,Nucleus,#3E6F9C
+Reporter × screen,Field,microtubules_map4::Biohub_OPS0046,64,64.28571428571429,1,1,Cytoskeleton,#4FA7B8
+Reporter × screen,Field,er_golgi_bridge_vapa::Biohub_OPS0020,65,65.3061224489796,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Field,lysosome_lamp1::Biohub_OPS0012,66,66.3265306122449,1,1,Lysosome,#E8943A
+Reporter × screen,Field,er_golgi_bridge_vapa::Biohub_OPS0021,67,67.34693877551021,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Field,er_golgi_cope::Biohub_OPS0074,68,68.36734693877551,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Field,er_sec61b::Biohub_OPS0009,69,69.38775510204081,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Field,peroxisome_peroxi_spy650_live_cell_dye::Biohub_OPS0057,70,70.40816326530613,1,1,Peroxisome,#D56C75
+Reporter × screen,Field,nuclear_speckles_srrm2::Biohub_OPS0061,71,71.42857142857143,1,1,Nucleus,#3E6F9C
+Reporter × screen,Field,recycling_endosome_tfrc::Biohub_OPS0027,72,72.44897959183673,1,1,Endosome,#C6A16A
+Reporter × screen,Field,er_sec61b::Biohub_OPS0008,73,73.46938775510205,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Field,er_sec61b::Biohub_OPS0005,74,74.48979591836735,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Field,endosome_vps35::Biohub_OPS0025,75,75.51020408163265,1,1,Endosome,#C6A16A
+Reporter × screen,Field,chaperones_hspa1b::Biohub_OPS0028,76,76.53061224489797,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Field,actin_filament_fastact_spy555_live_cell_dye::Biohub_OPS0076,77,77.55102040816327,1,1,Cytoskeleton,#4FA7B8
+Reporter × screen,Field,recycling_endosome_tfrc::Biohub_OPS0060,78,78.57142857142857,1,1,Endosome,#C6A16A
+Reporter × screen,Field,clathrin_vesicles_clta::Biohub_OPS0018,79,79.59183673469389,1,1,Lysosome,#E8943A
+Reporter × screen,Field,late_endosome_rab7a::Biohub_OPS0014,80,80.61224489795919,1,1,Endosome,#C6A16A
+Reporter × screen,Field,fe2+_ferhonox_live-cell_dye::Biohub_OPS0047,81,81.63265306122449,1,1,Signaling,#7B6597
+Reporter × screen,Field,actin_filament_fastact_spy555_live_cell_dye::Biohub_OPS0065,82,82.6530612244898,1,1,Cytoskeleton,#4FA7B8
+Reporter × screen,Field,plasma_membrane_slc3a2::Biohub_OPS0004,83,83.6734693877551,1,1,Plasma Membrane,#9C8C72
+Reporter × screen,Field,early_endosome_eea1::Biohub_OPS0039,84,84.6938775510204,1,1,Endosome,#C6A16A
+Reporter × screen,Field,autophagosome_map1lc3b::Biohub_OPS0040,85,85.71428571428572,1,1,Lysosome,#E8943A
+Reporter × screen,Field,actin_filament_fastact_spy555_live_cell_dye::Biohub_OPS0074,86,86.73469387755102,1,1,Cytoskeleton,#4FA7B8
+Reporter × screen,Field,lipid_droplet_bodipy_live_cell_dye::Biohub_OPS0034,87,87.75510204081633,1,1,Lysosome,#E8943A
+Reporter × screen,Field,lipid_droplet_bodipy_live_cell_dye::Biohub_OPS0066,88,88.77551020408164,1,1,Lysosome,#E8943A
+Reporter × screen,Field,er_sec61b::Biohub_OPS0001,89,89.79591836734694,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Field,plasma_membrane_slc3a2::Biohub_OPS0003,90,90.81632653061224,1,1,Plasma Membrane,#9C8C72
+Reporter × screen,Field,er_golgi_cop-ii_sec23a::Biohub_OPS0035,91,91.83673469387756,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Field,lysosome_lysotracker_live-cell_dye::Biohub_OPS0044,92,92.85714285714286,1,1,Lysosome,#E8943A
+Reporter × screen,Field,actin_filament_fastact_spy555_live_cell_dye::Biohub_OPS0033,93,93.87755102040816,1,1,Cytoskeleton,#4FA7B8
+Reporter × screen,Field,clathrin_vesicles_clta::Biohub_OPS0019,94,94.89795918367348,1,1,Lysosome,#E8943A
+Reporter × screen,Field,late_endosome_rab7a::Biohub_OPS0026,95,95.91836734693878,1,1,Endosome,#C6A16A
+Reporter × screen,Field,stress_granule_g3bp1::Biohub_OPS0037,96,96.93877551020408,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Field,lysosome_lysotracker_live-cell_dye::Biohub_OPS0056,97,97.9591836734694,1,1,Lysosome,#E8943A
+Reporter × screen,Field,actin_filament_fastact_spy555_live_cell_dye::Biohub_OPS0072,98,98.9795918367347,1,1,Cytoskeleton,#4FA7B8
+Reporter × screen,Field,lysosome_lysotracker_live-cell_dye::Biohub_OPS0055,99,100.0,1,1,Lysosome,#E8943A
+Reporter × screen,Gene,fe2+_ferhonox_live-cell_dye::Biohub_OPS0067,1,0.0,1,1,Signaling,#7B6597
+Reporter × screen,Gene,prb::Biohub_OPS0077,2,1.0204081632653061,1,1,Signaling,#7B6597
+Reporter × screen,Gene,nucleoli_npm1::Biohub_OPS0043,3,2.0408163265306123,1,1,Nucleus,#3E6F9C
+Reporter × screen,Gene,caspase_activity_cellevent-caspase_live-cell_dye::Biohub_OPS0073,4,3.0612244897959187,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Gene,c-myc::Biohub_OPS0077,5,4.081632653061225,1,1,Signaling,#7B6597
+Reporter × screen,Gene,oxidative_stress_cellrox_live-cell_dye::Biohub_OPS0069,6,5.1020408163265305,1,1,Signaling,#7B6597
+Reporter × screen,Gene,nucleolus-dfc_fbl::Biohub_OPS0041,7,6.122448979591837,1,1,Nucleus,#3E6F9C
+Reporter × screen,Gene,proteasome_psmb7::Biohub_OPS0070,8,7.142857142857143,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Gene,b-catenin::Biohub_OPS0077,9,8.16326530612245,1,1,Signaling,#7B6597
+Reporter × screen,Gene,p53::Biohub_OPS0077,10,9.183673469387756,1,1,Signaling,#7B6597
+Reporter × screen,Gene,ps6::Biohub_OPS0077,11,10.204081632653061,1,1,Signaling,#7B6597
+Reporter × screen,Gene,lipid_droplet_plin2::Biohub_OPS0065,12,11.224489795918368,1,1,Lysosome,#E8943A
+Reporter × screen,Gene,caspase_activity_cellevent-caspase_live-cell_dye::Biohub_OPS0050,13,12.244897959183675,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Gene,nuclei_nucleolive_live_cell_dye::Biohub_OPS0061,14,13.26530612244898,1,1,Nucleus,#3E6F9C
+Reporter × screen,Gene,p21::Biohub_OPS0077,15,14.285714285714286,1,1,Signaling,#7B6597
+Reporter × screen,Gene,trans-golgi_vamp3::Biohub_OPS0059,16,15.306122448979592,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Gene,endocytic_vesicle_ph_phrodo-dextran_live_cell_dye::Biohub_OPS0053,17,16.3265306122449,1,1,Signaling,#7B6597
+Reporter × screen,Gene,cell_proliferation_marker_mki67::Biohub_OPS0045,18,17.346938775510203,1,1,Nucleus,#3E6F9C
+Reporter × screen,Gene,er_ncln::Biohub_OPS0052,19,18.367346938775512,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Gene,cell_proliferation_marker_mki67::Biohub_OPS0057,20,19.387755102040817,1,1,Nucleus,#3E6F9C
+Reporter × screen,Gene,chromalive_488_excitation::Biohub_OPS0002,21,20.408163265306122,1,1,Mitochondria,#C85A3C
+Reporter × screen,Gene,proteasome_psmb7::Biohub_OPS0029,22,21.42857142857143,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Gene,mitochondria_tomm20::Biohub_OPS0043,23,22.448979591836736,1,1,Mitochondria,#C85A3C
+Reporter × screen,Gene,autophagosome_map1lc3b::Biohub_OPS0016,24,23.46938775510204,1,1,Lysosome,#E8943A
+Reporter × screen,Gene,autophagosome_map1lc3b::Biohub_OPS0017,25,24.48979591836735,1,1,Lysosome,#E8943A
+Reporter × screen,Gene,er_golgi_cope::Biohub_OPS0023,26,25.510204081632654,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Gene,autophagosome_atg101::Biohub_OPS0054,27,26.53061224489796,1,1,Lysosome,#E8943A
+Reporter × screen,Gene,mitochondria_tomm70a::Biohub_OPS0068,28,27.551020408163264,1,1,Mitochondria,#C85A3C
+Reporter × screen,Gene,er_cona::Biohub_OPS0043,29,28.571428571428573,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Gene,trans-golgi_vamp3::Biohub_OPS0030,30,29.591836734693878,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Gene,5xupre::Biohub_OPS0007,31,30.612244897959183,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Gene,autophagosome_atg101::Biohub_OPS0031,32,31.63265306122449,1,1,Lysosome,#E8943A
+Reporter × screen,Gene,lysosome_lamp1::Biohub_OPS0011,33,32.6530612244898,1,1,Lysosome,#E8943A
+Reporter × screen,Gene,microtubules_tubulin::Biohub_OPS0043,34,33.673469387755105,1,1,Cytoskeleton,#4FA7B8
+Reporter × screen,Gene,endocytic_vesicle_ph_phrodo-dextran_live_cell_dye::Biohub_OPS0064,35,34.69387755102041,1,1,Signaling,#7B6597
+Reporter × screen,Gene,nuclei_hoechst::Biohub_OPS0043,36,35.714285714285715,1,1,Nucleus,#3E6F9C
+Reporter × screen,Gene,f-actin_phalloidin::Biohub_OPS0043,37,36.734693877551024,1,1,Cytoskeleton,#4FA7B8
+Reporter × screen,Gene,mitochondria_tomm70a::Biohub_OPS0015,38,37.755102040816325,1,1,Mitochondria,#C85A3C
+Reporter × screen,Gene,5xupre::Biohub_OPS0009,39,38.775510204081634,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Gene,plasma_membrane_wga::Biohub_OPS0043,40,39.79591836734694,1,1,Plasma Membrane,#9C8C72
+Reporter × screen,Gene,endosome_vps35::Biohub_OPS0013,41,40.816326530612244,1,1,Endosome,#C6A16A
+Reporter × screen,Gene,chromatin_h2bc21::Biohub_OPS0064,42,41.83673469387755,1,1,Nucleus,#3E6F9C
+Reporter × screen,Gene,plasma_membrane_atp1b3::Biohub_OPS0071,43,42.85714285714286,1,1,Plasma Membrane,#9C8C72
+Reporter × screen,Gene,lipid_droplet_plin2::Biohub_OPS0022,44,43.87755102040816,1,1,Lysosome,#E8943A
+Reporter × screen,Gene,5xupre::Biohub_OPS0008,45,44.89795918367347,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Gene,5xupre::Biohub_OPS0006,46,45.91836734693878,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Gene,5xupre::Biohub_OPS0005,47,46.93877551020408,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Gene,nuclear_speckles_srrm2::Biohub_OPS0036,48,47.95918367346939,1,1,Nucleus,#3E6F9C
+Reporter × screen,Gene,peroxisome_peroxi_spy650_live_cell_dye::Biohub_OPS0045,49,48.9795918367347,1,1,Peroxisome,#D56C75
+Reporter × screen,Gene,plasma_membrane_atp1b3::Biohub_OPS0032,50,50.0,1,1,Plasma Membrane,#9C8C72
+Reporter × screen,Gene,chromalive_488_excitation::Biohub_OPS0051,51,51.02040816326531,1,1,Mitochondria,#C85A3C
+Reporter × screen,Gene,er_sec61b::Biohub_OPS0007,52,52.04081632653061,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Gene,nuclei_nucleolive_live_cell_dye::Biohub_OPS0062,53,53.06122448979592,1,1,Nucleus,#3E6F9C
+Reporter × screen,Gene,5xupre::Biohub_OPS0001,54,54.08163265306123,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Gene,chromatin_h2bc21::Biohub_OPS0069,55,55.10204081632653,1,1,Nucleus,#3E6F9C
+Reporter × screen,Gene,oxidative_stress_cellrox_live-cell_dye::Biohub_OPS0048,56,56.12244897959184,1,1,Signaling,#7B6597
+Reporter × screen,Gene,er_sec61b::Biohub_OPS0006,57,57.142857142857146,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Gene,er_golgi_bridge_vapa::Biohub_OPS0021,58,58.16326530612245,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Gene,nucleolus-dfc_fbl::Biohub_OPS0062,59,59.183673469387756,1,1,Nucleus,#3E6F9C
+Reporter × screen,Gene,mitochondria_chromalive_561_excitation::Biohub_OPS0075,60,60.204081632653065,1,1,Mitochondria,#C85A3C
+Reporter × screen,Gene,mitochondria_chromalive_561_excitation::Biohub_OPS0063,61,61.224489795918366,1,1,Mitochondria,#C85A3C
+Reporter × screen,Gene,chaperones_hspa1b::Biohub_OPS0072,62,62.244897959183675,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Gene,er_golgi_bridge_vapa::Biohub_OPS0020,63,63.26530612244898,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Gene,nucleolus-gc_npm3::Biohub_OPS0042,64,64.28571428571429,1,1,Nucleus,#3E6F9C
+Reporter × screen,Gene,lysosome_lamp1::Biohub_OPS0012,65,65.3061224489796,1,1,Lysosome,#E8943A
+Reporter × screen,Gene,er_sec61b::Biohub_OPS0009,66,66.3265306122449,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Gene,microtubules_map4::Biohub_OPS0046,67,67.34693877551021,1,1,Cytoskeleton,#4FA7B8
+Reporter × screen,Gene,er_golgi_cope::Biohub_OPS0074,68,68.36734693877551,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Gene,peroxisome_peroxi_spy650_live_cell_dye::Biohub_OPS0057,69,69.38775510204081,1,1,Peroxisome,#D56C75
+Reporter × screen,Gene,er_sec61b::Biohub_OPS0008,70,70.40816326530613,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Gene,nucleolus-gc_npm3::Biohub_OPS0058,71,71.42857142857143,1,1,Nucleus,#3E6F9C
+Reporter × screen,Gene,er_sec61b::Biohub_OPS0005,72,72.44897959183673,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Gene,nuclear_speckles_srrm2::Biohub_OPS0061,73,73.46938775510205,1,1,Nucleus,#3E6F9C
+Reporter × screen,Gene,endosome_vps35::Biohub_OPS0025,74,74.48979591836735,1,1,Endosome,#C6A16A
+Reporter × screen,Gene,actin_filament_fastact_spy555_live_cell_dye::Biohub_OPS0076,75,75.51020408163265,1,1,Cytoskeleton,#4FA7B8
+Reporter × screen,Gene,recycling_endosome_tfrc::Biohub_OPS0027,76,76.53061224489797,1,1,Endosome,#C6A16A
+Reporter × screen,Gene,chaperones_hspa1b::Biohub_OPS0028,77,77.55102040816327,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Gene,recycling_endosome_tfrc::Biohub_OPS0060,78,78.57142857142857,1,1,Endosome,#C6A16A
+Reporter × screen,Gene,clathrin_vesicles_clta::Biohub_OPS0018,79,79.59183673469389,1,1,Lysosome,#E8943A
+Reporter × screen,Gene,actin_filament_fastact_spy555_live_cell_dye::Biohub_OPS0065,80,80.61224489795919,1,1,Cytoskeleton,#4FA7B8
+Reporter × screen,Gene,late_endosome_rab7a::Biohub_OPS0014,81,81.63265306122449,1,1,Endosome,#C6A16A
+Reporter × screen,Gene,fe2+_ferhonox_live-cell_dye::Biohub_OPS0047,82,82.6530612244898,1,1,Signaling,#7B6597
+Reporter × screen,Gene,actin_filament_fastact_spy555_live_cell_dye::Biohub_OPS0074,83,83.6734693877551,1,1,Cytoskeleton,#4FA7B8
+Reporter × screen,Gene,plasma_membrane_slc3a2::Biohub_OPS0003,84,84.6938775510204,1,1,Plasma Membrane,#9C8C72
+Reporter × screen,Gene,er_sec61b::Biohub_OPS0001,85,85.71428571428572,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Gene,lipid_droplet_bodipy_live_cell_dye::Biohub_OPS0034,86,86.73469387755102,1,1,Lysosome,#E8943A
+Reporter × screen,Gene,lysosome_lysotracker_live-cell_dye::Biohub_OPS0044,87,87.75510204081633,1,1,Lysosome,#E8943A
+Reporter × screen,Gene,autophagosome_map1lc3b::Biohub_OPS0040,88,88.77551020408164,1,1,Lysosome,#E8943A
+Reporter × screen,Gene,plasma_membrane_slc3a2::Biohub_OPS0004,89,89.79591836734694,1,1,Plasma Membrane,#9C8C72
+Reporter × screen,Gene,early_endosome_eea1::Biohub_OPS0039,90,90.81632653061224,1,1,Endosome,#C6A16A
+Reporter × screen,Gene,late_endosome_rab7a::Biohub_OPS0026,91,91.83673469387756,1,1,Endosome,#C6A16A
+Reporter × screen,Gene,lipid_droplet_bodipy_live_cell_dye::Biohub_OPS0066,92,92.85714285714286,1,1,Lysosome,#E8943A
+Reporter × screen,Gene,actin_filament_fastact_spy555_live_cell_dye::Biohub_OPS0033,93,93.87755102040816,1,1,Cytoskeleton,#4FA7B8
+Reporter × screen,Gene,er_golgi_cop-ii_sec23a::Biohub_OPS0035,94,94.89795918367348,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Gene,stress_granule_g3bp1::Biohub_OPS0037,95,95.91836734693878,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Gene,clathrin_vesicles_clta::Biohub_OPS0019,96,96.93877551020408,1,1,Lysosome,#E8943A
+Reporter × screen,Gene,actin_filament_fastact_spy555_live_cell_dye::Biohub_OPS0072,97,97.9591836734694,1,1,Cytoskeleton,#4FA7B8
+Reporter × screen,Gene,lysosome_lysotracker_live-cell_dye::Biohub_OPS0056,98,98.9795918367347,1,1,Lysosome,#E8943A
+Reporter × screen,Gene,lysosome_lysotracker_live-cell_dye::Biohub_OPS0055,99,100.0,1,1,Lysosome,#E8943A
+Reporter × screen,Whole-screen,fe2+_ferhonox_live-cell_dye::to::Biohub_OPS0067,1,0.0,1,1,Signaling,#7B6597
+Reporter × screen,Whole-screen,fe2+_ferhonox_live-cell_dye::to::Biohub_OPS0047,2,1.25,1,1,Signaling,#7B6597
+Reporter × screen,Whole-screen,lipid_droplet_plin2::to::Biohub_OPS0065,3,2.5,1,1,Lysosome,#E8943A
+Reporter × screen,Whole-screen,endocytic_vesicle_ph_phrodo-dextran_live_cell_dye::to::Biohub_OPS0064,4,3.75,1,1,Signaling,#7B6597
+Reporter × screen,Whole-screen,oxidative_stress_cellrox_live-cell_dye::to::Biohub_OPS0069,5,5.0,1,1,Signaling,#7B6597
+Reporter × screen,Whole-screen,endocytic_vesicle_ph_phrodo-dextran_live_cell_dye::to::Biohub_OPS0053,6,6.25,1,1,Signaling,#7B6597
+Reporter × screen,Whole-screen,lipid_droplet_plin2::to::Biohub_OPS0022,7,7.5,1,1,Lysosome,#E8943A
+Reporter × screen,Whole-screen,nucleolus-dfc_fbl::to::Biohub_OPS0062,8,8.75,1,1,Nucleus,#3E6F9C
+Reporter × screen,Whole-screen,nuclei_nucleolive_live_cell_dye::to::Biohub_OPS0061,9,10.0,1,1,Nucleus,#3E6F9C
+Reporter × screen,Whole-screen,er_golgi_cope::to::Biohub_OPS0074,10,11.25,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Whole-screen,nuclei_nucleolive_live_cell_dye::to::Biohub_OPS0062,11,12.5,1,1,Nucleus,#3E6F9C
+Reporter × screen,Whole-screen,nucleolus-dfc_fbl::to::Biohub_OPS0041,12,13.75,1,1,Nucleus,#3E6F9C
+Reporter × screen,Whole-screen,er_golgi_cope::to::Biohub_OPS0023,13,15.0,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Whole-screen,proteasome_psmb7::to::Biohub_OPS0070,14,16.25,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Whole-screen,caspase_activity_cellevent-caspase_live-cell_dye::to::Biohub_OPS0073,15,17.5,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Whole-screen,cell_proliferation_marker_mki67::to::Biohub_OPS0045,16,18.75,1,1,Nucleus,#3E6F9C
+Reporter × screen,Whole-screen,trans-golgi_vamp3::to::Biohub_OPS0059,17,20.0,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Whole-screen,mitochondria_tomm70a::to::Biohub_OPS0068,18,21.25,1,1,Mitochondria,#C85A3C
+Reporter × screen,Whole-screen,caspase_activity_cellevent-caspase_live-cell_dye::to::Biohub_OPS0050,19,22.5,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Whole-screen,cell_proliferation_marker_mki67::to::Biohub_OPS0057,20,23.75,1,1,Nucleus,#3E6F9C
+Reporter × screen,Whole-screen,trans-golgi_vamp3::to::Biohub_OPS0030,21,25.0,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Whole-screen,nuclear_speckles_srrm2::to::Biohub_OPS0061,22,26.25,1,1,Nucleus,#3E6F9C
+Reporter × screen,Whole-screen,peroxisome_peroxi_spy650_live_cell_dye::to::Biohub_OPS0045,23,27.5,1,1,Peroxisome,#D56C75
+Reporter × screen,Whole-screen,proteasome_psmb7::to::Biohub_OPS0029,24,28.75,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Whole-screen,oxidative_stress_cellrox_live-cell_dye::to::Biohub_OPS0048,25,30.0,1,1,Signaling,#7B6597
+Reporter × screen,Whole-screen,mitochondria_tomm70a::to::Biohub_OPS0015,26,31.25,1,1,Mitochondria,#C85A3C
+Reporter × screen,Whole-screen,chromalive_488_excitation::to::Biohub_OPS0002,27,32.5,1,1,Mitochondria,#C85A3C
+Reporter × screen,Whole-screen,nuclear_speckles_srrm2::to::Biohub_OPS0036,28,33.75,1,1,Nucleus,#3E6F9C
+Reporter × screen,Whole-screen,nucleolus-gc_npm3::to::Biohub_OPS0058,29,35.0,1,1,Nucleus,#3E6F9C
+Reporter × screen,Whole-screen,autophagosome_map1lc3b::to::Biohub_OPS0016,30,36.25,1,1,Lysosome,#E8943A
+Reporter × screen,Whole-screen,autophagosome_map1lc3b::to::Biohub_OPS0017,31,37.5,1,1,Lysosome,#E8943A
+Reporter × screen,Whole-screen,chromalive_488_excitation::to::Biohub_OPS0051,32,38.75,1,1,Mitochondria,#C85A3C
+Reporter × screen,Whole-screen,peroxisome_peroxi_spy650_live_cell_dye::to::Biohub_OPS0057,33,40.0,1,1,Peroxisome,#D56C75
+Reporter × screen,Whole-screen,autophagosome_atg101::to::Biohub_OPS0054,34,41.25,1,1,Lysosome,#E8943A
+Reporter × screen,Whole-screen,chromatin_h2bc21::to::Biohub_OPS0064,35,42.5,1,1,Nucleus,#3E6F9C
+Reporter × screen,Whole-screen,mitochondria_chromalive_561_excitation::to::Biohub_OPS0063,36,43.75,1,1,Mitochondria,#C85A3C
+Reporter × screen,Whole-screen,mitochondria_chromalive_561_excitation::to::Biohub_OPS0075,37,45.0,1,1,Mitochondria,#C85A3C
+Reporter × screen,Whole-screen,5xupre::to::Biohub_OPS0007,38,46.25,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Whole-screen,lysosome_lamp1::to::Biohub_OPS0011,39,47.5,1,1,Lysosome,#E8943A
+Reporter × screen,Whole-screen,nucleolus-gc_npm3::to::Biohub_OPS0042,40,48.75,1,1,Nucleus,#3E6F9C
+Reporter × screen,Whole-screen,chaperones_hspa1b::to::Biohub_OPS0072,41,50.0,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Whole-screen,autophagosome_atg101::to::Biohub_OPS0031,42,51.25,1,1,Lysosome,#E8943A
+Reporter × screen,Whole-screen,endosome_vps35::to::Biohub_OPS0013,43,52.5,1,1,Endosome,#C6A16A
+Reporter × screen,Whole-screen,autophagosome_map1lc3b::to::Biohub_OPS0040,44,53.75,1,1,Lysosome,#E8943A
+Reporter × screen,Whole-screen,5xupre::to::Biohub_OPS0009,45,55.0,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Whole-screen,plasma_membrane_atp1b3::to::Biohub_OPS0071,46,56.25,1,1,Plasma Membrane,#9C8C72
+Reporter × screen,Whole-screen,chromatin_h2bc21::to::Biohub_OPS0069,47,57.5,1,1,Nucleus,#3E6F9C
+Reporter × screen,Whole-screen,5xupre::to::Biohub_OPS0008,48,58.75,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Whole-screen,5xupre::to::Biohub_OPS0006,49,60.0,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Whole-screen,plasma_membrane_atp1b3::to::Biohub_OPS0032,50,61.25,1,1,Plasma Membrane,#9C8C72
+Reporter × screen,Whole-screen,5xupre::to::Biohub_OPS0005,51,62.5,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Whole-screen,5xupre::to::Biohub_OPS0001,52,63.75,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Whole-screen,er_sec61b::to::Biohub_OPS0007,53,65.0,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Whole-screen,lysosome_lamp1::to::Biohub_OPS0012,54,66.25,1,1,Lysosome,#E8943A
+Reporter × screen,Whole-screen,er_sec61b::to::Biohub_OPS0006,55,67.5,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Whole-screen,endosome_vps35::to::Biohub_OPS0025,56,68.75,1,1,Endosome,#C6A16A
+Reporter × screen,Whole-screen,er_golgi_bridge_vapa::to::Biohub_OPS0021,57,70.0,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Whole-screen,er_golgi_bridge_vapa::to::Biohub_OPS0020,58,71.25,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Whole-screen,chaperones_hspa1b::to::Biohub_OPS0028,59,72.5,1,1,Stress/PQC,#CC79A7
+Reporter × screen,Whole-screen,recycling_endosome_tfrc::to::Biohub_OPS0027,60,73.75,1,1,Endosome,#C6A16A
+Reporter × screen,Whole-screen,er_sec61b::to::Biohub_OPS0009,61,75.0,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Whole-screen,actin_filament_fastact_spy555_live_cell_dye::to::Biohub_OPS0076,62,76.25,1,1,Cytoskeleton,#4FA7B8
+Reporter × screen,Whole-screen,recycling_endosome_tfrc::to::Biohub_OPS0060,63,77.5,1,1,Endosome,#C6A16A
+Reporter × screen,Whole-screen,er_sec61b::to::Biohub_OPS0008,64,78.75,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Whole-screen,actin_filament_fastact_spy555_live_cell_dye::to::Biohub_OPS0065,65,80.0,1,1,Cytoskeleton,#4FA7B8
+Reporter × screen,Whole-screen,late_endosome_rab7a::to::Biohub_OPS0014,66,81.25,1,1,Endosome,#C6A16A
+Reporter × screen,Whole-screen,er_sec61b::to::Biohub_OPS0005,67,82.5,1,1,ER/Golgi,#4F9A70
+Reporter × screen,Whole-screen,clathrin_vesicles_clta::to::Biohub_OPS0018,68,83.75,1,1,Lysosome,#E8943A
+Reporter × screen,Whole-screen,actin_filament_fastact_spy555_live_cell_dye::to::Biohub_OPS0074,69,85.0,1,1,Cytoskeleton,#4FA7B8
+Reporter × screen,Whole-screen,late_endosome_rab7a::to::Biohub_OPS0026,70,86.25,1,1,Endosome,#C6A16A
+Reporter × screen,Whole-screen,plasma_membrane_slc3a2::to::Biohub_OPS0003,71,87.5,1,1,Plasma Membrane,#9C8C72
+Reporter × screen,Whole-screen,actin_filament_fastact_spy555_live_cell_dye::to::Biohub_OPS0072,72,88.75,1,1,Cytoskeleton,#4FA7B8
+Reporter × screen,Whole-screen,lipid_droplet_bodipy_live_cell_dye::to::Biohub_OPS0034,73,90.0,1,1,Lysosome,#E8943A
+Reporter × screen,Whole-screen,lysosome_lysotracker_live-cell_dye::to::Biohub_OPS0044,74,91.25,1,1,Lysosome,#E8943A
+Reporter × screen,Whole-screen,actin_filament_fastact_spy555_live_cell_dye::to::Biohub_OPS0033,75,92.5,1,1,Cytoskeleton,#4FA7B8
+Reporter × screen,Whole-screen,lipid_droplet_bodipy_live_cell_dye::to::Biohub_OPS0066,76,93.75,1,1,Lysosome,#E8943A
+Reporter × screen,Whole-screen,clathrin_vesicles_clta::to::Biohub_OPS0019,77,95.0,1,1,Lysosome,#E8943A
+Reporter × screen,Whole-screen,lysosome_lysotracker_live-cell_dye::to::Biohub_OPS0056,78,96.25,1,1,Lysosome,#E8943A
+Reporter × screen,Whole-screen,plasma_membrane_slc3a2::to::Biohub_OPS0004,79,97.5,1,1,Plasma Membrane,#9C8C72
+Reporter × screen,Whole-screen,lysosome_lysotracker_live-cell_dye::to::Biohub_OPS0055,80,98.75,1,1,Lysosome,#E8943A
+Reporter × screen,Whole-screen,er_sec61b::to::Biohub_OPS0001,81,100.0,1,1,ER/Golgi,#4F9A70

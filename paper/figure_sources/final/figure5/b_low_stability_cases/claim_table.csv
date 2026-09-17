@@ -1,0 +1,2 @@
+claim_id,status,claim,evidence,can_say,cannot_say
+F5B-1,supported,Low recoverability can coincide with unstable KO responses across wells and guide partitions,"pRb and NPM1 each have 3 well-pair values, 3 deterministic independent-guide-half values and 100 random-cell-half draws","For these fixed cases random cell halves are more consistent than well or guide partitions","Microscopy identifies the cause of instability or these two cases estimate prevalence across all reporters"

@@ -1,0 +1,31 @@
+{
+  "array_spec": "array:384x384:float32",
+  "asset_id": "npm1_phase_fold0",
+  "canonical_relative_path": "raw_assets/npm1_phase_fold0.npy",
+  "display_policy": "Use the per-panel fixed windows in render_spec.csv. Do not alter pixels, register, denoise, enhance, or content-edit this asset.",
+  "file_sha256": "09631a56903dd586f4a585dd88355bc80f913c02ce52b71d6012eaa0ab52be5a",
+  "orientation": "native stored orientation",
+  "pixel_sha256": "e0ee81c6f1d45bb0a363d016ea152eff4657e821832bd3936e17663e7f952592",
+  "provenance": {
+    "asset_id": "npm1_phase_fold0",
+    "channels": "phase only",
+    "figure_panel_usage": "Supplementary Fig.2b",
+    "filename": "npm1_phase_fold0.npy",
+    "gene": "",
+    "note": "",
+    "perturbation_role": "KO",
+    "phase_row_index": "5976007",
+    "pixel_size_um": 0.325,
+    "provenance_uri": "Local downloaded crop; original OPS source documented in the Supplementary Figure 2 source table.",
+    "reporter": "NPM1",
+    "reporter_slug": "nucleoli_npm1",
+    "screen_id": "Biohub_OPS0043",
+    "segmentation_id": "",
+    "selection_rule": "Closest to reporter-wise median of four phase-image statistics among 96 evenly spaced full-window targeting cells in held-out gene fold 0.",
+    "source_level": "downloaded level-0 crop",
+    "source_relative_path": "supplementary_figure2/b_representation_boundary/source_images/nucleoli_npm1_phase_crop.npy",
+    "use_status": "rendered",
+    "well": ""
+  },
+  "spatial_transform": "none"
+}

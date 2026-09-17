@@ -1,0 +1,21 @@
+registry_version: 1
+consensus:
+  name: ten_method_unweighted_median
+  aggregation: elementwise_median_after_alignment
+  uncertainty_unit: declared_biological_unit
+  prohibition: Do not treat methods as independent biological replicates or performance-weight them.
+methods:
+  - {id: ridge, display_name: Ridge, family: classical_tabular, task_mode: specialist, provenance: scikit-learn, license: BSD-3-Clause}
+  - {id: gbdt, display_name: GBDT, family: classical_tabular, task_mode: specialist, provenance: scikit-learn, license: BSD-3-Clause}
+  - {id: catboost, display_name: CatBoost, family: classical_tabular, task_mode: specialist, provenance: CatBoost, license: Apache-2.0}
+  - {id: mlp, display_name: MLP, family: neural_specialist, task_mode: specialist, provenance: "study implementation; source and training identities in studies/ops/model_sources.yaml", license: MIT}
+  - {id: tabm, display_name: TabM, family: neural_specialist, task_mode: specialist, provenance: "yandex-research/tabm@28e47ae301c92ec37787dde1ce923a0793f405b4; tabm.py sha256 fc654af6a16bac53d893a8265c79d7af4ebddcb95ad0d600cc6b6bc6b7317ade", license: Apache-2.0}
+  - {id: scbutterfly, display_name: scButterfly, family: neural_specialist, task_mode: specialist, provenance: "BioX-NKU/scButterfly@eb31e04bb8c4abdf85c4cbecd044fcd359105caa; included checksummed OPS runner at studies/ops/runners", license: MIT}
+  - {id: resmlp, display_name: ResMLP, family: generic_multitask, task_mode: shared_masked, provenance: "study implementation; source and training identities in studies/ops/model_sources.yaml", license: MIT}
+  - {id: multitab, display_name: MultiTab, family: generic_multitask, task_mode: shared_masked, provenance: "study implementation; source and training identities in studies/ops/model_sources.yaml", license: MIT}
+  - {id: midas, display_name: MIDAS, family: biological_completion, task_mode: declared_adapter, provenance: "labomics/midas@3ef7847c88c90583c05147cafef496d862986dd3; included checksummed OPS runner at studies/ops/runners", license: "NOASSERTION at pinned upstream commit; MIT study adapter"}
+  - {id: scpair, display_name: scPair, family: biological_completion, task_mode: declared_adapter, provenance: "quon-titative-biology/scPair@c585949ca8ea1314f5e68b260e3d9c5b2dabe61c; included OPS runner at studies/ops/runners", license: MIT}
+registry_checks:
+  expected_count: 10
+  required_display_names: [Ridge, GBDT, CatBoost, MLP, TabM, scButterfly, ResMLP, MultiTab, MIDAS, scPair]
+  required_capabilities: [heterogeneous_endpoint_mask, declared_split, reproducible_seed]

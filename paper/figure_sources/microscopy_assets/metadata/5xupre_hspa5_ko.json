@@ -1,0 +1,31 @@
+{
+  "array_spec": "fluorescence:384x384:float32; phase:384x384:float32",
+  "asset_id": "5xupre_hspa5_ko",
+  "canonical_relative_path": "raw_assets/5xupre_hspa5_ko.npz",
+  "display_policy": "Use the per-panel fixed windows in render_spec.csv. Do not alter pixels, register, denoise, enhance, or content-edit this asset.",
+  "file_sha256": "d4ed434de65d8cc1fb0ef0137cbf8189b23377fb6e8e3d07e87cb9e27b28d31b",
+  "orientation": "native stored orientation",
+  "pixel_sha256": "f68ae34200c729dcb7b5cf91f9126db63dace16c287dfd424fd96f45a7cdd555",
+  "provenance": {
+    "asset_id": "5xupre_hspa5_ko",
+    "channels": "phase=0; fluorescence=2",
+    "figure_panel_usage": "Fig.3a",
+    "filename": "5xupre_hspa5_ko.npz",
+    "gene": "HSPA5",
+    "note": "",
+    "perturbation_role": "KO",
+    "phase_row_index": "6734514",
+    "pixel_size_um": 0.325,
+    "provenance_uri": "s3://ops-explorer-public/leonetti_ops/ops_data_portal_submission/v1.0.20260521/datasets/Biohub_OPS0001/Biohub_OPS0001.zarr",
+    "reporter": "5xUPRE",
+    "reporter_slug": "5xupre",
+    "screen_id": "Biohub_OPS0001",
+    "segmentation_id": "9973218",
+    "selection_rule": "Frozen pre-specified microscopy roster; selection independent of canonical aggregation repair.",
+    "source_level": "OME-Zarr level 0",
+    "source_relative_path": "figure3/source_data/microscopy/5xupre_hspa5_ko.npz",
+    "use_status": "rendered",
+    "well": "A/3/0"
+  },
+  "spatial_transform": "none"
+}

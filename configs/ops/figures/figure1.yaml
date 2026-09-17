@@ -1,0 +1,13 @@
+figure: 1
+role: atlas_and_sparse_topology
+canonical_inputs: [reporters, assays, observations, perturbation_response_atlas, microscopy_selection_manifest]
+required_columns:
+  reporters: [reporter_id, biological_system, endpoint_schema_id]
+  assays: [assay_id, reporter_id, screen_id]
+  observations: [observation_id, input_cell_id, target_cell_id]
+statistical_units: [reporter, physical_screen, reporter_screen_assay, reporter_perturbation]
+invariants: [10_biological_systems, 52_reporters, 99_assay_edges, 73_physical_screens, exact_pairing_for_microscopy]
+consensus: not_applicable_to_observed_atlas
+ordering: canonical_ten_method_median_if_model_derived_ordering_is_used
+output: {formats: [pdf, svg, png], panels: [a, b, c, d, e, f, g]}
+forbidden: [training, result_reestimation, undeclared_filtering]

@@ -1,0 +1,19 @@
+figure_id: Figure1-d
+role: main
+canvas: {width_mm: 58, height_mm: 52}
+scientific_contract:
+  row: "targeted reporter (n=52)"
+  column: "gene knockout (n=1,000)"
+  value: "within-reporter KO-response percentile"
+  analysis_mode: descriptive_enumeration
+  uncertainty: none
+transformations: ["none; frozen percentiles retained"]
+palette: "blue-white-red centred at percentile 0.5"
+font: Arial
+minimum_font_pt: 6.0
+exports: [PNG_600dpi, PDF, SVG_live_text]
+source_data:
+  reporter_order: source_data/reporter_order.csv
+  reporter_annotations: source_data/reporter_annotations.csv
+  mean_response: source_data/mean_response_percentile.csv
+code: code/build_figure1d.py

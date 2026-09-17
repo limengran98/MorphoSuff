@@ -1,0 +1,30 @@
+{
+  "figure": "Supplementary Figure 1",
+  "claim": "The common decision framework is fully auditable across OPS, OASIS and PERISCOPE.",
+  "panel_a": "all 52 OPS reporters by five frozen evidence gates",
+  "ops_estimator": "coherent checkpoint-average median ensemble, before equal-screen gene averaging",
+  "ops_recovery": "arithmetic fivefold mean of ensemble endpoint-macro Pearson",
+  "derived_ops_source": "../final/figure6/code/rebuild_coherent_statistics.py",
+  "physical_size_mm": [
+    183.0,
+    190.0
+  ],
+  "panel_b": "all admitted external rows, permutation controls and four-dye substitution sensitivity rows",
+  "no_model_fitting": true,
+  "source_tables": [
+    "source_data/ops_reporter_threshold_margins.csv",
+    "source_data/external_context/cross_context_gate_summary.csv",
+    "source_data/external_context/cross_context_gate_rows.csv",
+    "source_data/external_context/cross_context_replicate_detail.csv"
+  ],
+  "supplementary_table_sources": [
+    "source_data/external_context/admission_funnel.csv",
+    "source_data/external_context/admission_evidence_tiers.csv",
+    "source_data/external_context/batch_verdicts.csv"
+  ],
+  "sha256": {
+    "pdf": "2b80e85329671ec1947ae4089152691d6178e82d2dd8acb1c820baec7a452e78",
+    "svg": "deedda280297e28f4b98837f18103f3d60a278bee543c9119fcbb9560ea0731e",
+    "png": "98c39d46714dd9406633857198e444aee6649b6bfb2df361cc564ae47b9ad1d1"
+  }
+}

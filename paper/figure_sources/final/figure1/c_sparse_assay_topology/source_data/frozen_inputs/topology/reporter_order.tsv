@@ -1,0 +1,53 @@
+reporter_slug	display_name	biological_category	n_screens	screen_ids	n_exact_assay_cell_links	figure_row	label_flag	label_reason
+late_endosome_rab7a	RAB7A	Endosome	2	Biohub_OPS0014;Biohub_OPS0026	124176	0	True	manuscript_case;system_representative;alternating_fill
+recycling_endosome_tfrc	TFRC	Endosome	2	Biohub_OPS0027;Biohub_OPS0060	240436	1	False
+endosome_vps35	VPS35	Endosome	2	Biohub_OPS0013;Biohub_OPS0025	180485	2	True	alternating_fill
+early_endosome_eea1	EEA1	Endosome	1	Biohub_OPS0039	139936	3	False
+lysosome_lysotracker_live-cell_dye	LysoTracker	Lysosome	3	Biohub_OPS0044;Biohub_OPS0055;Biohub_OPS0056	288734	4	True	manuscript_case;repeated_ge3_screens;system_representative;alternating_fill
+autophagosome_map1lc3b	MAP1LC3B	Lysosome	3	Biohub_OPS0016;Biohub_OPS0017;Biohub_OPS0040	359112	5	True	manuscript_case;repeated_ge3_screens
+autophagosome_atg101	ATG101	Lysosome	2	Biohub_OPS0031;Biohub_OPS0054	166986	6	True	alternating_fill
+lipid_droplet_bodipy_live_cell_dye	BODIPY	Lysosome	2	Biohub_OPS0034;Biohub_OPS0066	154449	7	False
+clathrin_vesicles_clta	CLTA	Lysosome	2	Biohub_OPS0018;Biohub_OPS0019	170667	8	True	alternating_fill
+lysosome_lamp1	LAMP1	Lysosome	2	Biohub_OPS0011;Biohub_OPS0012	124870	9	True	manuscript_case
+lipid_droplet_plin2	PLIN2	Lysosome	2	Biohub_OPS0022;Biohub_OPS0065	180794	10	True	alternating_fill
+er_sec61b	SEC61B	ER/Golgi	6	Biohub_OPS0001;Biohub_OPS0005;Biohub_OPS0006;Biohub_OPS0007;Biohub_OPS0008;Biohub_OPS0009	433351	11	True	manuscript_case;repeated_ge3_screens;system_representative
+er_golgi_cope	COPE	ER/Golgi	2	Biohub_OPS0023;Biohub_OPS0074	226855	12	False
+trans-golgi_vamp3	VAMP3	ER/Golgi	2	Biohub_OPS0030;Biohub_OPS0059	206583	13	False
+er_golgi_bridge_vapa	VAPA	ER/Golgi	2	Biohub_OPS0020;Biohub_OPS0021	237525	14	False
+er_cona	ConA	ER/Golgi	1	Biohub_OPS0043	111573	15	False
+er_ncln	NCLN	ER/Golgi	1	Biohub_OPS0052	132163	16	False
+er_golgi_cop-ii_sec23a	SEC23A	ER/Golgi	1	Biohub_OPS0035	130846	17	True	manuscript_case
+actin_filament_fastact_spy555_live_cell_dye	FastAct	Cytoskeleton	5	Biohub_OPS0033;Biohub_OPS0065;Biohub_OPS0072;Biohub_OPS0074;Biohub_OPS0076	521116	18	True	manuscript_case;repeated_ge3_screens;system_representative
+microtubules_map4	MAP4	Cytoskeleton	1	Biohub_OPS0046	153231	19	False
+f-actin_phalloidin	Phalloidin	Cytoskeleton	1	Biohub_OPS0043	111573	20	False
+microtubules_tubulin	Tubulin	Cytoskeleton	1	Biohub_OPS0043	111573	21	False
+peroxisome_peroxi_spy650_live_cell_dye	Peroxi	Peroxisome	2	Biohub_OPS0045;Biohub_OPS0057	197625	22	True	manuscript_case;system_representative
+5xupre	5xUPRE	Stress/PQC	6	Biohub_OPS0001;Biohub_OPS0005;Biohub_OPS0006;Biohub_OPS0007;Biohub_OPS0008;Biohub_OPS0009	433351	23	True	manuscript_case;repeated_ge3_screens;system_representative
+caspase_activity_cellevent-caspase_live-cell_dye	Caspase	Stress/PQC	2	Biohub_OPS0050;Biohub_OPS0073	157180	24	False
+chaperones_hspa1b	HSPA1B	Stress/PQC	2	Biohub_OPS0028;Biohub_OPS0072	193356	25	True	manuscript_case
+proteasome_psmb7	PSMB7	Stress/PQC	2	Biohub_OPS0029;Biohub_OPS0070	197614	26	False
+stress_granule_g3bp1	G3BP1	Stress/PQC	1	Biohub_OPS0037	157307	27	False
+chromalive_488_excitation	ChromaLIVE 488	Mitochondria	2	Biohub_OPS0002;Biohub_OPS0051	188615	28	False	system_representative
+mitochondria_chromalive_561_excitation	ChromaLIVE 561	Mitochondria	2	Biohub_OPS0063;Biohub_OPS0075	234909	29	False
+mitochondria_tomm70a	TOMM70A	Mitochondria	2	Biohub_OPS0015;Biohub_OPS0068	139205	30	False
+mitochondria_tomm20	TOMM20	Mitochondria	1	Biohub_OPS0043	111573	31	True	manuscript_case
+plasma_membrane_atp1b3	ATP1B3	Plasma Membrane	2	Biohub_OPS0032;Biohub_OPS0071	248481	32	True	system_representative
+plasma_membrane_slc3a2	SLC3A2	Plasma Membrane	2	Biohub_OPS0003;Biohub_OPS0004	145845	33	False
+plasma_membrane_wga	WGA	Plasma Membrane	1	Biohub_OPS0043	111573	34	True	manuscript_case
+nucleolus-dfc_fbl	FBL	Nucleus	2	Biohub_OPS0041;Biohub_OPS0062	224402	35	True	system_representative
+chromatin_h2bc21	H2BC21	Nucleus	2	Biohub_OPS0064;Biohub_OPS0069	306698	36	False
+cell_proliferation_marker_mki67	MKI67	Nucleus	2	Biohub_OPS0045;Biohub_OPS0057	197625	37	False
+nucleolus-gc_npm3	NPM3	Nucleus	2	Biohub_OPS0042;Biohub_OPS0058	213118	38	True	manuscript_case
+nuclei_nucleolive_live_cell_dye	NucleoLIVE	Nucleus	2	Biohub_OPS0061;Biohub_OPS0062	269328	39	False
+nuclear_speckles_srrm2	SRRM2	Nucleus	2	Biohub_OPS0036;Biohub_OPS0061	277841	40	False
+nuclei_hoechst	Hoechst	Nucleus	1	Biohub_OPS0043	111573	41	True	manuscript_case
+nucleoli_npm1	NPM1	Nucleus	1	Biohub_OPS0043	111573	42	True	manuscript_case
+oxidative_stress_cellrox_live-cell_dye	CellROX	Signaling	2	Biohub_OPS0048;Biohub_OPS0069	269638	43	True	system_representative
+fe2+_ferhonox_live-cell_dye	FeRhoNox	Signaling	2	Biohub_OPS0047;Biohub_OPS0067	211029	44	True	manuscript_case
+endocytic_vesicle_ph_phrodo-dextran_live_cell_dye	pHrodo-dextran	Signaling	2	Biohub_OPS0053;Biohub_OPS0064	238077	45	False
+b-catenin	b-catenin	Signaling	1	Biohub_OPS0077	90286	46	False
+c-myc	c-Myc	Signaling	1	Biohub_OPS0077	90286	47	True	manuscript_case
+p21	p21	Signaling	1	Biohub_OPS0077	90286	48	False
+p53	p53	Signaling	1	Biohub_OPS0077	90286	49	False
+prb	pRb	Signaling	1	Biohub_OPS0077	90286	50	True	manuscript_case
+ps6	pS6	Signaling	1	Biohub_OPS0077	90286	51	True	manuscript_case

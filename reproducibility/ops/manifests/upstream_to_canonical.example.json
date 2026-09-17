@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "dataset_id": "ops_release",
+  "capabilities": {
+    "exact_pairing": true,
+    "raw_images": false,
+    "guides": true,
+    "screen_matched_controls": true,
+    "repeated_screens": true,
+    "covariates": true
+  },
+  "input_schema": {
+    "schema_id": "ops_morphology_172_v1",
+    "representation": "tabular",
+    "feature_names": ["feature_001", "feature_002"]
+  },
+  "tables": {
+    "observations": {
+      "path": "upstream/paired_cells.csv",
+      "columns": {
+        "observation_id": "row_id",
+        "input_cell_id": "phase_cell_id",
+        "target_cell_id": "reporter_cell_id",
+        "assay_id": "assay_key",
+        "perturbation_id": "gene_id",
+        "guide_id": "guide",
+        "screen_id": "screen",
+        "well_id": "well",
+        "field_id": "field",
+        "is_control": "condition_type"
+      }
+    },
+    "reporters": {
+      "path": "upstream/reporters.csv",
+      "columns": {
+        "reporter_id": "reporter_key",
+        "reporter_name": "display_name",
+        "biological_system": "system",
+        "target_modality": "modality",
+        "endpoint_schema_id": "endpoint_block"
+      }
+    },
+    "assays": {
+      "path": "upstream/assays.csv",
+      "columns": {
+        "assay_id": "assay_key",
+        "reporter_id": "reporter_key",
+        "screen_id": "screen",
+        "endpoint_ids": "endpoints"
+      }
+    },
+    "pairing": {
+      "path": "upstream/pairing.csv",
+      "columns": {
+        "observation_id": "row_id",
+        "input_cell_id": "phase_cell_id",
+        "target_cell_id": "reporter_cell_id",
+        "assay_id": "assay_key",
+        "pairing_key": "linkage_key",
+        "pairing_confidence": "linkage_confidence"
+      }
+    }
+  }
+}

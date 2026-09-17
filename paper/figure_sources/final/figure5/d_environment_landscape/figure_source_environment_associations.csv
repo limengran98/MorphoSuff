@@ -1,0 +1,3 @@
+predictor,label,rho_transfer_loss,ci95_low,ci95_high,n_directions,n_reporters,cluster_permutation_p
+phase_ntc_shift_rms_smd,Phase NTC,0.6869467028003614,0.4744067029220317,0.8085149223949385,81,34,0.0003332222592469
+phenotype_ntc_shift_rms_smd,Target NTC,0.7508355916892502,0.5974503856156218,0.8286018634180085,81,34,0.0003332222592469

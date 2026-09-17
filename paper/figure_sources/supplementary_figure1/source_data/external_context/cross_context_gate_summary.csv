@@ -1,0 +1,26 @@
+row_key,label,metric,metric_label,value,threshold_min,threshold_max,passes,passed_units,total_units,verdict,tier_counts
+ops,OPS reporter atlas,recoverability_r,Recovery,0.7624617968263623,0.7,,True,39.0,52.0,30 quantitative / 7 ranking / 3 required / 9 not ID / 3 unresolved,quantitative_proxy:30;ranking_proxy:7;measurement_required:3;not_identifiable:9;unresolved:3
+ops,OPS reporter atlas,magnitude_spearman,Rank,0.8253956433956435,0.7,,True,42.0,52.0,30 quantitative / 7 ranking / 3 required / 9 not ID / 3 unresolved,quantitative_proxy:30;ranking_proxy:7;measurement_required:3;not_identifiable:9;unresolved:3
+ops,OPS reporter atlas,variance_ratio,Amplitude,0.7785387152979856,0.5,1.5,True,41.0,52.0,30 quantitative / 7 ranking / 3 required / 9 not ID / 3 unresolved,quantitative_proxy:30;ranking_proxy:7;measurement_required:3;not_identifiable:9;unresolved:3
+ops,OPS reporter atlas,top5pct_recall,Top-5%,0.79,0.6,,True,41.0,52.0,30 quantitative / 7 ranking / 3 required / 9 not ID / 3 unresolved,quantitative_proxy:30;ranking_proxy:7;measurement_required:3;not_identifiable:9;unresolved:3
+ops,OPS reporter atlas,reliability,Reliability,0.4616904325840867,0.3,,True,43.0,52.0,30 quantitative / 7 ranking / 3 required / 9 not ID / 3 unresolved,quantitative_proxy:30;ranking_proxy:7;measurement_required:3;not_identifiable:9;unresolved:3
+oasis:mtt_viability,Metabolic activity,recoverability_r,Recovery,0.826094403561396,0.7,,True,,,unresolved,
+oasis:mtt_viability,Metabolic activity,magnitude_spearman,Rank,0.6041505188442152,0.7,,False,,,unresolved,
+oasis:mtt_viability,Metabolic activity,variance_ratio,Amplitude,0.89703992643403,0.5,1.5,True,,,unresolved,
+oasis:mtt_viability,Metabolic activity,top5pct_recall,Top-5%,0.7272727272727273,0.6,,True,,,unresolved,
+oasis:mtt_viability,Metabolic activity,reliability,Reliability,0.7162720741260995,0.3,,True,,,unresolved,
+oasis:ldh_release,LDH release,recoverability_r,Recovery,0.6703210612939918,0.7,,False,,,unresolved,
+oasis:ldh_release,LDH release,magnitude_spearman,Rank,0.6325800814554884,0.7,,False,,,unresolved,
+oasis:ldh_release,LDH release,variance_ratio,Amplitude,0.7360849367366954,0.5,1.5,True,,,unresolved,
+oasis:ldh_release,LDH release,top5pct_recall,Top-5%,0.7272727272727273,0.6,,True,,,unresolved,
+oasis:ldh_release,LDH release,reliability,Reliability,0.6383702228050183,0.3,,True,,,unresolved,
+periscope_cells:tomm20_mito,anti-TOMM20,recoverability_r,Recovery,0.7602489189323185,0.7,,True,,,not identifiable,
+periscope_cells:tomm20_mito,anti-TOMM20,magnitude_spearman,Rank,0.8515795085501604,0.7,,True,,,not identifiable,
+periscope_cells:tomm20_mito,anti-TOMM20,variance_ratio,Amplitude,0.5092803360785861,0.5,1.5,True,,,not identifiable,
+periscope_cells:tomm20_mito,anti-TOMM20,top5pct_recall,Top-5%,0.6274509803921569,0.6,,True,,,not identifiable,
+periscope_cells:tomm20_mito,anti-TOMM20,reliability,Reliability,0.0051509934755871,0.3,,False,,,not identifiable,
+periscope_guide:tomm20_mito,anti-TOMM20,recoverability_r,Recovery,0.7244846405595476,0.7,,True,,,not identifiable,
+periscope_guide:tomm20_mito,anti-TOMM20,magnitude_spearman,Rank,0.911908535650516,0.7,,True,,,not identifiable,
+periscope_guide:tomm20_mito,anti-TOMM20,variance_ratio,Amplitude,0.5587221227268911,0.5,1.5,True,,,not identifiable,
+periscope_guide:tomm20_mito,anti-TOMM20,top5pct_recall,Top-5%,0.6911764705882353,0.6,,True,,,not identifiable,
+periscope_guide:tomm20_mito,anti-TOMM20,reliability,Reliability,0.0473571535467417,0.3,,False,,,not identifiable,

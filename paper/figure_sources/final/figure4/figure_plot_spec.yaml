@@ -1,0 +1,49 @@
+figure_id: Figure4
+title: Targeted-state fidelity has separable cell, perturbation and transfer limits
+destination: main
+canvas_mm: [183, 214]
+font: Arial
+minimum_final_type_pt: 5.0
+main_claim: >-
+  Exact same-cell morphology contains reporter-specific information beyond
+  condition means and coarse size/shape shortcuts, but quantitative response
+  fidelity, perturbation ranking and cross-screen transfer remain separable.
+
+panels:
+  a:
+    question: Which information interventions destroy exact-pair recoverability?
+    one_row_represents: reporter
+    inferential_unit: reporter (n=52)
+    estimator: frozen reporter-specific MLP; arithmetic mean across five frozen held-out-gene folds
+    pairing: reporter_slug across information arms
+    uncertainty: reporter-resampled 95% bootstrap CI for mean exact-minus-control effect
+    visual_grammar: mirrored rainclouds plus paired effect clouds
+    exclusions: [cross-fitted residual arm, shown in panel b]
+  b:
+    question: Does cell-specific signal remain after removing gene-by-screen condition means?
+    one_row_represents: reporter
+    inferential_unit: reporter (n=52)
+    pairing: exact_pair and within_condition_residual within reporter_slug
+    uncertainty: reporter-level distribution and bootstrap summary
+    visual_grammar: marginal raincloud plus paired reporter dumbbell barcode
+  c:
+    question: How do quantitative, pattern-retaining and amplitude-compressed reconstructions differ?
+    one_row_represents: reporter-gene or frozen gene-by-screen response profile
+    inferential_unit: reporter-gene for magnitude summaries; frozen profile row for heatmaps
+    aggregation: element-wise unweighted median of ten aligned out-of-fold model predictions
+    selection: three frozen high/intermediate/amplitude-compressed examples
+    visual_grammar: aligned heatmaps, agreement plots and registered microscopy
+  d:
+    question: Do response reconstruction and strong-response ranking separate under physical screen transfer?
+    one_row_represents: reporter-to-destination-screen direction within method
+    inferential_unit: transfer direction (n=81 per method)
+    aggregation: ten frozen methods displayed separately; no model averaging
+    selection: two frozen representative transfer directions
+    visual_grammar: response-rank curves plus aligned all-method raincloud distributions
+
+frozen_rules:
+  - Do not refit or select models in the figure builder.
+  - Do not change reporter, method or case selection after viewing v2.
+  - Do not treat folds, cells or model identities as biological replicates.
+  - Do not add reporter-level significance values or volcano-style FDR axes.
+  - Dense matrices and microscopy may be rasterized; labels and axes remain vector.

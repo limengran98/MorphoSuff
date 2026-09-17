@@ -1,0 +1,4 @@
+asset_key,diagnostic_cell_id,well_canonical,relative_path,sha256,bytes
+cell_00,prb::phase_row_703281,A/1/0,source_data/microscopy/cell_00.npz,c194e7ce8f8a4b6cc24a61b874c7b6296872d8a9378700cc58679447e98132dd,1089752
+cell_01,prb::phase_row_3159763,A/2/0,source_data/microscopy/cell_01.npz,e1e21cd8b833f29ad230dc139fe942f18fab2d52b8bcfd03a081270f1f065398,1081998
+cell_02,prb::phase_row_742457,A/3/0,source_data/microscopy/cell_02.npz,2e7b24da53a9b18f00c3451a6c80a31b6fc3f52d7ce73f9f2230d9bbab1f270e,1087108

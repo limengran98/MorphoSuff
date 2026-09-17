@@ -1,0 +1,261 @@
+reporter_index,metric_index,reporter_slug,short_name,tier,metric,source_column,value,threshold,scaled_margin,passes
+0,0,stress_granule_g3bp1,G3BP1,quantitative_proxy,Recovery,ensemble_recoverability_r,0.9324876788211308,0.7,0.7749589294037694,True
+0,1,stress_granule_g3bp1,G3BP1,quantitative_proxy,Rank,magnitude_spearman,0.9342547302547302,0.7,0.7808491008491005,True
+0,2,stress_granule_g3bp1,G3BP1,quantitative_proxy,Amplitude,magnitude_variance_ratio,1.043912150978496,"[0.5, 1.5]",0.9121756980430078,True
+0,3,stress_granule_g3bp1,G3BP1,quantitative_proxy,Top-5%,top5pct_recall,0.88,0.6,0.7000000000000001,True
+0,4,stress_granule_g3bp1,G3BP1,quantitative_proxy,Reliability,reliability,0.5489821526032832,0.3,0.35568878943326177,True
+1,0,lysosome_lysotracker_live-cell_dye,LysoTracker live-cell dye,quantitative_proxy,Recovery,ensemble_recoverability_r,0.93490548931505,0.7,0.7830182977168334,True
+1,1,lysosome_lysotracker_live-cell_dye,LysoTracker live-cell dye,quantitative_proxy,Rank,magnitude_spearman,0.9877188397188398,0.7,0.9590627990627992,True
+1,2,lysosome_lysotracker_live-cell_dye,LysoTracker live-cell dye,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.93033168340503,"[0.5, 1.5]",0.8606633668100601,True
+1,3,lysosome_lysotracker_live-cell_dye,LysoTracker live-cell dye,quantitative_proxy,Top-5%,top5pct_recall,0.92,0.6,0.8000000000000002,True
+1,4,lysosome_lysotracker_live-cell_dye,LysoTracker live-cell dye,quantitative_proxy,Reliability,reliability,0.8118267526031067,0.3,0.7311810751472952,True
+2,0,er_golgi_cop-ii_sec23a,SEC23A,quantitative_proxy,Recovery,ensemble_recoverability_r,0.9308613195197672,0.7,0.7695377317325576,True
+2,1,er_golgi_cop-ii_sec23a,SEC23A,quantitative_proxy,Rank,magnitude_spearman,0.9429933669933668,0.7,0.8099778899778893,True
+2,2,er_golgi_cop-ii_sec23a,SEC23A,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.874519085676562,"[0.5, 1.5]",0.749038171353124,True
+2,3,er_golgi_cop-ii_sec23a,SEC23A,quantitative_proxy,Top-5%,top5pct_recall,0.92,0.6,0.8000000000000002,True
+2,4,er_golgi_cop-ii_sec23a,SEC23A,quantitative_proxy,Reliability,reliability,0.7963114253629393,0.3,0.7090163219470562,True
+3,0,early_endosome_eea1,EEA1,quantitative_proxy,Recovery,ensemble_recoverability_r,0.923219694743772,0.7,0.7440656491459066,True
+3,1,early_endosome_eea1,EEA1,quantitative_proxy,Rank,magnitude_spearman,0.9728429768429768,0.7,0.9094765894765894,True
+3,2,early_endosome_eea1,EEA1,quantitative_proxy,Amplitude,magnitude_variance_ratio,1.0018714671850175,"[0.5, 1.5]",0.996257065629965,True
+3,3,early_endosome_eea1,EEA1,quantitative_proxy,Top-5%,top5pct_recall,0.96,0.6,0.8999999999999999,True
+3,4,early_endosome_eea1,EEA1,quantitative_proxy,Reliability,reliability,0.7784811755482057,0.3,0.6835445364974368,True
+4,0,lipid_droplet_bodipy_live_cell_dye,BODIPY live cell dye,quantitative_proxy,Recovery,ensemble_recoverability_r,0.9235090597591196,0.7,0.7450301991970653,True
+4,1,lipid_droplet_bodipy_live_cell_dye,BODIPY live cell dye,quantitative_proxy,Rank,magnitude_spearman,0.960959316959317,0.7,0.8698643898643901,True
+4,2,lipid_droplet_bodipy_live_cell_dye,BODIPY live cell dye,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.794749466510299,"[0.5, 1.5]",0.589498933020598,True
+4,3,lipid_droplet_bodipy_live_cell_dye,BODIPY live cell dye,quantitative_proxy,Top-5%,top5pct_recall,0.96,0.6,0.8999999999999999,True
+4,4,lipid_droplet_bodipy_live_cell_dye,BODIPY live cell dye,quantitative_proxy,Reliability,reliability,0.693173451270225,0.3,0.5616763589574644,True
+5,0,late_endosome_rab7a,RAB7A,quantitative_proxy,Recovery,ensemble_recoverability_r,0.9199228804921062,0.7,0.7330762683070209,True
+5,1,late_endosome_rab7a,RAB7A,quantitative_proxy,Rank,magnitude_spearman,0.9536693216693218,0.7,0.8455644055644062,True
+5,2,late_endosome_rab7a,RAB7A,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.8287993930605023,"[0.5, 1.5]",0.6575987861210046,True
+5,3,late_endosome_rab7a,RAB7A,quantitative_proxy,Top-5%,top5pct_recall,0.96,0.6,0.8999999999999999,True
+5,4,late_endosome_rab7a,RAB7A,quantitative_proxy,Reliability,reliability,0.5437250794222616,0.3,0.3481786848889451,True
+6,0,actin_filament_fastact_spy555_live_cell_dye,FastAct_SPY555 Live Cell Dye,quantitative_proxy,Recovery,ensemble_recoverability_r,0.9186551056294152,0.7,0.7288503520980507,True
+6,1,actin_filament_fastact_spy555_live_cell_dye,FastAct_SPY555 Live Cell Dye,quantitative_proxy,Rank,magnitude_spearman,0.9713158073158076,0.7,0.9043860243860252,True
+6,2,actin_filament_fastact_spy555_live_cell_dye,FastAct_SPY555 Live Cell Dye,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.934008721749014,"[0.5, 1.5]",0.8680174434980279,True
+6,3,actin_filament_fastact_spy555_live_cell_dye,FastAct_SPY555 Live Cell Dye,quantitative_proxy,Top-5%,top5pct_recall,0.94,0.6,0.8499999999999999,True
+6,4,actin_filament_fastact_spy555_live_cell_dye,FastAct_SPY555 Live Cell Dye,quantitative_proxy,Reliability,reliability,0.4815571491092879,0.3,0.25936735587041126,True
+7,0,plasma_membrane_slc3a2,SLC3A2,quantitative_proxy,Recovery,ensemble_recoverability_r,0.9125596810075852,0.7,0.7085322700252841,True
+7,1,plasma_membrane_slc3a2,SLC3A2,quantitative_proxy,Rank,magnitude_spearman,0.9344774504774508,0.7,0.7815915015915027,True
+7,2,plasma_membrane_slc3a2,SLC3A2,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.8999707561799031,"[0.5, 1.5]",0.7999415123598062,True
+7,3,plasma_membrane_slc3a2,SLC3A2,quantitative_proxy,Top-5%,top5pct_recall,0.88,0.6,0.7000000000000001,True
+7,4,plasma_membrane_slc3a2,SLC3A2,quantitative_proxy,Reliability,reliability,0.4535912492305982,0.3,0.219416070329426,True
+8,0,clathrin_vesicles_clta,CLTA,quantitative_proxy,Recovery,ensemble_recoverability_r,0.9145526433041556,0.7,0.7151754776805188,True
+8,1,clathrin_vesicles_clta,CLTA,quantitative_proxy,Rank,magnitude_spearman,0.9554859914859912,0.7,0.8516199716199708,True
+8,2,clathrin_vesicles_clta,CLTA,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.985584518519466,"[0.5, 1.5]",0.9711690370389321,True
+8,3,clathrin_vesicles_clta,CLTA,quantitative_proxy,Top-5%,top5pct_recall,0.92,0.6,0.8000000000000002,True
+8,4,clathrin_vesicles_clta,CLTA,quantitative_proxy,Reliability,reliability,0.5686643877978657,0.3,0.3838062682826653,True
+9,0,autophagosome_map1lc3b,MAP1LC3B,quantitative_proxy,Recovery,ensemble_recoverability_r,0.9001608299252496,0.7,0.6672027664174986,True
+9,1,autophagosome_map1lc3b,MAP1LC3B,quantitative_proxy,Rank,magnitude_spearman,0.9305271065271066,0.7,0.7684236884236886,True
+9,2,autophagosome_map1lc3b,MAP1LC3B,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.9347263774201356,"[0.5, 1.5]",0.8694527548402713,True
+9,3,autophagosome_map1lc3b,MAP1LC3B,quantitative_proxy,Top-5%,top5pct_recall,0.86,0.6,0.65,True
+9,4,autophagosome_map1lc3b,MAP1LC3B,quantitative_proxy,Reliability,reliability,0.4661954595673966,0.3,0.2374220850962809,True
+10,0,fe2+_ferhonox_live-cell_dye,FeRhoNox live-cell dye,quantitative_proxy,Recovery,ensemble_recoverability_r,0.9095895901510402,0.7,0.6986319671701342,True
+10,1,fe2+_ferhonox_live-cell_dye,FeRhoNox live-cell dye,quantitative_proxy,Rank,magnitude_spearman,0.93401305001305,0.7,0.7800435000435001,True
+10,2,fe2+_ferhonox_live-cell_dye,FeRhoNox live-cell dye,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.7370803755819276,"[0.5, 1.5]",0.47416075116385525,True
+10,3,fe2+_ferhonox_live-cell_dye,FeRhoNox live-cell dye,quantitative_proxy,Top-5%,top5pct_recall,0.86,0.6,0.65,True
+10,4,fe2+_ferhonox_live-cell_dye,FeRhoNox live-cell dye,quantitative_proxy,Reliability,reliability,0.6070291514177555,0.3,0.43861307345393646,True
+11,0,recycling_endosome_tfrc,TFRC,quantitative_proxy,Recovery,ensemble_recoverability_r,0.8749470277911986,0.7,0.5831567593039954,True
+11,1,recycling_endosome_tfrc,TFRC,quantitative_proxy,Rank,magnitude_spearman,0.9551779391779394,0.7,0.8505931305931312,True
+11,2,recycling_endosome_tfrc,TFRC,quantitative_proxy,Amplitude,magnitude_variance_ratio,1.0244270122384225,"[0.5, 1.5]",0.951145975523155,True
+11,3,recycling_endosome_tfrc,TFRC,quantitative_proxy,Top-5%,top5pct_recall,0.92,0.6,0.8000000000000002,True
+11,4,recycling_endosome_tfrc,TFRC,quantitative_proxy,Reliability,reliability,0.591056052462748,0.3,0.41579436066106856,True
+12,0,er_golgi_cope,COPE,quantitative_proxy,Recovery,ensemble_recoverability_r,0.8337829869186318,0.7,0.4459432897287729,True
+12,1,er_golgi_cope,COPE,quantitative_proxy,Rank,magnitude_spearman,0.854032154032154,0.7,0.5134405134405136,True
+12,2,er_golgi_cope,COPE,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.7655537577096397,"[0.5, 1.5]",0.5311075154192795,True
+12,3,er_golgi_cope,COPE,quantitative_proxy,Top-5%,top5pct_recall,0.78,0.6,0.4500000000000001,True
+12,4,er_golgi_cope,COPE,quantitative_proxy,Reliability,reliability,0.5671140969254439,0.3,0.38159156703634844,True
+13,0,chaperones_hspa1b,HSPA1B,quantitative_proxy,Recovery,ensemble_recoverability_r,0.8331724455604629,0.7,0.4439081518682097,True
+13,1,chaperones_hspa1b,HSPA1B,quantitative_proxy,Rank,magnitude_spearman,0.8072720072720073,0.7,0.35757335757335784,True
+13,2,chaperones_hspa1b,HSPA1B,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.932221391997017,"[0.5, 1.5]",0.8644427839940341,True
+13,3,chaperones_hspa1b,HSPA1B,quantitative_proxy,Top-5%,top5pct_recall,0.84,0.6,0.6,True
+13,4,chaperones_hspa1b,HSPA1B,quantitative_proxy,Reliability,reliability,0.3807492021518412,0.3,0.1153560030740589,True
+14,0,nucleolus-gc_npm3,NPM3,quantitative_proxy,Recovery,ensemble_recoverability_r,0.8345335517417443,0.7,0.44844517247248095,True
+14,1,nucleolus-gc_npm3,NPM3,quantitative_proxy,Rank,magnitude_spearman,0.8472391992391993,0.7,0.4907973307973312,True
+14,2,nucleolus-gc_npm3,NPM3,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.8011097295184371,"[0.5, 1.5]",0.6022194590368741,True
+14,3,nucleolus-gc_npm3,NPM3,quantitative_proxy,Top-5%,top5pct_recall,0.86,0.6,0.65,True
+14,4,nucleolus-gc_npm3,NPM3,quantitative_proxy,Reliability,reliability,0.4003235836780205,0.3,0.14331940525431505,True
+15,0,nuclei_nucleolive_live_cell_dye,NucleoLIVE Live Cell dye,quantitative_proxy,Recovery,ensemble_recoverability_r,0.8274654823751895,0.7,0.42488494125063164,True
+15,1,nuclei_nucleolive_live_cell_dye,NucleoLIVE Live Cell dye,quantitative_proxy,Rank,magnitude_spearman,0.8531728331728332,0.7,0.5105761105761107,True
+15,2,nuclei_nucleolive_live_cell_dye,NucleoLIVE Live Cell dye,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.7928864032456882,"[0.5, 1.5]",0.5857728064913763,True
+15,3,nuclei_nucleolive_live_cell_dye,NucleoLIVE Live Cell dye,quantitative_proxy,Top-5%,top5pct_recall,0.84,0.6,0.6,True
+15,4,nuclei_nucleolive_live_cell_dye,NucleoLIVE Live Cell dye,quantitative_proxy,Reliability,reliability,0.6299969683630331,0.3,0.47142424051861875,True
+16,0,endosome_vps35,VPS35,quantitative_proxy,Recovery,ensemble_recoverability_r,0.8287198369034531,0.7,0.42906612301151037,True
+16,1,endosome_vps35,VPS35,quantitative_proxy,Rank,magnitude_spearman,0.84987312987313,0.7,0.4995770995771001,True
+16,2,endosome_vps35,VPS35,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.8053327690277692,"[0.5, 1.5]",0.6106655380555384,True
+16,3,endosome_vps35,VPS35,quantitative_proxy,Top-5%,top5pct_recall,0.7,0.6,0.24999999999999994,True
+16,4,endosome_vps35,VPS35,quantitative_proxy,Reliability,reliability,0.3519252152106765,0.3,0.07417887887239501,True
+17,0,er_sec61b,SEC61B,quantitative_proxy,Recovery,ensemble_recoverability_r,0.8119267301316617,0.7,0.3730891004388725,True
+17,1,er_sec61b,SEC61B,quantitative_proxy,Rank,magnitude_spearman,0.9014797934797936,0.7,0.671599311599312,True
+17,2,er_sec61b,SEC61B,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.5989096388069226,"[0.5, 1.5]",0.1978192776138452,True
+17,3,er_sec61b,SEC61B,quantitative_proxy,Top-5%,top5pct_recall,0.86,0.6,0.65,True
+17,4,er_sec61b,SEC61B,quantitative_proxy,Reliability,reliability,0.4571854056007768,0.3,0.22455057942968118,True
+18,0,er_golgi_bridge_vapa,VAPA,quantitative_proxy,Recovery,ensemble_recoverability_r,0.8133458602825705,0.7,0.37781953427523507,True
+18,1,er_golgi_bridge_vapa,VAPA,quantitative_proxy,Rank,magnitude_spearman,0.9081841521841524,0.7,0.6939471739471746,True
+18,2,er_golgi_bridge_vapa,VAPA,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.7683852696346999,"[0.5, 1.5]",0.5367705392693998,True
+18,3,er_golgi_bridge_vapa,VAPA,quantitative_proxy,Top-5%,top5pct_recall,0.88,0.6,0.7000000000000001,True
+18,4,er_golgi_bridge_vapa,VAPA,quantitative_proxy,Reliability,reliability,0.6864386449976475,0.3,0.5520552071394965,True
+19,0,mitochondria_chromalive_561_excitation,ChromaLIVE 561 excitation,quantitative_proxy,Recovery,ensemble_recoverability_r,0.806188695791279,0.7,0.3539623193042636,True
+19,1,mitochondria_chromalive_561_excitation,ChromaLIVE 561 excitation,quantitative_proxy,Rank,magnitude_spearman,0.9472878352878352,0.7,0.8242927842927841,True
+19,2,mitochondria_chromalive_561_excitation,ChromaLIVE 561 excitation,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.7999771592606584,"[0.5, 1.5]",0.5999543185213168,True
+19,3,mitochondria_chromalive_561_excitation,ChromaLIVE 561 excitation,quantitative_proxy,Top-5%,top5pct_recall,0.88,0.6,0.7000000000000001,True
+19,4,mitochondria_chromalive_561_excitation,ChromaLIVE 561 excitation,quantitative_proxy,Reliability,reliability,0.7231375976605061,0.3,0.6044822823721516,True
+20,0,peroxisome_peroxi_spy650_live_cell_dye,Peroxi_SPY650 live cell dye,quantitative_proxy,Recovery,ensemble_recoverability_r,0.8100131207326374,0.7,0.3667104024421248,True
+20,1,peroxisome_peroxi_spy650_live_cell_dye,Peroxi_SPY650 live cell dye,quantitative_proxy,Rank,magnitude_spearman,0.8792889512889513,0.7,0.5976298376298379,True
+20,2,peroxisome_peroxi_spy650_live_cell_dye,Peroxi_SPY650 live cell dye,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.8830879531925239,"[0.5, 1.5]",0.7661759063850477,True
+20,3,peroxisome_peroxi_spy650_live_cell_dye,Peroxi_SPY650 live cell dye,quantitative_proxy,Top-5%,top5pct_recall,0.78,0.6,0.4500000000000001,True
+20,4,peroxisome_peroxi_spy650_live_cell_dye,Peroxi_SPY650 live cell dye,quantitative_proxy,Reliability,reliability,0.491094238791797,0.3,0.27299176970256717,True
+21,0,chromalive_488_excitation,ChromaLIVE 488 excitation,quantitative_proxy,Recovery,ensemble_recoverability_r,0.7746614618872987,0.7,0.24887153962432904,True
+21,1,chromalive_488_excitation,ChromaLIVE 488 excitation,quantitative_proxy,Rank,magnitude_spearman,0.8282332562332563,0.7,0.42744418744418766,True
+21,2,chromalive_488_excitation,ChromaLIVE 488 excitation,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.8162227429190112,"[0.5, 1.5]",0.6324454858380224,True
+21,3,chromalive_488_excitation,ChromaLIVE 488 excitation,quantitative_proxy,Top-5%,top5pct_recall,0.72,0.6,0.3,True
+21,4,chromalive_488_excitation,ChromaLIVE 488 excitation,quantitative_proxy,Reliability,reliability,0.3255015696911665,0.3,0.036430813844523596,True
+22,0,chromatin_h2bc21,H2BC21,quantitative_proxy,Recovery,ensemble_recoverability_r,0.7667328332766998,0.7,0.22244277758899955,True
+22,1,chromatin_h2bc21,H2BC21,quantitative_proxy,Rank,magnitude_spearman,0.8261045621045622,0.7,0.4203485403485407,True
+22,2,chromatin_h2bc21,H2BC21,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.61796238750515,"[0.5, 1.5]",0.23592477501029996,True
+22,3,chromatin_h2bc21,H2BC21,quantitative_proxy,Top-5%,top5pct_recall,0.74,0.6,0.35000000000000003,True
+22,4,chromatin_h2bc21,H2BC21,quantitative_proxy,Reliability,reliability,0.580774506626757,0.3,0.4011064380382243,True
+23,0,plasma_membrane_atp1b3,ATP1B3,quantitative_proxy,Recovery,ensemble_recoverability_r,0.7553579532449395,0.7,0.18452651081646507,True
+23,1,plasma_membrane_atp1b3,ATP1B3,quantitative_proxy,Rank,magnitude_spearman,0.787051375051375,0.7,0.2901712501712502,True
+23,2,plasma_membrane_atp1b3,ATP1B3,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.810088999533144,"[0.5, 1.5]",0.6201779990662879,True
+23,3,plasma_membrane_atp1b3,ATP1B3,quantitative_proxy,Top-5%,top5pct_recall,0.8,0.6,0.5000000000000001,True
+23,4,plasma_membrane_atp1b3,ATP1B3,quantitative_proxy,Reliability,reliability,0.5016975413704213,0.3,0.2881393448148876,True
+24,0,endocytic_vesicle_ph_phrodo-dextran_live_cell_dye,pHrodo-dextran Live Cell Dye,quantitative_proxy,Recovery,ensemble_recoverability_r,0.7581907603760246,0.7,0.19396920125341552,True
+24,1,endocytic_vesicle_ph_phrodo-dextran_live_cell_dye,pHrodo-dextran Live Cell Dye,quantitative_proxy,Rank,magnitude_spearman,0.7996151716151716,0.7,0.3320505720505721,True
+24,2,endocytic_vesicle_ph_phrodo-dextran_live_cell_dye,pHrodo-dextran Live Cell Dye,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.9039930888567946,"[0.5, 1.5]",0.8079861777135893,True
+24,3,endocytic_vesicle_ph_phrodo-dextran_live_cell_dye,pHrodo-dextran Live Cell Dye,quantitative_proxy,Top-5%,top5pct_recall,0.86,0.6,0.65,True
+24,4,endocytic_vesicle_ph_phrodo-dextran_live_cell_dye,pHrodo-dextran Live Cell Dye,quantitative_proxy,Reliability,reliability,0.4110300664564122,0.3,0.15861438065201747,True
+25,0,5xupre,5xUPRE,quantitative_proxy,Recovery,ensemble_recoverability_r,0.7517535811802963,0.7,0.17251193726765457,True
+25,1,5xupre,5xUPRE,quantitative_proxy,Rank,magnitude_spearman,0.8691121491121492,0.7,0.563707163707164,True
+25,2,5xupre,5xUPRE,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.901870450508552,"[0.5, 1.5]",0.8037409010171039,True
+25,3,5xupre,5xUPRE,quantitative_proxy,Top-5%,top5pct_recall,0.9,0.6,0.7500000000000001,True
+25,4,5xupre,5xUPRE,quantitative_proxy,Reliability,reliability,0.4085795923758126,0.3,0.155113703394018,True
+26,0,f-actin_phalloidin,Phalloidin*,quantitative_proxy,Recovery,ensemble_recoverability_r,0.7509903596059767,0.7,0.1699678653532558,True
+26,1,f-actin_phalloidin,Phalloidin*,quantitative_proxy,Rank,magnitude_spearman,0.7647367407367408,0.7,0.21578913578913614,True
+26,2,f-actin_phalloidin,Phalloidin*,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.5555329806518493,"[0.5, 1.5]",0.11106596130369861,True
+26,3,f-actin_phalloidin,Phalloidin*,quantitative_proxy,Top-5%,top5pct_recall,0.62,0.6,0.050000000000000044,True
+26,4,f-actin_phalloidin,Phalloidin*,quantitative_proxy,Reliability,reliability,0.3996475172727066,0.3,0.14235359610386658,True
+27,0,mitochondria_tomm70a,TOMM70A,quantitative_proxy,Recovery,ensemble_recoverability_r,0.749968655494523,0.7,0.16656218498174333,True
+27,1,mitochondria_tomm70a,TOMM70A,quantitative_proxy,Rank,magnitude_spearman,0.8310551190551191,0.7,0.43685039685039706,True
+27,2,mitochondria_tomm70a,TOMM70A,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.8071671781490796,"[0.5, 1.5]",0.6143343562981591,True
+27,3,mitochondria_tomm70a,TOMM70A,quantitative_proxy,Top-5%,top5pct_recall,0.8,0.6,0.5000000000000001,True
+27,4,mitochondria_tomm70a,TOMM70A,quantitative_proxy,Reliability,reliability,0.3915349809035072,0.3,0.13076425843358172,True
+28,0,lysosome_lamp1,LAMP1,quantitative_proxy,Recovery,ensemble_recoverability_r,0.7512566414208901,0.7,0.17085547140296714,True
+28,1,lysosome_lamp1,LAMP1,quantitative_proxy,Rank,magnitude_spearman,0.8246867246867248,0.7,0.415622415622416,True
+28,2,lysosome_lamp1,LAMP1,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.7882504923139584,"[0.5, 1.5]",0.5765009846279168,True
+28,3,lysosome_lamp1,LAMP1,quantitative_proxy,Top-5%,top5pct_recall,0.72,0.6,0.3,True
+28,4,lysosome_lamp1,LAMP1,quantitative_proxy,Reliability,reliability,0.4475988330251703,0.3,0.2108554757502433,True
+29,0,autophagosome_atg101,ATG101,quantitative_proxy,Recovery,ensemble_recoverability_r,0.713638245878343,0.7,0.045460819594476856,True
+29,1,autophagosome_atg101,ATG101,quantitative_proxy,Rank,magnitude_spearman,0.7562580362580363,0.7,0.18752678752678792,True
+29,2,autophagosome_atg101,ATG101,quantitative_proxy,Amplitude,magnitude_variance_ratio,0.7354794724560444,"[0.5, 1.5]",0.4709589449120888,True
+29,3,autophagosome_atg101,ATG101,quantitative_proxy,Top-5%,top5pct_recall,0.8,0.6,0.5000000000000001,True
+29,4,autophagosome_atg101,ATG101,quantitative_proxy,Reliability,reliability,0.5696557950339326,0.3,0.38522256433418944,True
+30,0,nuclear_speckles_srrm2,SRRM2,ranking_proxy,Recovery,ensemble_recoverability_r,0.865553630356042,0.7,0.5518454345201402,True
+30,1,nuclear_speckles_srrm2,SRRM2,ranking_proxy,Rank,magnitude_spearman,0.8712907272907273,0.7,0.5709690909690911,True
+30,2,nuclear_speckles_srrm2,SRRM2,ranking_proxy,Amplitude,magnitude_variance_ratio,0.4952132737175836,"[0.5, 1.5]",-0.009573452564832774,False
+30,3,nuclear_speckles_srrm2,SRRM2,ranking_proxy,Top-5%,top5pct_recall,0.76,0.6,0.4000000000000001,True
+30,4,nuclear_speckles_srrm2,SRRM2,ranking_proxy,Reliability,reliability,0.619391207547443,0.3,0.4562731536392044,True
+31,0,proteasome_psmb7,PSMB7,ranking_proxy,Recovery,ensemble_recoverability_r,0.6036111647146251,0.7,-0.32129611761791627,False
+31,1,proteasome_psmb7,PSMB7,ranking_proxy,Rank,magnitude_spearman,0.8499032139032139,0.7,0.4996773796773797,True
+31,2,proteasome_psmb7,PSMB7,ranking_proxy,Amplitude,magnitude_variance_ratio,0.851693631535629,"[0.5, 1.5]",0.7033872630712581,True
+31,3,proteasome_psmb7,PSMB7,ranking_proxy,Top-5%,top5pct_recall,0.78,0.6,0.4500000000000001,True
+31,4,proteasome_psmb7,PSMB7,ranking_proxy,Reliability,reliability,0.4309405843280984,0.3,0.18705797761156917,True
+32,0,oxidative_stress_cellrox_live-cell_dye,CellROX live-cell dye,ranking_proxy,Recovery,ensemble_recoverability_r,0.6789181487433704,0.7,-0.07027283752209844,False
+32,1,oxidative_stress_cellrox_live-cell_dye,CellROX live-cell dye,ranking_proxy,Rank,magnitude_spearman,0.7922595482595484,0.7,0.307531827531828,True
+32,2,oxidative_stress_cellrox_live-cell_dye,CellROX live-cell dye,ranking_proxy,Amplitude,magnitude_variance_ratio,0.7552727102266045,"[0.5, 1.5]",0.5105454204532089,True
+32,3,oxidative_stress_cellrox_live-cell_dye,CellROX live-cell dye,ranking_proxy,Top-5%,top5pct_recall,0.82,0.6,0.5499999999999999,True
+32,4,oxidative_stress_cellrox_live-cell_dye,CellROX live-cell dye,ranking_proxy,Reliability,reliability,0.566358845982032,0.3,0.38051263711718863,True
+33,0,er_ncln,NCLN,ranking_proxy,Recovery,ensemble_recoverability_r,0.6631427849101728,0.7,-0.12285738363275732,False
+33,1,er_ncln,NCLN,ranking_proxy,Rank,magnitude_spearman,0.7536111576111576,0.7,0.1787038587038588,True
+33,2,er_ncln,NCLN,ranking_proxy,Amplitude,magnitude_variance_ratio,0.8064229303337181,"[0.5, 1.5]",0.6128458606674363,True
+33,3,er_ncln,NCLN,ranking_proxy,Top-5%,top5pct_recall,0.58,0.6,-0.050000000000000044,False
+33,4,er_ncln,NCLN,ranking_proxy,Reliability,reliability,0.5109354049791082,0.3,0.3013362928272974,True
+34,0,trans-golgi_vamp3,VAMP3,ranking_proxy,Recovery,ensemble_recoverability_r,0.6824360548684879,0.7,-0.05854648377170682,False
+34,1,trans-golgi_vamp3,VAMP3,ranking_proxy,Rank,magnitude_spearman,0.7384963864963865,0.7,0.12832128832128845,True
+34,2,trans-golgi_vamp3,VAMP3,ranking_proxy,Amplitude,magnitude_variance_ratio,0.7688269382820128,"[0.5, 1.5]",0.5376538765640255,True
+34,3,trans-golgi_vamp3,VAMP3,ranking_proxy,Top-5%,top5pct_recall,0.86,0.6,0.65,True
+34,4,trans-golgi_vamp3,VAMP3,ranking_proxy,Reliability,reliability,0.565576846698852,0.3,0.37939549528407435,True
+35,0,p21,p21*,ranking_proxy,Recovery,ensemble_recoverability_r,0.6191052901211831,0.7,-0.2696490329293895,False
+35,1,p21,p21*,ranking_proxy,Rank,magnitude_spearman,0.7383808383808383,0.7,0.12793612793612794,True
+35,2,p21,p21*,ranking_proxy,Amplitude,magnitude_variance_ratio,0.2482938383826281,"[0.5, 1.5]",-0.5034123232347438,False
+35,3,p21,p21*,ranking_proxy,Top-5%,top5pct_recall,0.64,0.6,0.10000000000000009,True
+35,4,p21,p21*,ranking_proxy,Reliability,reliability,0.673271028808692,0.3,0.5332443268695601,True
+36,0,mitochondria_tomm20,TOMM20*,ranking_proxy,Recovery,ensemble_recoverability_r,0.6939597856755839,0.7,-0.020134047748053455,False
+36,1,mitochondria_tomm20,TOMM20*,ranking_proxy,Rank,magnitude_spearman,0.7201066441066442,0.7,0.06702214702214733,True
+36,2,mitochondria_tomm20,TOMM20*,ranking_proxy,Amplitude,magnitude_variance_ratio,0.4002878735877984,"[0.5, 1.5]",-0.19942425282440324,False
+36,3,mitochondria_tomm20,TOMM20*,ranking_proxy,Top-5%,top5pct_recall,0.52,0.6,-0.1999999999999999,False
+36,4,mitochondria_tomm20,TOMM20*,ranking_proxy,Reliability,reliability,0.4495396744921411,0.3,0.21362810641734448,True
+37,0,p53,p53*,measurement_required,Recovery,ensemble_recoverability_r,0.5897136792901746,0.7,-0.36762106903275116,False
+37,1,p53,p53*,measurement_required,Rank,magnitude_spearman,0.6648243888243889,0.7,-0.11725203725203691,False
+37,2,p53,p53*,measurement_required,Amplitude,magnitude_variance_ratio,0.1358458864429194,"[0.5, 1.5]",-0.7283082271141612,False
+37,3,p53,p53*,measurement_required,Top-5%,top5pct_recall,0.4,0.6,-0.4999999999999999,False
+37,4,p53,p53*,measurement_required,Reliability,reliability,0.6790572976946833,0.3,0.541510425278119,True
+38,0,caspase_activity_cellevent-caspase_live-cell_dye,CellEvent-Caspase live-cell dye,measurement_required,Recovery,ensemble_recoverability_r,0.5980371807000908,0.7,-0.3398760643330304,False
+38,1,caspase_activity_cellevent-caspase_live-cell_dye,CellEvent-Caspase live-cell dye,measurement_required,Rank,magnitude_spearman,0.5789962469962471,0.7,-0.4033458433458429,False
+38,2,caspase_activity_cellevent-caspase_live-cell_dye,CellEvent-Caspase live-cell dye,measurement_required,Amplitude,magnitude_variance_ratio,0.4672157078550862,"[0.5, 1.5]",-0.06556858428982759,False
+38,3,caspase_activity_cellevent-caspase_live-cell_dye,CellEvent-Caspase live-cell dye,measurement_required,Top-5%,top5pct_recall,0.42,0.6,-0.44999999999999996,False
+38,4,caspase_activity_cellevent-caspase_live-cell_dye,CellEvent-Caspase live-cell dye,measurement_required,Reliability,reliability,0.3152966465946273,0.3,0.021852352278039024,True
+39,0,ps6,pS6*,measurement_required,Recovery,ensemble_recoverability_r,0.5893811845368762,0.7,-0.3687293848770793,False
+39,1,ps6,pS6*,measurement_required,Rank,magnitude_spearman,0.6643925683925684,0.7,-0.11869143869143838,False
+39,2,ps6,pS6*,measurement_required,Amplitude,magnitude_variance_ratio,0.067433058982859,"[0.5, 1.5]",-0.865133882034282,False
+39,3,ps6,pS6*,measurement_required,Top-5%,top5pct_recall,0.28,0.6,-0.7999999999999998,False
+39,4,ps6,pS6*,measurement_required,Reliability,reliability,0.3470813638953472,0.3,0.06725909127906747,True
+40,0,prb,pRb*,not_identifiable,Recovery,ensemble_recoverability_r,0.5147917575055067,0.7,-0.6173608083149776,False
+40,1,prb,pRb*,not_identifiable,Rank,magnitude_spearman,0.7083289323289323,0.7,0.02776310776310797,True
+40,2,prb,pRb*,not_identifiable,Amplitude,magnitude_variance_ratio,0.0169407424247728,"[0.5, 1.5]",-0.9661185151504544,False
+40,3,prb,pRb*,not_identifiable,Top-5%,top5pct_recall,0.6,0.6,0.0,True
+40,4,prb,pRb*,not_identifiable,Reliability,reliability,0.1509084849662904,0.3,-0.21298787861958515,False
+41,0,nuclei_hoechst,Hoechst*,not_identifiable,Recovery,ensemble_recoverability_r,0.7552751627234884,0.7,0.18425054241162805,True
+41,1,nuclei_hoechst,Hoechst*,not_identifiable,Rank,magnitude_spearman,0.670925242925243,0.7,-0.09691585691585641,False
+41,2,nuclei_hoechst,Hoechst*,not_identifiable,Amplitude,magnitude_variance_ratio,0.6970531092744202,"[0.5, 1.5]",0.3941062185488404,True
+41,3,nuclei_hoechst,Hoechst*,not_identifiable,Top-5%,top5pct_recall,0.52,0.6,-0.1999999999999999,False
+41,4,nuclei_hoechst,Hoechst*,not_identifiable,Reliability,reliability,0.187063345712023,0.3,-0.16133807755425286,False
+42,0,nucleoli_npm1,NPM1*,not_identifiable,Recovery,ensemble_recoverability_r,0.5498100329077995,0.7,-0.5006332236406681,False
+42,1,nucleoli_npm1,NPM1*,not_identifiable,Rank,magnitude_spearman,0.4887014367014367,0.7,-0.7043285443285442,False
+42,2,nucleoli_npm1,NPM1*,not_identifiable,Amplitude,magnitude_variance_ratio,0.4743451980311171,"[0.5, 1.5]",-0.051309603937765846,False
+42,3,nucleoli_npm1,NPM1*,not_identifiable,Top-5%,top5pct_recall,0.42,0.6,-0.44999999999999996,False
+42,4,nucleoli_npm1,NPM1*,not_identifiable,Reliability,reliability,0.2156298259088717,0.3,-0.12052882013018328,False
+43,0,b-catenin,b-catenin*,not_identifiable,Recovery,ensemble_recoverability_r,0.5709871635927863,0.7,-0.43004278802404533,False
+43,1,b-catenin,b-catenin*,not_identifiable,Rank,magnitude_spearman,0.6645843525843527,0.7,-0.11805215805215762,False
+43,2,b-catenin,b-catenin*,not_identifiable,Amplitude,magnitude_variance_ratio,0.4643259821575786,"[0.5, 1.5]",-0.07134803568484283,False
+43,3,b-catenin,b-catenin*,not_identifiable,Top-5%,top5pct_recall,0.5,0.6,-0.24999999999999994,False
+43,4,b-catenin,b-catenin*,not_identifiable,Reliability,reliability,0.2160133604189748,0.3,-0.11998091368717886,False
+44,0,c-myc,c-Myc*,not_identifiable,Recovery,ensemble_recoverability_r,0.5667739586418341,0.7,-0.44408680452721944,False
+44,1,c-myc,c-Myc*,not_identifiable,Rank,magnitude_spearman,0.6272016392016392,0.7,-0.24266120266120253,False
+44,2,c-myc,c-Myc*,not_identifiable,Amplitude,magnitude_variance_ratio,0.3962574389284445,"[0.5, 1.5]",-0.207485122143111,False
+44,3,c-myc,c-Myc*,not_identifiable,Top-5%,top5pct_recall,0.5,0.6,-0.24999999999999994,False
+44,4,c-myc,c-Myc*,not_identifiable,Reliability,reliability,0.2166304258685255,0.3,-0.11909939161639214,False
+45,0,er_cona,ConA*,not_identifiable,Recovery,ensemble_recoverability_r,0.715259638635678,0.7,0.05086546211892676,True
+45,1,er_cona,ConA*,not_identifiable,Rank,magnitude_spearman,0.7217280977280978,0.7,0.07242699242699267,True
+45,2,er_cona,ConA*,not_identifiable,Amplitude,magnitude_variance_ratio,0.5309365644444025,"[0.5, 1.5]",0.06187312888880503,True
+45,3,er_cona,ConA*,not_identifiable,Top-5%,top5pct_recall,0.56,0.6,-0.09999999999999981,False
+45,4,er_cona,ConA*,not_identifiable,Reliability,reliability,0.2319836986715685,0.3,-0.09716614475490212,False
+46,0,microtubules_tubulin,Tubulin*,not_identifiable,Recovery,ensemble_recoverability_r,0.7284577421088885,0.7,0.09485914036296171,True
+46,1,microtubules_tubulin,Tubulin*,not_identifiable,Rank,magnitude_spearman,0.7399994599994602,0.7,0.13333153333153397,True
+46,2,microtubules_tubulin,Tubulin*,not_identifiable,Amplitude,magnitude_variance_ratio,0.5857511505265177,"[0.5, 1.5]",0.17150230105303543,True
+46,3,microtubules_tubulin,Tubulin*,not_identifiable,Top-5%,top5pct_recall,0.6,0.6,0.0,True
+46,4,microtubules_tubulin,Tubulin*,not_identifiable,Reliability,reliability,0.2737965813011502,0.3,-0.03743345528407113,False
+47,0,nucleolus-dfc_fbl,FBL,not_identifiable,Recovery,ensemble_recoverability_r,0.7957789914412075,0.7,0.3192633048040249,True
+47,1,nucleolus-dfc_fbl,FBL,not_identifiable,Rank,magnitude_spearman,0.8226278946278948,0.7,0.4087596487596493,True
+47,2,nucleolus-dfc_fbl,FBL,not_identifiable,Amplitude,magnitude_variance_ratio,0.7610209142882526,"[0.5, 1.5]",0.5220418285765052,True
+47,3,nucleolus-dfc_fbl,FBL,not_identifiable,Top-5%,top5pct_recall,0.8,0.6,0.5000000000000001,True
+47,4,nucleolus-dfc_fbl,FBL,not_identifiable,Reliability,reliability,0.2774818093462274,0.3,-0.03216884379110369,False
+48,0,plasma_membrane_wga,WGA*,not_identifiable,Recovery,ensemble_recoverability_r,0.7535324862592845,0.7,0.17844162086428172,True
+48,1,plasma_membrane_wga,WGA*,not_identifiable,Rank,magnitude_spearman,0.7645170085170087,0.7,0.21505669505669564,True
+48,2,plasma_membrane_wga,WGA*,not_identifiable,Amplitude,magnitude_variance_ratio,0.6043069062375509,"[0.5, 1.5]",0.2086138124751018,True
+48,3,plasma_membrane_wga,WGA*,not_identifiable,Top-5%,top5pct_recall,0.6,0.6,0.0,True
+48,4,plasma_membrane_wga,WGA*,not_identifiable,Reliability,reliability,0.2955940866884624,0.3,-0.006294161873625161,False
+49,0,microtubules_map4,MAP4,unresolved,Recovery,ensemble_recoverability_r,0.8231292524393403,0.7,0.41043084146446784,True
+49,1,microtubules_map4,MAP4,unresolved,Rank,magnitude_spearman,0.6780510060510061,0.7,-0.07316331316331284,False
+49,2,microtubules_map4,MAP4,unresolved,Amplitude,magnitude_variance_ratio,0.8142748720121701,"[0.5, 1.5]",0.6285497440243402,True
+49,3,microtubules_map4,MAP4,unresolved,Top-5%,top5pct_recall,0.66,0.6,0.15000000000000013,True
+49,4,microtubules_map4,MAP4,unresolved,Reliability,reliability,0.557891172634394,0.3,0.3684159609062772,True
+50,0,lipid_droplet_plin2,PLIN2,unresolved,Recovery,ensemble_recoverability_r,0.7182798950958886,0.7,0.06093298365296224,True
+50,1,lipid_droplet_plin2,PLIN2,unresolved,Rank,magnitude_spearman,0.5638696318696319,0.7,-0.45376789376789345,False
+50,2,lipid_droplet_plin2,PLIN2,unresolved,Amplitude,magnitude_variance_ratio,0.443161027867824,"[0.5, 1.5]",-0.11367794426435196,False
+50,3,lipid_droplet_plin2,PLIN2,unresolved,Top-5%,top5pct_recall,0.44,0.6,-0.3999999999999999,False
+50,4,lipid_droplet_plin2,PLIN2,unresolved,Reliability,reliability,0.3164645586840825,0.3,0.023520798120117904,True
+51,0,cell_proliferation_marker_mki67,MKI67*,unresolved,Recovery,ensemble_recoverability_r,0.7042952594051338,0.7,0.01431753135044622,True
+51,1,cell_proliferation_marker_mki67,MKI67*,unresolved,Rank,magnitude_spearman,0.6634308394308395,0.7,-0.1218972018972016,False
+51,2,cell_proliferation_marker_mki67,MKI67*,unresolved,Amplitude,magnitude_variance_ratio,0.5366833306482973,"[0.5, 1.5]",0.07336666129659464,True
+51,3,cell_proliferation_marker_mki67,MKI67*,unresolved,Top-5%,top5pct_recall,0.62,0.6,0.050000000000000044,True
+51,4,cell_proliferation_marker_mki67,MKI67*,unresolved,Reliability,reliability,0.3279687777331082,0.3,0.03995539676158313,True

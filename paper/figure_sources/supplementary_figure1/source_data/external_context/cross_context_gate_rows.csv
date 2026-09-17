@@ -1,0 +1,51 @@
+row_key,band,label,sublabel,quantity,value,threshold_min,threshold_max,passes
+oasis:mtt_viability,admitted,metabolic activity,"OASIS cpg0037, brightfield, per compound",recoverability_r,0.826094403561396,0.7,,True
+oasis:mtt_viability,admitted,metabolic activity,"OASIS cpg0037, brightfield, per compound",magnitude_spearman,0.6041505188442152,0.7,,False
+oasis:mtt_viability,admitted,metabolic activity,"OASIS cpg0037, brightfield, per compound",variance_ratio,0.89703992643403,0.5,1.5,True
+oasis:mtt_viability,admitted,metabolic activity,"OASIS cpg0037, brightfield, per compound",top5pct_recall,0.7272727272727273,0.6,,True
+oasis:mtt_viability,admitted,metabolic activity,"OASIS cpg0037, brightfield, per compound",reliability,0.7162720741260995,0.3,,True
+oasis:ldh_release,admitted,LDH release,"OASIS cpg0037, brightfield, per compound",recoverability_r,0.6703210612939918,0.7,,False
+oasis:ldh_release,admitted,LDH release,"OASIS cpg0037, brightfield, per compound",magnitude_spearman,0.6325800814554884,0.7,,False
+oasis:ldh_release,admitted,LDH release,"OASIS cpg0037, brightfield, per compound",variance_ratio,0.7360849367366954,0.5,1.5,True
+oasis:ldh_release,admitted,LDH release,"OASIS cpg0037, brightfield, per compound",top5pct_recall,0.7272727272727273,0.6,,True
+oasis:ldh_release,admitted,LDH release,"OASIS cpg0037, brightfield, per compound",reliability,0.6383702228050183,0.3,,True
+periscope_cells:tomm20_mito,admitted,anti-TOMM20,"PERISCOPE cpg0021, four dyes, per cell",recoverability_r,0.7602489189323185,0.7,,True
+periscope_cells:tomm20_mito,admitted,anti-TOMM20,"PERISCOPE cpg0021, four dyes, per cell",magnitude_spearman,0.8515795085501604,0.7,,True
+periscope_cells:tomm20_mito,admitted,anti-TOMM20,"PERISCOPE cpg0021, four dyes, per cell",variance_ratio,0.5092803360785861,0.5,1.5,True
+periscope_cells:tomm20_mito,admitted,anti-TOMM20,"PERISCOPE cpg0021, four dyes, per cell",top5pct_recall,0.6274509803921569,0.6,,True
+periscope_cells:tomm20_mito,admitted,anti-TOMM20,"PERISCOPE cpg0021, four dyes, per cell",reliability,0.0051509934755871,0.3,,False
+periscope_guide:tomm20_mito,admitted,anti-TOMM20,"PERISCOPE cpg0021, four dyes, per guide",recoverability_r,0.7244846405595476,0.7,,True
+periscope_guide:tomm20_mito,admitted,anti-TOMM20,"PERISCOPE cpg0021, four dyes, per guide",magnitude_spearman,0.911908535650516,0.7,,True
+periscope_guide:tomm20_mito,admitted,anti-TOMM20,"PERISCOPE cpg0021, four dyes, per guide",variance_ratio,0.5587221227268911,0.5,1.5,True
+periscope_guide:tomm20_mito,admitted,anti-TOMM20,"PERISCOPE cpg0021, four dyes, per guide",top5pct_recall,0.6911764705882353,0.6,,True
+periscope_guide:tomm20_mito,admitted,anti-TOMM20,"PERISCOPE cpg0021, four dyes, per guide",reliability,0.0473571535467417,0.3,,False
+oasis_control:mtt_viability,control,"metabolic activity, shuffled","OASIS cpg0037, reliability unchanged at 0.716",recoverability_r,0.0908599940529955,0.7,,False
+oasis_control:mtt_viability,control,"metabolic activity, shuffled","OASIS cpg0037, reliability unchanged at 0.716",magnitude_spearman,-0.0566770952240026,0.7,,False
+oasis_control:mtt_viability,control,"metabolic activity, shuffled","OASIS cpg0037, reliability unchanged at 0.716",variance_ratio,0.0203684645743102,0.5,1.5,False
+oasis_control:mtt_viability,control,"metabolic activity, shuffled","OASIS cpg0037, reliability unchanged at 0.716",top5pct_recall,0.0909090909090909,0.6,,False
+oasis_control:mtt_viability,control,"metabolic activity, shuffled","OASIS cpg0037, reliability unchanged at 0.716",reliability,0.7162720741260995,0.3,,True
+control:tomm20_mito,control,"anti-TOMM20, shuffled","PERISCOPE guide, stopped at reliability either way",recoverability_r,-0.0004420912582007,0.7,,False
+control:tomm20_mito,control,"anti-TOMM20, shuffled","PERISCOPE guide, stopped at reliability either way",magnitude_spearman,0.0215595492336865,0.7,,False
+control:tomm20_mito,control,"anti-TOMM20, shuffled","PERISCOPE guide, stopped at reliability either way",variance_ratio,0.0249946621727239,0.5,1.5,False
+control:tomm20_mito,control,"anti-TOMM20, shuffled","PERISCOPE guide, stopped at reliability either way",top5pct_recall,0.0637254901960784,0.6,,False
+control:tomm20_mito,control,"anti-TOMM20, shuffled","PERISCOPE guide, stopped at reliability either way",reliability,0.0473571535467417,0.3,,False
+dropout_dapi:stain_dropout_dapi,second_question,"DAPI, nucleus","predicted from ConA, phalloidin, WGA",recoverability_r,0.7639499655127491,0.7,,True
+dropout_dapi:stain_dropout_dapi,second_question,"DAPI, nucleus","predicted from ConA, phalloidin, WGA",magnitude_spearman,0.9228020859842624,0.7,,True
+dropout_dapi:stain_dropout_dapi,second_question,"DAPI, nucleus","predicted from ConA, phalloidin, WGA",variance_ratio,0.8009860552053044,0.5,1.5,True
+dropout_dapi:stain_dropout_dapi,second_question,"DAPI, nucleus","predicted from ConA, phalloidin, WGA",top5pct_recall,0.7303921568627451,0.6,,True
+dropout_dapi:stain_dropout_dapi,second_question,"DAPI, nucleus","predicted from ConA, phalloidin, WGA",reliability,0.054223615759319,0.3,,False
+dropout_cona:stain_dropout_cona,second_question,"ConA, ER","predicted from DAPI, phalloidin, WGA",recoverability_r,0.7956276631775333,0.7,,True
+dropout_cona:stain_dropout_cona,second_question,"ConA, ER","predicted from DAPI, phalloidin, WGA",magnitude_spearman,0.8380923866819814,0.7,,True
+dropout_cona:stain_dropout_cona,second_question,"ConA, ER","predicted from DAPI, phalloidin, WGA",variance_ratio,0.798984533822307,0.5,1.5,True
+dropout_cona:stain_dropout_cona,second_question,"ConA, ER","predicted from DAPI, phalloidin, WGA",top5pct_recall,0.5931372549019608,0.6,,False
+dropout_cona:stain_dropout_cona,second_question,"ConA, ER","predicted from DAPI, phalloidin, WGA",reliability,0.0485695224861321,0.3,,False
+dropout_phalloidin:stain_dropout_phalloidin,second_question,"phalloidin, F-actin","predicted from DAPI, ConA, WGA",recoverability_r,0.450313862320938,0.7,,False
+dropout_phalloidin:stain_dropout_phalloidin,second_question,"phalloidin, F-actin","predicted from DAPI, ConA, WGA",magnitude_spearman,0.6833237478707855,0.7,,False
+dropout_phalloidin:stain_dropout_phalloidin,second_question,"phalloidin, F-actin","predicted from DAPI, ConA, WGA",variance_ratio,0.6734974999188643,0.5,1.5,True
+dropout_phalloidin:stain_dropout_phalloidin,second_question,"phalloidin, F-actin","predicted from DAPI, ConA, WGA",top5pct_recall,0.392156862745098,0.6,,False
+dropout_phalloidin:stain_dropout_phalloidin,second_question,"phalloidin, F-actin","predicted from DAPI, ConA, WGA",reliability,0.0323287128277897,0.3,,False
+dropout_wga:stain_dropout_wga,second_question,"WGA, Golgi and membrane","predicted from DAPI, ConA, phalloidin",recoverability_r,0.7853729296331076,0.7,,True
+dropout_wga:stain_dropout_wga,second_question,"WGA, Golgi and membrane","predicted from DAPI, ConA, phalloidin",magnitude_spearman,0.8952448648077291,0.7,,True
+dropout_wga:stain_dropout_wga,second_question,"WGA, Golgi and membrane","predicted from DAPI, ConA, phalloidin",variance_ratio,0.6460068600279442,0.5,1.5,True
+dropout_wga:stain_dropout_wga,second_question,"WGA, Golgi and membrane","predicted from DAPI, ConA, phalloidin",top5pct_recall,0.6274509803921569,0.6,,True
+dropout_wga:stain_dropout_wga,second_question,"WGA, Golgi and membrane","predicted from DAPI, ConA, phalloidin",reliability,0.0457615652176759,0.3,,False

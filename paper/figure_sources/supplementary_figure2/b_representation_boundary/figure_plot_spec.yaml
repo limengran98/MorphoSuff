@@ -1,0 +1,24 @@
+panel: SupplementaryFigure2-b
+question: Do tested raw-phase encoders recover the held-out-gene signal captured by engineered morphology features?
+primary_metric: held-out-gene Pearson r
+statistical_units:
+  matrix_uncertainty: frozen gene fold
+  paired_contrast: reporter
+scope:
+  reporters: 6
+  representations: 4
+  folds: 5
+visual_grammar:
+  wide:
+    size_mm: [183, 76]
+    layers: [registered phase crops, annotated reporter-by-representation matrix, paired forest plot]
+  compact:
+    size_mm: [73, 105]
+    layers: [horizontal microscopy strip, annotated matrix, full-width paired forest plot]
+encoding:
+  matrix_fill: five-fold mean Pearson r
+  matrix_right_strip: fold standard deviation
+  forest_point: mean paired reporter difference
+  forest_interval: reporter-hierarchical 95% bootstrap CI
+  microscopy: descriptive registered phase input
+font: Arial TrueType embedded in PDF; live text in SVG

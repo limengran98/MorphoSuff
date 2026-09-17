@@ -1,0 +1,264 @@
+row_key,quantity,replicate_kind,replicate_id,value
+oasis:mtt_viability,recoverability_r,gene fold,0,0.8069997113123252
+oasis:mtt_viability,recoverability_r,gene fold,1,0.8227241590308585
+oasis:mtt_viability,recoverability_r,gene fold,2,0.8653606599960662
+oasis:mtt_viability,recoverability_r,gene fold,3,0.8260944035613961
+oasis:mtt_viability,recoverability_r,gene fold,4,0.8504553008732998
+oasis:mtt_viability,magnitude_spearman,gene fold,0,0.6041505188442152
+oasis:mtt_viability,magnitude_spearman,gene fold,1,0.5137837812445685
+oasis:mtt_viability,magnitude_spearman,gene fold,2,0.6799736467537593
+oasis:mtt_viability,magnitude_spearman,gene fold,3,0.5992932538508152
+oasis:mtt_viability,magnitude_spearman,gene fold,4,0.6189231340163568
+oasis:mtt_viability,variance_ratio,gene fold,0,0.6864953367983923
+oasis:mtt_viability,variance_ratio,gene fold,1,1.201885713423415
+oasis:mtt_viability,variance_ratio,gene fold,2,0.7742027997458811
+oasis:mtt_viability,variance_ratio,gene fold,3,0.89703992643403
+oasis:mtt_viability,variance_ratio,gene fold,4,1.003033532764525
+oasis:mtt_viability,top5pct_recall,gene fold,0,0.5454545454545454
+oasis:mtt_viability,top5pct_recall,gene fold,1,0.7272727272727273
+oasis:mtt_viability,top5pct_recall,gene fold,2,0.9090909090909092
+oasis:mtt_viability,top5pct_recall,gene fold,3,0.8181818181818182
+oasis:mtt_viability,top5pct_recall,gene fold,4,0.7272727272727273
+oasis:ldh_release,recoverability_r,gene fold,0,0.6913626861475632
+oasis:ldh_release,recoverability_r,gene fold,1,0.6703210612939914
+oasis:ldh_release,recoverability_r,gene fold,2,0.44852418837907887
+oasis:ldh_release,recoverability_r,gene fold,3,0.6771649594201052
+oasis:ldh_release,recoverability_r,gene fold,4,0.6451462324392637
+oasis:ldh_release,magnitude_spearman,gene fold,0,0.6325800814554884
+oasis:ldh_release,magnitude_spearman,gene fold,1,0.6886488441682286
+oasis:ldh_release,magnitude_spearman,gene fold,2,0.7590932792175764
+oasis:ldh_release,magnitude_spearman,gene fold,3,0.5344518195953532
+oasis:ldh_release,magnitude_spearman,gene fold,4,0.6223817039886883
+oasis:ldh_release,variance_ratio,gene fold,0,0.7360849367366954
+oasis:ldh_release,variance_ratio,gene fold,1,0.9091279285989126
+oasis:ldh_release,variance_ratio,gene fold,2,0.6746004905134219
+oasis:ldh_release,variance_ratio,gene fold,3,0.9699564592491956
+oasis:ldh_release,variance_ratio,gene fold,4,0.7321936637393641
+oasis:ldh_release,top5pct_recall,gene fold,0,0.7272727272727273
+oasis:ldh_release,top5pct_recall,gene fold,1,0.8181818181818182
+oasis:ldh_release,top5pct_recall,gene fold,2,0.5454545454545454
+oasis:ldh_release,top5pct_recall,gene fold,3,0.6363636363636364
+oasis:ldh_release,top5pct_recall,gene fold,4,0.8181818181818182
+periscope_cells:tomm20_mito,recoverability_r,gene fold,0,0.761929629433425
+periscope_cells:tomm20_mito,recoverability_r,gene fold,1,0.7662321158684254
+periscope_cells:tomm20_mito,recoverability_r,gene fold,2,0.758830326388038
+periscope_cells:tomm20_mito,recoverability_r,gene fold,3,0.7602489189323185
+periscope_cells:tomm20_mito,recoverability_r,gene fold,4,0.7597664147670482
+periscope_cells:tomm20_mito,magnitude_spearman,gene fold,0,0.8495966977987586
+periscope_cells:tomm20_mito,magnitude_spearman,gene fold,1,0.8515795085501604
+periscope_cells:tomm20_mito,magnitude_spearman,gene fold,2,0.8510519839105145
+periscope_cells:tomm20_mito,magnitude_spearman,gene fold,3,0.8570971440210912
+periscope_cells:tomm20_mito,magnitude_spearman,gene fold,4,0.8533424168185966
+periscope_cells:tomm20_mito,variance_ratio,gene fold,0,0.6104860952520907
+periscope_cells:tomm20_mito,variance_ratio,gene fold,1,0.549540251825092
+periscope_cells:tomm20_mito,variance_ratio,gene fold,2,0.4834019187008433
+periscope_cells:tomm20_mito,variance_ratio,gene fold,3,0.4721292461391745
+periscope_cells:tomm20_mito,variance_ratio,gene fold,4,0.5092803360785861
+periscope_cells:tomm20_mito,top5pct_recall,gene fold,0,0.5637254901960784
+periscope_cells:tomm20_mito,top5pct_recall,gene fold,1,0.6519607843137255
+periscope_cells:tomm20_mito,top5pct_recall,gene fold,2,0.6274509803921569
+periscope_cells:tomm20_mito,top5pct_recall,gene fold,3,0.5784313725490197
+periscope_cells:tomm20_mito,top5pct_recall,gene fold,4,0.6470588235294118
+periscope_cells:tomm20_mito,reliability,screen,CP186A,0.0035987458106306
+periscope_cells:tomm20_mito,reliability,screen,CP186B,0.003929058667412
+periscope_cells:tomm20_mito,reliability,screen,CP186C,0.007888250696979
+periscope_cells:tomm20_mito,reliability,screen,CP186D,0.0051509934755871
+periscope_cells:tomm20_mito,reliability,screen,CP186E,0.0023666018063143
+periscope_cells:tomm20_mito,reliability,screen,CP186F,0.0026468417691555
+periscope_cells:tomm20_mito,reliability,screen,CP186G,0.0057544502376551
+periscope_cells:tomm20_mito,reliability,screen,CP186H,0.0059831745017522
+periscope_cells:tomm20_mito,reliability,screen,CP186N,0.0071063176792899
+periscope_guide:tomm20_mito,recoverability_r,gene fold,0,0.7244846405595476
+periscope_guide:tomm20_mito,recoverability_r,gene fold,1,0.7328513165792643
+periscope_guide:tomm20_mito,recoverability_r,gene fold,2,0.722636327345412
+periscope_guide:tomm20_mito,recoverability_r,gene fold,3,0.7282551691229453
+periscope_guide:tomm20_mito,recoverability_r,gene fold,4,0.7017564535183967
+periscope_guide:tomm20_mito,magnitude_spearman,gene fold,0,0.9121262360959742
+periscope_guide:tomm20_mito,magnitude_spearman,gene fold,1,0.9126391492732492
+periscope_guide:tomm20_mito,magnitude_spearman,gene fold,2,0.9013484871770796
+periscope_guide:tomm20_mito,magnitude_spearman,gene fold,3,0.9031303506542312
+periscope_guide:tomm20_mito,magnitude_spearman,gene fold,4,0.911908535650516
+periscope_guide:tomm20_mito,variance_ratio,gene fold,0,0.5047357307109553
+periscope_guide:tomm20_mito,variance_ratio,gene fold,1,0.540853809874829
+periscope_guide:tomm20_mito,variance_ratio,gene fold,2,0.5913763955114845
+periscope_guide:tomm20_mito,variance_ratio,gene fold,3,0.584703205651483
+periscope_guide:tomm20_mito,variance_ratio,gene fold,4,0.5587221227268911
+periscope_guide:tomm20_mito,top5pct_recall,gene fold,0,0.6911764705882353
+periscope_guide:tomm20_mito,top5pct_recall,gene fold,1,0.7450980392156863
+periscope_guide:tomm20_mito,top5pct_recall,gene fold,2,0.7058823529411765
+periscope_guide:tomm20_mito,top5pct_recall,gene fold,3,0.6715686274509803
+periscope_guide:tomm20_mito,top5pct_recall,gene fold,4,0.6470588235294118
+periscope_guide:tomm20_mito,reliability,screen,CP186A,0.0510280440487595
+periscope_guide:tomm20_mito,reliability,screen,CP186B,0.0473571535467417
+periscope_guide:tomm20_mito,reliability,screen,CP186C,0.0566725256625499
+periscope_guide:tomm20_mito,reliability,screen,CP186D,0.051787099890116
+periscope_guide:tomm20_mito,reliability,screen,CP186E,0.0420552851058318
+periscope_guide:tomm20_mito,reliability,screen,CP186F,0.0387194883123366
+periscope_guide:tomm20_mito,reliability,screen,CP186G,0.0578475005857951
+periscope_guide:tomm20_mito,reliability,screen,CP186H,0.0392195817749927
+periscope_guide:tomm20_mito,reliability,screen,CP186N,0.0460435837130738
+oasis_control:mtt_viability,recoverability_r,gene fold,0,0.09761380410712468
+oasis_control:mtt_viability,recoverability_r,gene fold,1,0.14180950050709384
+oasis_control:mtt_viability,recoverability_r,gene fold,2,0.08658439285902456
+oasis_control:mtt_viability,recoverability_r,gene fold,3,0.06268436477759055
+oasis_control:mtt_viability,recoverability_r,gene fold,4,0.09085999405299552
+oasis_control:mtt_viability,magnitude_spearman,gene fold,0,-0.0811466245766334
+oasis_control:mtt_viability,magnitude_spearman,gene fold,1,-0.0220397224688435
+oasis_control:mtt_viability,magnitude_spearman,gene fold,2,-0.0566770952240026
+oasis_control:mtt_viability,magnitude_spearman,gene fold,3,0.0589507086251685
+oasis_control:mtt_viability,magnitude_spearman,gene fold,4,-0.0597375479737125
+oasis_control:mtt_viability,variance_ratio,gene fold,0,0.0319571154312417
+oasis_control:mtt_viability,variance_ratio,gene fold,1,0.0162791059668779
+oasis_control:mtt_viability,variance_ratio,gene fold,2,0.0080088419427105
+oasis_control:mtt_viability,variance_ratio,gene fold,3,0.0355127933669641
+oasis_control:mtt_viability,variance_ratio,gene fold,4,0.0203684645743102
+oasis_control:mtt_viability,top5pct_recall,gene fold,0,0.1818181818181818
+oasis_control:mtt_viability,top5pct_recall,gene fold,1,0.0909090909090909
+oasis_control:mtt_viability,top5pct_recall,gene fold,2,0.0909090909090909
+oasis_control:mtt_viability,top5pct_recall,gene fold,3,0.0909090909090909
+oasis_control:mtt_viability,top5pct_recall,gene fold,4,0.0909090909090909
+control:tomm20_mito,recoverability_r,gene fold,0,-0.0044168635812143
+control:tomm20_mito,recoverability_r,gene fold,1,0.0007301743177326
+control:tomm20_mito,recoverability_r,gene fold,2,0.0008811416419303
+control:tomm20_mito,recoverability_r,gene fold,3,-0.0004420912582007
+control:tomm20_mito,recoverability_r,gene fold,4,-0.0025116457523766
+control:tomm20_mito,magnitude_spearman,gene fold,0,0.0153286355732385
+control:tomm20_mito,magnitude_spearman,gene fold,1,0.0105635907244239
+control:tomm20_mito,magnitude_spearman,gene fold,2,0.0351394628322028
+control:tomm20_mito,magnitude_spearman,gene fold,3,0.0215595492336865
+control:tomm20_mito,magnitude_spearman,gene fold,4,0.056894031167485
+control:tomm20_mito,variance_ratio,gene fold,0,0.0232276524512343
+control:tomm20_mito,variance_ratio,gene fold,1,0.0261038798281723
+control:tomm20_mito,variance_ratio,gene fold,2,0.0340886091425825
+control:tomm20_mito,variance_ratio,gene fold,3,0.0249946621727239
+control:tomm20_mito,variance_ratio,gene fold,4,0.0236440349171411
+control:tomm20_mito,top5pct_recall,gene fold,0,0.0637254901960784
+control:tomm20_mito,top5pct_recall,gene fold,1,0.0539215686274509
+control:tomm20_mito,top5pct_recall,gene fold,2,0.0784313725490196
+control:tomm20_mito,top5pct_recall,gene fold,3,0.0980392156862745
+control:tomm20_mito,top5pct_recall,gene fold,4,0.0637254901960784
+control:tomm20_mito,reliability,screen,CP186A,0.0510280440487595
+control:tomm20_mito,reliability,screen,CP186B,0.0473571535467417
+control:tomm20_mito,reliability,screen,CP186C,0.0566725256625499
+control:tomm20_mito,reliability,screen,CP186D,0.051787099890116
+control:tomm20_mito,reliability,screen,CP186E,0.0420552851058318
+control:tomm20_mito,reliability,screen,CP186F,0.0387194883123366
+control:tomm20_mito,reliability,screen,CP186G,0.0578475005857951
+control:tomm20_mito,reliability,screen,CP186H,0.0392195817749927
+control:tomm20_mito,reliability,screen,CP186N,0.0460435837130738
+dropout_dapi:stain_dropout_dapi,recoverability_r,gene fold,0,0.7633565387859075
+dropout_dapi:stain_dropout_dapi,recoverability_r,gene fold,1,0.762620422051929
+dropout_dapi:stain_dropout_dapi,recoverability_r,gene fold,2,0.7648181776133864
+dropout_dapi:stain_dropout_dapi,recoverability_r,gene fold,3,0.7639499655127491
+dropout_dapi:stain_dropout_dapi,recoverability_r,gene fold,4,0.7659131402835856
+dropout_dapi:stain_dropout_dapi,magnitude_spearman,gene fold,0,0.9211863300447404
+dropout_dapi:stain_dropout_dapi,magnitude_spearman,gene fold,1,0.9268271556825448
+dropout_dapi:stain_dropout_dapi,magnitude_spearman,gene fold,2,0.9228020859842624
+dropout_dapi:stain_dropout_dapi,magnitude_spearman,gene fold,3,0.9192186201770586
+dropout_dapi:stain_dropout_dapi,magnitude_spearman,gene fold,4,0.9243108524715352
+dropout_dapi:stain_dropout_dapi,variance_ratio,gene fold,0,0.8009860552053044
+dropout_dapi:stain_dropout_dapi,variance_ratio,gene fold,1,0.818398395436277
+dropout_dapi:stain_dropout_dapi,variance_ratio,gene fold,2,0.7824000521477333
+dropout_dapi:stain_dropout_dapi,variance_ratio,gene fold,3,0.8078793933681926
+dropout_dapi:stain_dropout_dapi,variance_ratio,gene fold,4,0.7850960618029919
+dropout_dapi:stain_dropout_dapi,top5pct_recall,gene fold,0,0.7696078431372549
+dropout_dapi:stain_dropout_dapi,top5pct_recall,gene fold,1,0.7107843137254902
+dropout_dapi:stain_dropout_dapi,top5pct_recall,gene fold,2,0.7450980392156863
+dropout_dapi:stain_dropout_dapi,top5pct_recall,gene fold,3,0.7303921568627451
+dropout_dapi:stain_dropout_dapi,top5pct_recall,gene fold,4,0.7156862745098039
+dropout_dapi:stain_dropout_dapi,reliability,screen,CP186A,0.0525859601661697
+dropout_dapi:stain_dropout_dapi,reliability,screen,CP186B,0.0547541282157729
+dropout_dapi:stain_dropout_dapi,reliability,screen,CP186C,0.054223615759319
+dropout_dapi:stain_dropout_dapi,reliability,screen,CP186D,0.0518975149710153
+dropout_dapi:stain_dropout_dapi,reliability,screen,CP186E,0.0498217499315579
+dropout_dapi:stain_dropout_dapi,reliability,screen,CP186F,0.0553428180526012
+dropout_dapi:stain_dropout_dapi,reliability,screen,CP186G,0.0559185740446077
+dropout_dapi:stain_dropout_dapi,reliability,screen,CP186H,0.0591456292463518
+dropout_dapi:stain_dropout_dapi,reliability,screen,CP186N,0.0529356311336358
+dropout_cona:stain_dropout_cona,recoverability_r,gene fold,0,0.7956276631775333
+dropout_cona:stain_dropout_cona,recoverability_r,gene fold,1,0.7963440352761424
+dropout_cona:stain_dropout_cona,recoverability_r,gene fold,2,0.7947881703695224
+dropout_cona:stain_dropout_cona,recoverability_r,gene fold,3,0.7959022812177136
+dropout_cona:stain_dropout_cona,recoverability_r,gene fold,4,0.7947109544058275
+dropout_cona:stain_dropout_cona,magnitude_spearman,gene fold,0,0.8382734639940711
+dropout_cona:stain_dropout_cona,magnitude_spearman,gene fold,1,0.8225448659776895
+dropout_cona:stain_dropout_cona,magnitude_spearman,gene fold,2,0.8395469400246944
+dropout_cona:stain_dropout_cona,magnitude_spearman,gene fold,3,0.8292555095958624
+dropout_cona:stain_dropout_cona,magnitude_spearman,gene fold,4,0.8380923866819814
+dropout_cona:stain_dropout_cona,variance_ratio,gene fold,0,0.798984533822307
+dropout_cona:stain_dropout_cona,variance_ratio,gene fold,1,0.8167454383981564
+dropout_cona:stain_dropout_cona,variance_ratio,gene fold,2,0.7747610870490446
+dropout_cona:stain_dropout_cona,variance_ratio,gene fold,3,0.7928247039267456
+dropout_cona:stain_dropout_cona,variance_ratio,gene fold,4,0.838280294347926
+dropout_cona:stain_dropout_cona,top5pct_recall,gene fold,0,0.5931372549019608
+dropout_cona:stain_dropout_cona,top5pct_recall,gene fold,1,0.6274509803921569
+dropout_cona:stain_dropout_cona,top5pct_recall,gene fold,2,0.5882352941176471
+dropout_cona:stain_dropout_cona,top5pct_recall,gene fold,3,0.6127450980392157
+dropout_cona:stain_dropout_cona,top5pct_recall,gene fold,4,0.5931372549019608
+dropout_cona:stain_dropout_cona,reliability,screen,CP186A,0.0543485943201653
+dropout_cona:stain_dropout_cona,reliability,screen,CP186B,0.052979966734068
+dropout_cona:stain_dropout_cona,reliability,screen,CP186C,0.0484220387308349
+dropout_cona:stain_dropout_cona,reliability,screen,CP186D,0.0485695224861321
+dropout_cona:stain_dropout_cona,reliability,screen,CP186E,0.0431834262921618
+dropout_cona:stain_dropout_cona,reliability,screen,CP186F,0.0537582794615168
+dropout_cona:stain_dropout_cona,reliability,screen,CP186G,0.0508398479930182
+dropout_cona:stain_dropout_cona,reliability,screen,CP186H,0.0463262684831333
+dropout_cona:stain_dropout_cona,reliability,screen,CP186N,0.0428083550081435
+dropout_phalloidin:stain_dropout_phalloidin,recoverability_r,gene fold,0,0.4539938698608472
+dropout_phalloidin:stain_dropout_phalloidin,recoverability_r,gene fold,1,0.4451879108443884
+dropout_phalloidin:stain_dropout_phalloidin,recoverability_r,gene fold,2,0.450313862320938
+dropout_phalloidin:stain_dropout_phalloidin,recoverability_r,gene fold,3,0.4490136121533573
+dropout_phalloidin:stain_dropout_phalloidin,recoverability_r,gene fold,4,0.4524835269869113
+dropout_phalloidin:stain_dropout_phalloidin,magnitude_spearman,gene fold,0,0.6745319625197395
+dropout_phalloidin:stain_dropout_phalloidin,magnitude_spearman,gene fold,1,0.6868152391154441
+dropout_phalloidin:stain_dropout_phalloidin,magnitude_spearman,gene fold,2,0.6833237478707855
+dropout_phalloidin:stain_dropout_phalloidin,magnitude_spearman,gene fold,3,0.6748335077305282
+dropout_phalloidin:stain_dropout_phalloidin,magnitude_spearman,gene fold,4,0.6959296266388638
+dropout_phalloidin:stain_dropout_phalloidin,variance_ratio,gene fold,0,0.6858334015729182
+dropout_phalloidin:stain_dropout_phalloidin,variance_ratio,gene fold,1,0.6865441323500061
+dropout_phalloidin:stain_dropout_phalloidin,variance_ratio,gene fold,2,0.6734974999188643
+dropout_phalloidin:stain_dropout_phalloidin,variance_ratio,gene fold,3,0.636802239609073
+dropout_phalloidin:stain_dropout_phalloidin,variance_ratio,gene fold,4,0.6384061889834285
+dropout_phalloidin:stain_dropout_phalloidin,top5pct_recall,gene fold,0,0.4215686274509804
+dropout_phalloidin:stain_dropout_phalloidin,top5pct_recall,gene fold,1,0.4117647058823529
+dropout_phalloidin:stain_dropout_phalloidin,top5pct_recall,gene fold,2,0.392156862745098
+dropout_phalloidin:stain_dropout_phalloidin,top5pct_recall,gene fold,3,0.3872549019607843
+dropout_phalloidin:stain_dropout_phalloidin,top5pct_recall,gene fold,4,0.3823529411764705
+dropout_phalloidin:stain_dropout_phalloidin,reliability,screen,CP186A,0.0408439635316168
+dropout_phalloidin:stain_dropout_phalloidin,reliability,screen,CP186B,0.0316718963022714
+dropout_phalloidin:stain_dropout_phalloidin,reliability,screen,CP186C,0.0370872280647133
+dropout_phalloidin:stain_dropout_phalloidin,reliability,screen,CP186D,0.0296276398900027
+dropout_phalloidin:stain_dropout_phalloidin,reliability,screen,CP186E,0.0369701367115793
+dropout_phalloidin:stain_dropout_phalloidin,reliability,screen,CP186F,0.0323287128277897
+dropout_phalloidin:stain_dropout_phalloidin,reliability,screen,CP186G,0.02866363137285
+dropout_phalloidin:stain_dropout_phalloidin,reliability,screen,CP186H,0.0299000039174429
+dropout_phalloidin:stain_dropout_phalloidin,reliability,screen,CP186N,0.0407728489216609
+dropout_wga:stain_dropout_wga,recoverability_r,gene fold,0,0.785532499425448
+dropout_wga:stain_dropout_wga,recoverability_r,gene fold,1,0.784245648691475
+dropout_wga:stain_dropout_wga,recoverability_r,gene fold,2,0.7808438796327392
+dropout_wga:stain_dropout_wga,recoverability_r,gene fold,3,0.7853729296331076
+dropout_wga:stain_dropout_wga,recoverability_r,gene fold,4,0.7873959321770593
+dropout_wga:stain_dropout_wga,magnitude_spearman,gene fold,0,0.8979951259739019
+dropout_wga:stain_dropout_wga,magnitude_spearman,gene fold,1,0.8895035766825914
+dropout_wga:stain_dropout_wga,magnitude_spearman,gene fold,2,0.8908610722309228
+dropout_wga:stain_dropout_wga,magnitude_spearman,gene fold,3,0.8982559726008489
+dropout_wga:stain_dropout_wga,magnitude_spearman,gene fold,4,0.8952448648077291
+dropout_wga:stain_dropout_wga,variance_ratio,gene fold,0,0.646029496663317
+dropout_wga:stain_dropout_wga,variance_ratio,gene fold,1,0.6139795300493042
+dropout_wga:stain_dropout_wga,variance_ratio,gene fold,2,0.6110359814031496
+dropout_wga:stain_dropout_wga,variance_ratio,gene fold,3,0.6460068600279442
+dropout_wga:stain_dropout_wga,variance_ratio,gene fold,4,0.6602517652375408
+dropout_wga:stain_dropout_wga,top5pct_recall,gene fold,0,0.6225490196078431
+dropout_wga:stain_dropout_wga,top5pct_recall,gene fold,1,0.6274509803921569
+dropout_wga:stain_dropout_wga,top5pct_recall,gene fold,2,0.6274509803921569
+dropout_wga:stain_dropout_wga,top5pct_recall,gene fold,3,0.6568627450980392
+dropout_wga:stain_dropout_wga,top5pct_recall,gene fold,4,0.6421568627450981
+dropout_wga:stain_dropout_wga,reliability,screen,CP186A,0.0505275293012681
+dropout_wga:stain_dropout_wga,reliability,screen,CP186B,0.0356049427703948
+dropout_wga:stain_dropout_wga,reliability,screen,CP186C,0.0483035537882804
+dropout_wga:stain_dropout_wga,reliability,screen,CP186D,0.0457615652176759
+dropout_wga:stain_dropout_wga,reliability,screen,CP186E,0.0499610702157274
+dropout_wga:stain_dropout_wga,reliability,screen,CP186F,0.0447943488782626
+dropout_wga:stain_dropout_wga,reliability,screen,CP186G,0.0451027781600555
+dropout_wga:stain_dropout_wga,reliability,screen,CP186H,0.0452133508529965
+dropout_wga:stain_dropout_wga,reliability,screen,CP186N,0.0559000073824641

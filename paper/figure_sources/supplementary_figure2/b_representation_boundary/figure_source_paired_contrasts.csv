@@ -1,0 +1,4 @@
+contrast,lhs,rhs,mean_paired_delta,reporter_hierarchical_bootstrap_ci_low,reporter_hierarchical_bootstrap_ci_high,reporters_with_positive_mean_delta,n_reporters,reporter_fold_units_with_positive_delta,n_reporter_fold_units,interpretation_scope
+fine-tune minus frozen Cytoland,Cytoland partial fine-tune,Cytoland frozen,0.0186934095832489,-0.0076082557068363,0.050210584434077,4,6,18,30,descriptive fixed-panel sensitivity analysis
+fine-tune minus frozen DINOv2,Cytoland partial fine-tune,DINOv2 frozen,0.078544603959157,0.0327724284030134,0.1300064081059234,6,6,29,30,descriptive fixed-panel sensitivity analysis
+fine-tune minus official 172D,Cytoland partial fine-tune,Official 172D + MLP,-0.1266194115896467,-0.1880734170381739,-0.0657278995253447,0,6,2,30,descriptive fixed-panel sensitivity analysis

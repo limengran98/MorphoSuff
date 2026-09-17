@@ -1,0 +1,31 @@
+{
+  "array_spec": "cell_mask:384x384:int32; fluorescence:384x384:float32; nuclear_mask:384x384:int32; phase:384x384:float32; reporter_mask:384x384:int32",
+  "asset_id": "ferhonox_ntc_ops0067",
+  "canonical_relative_path": "raw_assets/ferhonox_ntc_ops0067.npz",
+  "display_policy": "Use the per-panel fixed windows in render_spec.csv. Do not alter pixels, register, denoise, enhance, or content-edit this asset.",
+  "file_sha256": "e9bd323a52fedfa0bcf8bf3dcbe9f438202f9a070d8beb4c70eaee69e4ae106a",
+  "orientation": "native stored orientation",
+  "pixel_sha256": "df0fd486db81ba7a1d2742cb889aa746497025f1aaf4d3e04afbbfde9559f445",
+  "provenance": {
+    "asset_id": "ferhonox_ntc_ops0067",
+    "channels": "phase=0; fluorescence=2; masks",
+    "figure_panel_usage": "Fig.5d",
+    "filename": "ferhonox_ntc_ops0067.npz",
+    "gene": "NTC",
+    "note": "",
+    "perturbation_role": "NTC",
+    "phase_row_index": "8266792",
+    "pixel_size_um": 0.325,
+    "provenance_uri": "Local downloaded crop; original OPS source documented in source figure manifest.",
+    "reporter": "FeRhoNox",
+    "reporter_slug": "ferhonox",
+    "screen_id": "Biohub_OPS0067",
+    "segmentation_id": "30588988",
+    "selection_rule": "Soft-QC non-edge NTC; phase/geometry medoid within screen.",
+    "source_level": "downloaded level-0 crop",
+    "source_relative_path": "figure5/source_data/microscopy/cell_04.npz",
+    "use_status": "rendered",
+    "well": "A/2/0"
+  },
+  "spatial_transform": "none"
+}

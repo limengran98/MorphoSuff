@@ -1,0 +1,17 @@
+figure_id: Figure1-a
+role: study_workflow_orientation
+canvas: {width_mm: 183.091667, height_mm: 63.5}
+authoritative_source: source/Figure1a.pptx
+canonical_pdf: source/Figure1a.pdf
+generated_panel_pdf: figure/Figure1-a_workflow.pdf
+export_manifest: source/export_manifest.json
+export_helper: source/export_to_pdf.ps1
+preview_builder: code/build_figure1a.py
+source_policy: "Read-only export of accepted PPT; never regenerate from an older drawing script."
+export_pipeline: "Native PowerPoint PDF, then exact embedded-image restoration at unchanged placements."
+editable_objects: [text, arrows, sequencing_symbols, atlas_schema_blocks, scale_bar]
+microscopy: "Real paired LAMP1–BORCS7, OPS0011; 384 × 384 pixels; 0.325 µm/pixel; common 20 µm bar."
+atlas_schema: "Illustrative cell-by-reporter-specific-endpoint blocks, not numeric heatmaps."
+reporter_scope: "52 reporters across 73 screens; not all reporters measured in every cell."
+font: Arial
+exports: [editable_PPTX, native_text_PDF, PNG_600dpi, SVG_preview]

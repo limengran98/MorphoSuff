@@ -1,0 +1,4 @@
+claim_id,status,can_say,cannot_say
+SF4A-1,supported,"Coherent checkpoint-average ensemble evidence predicts held-out reporter utility with outer-LOO Spearman 0.786 and R2 0.587 after mathematical utility ties are assigned average ranks.","This is not an external-dataset validation and does not establish causal determinants."
+SF4A-2,supported,"Recoverability, rank fidelity, amplitude fidelity and reliability are each associated with retained utility at the reporter level.","The correlated predictors cannot be interpreted as independent causal contributions."
+SF4A-3,diagnostic,"Reporter-specific residuals identify where the calibration model over- or under-predicts utility.","The four labels are not a new biological subgroup."

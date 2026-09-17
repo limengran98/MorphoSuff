@@ -1,0 +1,4 @@
+reporter_slug,short_name,selection_rule,phase_row_index,phase_cell_id,shard_id,shard_offset,display_low,display_high
+early_endosome_eea1,EEA1,closest to reporter-wise median of four phase-image statistics among 96 evenly spaced full-window targeting cells in held-out gene fold 0,2469794,Biohub_OPS0039::phase_row_2469794,204,23,-0.6203947246074677,1.0548125565052042
+mitochondria_tomm20,TOMM20,closest to reporter-wise median of four phase-image statistics among 96 evenly spaced full-window targeting cells in held-out gene fold 0,6999129,Biohub_OPS0043::phase_row_6999129,236,3826,-0.4085839435458183,0.7731417328119281
+nucleoli_npm1,NPM1,closest to reporter-wise median of four phase-image statistics among 96 evenly spaced full-window targeting cells in held-out gene fold 0,5976007,Biohub_OPS0043::phase_row_5976007,250,485,-0.3872894838452339,0.5882009357214006

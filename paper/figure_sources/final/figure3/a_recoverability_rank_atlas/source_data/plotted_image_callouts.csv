@@ -1,0 +1,4 @@
+unit,split,entity_id,asset_key,display_label,rank_percentile,score
+Reporter,Whole-screen,actin_filament_fastact_spy555_live_cell_dye,fastact_actr3_ko,FastAct · ACTR3,84.84848484848484,0.8885264580448469
+Physical screen,Field,Biohub_OPS0011,lamp1_borcs7_ntc,OPS0011 · LAMP1,33.33333333333333,0.683006984744972
+Reporter × screen,Gene,5xupre::Biohub_OPS0001,5xupre_hspa5_ko,5xUPRE × OPS0001,54.08163265306123,0.7805186922857864

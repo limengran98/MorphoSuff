@@ -1,0 +1,19 @@
+panel: e
+title: conditional ambiguity
+statistical_unit: gene within reporter-screen and representation
+source_rows: 5990
+cases:
+  - FeRhoNox / OPS0047
+  - FeRhoNox / OPS0067
+  - pRb / OPS0077
+representations:
+  phase172: teal upper half-raincloud
+  raw_thumbnail: orange lower half-raincloud
+x_scale: base-2 logarithmic ratio
+reference: 1
+summary_marks:
+  open_circle: median
+  thick_bar: interquartile range
+  thin_bar: 10th-90th percentiles
+font: Arial
+exports: [png_600dpi, pdf_vector, svg_live_text]

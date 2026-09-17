@@ -1,0 +1,11 @@
+panel: d
+statistical_unit: directed reporter-to-destination-screen evaluation
+n_directions: 81
+n_reporters: 34
+n_destination_screens: 66
+consensus: unweighted median of ten frozen predictors
+primary_outcome: gene_holdout_pearson_minus_strict_whole_screen_pearson
+ordering: ascending primary outcome
+association: direction-level Spearman with reporter-cluster bootstrap CI; two-sided reporter-median permutation P (3000 draws, plus-one correction)
+microscopy_case: all two directions of frozen FeRhoNox repeated-screen case
+font: Arial

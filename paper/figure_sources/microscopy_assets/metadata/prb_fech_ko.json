@@ -1,0 +1,31 @@
+{
+  "array_spec": "fluorescence:384x384:float32; phase:384x384:float32",
+  "asset_id": "prb_fech_ko",
+  "canonical_relative_path": "raw_assets/prb_fech_ko.npz",
+  "display_policy": "Use the per-panel fixed windows in render_spec.csv. Do not alter pixels, register, denoise, enhance, or content-edit this asset.",
+  "file_sha256": "0adbb1e059f23bdd72afbe77f3328aed7acecd582d526d6d936a6500d74fd55a",
+  "orientation": "native stored orientation",
+  "pixel_sha256": "4f05e315df92fe1180febac01fb7c02aa7c05f283690db0febec0defb3fc2e24",
+  "provenance": {
+    "asset_id": "prb_fech_ko",
+    "channels": "phase=0; fluorescence=9",
+    "figure_panel_usage": "Fig.1e; Fig.3d (retained potential)",
+    "filename": "prb_fech_ko.npz",
+    "gene": "FECH",
+    "note": "",
+    "perturbation_role": "KO",
+    "phase_row_index": "751",
+    "pixel_size_um": 0.325,
+    "provenance_uri": "s3://ops-explorer-public/leonetti_ops/ops_data_portal_submission/v1.0.20260521/datasets/Biohub_OPS0077/Biohub_OPS0077.zarr",
+    "reporter": "pRb",
+    "reporter_slug": "prb",
+    "screen_id": "Biohub_OPS0077",
+    "segmentation_id": "2246962",
+    "selection_rule": "Frozen registered same-cell crop; phase and target channels remain paired.",
+    "source_level": "OME-Zarr level 0",
+    "source_relative_path": "figure1/e_same_cell_response_maps/source_data/frozen_inputs/B_exact_same_cell_microscopy/prb_exact_same_cell.npz",
+    "use_status": "rendered; potential",
+    "well": "A/1/0"
+  },
+  "spatial_transform": "none"
+}

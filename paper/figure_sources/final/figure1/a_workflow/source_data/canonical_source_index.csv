@@ -1,0 +1,4 @@
+asset,role,provenance,transformation
+../source/Figure1a.pptx,canonical editable workflow,accepted Figure 1a newly illustrated PowerPoint,"author-approved source; no older slide generator replayed"
+../source/export_manifest.json,source-to-export integrity,accepted PPTX and native PowerPoint PDF SHA-256,"verification only; blocks silent regeneration from a stale source"
+../source/Figure1a.pdf,canonical panel export,native PowerPoint export of accepted PPTX,"versioned input; live text and embedded schematic or authentic microscopy assets retained"

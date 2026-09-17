@@ -1,0 +1,38 @@
+{
+  "panel": "Figure 1b",
+  "claim": "Exact same-cell linkage yields 7.344M distinct phase cells across 73 screens and 9.996M reporter observations across 99 acquired reporter-screen assays; 52 reporter-specific targets define 1,604 endpoints.",
+  "statistical_units": {
+    "left_spectrum": "physical screen (n=73)",
+    "middle_spectrum": "acquired reporter-screen assay (n=99)",
+    "right_frequency_chart": "reporter-specific output block (n=52)"
+  },
+  "totals": {
+    "physical_screens": 73,
+    "reporter_screen_assays": 99,
+    "reporters": 52,
+    "distinct_exact_linked_phase_cells": 7344374,
+    "exact_linked_reporter_observations": 9996286,
+    "phenotype_endpoints": 1604
+  },
+  "ordering": {
+    "screens": "ascending distinct exact-linked phase-cell count; stable screen_id tie-break",
+    "assays": "ascending exact-linked reporter observations; stable assay_key tie-break"
+  },
+  "exclusions": "none",
+  "analysis_mode": "descriptive_enumeration",
+  "inferential_unit": "none; complete enumeration, not population inference",
+  "uncertainty": "none",
+  "layout": "three plots side by side at 183 x 30 mm; no native panel letter",
+  "endpoint_encoding": "categorical endpoint count on x; reporter count on y",
+  "endpoint_marks": "blue filled bars with darker outlines from zero; exact counts above bars",
+  "outcome_based_ordering": false,
+  "font": "DejaVu Sans; editable embedded TrueType in PDF",
+  "input_sha256": {
+    "assay_coverage_rank.tsv": "1fe5ea241e73f4ee894f0724db021966e6d3bba92930e82f50e1af5269cd98fc",
+    "endpoint_block_summary.csv": "e250ceb51fc509a8367af0e6f980af1c5654e34608da617b0d7bcffeaed67eb8",
+    "endpoint_finite_fraction_matrix.csv.gz": "a0288364441be492c0df3140cf424b1af8a715fca2d9065450d14210176aa7f8",
+    "reporter_endpoint_completeness.csv": "a837a1d5be481432e2757832fa20ad6a2728bba15c31e625cdacfe7a9aa2559b",
+    "reporter_order.csv": "ae36a349f23a7ae7d7861438ce5ba9a53113fe4f8af83fe2aefc102f893c7eef",
+    "screen_order.csv": "77c64c530850d1804bc0e855f5eb1d6d420a5e655e2945bd554dab04675ac854"
+  }
+}

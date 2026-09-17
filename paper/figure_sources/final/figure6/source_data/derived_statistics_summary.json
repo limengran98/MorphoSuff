@@ -1,0 +1,125 @@
+{
+  "estimand": "checkpoint-average elementwise median ensemble before equal-screen gene averaging",
+  "recovery_definition": "endpoint macro Pearson within fold, arithmetic mean of five held-out-gene folds",
+  "nested_loo": {
+    "n_reporters": 52.0,
+    "outer_loo_r2": 0.586672483396635,
+    "outer_loo_spearman": 0.786083245113286,
+    "median_selected_alpha": 10.0
+  },
+  "associations": [
+    {
+      "predictor": "ensemble_recoverability_r",
+      "label": "Recovery",
+      "rho": 0.69028815431095,
+      "ci_low": 0.4945070190997207,
+      "ci_high": 0.8256139921514942,
+      "n_reporters": 52,
+      "ci_method": "reporter-level percentile bootstrap",
+      "bootstrap_reps": 10000,
+      "bootstrap_seed": 20260831
+    },
+    {
+      "predictor": "magnitude_spearman",
+      "label": "Rank",
+      "rho": 0.7914621138481764,
+      "ci_low": 0.6398201590163641,
+      "ci_high": 0.8851746422911837,
+      "n_reporters": 52,
+      "ci_method": "reporter-level percentile bootstrap",
+      "bootstrap_reps": 10000,
+      "bootstrap_seed": 20260831
+    },
+    {
+      "predictor": "amplitude_fidelity",
+      "label": "Amplitude",
+      "rho": 0.6351760944955243,
+      "ci_low": 0.4384361053925273,
+      "ci_high": 0.7725871937127003,
+      "n_reporters": 52,
+      "ci_method": "reporter-level percentile bootstrap",
+      "bootstrap_reps": 10000,
+      "bootstrap_seed": 20260831
+    },
+    {
+      "predictor": "within_screen_split_half_pearson_median",
+      "label": "Reliability",
+      "rho": 0.6590394883273004,
+      "ci_low": 0.46645387459387955,
+      "ci_high": 0.7845286003322596,
+      "n_reporters": 52,
+      "ci_method": "reporter-level percentile bootstrap",
+      "bootstrap_reps": 10000,
+      "bootstrap_seed": 20260831
+    }
+  ],
+  "selected_alpha_counts": {
+    "10.0": 51,
+    "1.0": 1
+  },
+  "residual_labels": [
+    {
+      "reporter_slug": "oxidative_stress_cellrox_live-cell_dye",
+      "short_name": "CellROX",
+      "prediction_residual": -0.31669575172621156
+    },
+    {
+      "reporter_slug": "prb",
+      "short_name": "pRb",
+      "prediction_residual": -0.4167783217403261
+    },
+    {
+      "reporter_slug": "proteasome_psmb7",
+      "short_name": "PSMB7",
+      "prediction_residual": 0.4042664805077359
+    },
+    {
+      "reporter_slug": "trans-golgi_vamp3",
+      "short_name": "VAMP3",
+      "prediction_residual": -0.33276329380674174
+    }
+  ],
+  "thresholds": {
+    "n_reporters": 52,
+    "n_scenarios": 36,
+    "baseline_counts": {
+      "quantitative_proxy": 30,
+      "not_identifiable": 9,
+      "ranking_proxy": 7,
+      "measurement_required": 3,
+      "unresolved": 3
+    },
+    "reliability_passing": 43,
+    "single_gate": {
+      "n_scenarios": 32,
+      "reporters_unchanged_in_every_scenario": 28,
+      "median_reporters_changed": 1.0,
+      "max_reporters_changed": 8,
+      "proxy_total_range": [
+        31,
+        40
+      ]
+    },
+    "all_gates_together": {
+      "n_scenarios": 4,
+      "max_reporters_changed": 16
+    },
+    "reporters_unchanged_in_every_scenario": 28,
+    "reporters_keeping_proxy_status_in_every_scenario": 40,
+    "proxy_total_range_all_scenarios": [
+      30,
+      42
+    ]
+  },
+  "psmb7": [
+    {
+      "ensemble_recoverability_r": 0.6036111647146251,
+      "substitutability_tier": "ranking_proxy"
+    }
+  ],
+  "source_sha256": {
+    "coherent_ensemble_evidence.csv": "bfa67250a965e0a03222ef3f43979cc8187a1d4d6586d8bbb8c61f119a5c1762",
+    "coherent_ensemble_fold_recoverability.csv": "1ed561c89d2b9d05abac61d71df5539c0b376838ba46a4552b878327ecf198cd",
+    "response_replacement_utility_and_annotations.csv": "0f92267b0da5c7c1fecdc1680be10bbcc6a37f7cf4d10ab041a3be90b3738a93"
+  }
+}

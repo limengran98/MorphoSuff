@@ -1,0 +1,2 @@
+n_reporters,prediction_gate,utility_split_definition,descriptive_utility_split,spearman_rho,spearman_p_two_sided,spearman_ci_low,spearman_ci_high,bootstrap_reps,bootstrap_seed,high_prediction_high_utility,high_prediction_low_utility,low_prediction_high_utility,low_prediction_low_utility
+52,0.7,"cohort median; descriptive, not a decision gate",0.5232843137254902,0.69028815431095,1.4978403243355077e-08,0.4945070190997207,0.8256139921514942,10000,20260831,24,15,2,11

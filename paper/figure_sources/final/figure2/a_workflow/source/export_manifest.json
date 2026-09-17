@@ -1,0 +1,196 @@
+{
+  "source_pptx_sha256": "f8eb10b6dbbceff803d35665983ea90a92c09e39e41851fa948a5f8c1b89d5f1",
+  "exported_pdf_sha256": "5a8ec20a9b3db35577bb413a94fecfda18c2219d2470f4c99877075a5d930428",
+  "image_restoration": [
+    {
+      "pptx_part": "ppt/media/image1.png",
+      "source_image_sha256": "944378b56e4fef62786f09e9081936ed7ccf3acc7e00e53fa4ee00ee155c1264",
+      "rects_pt": [
+        [
+          27,
+          49.5,
+          79.5,
+          102
+        ]
+      ],
+      "downsampled_size_px": [
+        145,
+        145
+      ]
+    },
+    {
+      "pptx_part": "ppt/media/image2.png",
+      "source_image_sha256": "d0a981067717d48b222e452db7760e76901b0deb4a1979cc62bd85c9ce654acc",
+      "rects_pt": [
+        [
+          197.25,
+          49.5,
+          249.75,
+          102
+        ]
+      ],
+      "downsampled_size_px": [
+        145,
+        145
+      ]
+    },
+    {
+      "pptx_part": "ppt/media/image3.png",
+      "source_image_sha256": "b3b24a43e752c97cab7a702fa3adcf1537159d708d4f91512a578b8df6bd3b22",
+      "rects_pt": [
+        [
+          391.5,
+          45.75,
+          423.75,
+          78
+        ]
+      ],
+      "downsampled_size_px": [
+        89,
+        89
+      ]
+    },
+    {
+      "pptx_part": "ppt/media/image4.png",
+      "source_image_sha256": "36c89ccaff12e70250eceaac127e09aebbbfc913f61333eb4137a969886d60ec",
+      "rects_pt": [
+        [
+          431.25,
+          45.75,
+          463.5,
+          78
+        ]
+      ],
+      "downsampled_size_px": [
+        89,
+        89
+      ]
+    },
+    {
+      "pptx_part": "ppt/media/image5.png",
+      "source_image_sha256": "6a519f96fb7070c3ade5c824f2780779ee74ff2f8f57f8690dc2e4899f0e26fe",
+      "rects_pt": [
+        [
+          473.25,
+          45.75,
+          505.5,
+          78
+        ]
+      ],
+      "downsampled_size_px": [
+        89,
+        89
+      ]
+    },
+    {
+      "pptx_part": "ppt/media/image6.png",
+      "source_image_sha256": "6e9e6975df856532acc7236ab5efc8433bddc293e306ccda403fe1e681f03caf",
+      "rects_pt": [
+        [
+          391.1300048828125,
+          83.25,
+          424.1300048828125,
+          116.25
+        ],
+        [
+          430.8800048828125,
+          83.25,
+          463.8800048828125,
+          116.25
+        ],
+        [
+          472.8800048828125,
+          83.25,
+          505.8800048828125,
+          116.25
+        ]
+      ],
+      "downsampled_size_px": [
+        91,
+        91
+      ]
+    },
+    {
+      "pptx_part": "ppt/media/image7.png",
+      "source_image_sha256": "3ff17416d196e46a0ce460ca365171285266e112714d745bb8009dabb245950b",
+      "rects_pt": [
+        [
+          389.25,
+          135.5,
+          426,
+          160
+        ],
+        [
+          429,
+          135.5,
+          465.75,
+          160
+        ],
+        [
+          471,
+          135.5,
+          507.75,
+          160
+        ]
+      ],
+      "downsampled_size_px": [
+        102,
+        68
+      ]
+    }
+  ],
+  "source_pptx": "Figure2a.pptx",
+  "exported_pdf": "source/Figure2a.pdf",
+  "authority": "Accepted editable PowerPoint, with the author-deleted arrow preserved and one explanatory crop label added.",
+  "conversion": "Native PowerPoint PDF with original embedded image streams restored; one matching editable text annotation added to the accepted PPTX and PDF. All existing objects and microscopy pixels are unchanged.",
+  "amendments": [
+    {
+      "date": "2026-09-08",
+      "text": "Example cell crops",
+      "pptx_box_points": [
+        286.5,
+        75.0,
+        60.423046875000004,
+        12.75
+      ],
+      "pdf_origin_points": [
+        286.56,
+        83.93
+      ],
+      "font": "Arial",
+      "font_size_points": 7.2,
+      "reason": "Distinguish illustrative cell-centred crops from the held-out whole-field unit.",
+      "previous_pptx_sha256": "0fc64abcc10d85d0120c450bf753c9de4ab0f49323465b559592589d19156817",
+      "previous_pdf_sha256": "e159406801f819526c161311ca1b5a10d3e062796d0b9f7f08ee97c52d60e8a2",
+      "method": "Append one native PPT text shape and a matching embedded-font PDF text object; no design regeneration.",
+      "existing_pptx_parts_unchanged_except_slide_xml_and_notes": true,
+      "existing_slide_objects_unchanged": true,
+      "pdf_image_pixels_and_placements_unchanged": true,
+      "nonvisual_note_paths_normalized_to": "paper/manuscript.tex"
+    }
+  ],
+  "manuscript_typography_amendment": {
+    "date": "2026-09-09",
+    "previous": {
+      "pptx_sha256": "b7618d5ffc5bdc277aaa87f3bf138bcf4e42862983b3632e7175b679bf347ff3",
+      "pdf_sha256": "0719f9e7c167683a170992696fb924f722a6e9f0cda40a259b524f44a3221877"
+    },
+    "panel_letter": "9 pt DejaVu Sans bold",
+    "removed_explanatory_headings": [
+      "Generalization tests",
+      "Same-cell phenotype prediction"
+    ],
+    "scientific_images": "Every embedded image payload is byte-identical; transforms unchanged.",
+    "export_note": "Native PowerPoint baseline with matching editable-PPT and vector-PDF text amendments."
+  },
+  "clean_panel_amendment": {
+    "date": "2026-09-09",
+    "previous": {
+      "pptx_sha256": "f5cae7f8e2df99d7abecbd8325368e999fb3c965188494cc0eb7d51e68214522",
+      "pdf_sha256": "8692f66b1e525994d176777683acda3d8d7a945723c93aa496f8104c7d39e55e"
+    },
+    "change": "Remove standalone panel letter from matching editable PPT and vector PDF; compositor now owns the letter.",
+    "scientific_images": "Embedded image payloads and displayed transforms are unchanged.",
+    "export_note": "Text-only amendment of the accepted PowerPoint export, not a new PowerPoint conversion."
+  }
+}

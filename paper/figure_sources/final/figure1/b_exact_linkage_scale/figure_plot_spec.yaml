@@ -1,0 +1,45 @@
+figure_id: Figure1-b
+role: quantitative_scale
+target_journal: Nature Methods
+claim: "Exact linkage yields 7.344M distinct phase cells across 73 screens and 9.996M reporter observations across 99 acquired reporter-screen assays; 52 reporter-specific targets comprise 1,604 endpoints."
+statistical_units:
+  left_spectrum: "physical screen (n=73)"
+  middle_spectrum: "acquired reporter-screen assay (n=99)"
+  right_frequency_chart: "reporter-specific output block (n=52)"
+analysis_mode: descriptive_enumeration
+inferential_unit: "none; complete enumeration, not population inference"
+uncertainty: none
+geometry:
+  width_mm: 183
+  height_mm: 30
+  layout: "three plots side by side; no footer, explanatory titles or native panel letter"
+encodings:
+  left_x: "physical screens ranked by distinct exact-linked phase-cell count"
+  left_y: "distinct phase cells and exact-linked reporter observations per physical screen"
+  left_pair: "slate phase-cell point for every screen; blue reporter-observation square only where a multi-reporter screen creates a nonzero gap"
+  left_connector: "orange denotes the phase-cell-to-reporter-observation gap in screens with 2-7 acquired reporters"
+  middle_x: "reporter-screen assays ranked by exact-linked reporter observations"
+  middle_y: "gene-guide-concordant exact-linked reporter observations per assay"
+  middle_highlights: [LAMP1, FeRhoNox, pRb]
+  right_x: "categorical endpoint counts 20, 24, 30, 60, 72 in ascending order"
+  right_y: "reporter counts 1, 38, 6, 1, 6; blue filled bars with darker outlines from zero"
+  right_annotations: "exact reporter counts above bars; total 1604 endpoints in caption"
+palette:
+  distinct_phase_cells: "#526573"
+  reporter_observations: "#3E6F9C"
+  multi_reporter_connector: "#E8943A"
+  assay_spectrum: "#5F9BC3"
+  endpoint_frequency_fill: "#5F9BC3"
+  endpoint_frequency_outline: "#3E6F9C"
+font:
+  family: DejaVu Sans
+  minimum_pt: 6.0
+  axis_labels_pt: 6.5
+  composite_only_letter_pt: 9.0
+  pdf_embedding: "TrueType Type 0; no Type 3 fonts"
+exports: [PNG_600dpi, PDF, SVG_live_text]
+source_data:
+  screen_spectrum: source_data/figure_source_data_screen.tsv
+  assay_spectrum: source_data/figure_source_data_assay.tsv
+  target_schema: source_data/figure_source_data_endpoint_schema.tsv
+code: code/build_figure1b.py

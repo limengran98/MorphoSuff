@@ -1,0 +1,21 @@
+{
+  "reference_state": "checkpoint_average",
+  "reference_method_id": "coherent_median_ensemble",
+  "n_reporters": 52,
+  "reliability_passing_denominator": 43,
+  "fixed_reliability_N": 9,
+  "states": {
+    "checkpoint_average": {
+      "all_proxy": 20,
+      "proxy_boundary_crossing": 17,
+      "fixed_reliability_N": 9,
+      "all_no_proxy": 6
+    },
+    "single": {
+      "all_proxy": 22,
+      "proxy_boundary_crossing": 15,
+      "fixed_reliability_N": 9,
+      "all_no_proxy": 6
+    }
+  }
+}

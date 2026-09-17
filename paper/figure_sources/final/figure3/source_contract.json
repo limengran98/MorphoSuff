@@ -1,0 +1,29 @@
+{
+  "aggregation": "arithmetic fold/direction mean within method; unweighted median across ten frozen models",
+  "model_spread": "Q25-Q75 across ten models; descriptive, not biological confidence interval",
+  "difficulty_thresholds": {
+    "low": "r < 0.60",
+    "intermediate": "0.60 <= r < 0.75",
+    "high": "r >= 0.75"
+  },
+  "panel_a_units": {
+    "Field": [
+      52,
+      73,
+      99
+    ],
+    "Gene": [
+      52,
+      73,
+      99
+    ],
+    "Whole-screen": [
+      34,
+      66,
+      81
+    ]
+  },
+  "panel_a_biology_strips": "nine entity-aligned strips; multi-system physical-screen tiles are subdivided",
+  "microscopy_role": "descriptive frozen callouts; no image contributes to the plotted statistic",
+  "font": "DejaVu Sans; shared 9-pt letters, 6-pt text floor; live SVG text"
+}

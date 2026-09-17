@@ -1,0 +1,11 @@
+figure: 5
+role: sufficiency_constraints
+canonical_inputs: [stability_metrics, coverage_metrics, amplitude_metrics, transfer_shift_metrics, ambiguity_metrics]
+consensus: ten_method_unweighted_median
+panel_a: {unit: reporter, joint_terms: [within_screen_reliability, guide_half_consistency, log10_exact_link_coverage], resamples: 3000}
+panel_b: {unit: declared_well_or_guide_partition, microscopy: descriptive_only}
+panel_c: {unit: reporter, nested_unit: perturbation_gene, variance_ratio_threshold: 0.5}
+panel_d: {unit: directed_reporter_destination_screen, cluster: reporter, interpretation: association_not_causation}
+panel_e: {unit: target_screen_gene, interpretation: bounded_sensitivity_not_upper_bound}
+output: {formats: [pdf, svg, png], panels: [a, b, c, d, e]}
+forbidden: [legacy_mean_counts, independent_endpoint_inference, training]

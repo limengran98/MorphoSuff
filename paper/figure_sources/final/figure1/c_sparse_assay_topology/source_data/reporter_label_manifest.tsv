@@ -1,0 +1,53 @@
+reporter_slug	display_name	biological_category	figure_row	label_flag	label_reason
+late_endosome_rab7a	RAB7A	Endosome	0	True	manuscript_case;system_representative;alternating_fill
+recycling_endosome_tfrc	TFRC	Endosome	1	False	
+endosome_vps35	VPS35	Endosome	2	True	alternating_fill
+early_endosome_eea1	EEA1	Endosome	3	False	
+lysosome_lysotracker_live-cell_dye	LysoTracker	Lysosome	4	True	manuscript_case;repeated_ge3_screens;system_representative;alternating_fill
+autophagosome_map1lc3b	MAP1LC3B	Lysosome	5	True	manuscript_case;repeated_ge3_screens
+autophagosome_atg101	ATG101	Lysosome	6	True	alternating_fill
+lipid_droplet_bodipy_live_cell_dye	BODIPY	Lysosome	7	False	
+clathrin_vesicles_clta	CLTA	Lysosome	8	True	alternating_fill
+lysosome_lamp1	LAMP1	Lysosome	9	True	manuscript_case
+lipid_droplet_plin2	PLIN2	Lysosome	10	True	alternating_fill
+er_sec61b	SEC61B	ER/Golgi	11	True	manuscript_case;repeated_ge3_screens;system_representative
+er_golgi_cope	COPE	ER/Golgi	12	False	
+trans-golgi_vamp3	VAMP3	ER/Golgi	13	False	
+er_golgi_bridge_vapa	VAPA	ER/Golgi	14	False	
+er_cona	ConA	ER/Golgi	15	False	
+er_ncln	NCLN	ER/Golgi	16	False	
+er_golgi_cop-ii_sec23a	SEC23A	ER/Golgi	17	True	manuscript_case
+actin_filament_fastact_spy555_live_cell_dye	FastAct	Cytoskeleton	18	True	manuscript_case;repeated_ge3_screens;system_representative
+microtubules_map4	MAP4	Cytoskeleton	19	False	
+f-actin_phalloidin	Phalloidin	Cytoskeleton	20	False	
+microtubules_tubulin	Tubulin	Cytoskeleton	21	False	
+peroxisome_peroxi_spy650_live_cell_dye	Peroxi	Peroxisome	22	True	manuscript_case;system_representative
+5xupre	5xUPRE	Stress/PQC	23	True	manuscript_case;repeated_ge3_screens;system_representative
+caspase_activity_cellevent-caspase_live-cell_dye	Caspase	Stress/PQC	24	False	
+chaperones_hspa1b	HSPA1B	Stress/PQC	25	True	manuscript_case
+proteasome_psmb7	PSMB7	Stress/PQC	26	False	
+stress_granule_g3bp1	G3BP1	Stress/PQC	27	False	
+chromalive_488_excitation	ChromaLIVE 488	Mitochondria	28	False	system_representative
+mitochondria_chromalive_561_excitation	ChromaLIVE 561	Mitochondria	29	False	
+mitochondria_tomm70a	TOMM70A	Mitochondria	30	False	
+mitochondria_tomm20	TOMM20	Mitochondria	31	True	manuscript_case
+plasma_membrane_atp1b3	ATP1B3	Plasma Membrane	32	True	system_representative
+plasma_membrane_slc3a2	SLC3A2	Plasma Membrane	33	False	
+plasma_membrane_wga	WGA	Plasma Membrane	34	True	manuscript_case
+nucleolus-dfc_fbl	FBL	Nucleus	35	True	system_representative
+chromatin_h2bc21	H2BC21	Nucleus	36	False	
+cell_proliferation_marker_mki67	MKI67	Nucleus	37	False	
+nucleolus-gc_npm3	NPM3	Nucleus	38	True	manuscript_case
+nuclei_nucleolive_live_cell_dye	NucleoLIVE	Nucleus	39	False	
+nuclear_speckles_srrm2	SRRM2	Nucleus	40	False	
+nuclei_hoechst	Hoechst	Nucleus	41	True	manuscript_case
+nucleoli_npm1	NPM1	Nucleus	42	True	manuscript_case
+oxidative_stress_cellrox_live-cell_dye	CellROX	Signaling	43	True	system_representative
+fe2+_ferhonox_live-cell_dye	FeRhoNox	Signaling	44	True	manuscript_case
+endocytic_vesicle_ph_phrodo-dextran_live_cell_dye	pHrodo-dextran	Signaling	45	False	
+b-catenin	b-catenin	Signaling	46	False	
+c-myc	c-Myc	Signaling	47	True	manuscript_case
+p21	p21	Signaling	48	False	
+p53	p53	Signaling	49	False	
+prb	pRb	Signaling	50	True	manuscript_case
+ps6	pS6	Signaling	51	True	manuscript_case

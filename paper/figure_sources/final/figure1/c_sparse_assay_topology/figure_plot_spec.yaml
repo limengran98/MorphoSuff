@@ -1,0 +1,72 @@
+figure_id: Figure1-c_assay_topology
+role: main
+target_journal: Nature Methods
+canvas:
+  width_mm: 183
+  height_mm: 85
+scientific_contract:
+  question: "How are 52 targeted reporters distributed across 73 physical OPS screens?"
+  claim: "Ninety-nine observed reporter-screen assays form a sparse and uneven acquisition design, with cross-screen coverage concentrated in a subset of reporters."
+  unsupported_claims:
+    - "Blank cells are negative measurements, failed assays or missing at random."
+    - "More assays or more linked cells imply greater biological importance or recoverability."
+    - "Repeated screens are independent biological replicates."
+  row_represents: "One targeted reporter."
+  analysis_mode: descriptive_enumeration
+  inferential_unit: none
+  pairing: none
+  grouping:
+    - biological_category
+    - single-versus-multi-reporter screen occupancy
+  nesting:
+    - "reporter-screen assays are nested within physical screens"
+  exclusions: []
+  missing_value_rule: "Blank matrix cells are structurally unassayed reporter-screen combinations."
+  transformations:
+    - "Marker area is linear in gene-guide-concordant exact-linked reporter observations."
+    - "Microscopy uses the frozen per-image display windows recorded in the source manifest."
+    - "Categorical display pitch is 0.68 for the 56 single-reporter screens and 1.85 for the 17 multi-reporter screens; figure_column remains the unchanged source order."
+  summary: "No inferential statistics; the panel enumerates all frozen assay edges."
+  uncertainty: none
+plot:
+  card: "focus-split connected incidence fabric + marginal annotation tracks"
+  grammar: "UpSet-style reporter-screen membership matrix with BioFabric-style reporter lanes and an explicitly disclosed nonlinear categorical x layout"
+  rejected_alternative: "dense Sankey/alluvial and binary tile heatmap"
+  x: "physical screen; categorical display spacing only, with single-reporter columns compressed and multi-reporter columns expanded"
+  y: "targeted reporter"
+  colour: "biological system"
+  size: "gene-guide-concordant exact-linked reporter observations"
+  facet: "single-reporter versus multi-reporter physical screens"
+  top_track: "stacked reporter occupancy per physical screen; one unit-height segment per reporter, coloured by biological system"
+  order: "outcome-independent biological-system/repetition order for rows; occupancy/barycentric order for columns"
+  highlights:
+    - lysosome_lamp1
+    - fe2+_ferhonox_live-cell_dye
+    - prb
+    - Biohub_OPS0043
+    - Biohub_OPS0077
+  label_selection: "26 outcome-independent labels: recurring manuscript cases, reporters in >=3 screens, one representative per system, then alternating frozen rows; the long ChromaLIVE 488 row name is suppressed because TOMM20 already labels the mitochondrial block"
+  microscopy:
+    - "LAMP1 / BORCS7 KO: registered phase and reporter crop"
+    - "FeRhoNox / ALG12 KO: registered phase and reporter crop"
+  occupancy_annotations:
+    - "OPS0043 label sits in the structurally empty upper multi-screen matrix and points to the seven-reporter top-track bar"
+    - "OPS0077 label sits in the structurally empty upper multi-screen matrix and points to the six-reporter top-track bar"
+  random_seed: 2026
+style:
+  font: "embedded Arial; one consistent editable sans-serif family"
+  body_pt: 6.4
+  minimum_pt: 6.0
+  panel_label_pt: 8
+  background: "uniform white across single- and multi-reporter fields"
+  grid: "data-defined screen connectors and faint reporter lanes; no fixed cell grid"
+  maximum_assay_marker_area_pt2: 28
+export:
+  formats: [pdf, svg, png]
+  png_dpi: 600
+  editable_text: true
+source_data:
+  assay_edges: source_data/figure_source_data.tsv
+  reporter_labels: source_data/reporter_label_manifest.tsv
+  microscopy: source_data/microscopy_display_manifest.tsv
+code: code/build_figure1c_assay_topology.py

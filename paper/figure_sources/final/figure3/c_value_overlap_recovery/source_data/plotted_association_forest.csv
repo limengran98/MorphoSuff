@@ -1,0 +1,4 @@
+spearman_rho,ci95_low,ci95_high,n_clusters,n_rows,predictor,outcome,order,display_label,glyph
+0.344062153163152,0.0723243331623688,0.5789115752330046,52,52,original_marker_map_full,consensus10_gene_pearson,0,Full depth,o
+0.3048749252966788,0.0347441109382929,0.545789284086985,52,52,original_marker_map_300_cells_per_guide,consensus10_gene_pearson,1,Matched depth,D
+0.0900708614360112,-0.1739380630296628,0.3453469115994992,52,52,original_phase_marker_tfidf_pearson,consensus10_gene_pearson,2,Phase–marker overlap,^

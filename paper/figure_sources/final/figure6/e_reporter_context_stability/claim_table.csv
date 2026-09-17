@@ -1,0 +1,4 @@
+claim,evidence,status,boundary
+Reporter identity is strongly associated with cross-screen sufficiency evidence,"aligned within-reporter recovery and rank ranges across 81 directions",supported,descriptive association rather than causal reporter identity
+Some reporters are context-conditioned,"4 of 34 recovery ranges and 9 of 34 rank ranges cross the frozen 0.70 gate",supported,does not reclassify the complete five-gate tier per destination screen
+Context dependence is metric-specific,"separate recovery and rank tracks",supported,other utility components are not available per destination in the frozen transfer table

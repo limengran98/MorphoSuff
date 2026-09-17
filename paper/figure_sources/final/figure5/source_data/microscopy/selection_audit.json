@@ -1,0 +1,19 @@
+{
+  "cohort": "80,975-cell pRb/FeRhoNox diagnostic cohort",
+  "selection_is_outcome_agnostic": true,
+  "display_eligibility": "soft_qc_pass and not cell_edge_touch",
+  "selection_columns": [
+    "phase_cell_mean",
+    "phase_cell_std",
+    "phase_background_median",
+    "crop_cell_density",
+    "cell_area_px",
+    "cell_eccentricity",
+    "phase_focus_gradient_median"
+  ],
+  "n_selected": 5,
+  "pRb_rule": "max-cell guide with >=2 soft-QC non-edge cells in each of 3 wells; per-well phase/geometry medoid",
+  "FeRhoNox_rule": "per-screen soft-QC non-edge NTC phase/geometry medoid",
+  "source_qc_sha256": "605b98eada5509b303da1006ab76020e2af7d136303c98ccb933d46af785836e",
+  "pixel_size_um": 0.325
+}

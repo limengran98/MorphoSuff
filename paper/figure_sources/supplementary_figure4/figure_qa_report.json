@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "scientific_contract": {
+    "a": "Frozen nested leave-one-reporter-out utility prediction; reporter unit",
+    "b": "81 directed screen evaluations for 34 reporters; reporter/destination unit",
+    "c": "Paired source-direction repeat comparisons in 94 complete compounds",
+    "d": "Frozen5/10/20-percent selection budgets in four declared compound contexts",
+    "no_refitting": true,
+    "no_new_inference": true
+  },
+  "automated_problem_figures": [],
+  "figures": [
+    {
+      "status": "AUTOMATED_PASS",
+      "removed_panel_headings": [
+        "Utility associations"
+      ],
+      "text_count": 115,
+      "font_family": "DejaVu Sans",
+      "minimum_authored_pt": 6.0,
+      "panel_letter_pt": 9.0,
+      "text_collisions": [],
+      "clipped_text": [],
+      "visual_review_required": true,
+      "figure": "SupplementaryFigure4",
+      "annotation_marker_collisions": []
+    },
+    {
+      "status": "AUTOMATED_PASS",
+      "removed_panel_headings": [
+        "Utility associations"
+      ],
+      "text_count": 33,
+      "font_family": "DejaVu Sans",
+      "minimum_authored_pt": 6.0,
+      "panel_letter_pt": 9.0,
+      "text_collisions": [],
+      "clipped_text": [],
+      "visual_review_required": true,
+      "figure": "panel_a",
+      "annotation_marker_collisions": []
+    },
+    {
+      "status": "AUTOMATED_PASS",
+      "removed_panel_headings": [],
+      "text_count": 50,
+      "font_family": "DejaVu Sans",
+      "minimum_authored_pt": 6.0,
+      "panel_letter_pt": 9.0,
+      "text_collisions": [],
+      "clipped_text": [],
+      "visual_review_required": true,
+      "figure": "panel_b",
+      "annotation_marker_collisions": []
+    },
+    {
+      "status": "AUTOMATED_PASS",
+      "removed_panel_headings": [],
+      "text_count": 14,
+      "font_family": "DejaVu Sans",
+      "minimum_authored_pt": 6.0,
+      "panel_letter_pt": 9.0,
+      "text_collisions": [],
+      "clipped_text": [],
+      "visual_review_required": true,
+      "figure": "panel_c",
+      "annotation_marker_collisions": []
+    },
+    {
+      "status": "AUTOMATED_PASS",
+      "removed_panel_headings": [],
+      "text_count": 14,
+      "font_family": "DejaVu Sans",
+      "minimum_authored_pt": 6.0,
+      "panel_letter_pt": 9.0,
+      "text_collisions": [],
+      "clipped_text": [],
+      "visual_review_required": true,
+      "figure": "panel_d",
+      "annotation_marker_collisions": []
+    }
+  ],
+  "visual_review": {
+    "final_size_checked": true,
+    "placement_width_mm": 168,
+    "compiled_document": "supplementary.pdf",
+    "compiled_page": 5,
+    "standalone_panels_checked": true,
+    "text_overlap_or_clipping_observed": false
+  }
+}

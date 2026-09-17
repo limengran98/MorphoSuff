@@ -1,0 +1,89 @@
+{
+  "schema_version": "morphosuff-hf-release-spec-v2",
+  "repo_id": "Amanda1998/MorphoSuff",
+  "repo_type": "dataset",
+  "processed_training": {
+    "phase_files": [
+      "phase172.npy",
+      "screen_code.npy",
+      "well_code.npy",
+      "tile_code.npy",
+      "gene_code.npy",
+      "sgrna_code.npy",
+      "is_target.npy",
+      "field_holdout_sanity.fold.npy",
+      "gene_holdout_main.fold.npy",
+      "categories.json"
+    ],
+    "metadata_files": [
+      "phase_features_172d.txt",
+      "reporter_targets.csv",
+      "target_feature_dictionary.csv",
+      "target_screen_map.csv",
+      "exact_pairing_integrity.csv"
+    ],
+    "exact_reporter_glob": "all_cells_fluor_*.exact.h5",
+    "expected_census": {
+      "n_phase_cells": 8410291,
+      "n_phase_features": 172,
+      "n_reporters": 52,
+      "n_reporter_screen_assays": 99,
+      "n_screens": 73,
+      "n_exact_same_cell_observations": 9996286,
+      "endpoint_block_distribution": {"24": 22, "30": 6, "72": 24}
+    }
+  },
+  "canonical": {
+    "include_roots": [
+      "figure1/source_data",
+      "figure2/source_data",
+      "figure3/source_data",
+      "figure4/source_data",
+      "figure5/source_data",
+      "figure6/source_data"
+    ],
+    "include_extensions": [
+      ".csv",
+      ".tsv",
+      ".json",
+      ".yaml",
+      ".yml",
+      ".md",
+      ".txt",
+      ".parquet"
+    ],
+    "exclude_path_tokens": [
+      "microscopy",
+      "image_crop",
+      "image_seed",
+      "microscopy_seed"
+    ],
+    "reject_text_patterns": ["app-"]
+  },
+  "figures": [
+    {"source": "figure1/composite/Figure1_v4_final.png", "destination": "figures/Figure1.png"},
+    {"source": "figure2/composite/Figure2_v4_final.png", "destination": "figures/Figure2.png"},
+    {"source": "figure3/composite/Figure3_v4_final.png", "destination": "figures/Figure3.png"},
+    {"source": "figure4/composite/Figure4_v4_final.png", "destination": "figures/Figure4.png"},
+    {"source": "figure5/composite/Figure5_v4_final.png", "destination": "figures/Figure5.png"},
+    {"source": "figure6/composite/Figure6_v4_final.png", "destination": "figures/Figure6.png"}
+  ],
+  "checkpoints": [
+    {
+      "root_argument": "scpair_root",
+      "source": "scpair_ops/gene_holdout_main/fold_0/fraction_0p01/nucleoli_npm1/evaluation_state_candidates/checkpoint_average.pt",
+      "destination": "models/scpair_npm1_gene_fold0_1pct/checkpoint_average.pt",
+      "kind": "representative_checkpoint",
+      "license": "MIT",
+      "source_identity": "quon-titative-biology/scPair@c585949ca8ea1314f5e68b260e3d9c5b2dabe61c"
+    },
+    {
+      "root_argument": "cytoland_root",
+      "source": "lysosome_lamp1/fold_0/best_trainable_state.pt",
+      "destination": "models/cytoland_lamp1_gene_fold0/best_trainable_state.pt",
+      "kind": "representative_checkpoint",
+      "license": "upstream Cytoland terms apply",
+      "source_identity": "Cytoland VSCyto2D checkpoint sha256:1abdbc1c727aba33dad0d174dba57d128a12019b712db946ce06012ecd64c1fe"
+    }
+  ]
+}

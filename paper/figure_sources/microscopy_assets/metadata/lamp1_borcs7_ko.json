@@ -1,0 +1,31 @@
+{
+  "array_spec": "fluorescence:384x384:float32; phase:384x384:float32",
+  "asset_id": "lamp1_borcs7_ko",
+  "canonical_relative_path": "raw_assets/lamp1_borcs7_ko.npz",
+  "display_policy": "Use the per-panel fixed windows in render_spec.csv. Do not alter pixels, register, denoise, enhance, or content-edit this asset.",
+  "file_sha256": "81925e7524f4e97bb096b67d5135c674ae3c3b194ee0d0e29e903b11aac12152",
+  "orientation": "native stored orientation",
+  "pixel_sha256": "eba524d36add2e80518e4744cb1f8d4065d94d875c4766371a88b75a217edd67",
+  "provenance": {
+    "asset_id": "lamp1_borcs7_ko",
+    "channels": "phase=0; fluorescence=2",
+    "figure_panel_usage": "Fig.1c; Fig.1e; Fig.3d (retained potential)",
+    "filename": "lamp1_borcs7_ko.npz",
+    "gene": "BORCS7",
+    "note": "",
+    "perturbation_role": "KO",
+    "phase_row_index": "255214",
+    "pixel_size_um": 0.325,
+    "provenance_uri": "s3://ops-explorer-public/leonetti_ops/ops_data_portal_submission/v1.0.20260521/datasets/Biohub_OPS0011/Biohub_OPS0011.zarr",
+    "reporter": "LAMP1",
+    "reporter_slug": "lysosome_lamp1",
+    "screen_id": "Biohub_OPS0011",
+    "segmentation_id": "5095123",
+    "selection_rule": "Frozen registered same-cell crop; fixed display windows are in render_spec.csv.",
+    "source_level": "OME-Zarr level 0",
+    "source_relative_path": "figure1/e_same_cell_response_maps/source_data/frozen_inputs/B_exact_same_cell_microscopy/lamp1_exact_same_cell.npz",
+    "use_status": "rendered; potential",
+    "well": "A/1/0"
+  },
+  "spatial_transform": "none"
+}

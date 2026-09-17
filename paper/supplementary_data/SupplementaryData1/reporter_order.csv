@@ -1,0 +1,53 @@
+reporter_slug,display_order,short_name,biological_category,reliability,reference_tier,reliability_pass
+stress_granule_g3bp1,1,G3BP1,Stress/PQC,0.5489821526032832,quantitative_proxy,True
+lysosome_lysotracker_live-cell_dye,2,LysoTracker live-cell dye,Lysosome,0.8118267526031067,quantitative_proxy,True
+er_golgi_cop-ii_sec23a,3,SEC23A,ER/Golgi,0.7963114253629393,quantitative_proxy,True
+early_endosome_eea1,4,EEA1,Endosome,0.7784811755482057,quantitative_proxy,True
+lipid_droplet_bodipy_live_cell_dye,5,BODIPY live cell dye,Lysosome,0.693173451270225,quantitative_proxy,True
+late_endosome_rab7a,6,RAB7A,Endosome,0.5437250794222616,quantitative_proxy,True
+actin_filament_fastact_spy555_live_cell_dye,7,FastAct_SPY555 Live Cell Dye,Cytoskeleton,0.4815571491092879,quantitative_proxy,True
+plasma_membrane_slc3a2,8,SLC3A2,Plasma Membrane,0.4535912492305982,quantitative_proxy,True
+clathrin_vesicles_clta,9,CLTA,Lysosome,0.5686643877978657,quantitative_proxy,True
+autophagosome_map1lc3b,10,MAP1LC3B,Lysosome,0.4661954595673966,quantitative_proxy,True
+fe2+_ferhonox_live-cell_dye,11,FeRhoNox live-cell dye,Signaling,0.6070291514177555,quantitative_proxy,True
+recycling_endosome_tfrc,12,TFRC,Endosome,0.591056052462748,quantitative_proxy,True
+er_golgi_cope,13,COPE,ER/Golgi,0.5671140969254439,quantitative_proxy,True
+chaperones_hspa1b,14,HSPA1B,Stress/PQC,0.3807492021518412,quantitative_proxy,True
+nucleolus-gc_npm3,15,NPM3,Nucleus,0.4003235836780205,quantitative_proxy,True
+nuclei_nucleolive_live_cell_dye,16,NucleoLIVE Live Cell dye,Nucleus,0.6299969683630331,quantitative_proxy,True
+endosome_vps35,17,VPS35,Endosome,0.3519252152106765,quantitative_proxy,True
+er_sec61b,18,SEC61B,ER/Golgi,0.4571854056007768,quantitative_proxy,True
+er_golgi_bridge_vapa,19,VAPA,ER/Golgi,0.6864386449976475,quantitative_proxy,True
+mitochondria_chromalive_561_excitation,20,ChromaLIVE 561 excitation,Mitochondria,0.7231375976605061,quantitative_proxy,True
+peroxisome_peroxi_spy650_live_cell_dye,21,Peroxi_SPY650 live cell dye,Peroxisome,0.491094238791797,quantitative_proxy,True
+chromalive_488_excitation,22,ChromaLIVE 488 excitation,Mitochondria,0.3255015696911665,quantitative_proxy,True
+chromatin_h2bc21,23,H2BC21,Nucleus,0.580774506626757,quantitative_proxy,True
+plasma_membrane_atp1b3,24,ATP1B3,Plasma Membrane,0.5016975413704213,quantitative_proxy,True
+endocytic_vesicle_ph_phrodo-dextran_live_cell_dye,25,pHrodo-dextran Live Cell Dye,Signaling,0.4110300664564122,quantitative_proxy,True
+5xupre,26,5xUPRE,Stress/PQC,0.4085795923758126,quantitative_proxy,True
+f-actin_phalloidin,27,Phalloidin*,Cytoskeleton,0.3996475172727066,quantitative_proxy,True
+mitochondria_tomm70a,28,TOMM70A,Mitochondria,0.3915349809035072,quantitative_proxy,True
+lysosome_lamp1,29,LAMP1,Lysosome,0.4475988330251703,quantitative_proxy,True
+autophagosome_atg101,30,ATG101,Lysosome,0.5696557950339326,quantitative_proxy,True
+nuclear_speckles_srrm2,31,SRRM2,Nucleus,0.619391207547443,ranking_proxy,True
+proteasome_psmb7,32,PSMB7,Stress/PQC,0.4309405843280984,ranking_proxy,True
+oxidative_stress_cellrox_live-cell_dye,33,CellROX live-cell dye,Signaling,0.566358845982032,ranking_proxy,True
+er_ncln,34,NCLN,ER/Golgi,0.5109354049791082,ranking_proxy,True
+trans-golgi_vamp3,35,VAMP3,ER/Golgi,0.565576846698852,ranking_proxy,True
+p21,36,p21*,Signaling,0.673271028808692,ranking_proxy,True
+mitochondria_tomm20,37,TOMM20*,Mitochondria,0.4495396744921411,ranking_proxy,True
+p53,38,p53*,Signaling,0.6790572976946833,measurement_required,True
+caspase_activity_cellevent-caspase_live-cell_dye,39,CellEvent-Caspase live-cell dye,Stress/PQC,0.3152966465946273,measurement_required,True
+ps6,40,pS6*,Signaling,0.3470813638953472,measurement_required,True
+prb,41,pRb*,Signaling,0.1509084849662904,not_identifiable,False
+nuclei_hoechst,42,Hoechst*,Nucleus,0.187063345712023,not_identifiable,False
+nucleoli_npm1,43,NPM1*,Nucleus,0.2156298259088717,not_identifiable,False
+b-catenin,44,b-catenin*,Signaling,0.2160133604189748,not_identifiable,False
+c-myc,45,c-Myc*,Signaling,0.2166304258685255,not_identifiable,False
+er_cona,46,ConA*,ER/Golgi,0.2319836986715685,not_identifiable,False
+microtubules_tubulin,47,Tubulin*,Cytoskeleton,0.2737965813011502,not_identifiable,False
+nucleolus-dfc_fbl,48,FBL,Nucleus,0.2774818093462274,not_identifiable,False
+plasma_membrane_wga,49,WGA*,Plasma Membrane,0.2955940866884624,not_identifiable,False
+microtubules_map4,50,MAP4,Cytoskeleton,0.557891172634394,unresolved,True
+lipid_droplet_plin2,51,PLIN2,Lysosome,0.3164645586840825,unresolved,True
+cell_proliferation_marker_mki67,52,MKI67*,Nucleus,0.3279687777331082,unresolved,True

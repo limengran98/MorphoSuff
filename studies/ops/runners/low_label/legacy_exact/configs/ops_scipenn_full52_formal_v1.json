@@ -1,0 +1,70 @@
+{
+  "schema_version": "ops-scipenn-full52-formal-campaign-v1",
+  "campaign_id": "ops-scipenn-full52-formal-v1",
+  "created_at": "2026-07-21",
+  "frozen": true,
+  "method": "scipenn_ops",
+  "reporters": "all52",
+  "splits": [
+    "gene_holdout_main",
+    "field_holdout_sanity"
+  ],
+  "folds": [0, 1, 2, 3, 4],
+  "seed": 20260721,
+  "selection_policy": {
+    "hyperparameter_search_performed": false,
+    "outer_test_used_for_model_or_checkpoint_selection": false,
+    "recipe": "fixed_ops_default_declared_before_outer_test_access"
+  },
+  "comparison_contract": {
+    "dataset_version": "ops_phase172_exact_frozen_v1",
+    "cohort": "frozen_complete_core",
+    "split_contract": "frozen_field_and_gene_holdout_v1",
+    "endpoint_definition": "frozen_exact_reporter_endpoint_schema_v1",
+    "statistical_unit": "exact_paired_cell",
+    "preprocessing": "frozen_train_only_resmlp_v1_reference",
+    "evaluator": "common_ops_reporter_evaluator_v2_cell_eval_adapted",
+    "parameter_policy": {
+      "matching_required": false,
+      "parameter_count_is_admission_or_selection_input": false,
+      "parameter_limits": null,
+      "native_capacity_selected_by_validation": false
+    },
+    "resource_metrics": {
+      "role": "reporting_only",
+      "used_for_admission_or_hpo_selection": false
+    }
+  },
+  "fixed_trial": {
+    "trial_role": "fixed_released_code_source_anchor_no_hpo",
+    "model": {
+      "hidden_dim": 512,
+      "dropout": 0.25,
+      "quantile_levels": [0.1, 0.25, 0.75, 0.9],
+      "loss_reduction": "source_dense_mean"
+    },
+    "optimizer": {
+      "name": "adam",
+      "learning_rate": 0.001,
+      "epsilon": 1e-08,
+      "weight_decay": 0.0
+    },
+    "training": {
+      "joint_epochs": 100,
+      "scheduler": {"name": "fixed"},
+      "batch_heads": 4,
+      "observations_per_head": 1024,
+      "gradient_clip_norm": 5.0,
+      "ema_decay": 0.999,
+      "precision_policy": "float32_no_tf32"
+    }
+  },
+  "execution_boundary": {
+    "cuda_required": true,
+    "cpu_fallback_allowed": false,
+    "training_outer_test_y_physically_sealed": true,
+    "checkpoint_selected_on_inner_validation_only": true,
+    "outer_test_loaded_only_by_post_selection_child": true,
+    "evaluation_states": ["single", "ema", "checkpoint_average"]
+  }
+}

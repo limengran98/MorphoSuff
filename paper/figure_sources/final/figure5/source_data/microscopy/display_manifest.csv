@@ -1,0 +1,3 @@
+target_key,phase_low,phase_high,fluorescence_low,fluorescence_high,pixel_size_um,crop_size_px,display_rule
+prb,-0.5457885962724686,0.8108193516731264,134.47124862670898,1531.5057202148453,0.325,384,pooled 1st-99th percentile across deterministic cells for target
+ferhonox,-0.3795731547474861,0.8340505826473242,112.0,4465.0,0.325,384,pooled 1st-99th percentile across deterministic cells for target

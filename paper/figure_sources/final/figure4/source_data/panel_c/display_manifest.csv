@@ -1,0 +1,4 @@
+reporter_slug,display_name,display_mode,n_profiles,n_endpoints,n_genes,aggregation
+lysosome_lysotracker_live-cell_dye,LysoTracker,quantitative reconstruction,12,24,1000,unweighted_median_10_models
+chromalive_488_excitation,ChromaLIVE 488,pattern retained,12,24,1000,unweighted_median_10_models
+prb,pRb,amplitude compressed,12,30,1000,unweighted_median_10_models

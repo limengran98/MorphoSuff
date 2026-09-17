@@ -1,0 +1,77 @@
+{
+  "figure": "Figure2",
+  "release": "corrected_arithmetic_partition_mean_2026-09-11",
+  "source_version": "frozen fold/direction metric audit; corrected reporter arithmetic means",
+  "rendering_change_only": false,
+  "allowed_changes": [
+    "C+ colour mapping",
+    "remove panel-level explanatory titles",
+    "group paired evaluation resolutions under b, c and d without changing frozen input IDs",
+    "line, point and box visibility",
+    "named-reporter guide annotations",
+    "within-canvas spacing",
+    "author-approved panel-a replacement and full-width composition",
+    "shared b/c display margin to -0.025 so the frozen negative reporter score is not clipped",
+    "minimum quantitative typography and collision-free legend placement",
+    "author-approved correction from partition median to arithmetic mean and its dependent summaries and paired tests",
+    "shared IQR-axis upper limit 0.28 to expose the genuine 0.255567 KO whole-screen IQR"
+  ],
+  "forbidden_changes": [
+    "method roster",
+    "split definitions",
+    "independent KO assay and screen score changes",
+    "new model fitting, prediction generation or outcome-dependent method selection",
+    "axis limits except the explicitly documented negative-score and IQR clipping corrections"
+  ],
+  "unit_counts": {
+    "reporter": {"Field": 52, "Gene": 52, "Whole-screen": 34},
+    "screen": {"Field": 73, "Gene": 73, "Whole-screen": 66},
+    "reporter_x_screen_assay": {"Field": 99, "Gene": 99, "Whole-screen": 81}
+  },
+  "reporter_level_inference": {
+    "table": "source_data/statistics/reporter_level_primary_inference.csv",
+    "restoration_only": false,
+    "source": "recomputed from corrected arithmetic-mean reporter scores; checksum in source_manifest_sha256.csv",
+    "reference": "MLP",
+    "paired_unit": "reporter",
+    "test": "two-sided paired Wilcoxon signed-rank; zero_method=wilcox; method=auto",
+    "effect": "median of method-minus-MLP differences across matched reporters",
+    "multiplicity": "Holm across all 54 reporter-level comparisons",
+    "decision": "p_holm_reporter54 < 0.05 and absolute median paired effect >= 0.02",
+    "verification": "python -B code/fig2_data.py --verify-inference",
+    "verification_writes_outputs": false
+  },
+  "aggregation_correction": {
+    "source": "source_data/frozen_partition_scores.csv.gz",
+    "provenance": "source_data/partition_source_provenance.json",
+    "rebuild": "python -B code/rebuild_benchmark_sources.py",
+    "reporter": "equal arithmetic mean over five folds or all eligible destination-screen directions",
+    "consensus": "unweighted median across the ten method-specific reporter scores",
+    "physical_screen": "existing median across independently evaluated member assays; unchanged estimator",
+    "cell_field_gene": "corrected reporter means repeated over existing physical assay membership",
+    "preserved": "independent KO assay/screen tables byte-exact; direct strict cell assay values unchanged",
+    "original_private_paths_required": false
+  },
+  "font_priority": ["DejaVu Sans"],
+  "canvas_width_mm": 183,
+  "canvas_height_source": "actual composite PDF MediaBox; full-width accepted panel a above three grouped quantitative rows",
+  "panel_mapping": {
+    "b": {"unit": "reporter", "left_frozen_view": "b", "right_frozen_view": "c"},
+    "c": {"unit": "physical screen", "left_frozen_view": "d", "right_frozen_view": "e"},
+    "d": {"unit": "reporter-screen assay", "left_frozen_view": "f", "right_frozen_view": "g"}
+  },
+  "evaluation_columns": {"left": "knockout response", "right": "cell phenotype"},
+  "letters": "a-d; composite only, 9 pt bold",
+  "panel_a": {
+    "editable_source": "a_workflow/source/Figure2a.pptx",
+    "export_binding": "a_workflow/source/export_manifest.json",
+    "frozen_export": "a_workflow/source/Figure2a.pdf",
+    "editing_authority": "accepted PPTX including author's deleted small arrow and editable crop clarification",
+    "rebuild_policy": "verify PPTX and native PDF hashes; derive previews and assemble; never replay an older slide generator",
+    "images": "authentic paired microscopy and clearly schematic biological illustrations",
+    "editable_formats": ["PPTX", "native PDF text and vector objects"],
+    "svg_note": "derived vector companion; grouped quantitative b-d SVG text remains editable"
+  },
+  "canonical_composite": "composite/Figure2.pdf",
+  "standalone_panels": "panels/a/Figure2a through panels/d/Figure2d; no embedded letters"
+}

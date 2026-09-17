@@ -1,0 +1,45 @@
+{
+  "schema_version": "measurement-sufficiency-ops-raw-image-v1",
+  "representation": "cytoland_vscyto2d_frozen",
+  "reporters": [
+    "early_endosome_eea1",
+    "stress_granule_g3bp1",
+    "lysosome_lamp1",
+    "mitochondria_tomm20",
+    "nucleoli_npm1",
+    "ps6"
+  ],
+  "reporter_strata": {
+    "early_endosome_eea1": "high",
+    "stress_granule_g3bp1": "high",
+    "lysosome_lamp1": "intermediate",
+    "mitochondria_tomm20": "intermediate",
+    "nucleoli_npm1": "low",
+    "ps6": "low"
+  },
+  "encoder": {
+    "family": "Cytoland VSCyto2D",
+    "expected_embedding_dimension": 1440,
+    "repository_commit": "4b62365c0df25929bffc7f01b3bb2d1c11d69cce",
+    "model_card": "https://virtualcellmodels.cziscience.com/model/cytoland",
+    "checkpoint_url": "https://public.czbiohub.org/comp.micro/viscy/VS_models/VSCyto2D/VSCyto2D/epoch=399-step=23200.ckpt",
+    "checkpoint_sha256": "1abdbc1c727aba33dad0d174dba57d128a12019b712db946ce06012ecd64c1fe",
+    "model_config": {
+      "in_channels": 1,
+      "encoder_blocks": [3, 3, 9, 3],
+      "dims": [96, 192, 384, 768],
+      "stem_kernel_size": [1, 2, 2],
+      "in_stack_depth": 1
+    }
+  },
+  "image_transform": {
+    "normalization": "per-crop valid-window median and IQR",
+    "resize": null
+  },
+  "evaluation": {
+    "split": "gene_holdout_main",
+    "folds": [0, 1, 2, 3, 4],
+    "primary": "control-relative gene-level Pearson"
+  }
+}
+

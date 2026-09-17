@@ -1,0 +1,33 @@
+{
+  "figure": "Figure 4",
+  "main_claim": "Exact same-cell morphology contains reporter-specific information beyond condition means and coarse size/shape shortcuts, while quantitative amplitude and physical screen transfer remain separable fidelity limits.",
+  "canvas_mm": [183.0, 225.0],
+  "panels": ["a", "b", "c", "d"],
+  "no_training_or_selection_in_builder": true,
+  "panel_a": {
+    "statistical_unit": "reporter (n=52)",
+    "estimator": "frozen reporter-specific MLP; arithmetic mean across five frozen held-out-gene folds",
+    "uncertainty": "reporter-resampled 95% bootstrap interval for the mean paired exact-minus-control effect"
+  },
+  "panel_b": {
+    "statistical_unit": "reporter (n=52)",
+    "target": "cross-fitted within-gene-by-screen residual",
+    "pairing": "exact and residual score within reporter"
+  },
+  "panel_c": {
+    "statistical_units": "frozen gene-by-screen profile and reporter-gene",
+    "aggregation": "element-wise unweighted median of ten aligned out-of-fold model predictions",
+    "selection": "three preselected reconstruction modes; registered pRb microscopy crop",
+    "magnitude_display": "all 1000 paired genes on full-range linear axes; denser point rendering does not change data",
+    "prb_zoom": "additional linear 0–5 by 0–5 display; 996 points inside and four outside remain in the full-range view; statistics use all 1000"
+  },
+  "panel_d": {
+    "statistical_unit": "reporter-to-destination-screen direction (n=81) within method",
+    "aggregation": "ten methods displayed separately; no model averaging",
+    "selection": "two preselected physical transfer directions plus all 81 directions"
+  },
+  "display_only_changes_from_v1": true,
+  "palette": "approved Cplus",
+  "inherited_source_files_sha256_identical": 18,
+  "minimum_authored_type_pt": 6.0
+}

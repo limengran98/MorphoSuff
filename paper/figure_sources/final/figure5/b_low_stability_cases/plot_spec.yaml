@@ -1,0 +1,20 @@
+panel: b
+claim: Low recoverability can coincide with unstable KO-response measurements across wells and independent guide halves.
+canvas_mm: [183, 62]
+targets: [pRb, NPM1]
+tests:
+  well_pairs: {n: 3, display: raw points plus median and range}
+  independent_guide_halves: {n: 3, display: raw points plus median and range}
+  random_cell_halves: {n: 100, display: half-raincloud, raw draw texture, median and IQR}
+microscopy:
+  target: pRb
+  wells: [A1, A2, A3]
+  guide_gene: SALL3
+  selection: frozen phase/geometry medoid within each well
+  scale_bar_um: 20
+  role: descriptive anchor, not an inferential unit
+style:
+  font: Arial
+  panel_letter: lowercase
+  significance_stars: false
+  export: [PNG, PDF, SVG]

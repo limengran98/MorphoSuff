@@ -1,0 +1,4 @@
+claim,evidence,status,boundary
+Prediction performance is associated with retained utility,"52-reporter scatter and Spearman rho",supported,association is descriptive
+High predictive recovery does not guarantee high retained utility,"high-prediction low-utility region and labelled reporter pairs",supported,full substitutability uses the frozen multi-gate ledger
+Low predictive recovery can coexist with use-specific retained utility,"low-prediction high-utility region",supported,region uses the cohort median utility only for visual description

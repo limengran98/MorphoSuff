@@ -1,0 +1,2 @@
+claim_id,status,claim,evidence,can_say,cannot_say
+F5A-1,supported,Reporter recoverability is associated with overlapping stability and coverage constraints,"Four reporter-level bootstrap associations; pairwise overlap matrix; prespecified three-term R2=0.387127 with 3000-permutation P=0.0009997","The constraints covary with recoverability and with one another","Any single constraint independently causes recoverability or the joint R2 is prospective predictive performance"

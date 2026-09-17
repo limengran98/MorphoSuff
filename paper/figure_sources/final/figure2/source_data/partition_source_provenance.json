@@ -1,0 +1,24 @@
+{
+  "scope": "ten published predictors; frozen field/gene folds and strict destination directions",
+  "n_rows": 6010,
+  "frozen_table": "frozen_partition_scores.csv.gz",
+  "frozen_table_sha256": "5ca3a4741808ce1409a9e4316f02504860c52074b586ded828e7418ba333ad30",
+  "upstream_sources": [
+    {
+      "original_filename": "full_label_all_partition_metrics_wide.csv",
+      "sha256": "834f9c0b0905dd97cca909723d2ab9b5e37a8298e1dcf4011cd4dcafe2f93dc9",
+      "bytes": 12947296
+    },
+    {
+      "original_filename": "full_label_all_reporter_metrics_wide.csv",
+      "sha256": "c92f7059cb9e5f367e546cd66c8099fca1e89efe516f5c350070ef43751ae813",
+      "bytes": 2639112
+    }
+  ],
+  "reporter_arithmetic_mean_oracle_max_abs_error": 0.0,
+  "runtime_requires_original_private_paths": false,
+  "model_training_or_prediction_recalculation": false,
+  "root_cause": "legacy reporter_scores grouped partition metrics with median although its comment and Methods specified averaging",
+  "legacy_code_reference": "ops_manuscript_benchmark_three_units_v2/code/build.py:246",
+  "scope_boundary": "independent KO assay/screen sources retained; no new common-scale profile calculation"
+}

@@ -1,0 +1,29 @@
+question: "Can KO-response ranking remain accurate while quantitative response amplitude is contracted?"
+claim: "Eleven of 52 reporters retain less than half of observed response variance; ten of those eleven retain magnitude-rank Spearman rho above 0.5."
+one_row_represents: "one reporter"
+analysis_mode: "descriptive_enumeration"
+inferential_unit: "reporter"
+pairing: "the two tracks share the identical reporter row and frozen reporter order"
+grouping:
+  - "amplitude-compressed versus not compressed"
+  - "biological system annotation"
+ordering: "ascending predicted/observed KO-response variance ratio; reporter_slug tie break"
+transformations: []
+uncertainty: "none; this panel displays frozen reporter summaries"
+selected_card: "C15 rank spectrum with aligned annotation tracks"
+rejected_alternatives:
+  - "scatter plus ordered bars: duplicates the same values"
+  - "violin/raincloud: reporters are heterogeneous entities, not replicate draws from one group"
+  - "volcano: no feature-discovery or FDR estimand is present"
+final_width_mm: 90
+final_height_mm: 60
+destination: "main"
+composite_entrypoint: "code/build_panel_c.py::draw_panel_c(fig, spec, df=None)"
+thresholds:
+  variance_ratio: 0.5
+  retained_rank_rho: 0.5
+labels:
+  rule: "predeclared illustrative reporters only"
+  reporters: ["pRb", "p53", "TOMM20", "NPM1", "LysoTracker"]
+  low_rank_callouts: "p53 and NPM1 in the existing lower margin, connected to their unchanged reporter points"
+  geometry_qa: "text bounds versus curve/reference paths, reporter marker extents, other labels and adjacent track"

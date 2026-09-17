@@ -1,0 +1,67 @@
+{
+  "figure": "Figure 5",
+  "main_claim": "Distinct, overlapping constraints limit when morphology is measurement sufficient.",
+  "plotting_only_revision": true,
+  "panels": {
+    "a": {
+      "claim": "Reporter recoverability is associated with overlapping stability and coverage constraints.",
+      "statistical_unit": "reporter",
+      "n": 52,
+      "aggregation": "unweighted median of ten frozen reporter-level held-out-gene Pearson scores",
+      "joint_terms": [
+        "within-screen split-half reliability",
+        "guide-half consistency",
+        "log10 exact-link coverage"
+      ],
+      "boundary": "Associations and a three-term in-sample joint model; cross-screen consistency is shown descriptively but is not a joint-model term; no independent causal attribution."
+    },
+    "b": {
+      "claim": "Low recoverability can reflect unstable target responses across wells and guide halves.",
+      "statistical_units": "3 well pairs; 3 deterministic guide-half partitions; 100 random-cell-half draws per case",
+      "ordering": "pRb then NPM1; within each case well, guide, random",
+      "image_boundary": "pRb SALL3 same-guide well medoids are descriptive anchors, not the correlation units."
+    },
+    "c": {
+      "claim": "Response rank can persist despite amplitude contraction.",
+      "statistical_unit": "reporter, with 1,000 genes nested per reporter",
+      "aggregation": "element-wise unweighted median of ten aligned OOF response profiles, followed by metrics",
+      "frozen_counts": {
+        "variance_ratio_below_0.5": 11,
+        "of_those_rank_rho_above_0.5": 10
+      }
+    },
+    "d": {
+      "claim": "NTC environment shift is associated with whole-screen transfer loss.",
+      "statistical_unit": "directed reporter-to-destination-screen evaluation",
+      "n_directions": 81,
+      "clusters": 34,
+      "x_scale": "raw RMS standardized difference displayed on a logarithmic axis",
+      "highlight_selection": "All two destination directions of the frozen FeRhoNox repeated-reporter failure case; these are the first- and second-ranked transfer losses among the 81 displayed directions, but the case is not a prevalence sample.",
+      "point_to_image_mapping": {
+        "Biohub_OPS0047": {
+          "target_ntc_shift_rms_smd": 97.7737256471417,
+          "gene_minus_strict_screen_pearson": 0.6737188032285,
+          "transfer_loss_rank_desc_81": 2
+        },
+        "Biohub_OPS0067": {
+          "target_ntc_shift_rms_smd": 6.243230762098969,
+          "gene_minus_strict_screen_pearson": 0.7146212962260506,
+          "transfer_loss_rank_desc_81": 1
+        }
+      },
+      "image_boundary": "Within each screen, the displayed FeRhoNox NTC cell is the prespecified soft-QC non-edge phase/geometry medoid; transfer outcome was not used to select the cell. The selected failure case and the association do not establish causation or prevalence."
+    },
+    "e": {
+      "claim": "Morphology-nearest cells can retain targeted-state discrepancy.",
+      "statistical_unit": "target-by-screen-by-gene; cells and neighbours nested",
+      "definition": "per-gene median nearest-neighbour endpoint RMS divided by deterministic all-eligible-pairs reference, then median/IQR across genes",
+      "boundary": "raw-thumbnail sensitivity is not a raw-image learner upper bound or irreducible error estimate."
+    }
+  },
+  "microscopy": {
+    "selection": "outcome-agnostic, fixed in selection_manifest.csv",
+    "display": "target-specific pooled 1st-99th percentile limits",
+    "pixel_size_um": 0.325,
+    "scale_bar_um": 20
+  }
+}

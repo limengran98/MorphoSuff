@@ -1,0 +1,4 @@
+case_key,reporter_slug,reporter,gene,screen_id,pixel_size_um,crop_size_pixels,phase_low,phase_high,fluorescence_low,fluorescence_high
+ferhonox,fe2+_ferhonox_live-cell_dye,FeRhoNox,ALG12,OPS0047,0.325,384,-0.775179436802864,1.2993500113487255,492.0,4255.0
+lamp1,lysosome_lamp1,LAMP1,BORCS7,OPS0011,0.325,384,-0.3490651994943619,0.6395067185163511,106.61254043579102,211.3301994323731
+prb,prb,pRb,FECH,OPS0077,0.325,384,-0.5261821895837784,0.71541805267334,121.01383781433104,1530.6487609863318

@@ -1,0 +1,109 @@
+{
+  "scope": "Six Figure 2 panels: KO-response and cell phenotype Pearson under three frozen holdouts and three aggregation units.",
+  "methods": [
+    {
+      "method_id": "ridge",
+      "display": "Ridge",
+      "family": "Classical tabular",
+      "colour": "#3E6F9C"
+    },
+    {
+      "method_id": "gbdt",
+      "display": "GBDT",
+      "family": "Classical tabular",
+      "colour": "#5E88AD"
+    },
+    {
+      "method_id": "catboost_multirmse",
+      "display": "CatBoost",
+      "family": "Classical tabular",
+      "colour": "#79A8C9"
+    },
+    {
+      "method_id": "mlp",
+      "display": "MLP",
+      "family": "Neural specialists",
+      "colour": "#7B6597"
+    },
+    {
+      "method_id": "tabm_specialists",
+      "display": "TabM",
+      "family": "Neural specialists",
+      "colour": "#A783AD"
+    },
+    {
+      "method_id": "scbutterfly_ops_b",
+      "display": "scButterfly",
+      "family": "Neural specialists",
+      "colour": "#CC79A7"
+    },
+    {
+      "method_id": "resmlp_52head",
+      "display": "ResMLP",
+      "family": "Generic multi-task",
+      "colour": "#4F9A70"
+    },
+    {
+      "method_id": "multitab_pilot",
+      "display": "MultiTab",
+      "family": "Generic multi-task",
+      "colour": "#4FA7B8"
+    },
+    {
+      "method_id": "midas_ops",
+      "display": "MIDAS",
+      "family": "Biological completion",
+      "colour": "#C85A3C"
+    },
+    {
+      "method_id": "scpair_ops",
+      "display": "scPair",
+      "family": "Biological completion",
+      "colour": "#DDA06A"
+    }
+  ],
+  "splits": {
+    "field_holdout_sanity": "five frozen field folds",
+    "gene_holdout_main": "five frozen held-out-gene folds",
+    "strict_whole_screen": "strict held-out destination screens"
+  },
+  "unit_counts": {
+    "reporter": {
+      "field": 52,
+      "gene": 52,
+      "strict_whole_screen": 34
+    },
+    "screen": {
+      "field": 73,
+      "gene": 73,
+      "strict_whole_screen": 66
+    },
+    "reporter_x_screen_assay": {
+      "field": 99,
+      "gene": 99,
+      "strict_whole_screen": 81
+    }
+  },
+  "cell_layer_provenance": {
+    "strict_whole_screen": "direct destination-cell macro-endpoint Pearson retained in frozen audit records",
+    "field_and_gene": "screen/assay views reweight frozen reporter-level cell macro-Pearson over physical membership; retained archives lack common per-cell predictions for a new direct screen-stratified replay across all joint methods"
+  },
+  "inputs": [
+    "canonical summary tables deposited in this directory",
+    "../frozen_partition_scores.csv.gz: portable subset of the processed full-label metric audit"
+  ],
+  "package_role": "final Figure 2 opening panels B\u2013G",
+  "source_builder": "../../code/rebuild_benchmark_sources.py",
+  "renderer": "../../code/fig2_composite.py",
+  "scientific_correction": "2026-09-11: reporter fold/direction medians corrected to Methods-defined arithmetic means; dependent field/gene cell screen/assay summaries and 54 paired tests recomputed; no model or prediction changed",
+  "reporter_partition_aggregation": "arithmetic mean over five folds or eligible strict destination directions",
+  "physical_screen_aggregation": "median over member assay scores, unchanged",
+  "panel_letters": [
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G"
+  ]
+}

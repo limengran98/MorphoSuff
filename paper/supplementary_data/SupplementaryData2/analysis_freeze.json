@@ -1,0 +1,39 @@
+{
+  "frozen_utc": "2026-09-11T06:06:29.962213+00:00",
+  "status": "fixed_before_this_bundle_evaluation_of_already_known_external_metrics",
+  "source_manifest": "inputs/source_manifest.csv",
+  "n_contexts": 12,
+  "n_main": 4,
+  "n_batch": 8,
+  "n_baseline": 1,
+  "n_single_scenarios": 32,
+  "n_joint_scenarios": 4,
+  "historical_rank_only_thresholds": [
+    0.65,
+    0.6,
+    0.55
+  ],
+  "historical_contexts": [
+    "oasis:mtt_viability",
+    "oasis:ldh_release"
+  ],
+  "frozen_files": {
+    "protocol.md": "4c19bf4418375d9b3a571530f17342ba9da6449d4e80ba2bd8cdb5f90a16630f",
+    "code/build_sensitivity.py": "3bb5827636a5766992e18fdd8214bce8983cf4d89ef91e80c2581070257c5b32",
+    "inputs/context_metrics.csv": "7a76055e50ec52cb7f6528892e444ffee46dd21ce375b2c6336d9348e2be3d1d",
+    "inputs/threshold_scenarios.csv": "3225f8e1e358c6f913b39347224ddb6d92092a41811737f0599d277344f5e093",
+    "inputs/source_manifest.csv": "5abbd6b9c71a9f605e6bf867ae95f2dab5054ef47f5444a3cb2e3f247a886c97"
+  },
+  "initial_freeze_record": {
+    "frozen_utc": "2026-09-11T06:03:04.031311+00:00",
+    "record_sha256": "c54369dad89b8d6050b4a0c1415fbf574823042fc8a7d093898b4c9698414acb",
+    "frozen_files": {
+      "protocol.md": "7f9e4643bfb6965bfd2be74e16af1c4211faa2af072e442e8707b8197de8d8d6",
+      "code/build_sensitivity.py": "e5786ddc8d6318471707e4f8a0dd3d0bf98951c970691b4a86e7c02384cdc18b",
+      "inputs/context_metrics.csv": "01849055a77b8a93ae853a9afdb72d45a27eb88248674e47e7ac1022cc74e43f",
+      "inputs/threshold_scenarios.csv": "3225f8e1e358c6f913b39347224ddb6d92092a41811737f0599d277344f5e093",
+      "inputs/source_manifest.csv": "5abbd6b9c71a9f605e6bf867ae95f2dab5054ef47f5444a3cb2e3f247a886c97"
+    }
+  },
+  "pre_evaluation_technical_clarification": "Before any assignment evaluation: distinguish PERISCOPE held-out-gene response unit from cell/guide fitting level; expose requested four-component quantitative-fidelity predicate-vector changes; output one Table7 row fragment. All 12x5 metric strings, 36 scenario thresholds, original sources and hierarchy unchanged."
+}

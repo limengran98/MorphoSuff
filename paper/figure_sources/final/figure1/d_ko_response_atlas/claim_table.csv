@@ -1,0 +1,3 @@
+claim_id,status,statement,evidence_or_boundary
+D1,can_say,"Gene knockouts induce heterogeneous response programmes across the 52 targeted reporters.","Complete frozen 52-by-1,000 percentile matrix."
+D2,cannot_say,"Colour denotes signed up- or down-regulation relative to control.","Panel d shows within-reporter response percentiles; signed response is shown in panel e."

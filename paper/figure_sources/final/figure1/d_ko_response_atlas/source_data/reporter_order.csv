@@ -1,0 +1,53 @@
+reporter_slug,consensus10_gene_pearson,n_models,short_name,biological_category,display_row,split,consensus10_rank,mlp_gene_pearson,mlp_rank,rank_shift_consensus_minus_mlp,category_color,category_rank,canonical_order
+stress_granule_g3bp1,0.927926774074634,10,G3BP1,Stress/PQC,1,gene_holdout_main,1.0,0.9337998802463212,3.0,-2.0,#CC79A7,13,49
+lysosome_lysotracker_live-cell_dye,0.9248392219344774,10,LysoTracker live-cell dye,Lysosome,2,gene_holdout_main,2.0,0.9388250542183718,1.0,1.0,#E8943A,8,36
+er_golgi_cop-ii_sec23a,0.9248014762997626,10,SEC23A,ER/Golgi,3,gene_holdout_main,3.0,0.9367526402076084,2.0,1.0,#4F9A70,5,20
+early_endosome_eea1,0.9192501720041036,10,EEA1,Endosome,4,gene_holdout_main,4.0,0.9278098935882252,5.0,0.0,#C6A16A,9,39
+lipid_droplet_bodipy_live_cell_dye,0.9148503104845682,10,BODIPY live cell dye,Lysosome,5,gene_holdout_main,5.0,0.9287840249637762,4.0,3.0,#E8943A,8,33
+late_endosome_rab7a,0.9105539268503586,10,RAB7A,Endosome,6,gene_holdout_main,6.0,0.9234638750553132,7.0,2.0,#C6A16A,9,40
+actin_filament_fastact_spy555_live_cell_dye,0.9096364724139372,10,FastAct_SPY555 Live Cell Dye,Cytoskeleton,7,gene_holdout_main,7.0,0.9243509116272132,6.0,0.0,#4FA7B8,7,28
+plasma_membrane_slc3a2,0.9073366475601992,10,SLC3A2,Plasma Membrane,8,gene_holdout_main,8.0,0.9118719731767972,9.0,-5.0,#9C8C72,10,44
+clathrin_vesicles_clta,0.9066772521783908,10,CLTA,Lysosome,9,gene_holdout_main,9.0,0.9199979772170384,8.0,0.0,#E8943A,8,34
+autophagosome_map1lc3b,0.889691340426604,10,MAP1LC3B,Lysosome,10,gene_holdout_main,10.0,0.9057822450995444,11.0,-1.0,#E8943A,8,37
+fe2+_ferhonox_live-cell_dye,0.871222957285742,10,FeRhoNox live-cell dye,Signaling,11,gene_holdout_main,11.0,0.9105444987614948,10.0,5.0,#7B6597,1,1
+recycling_endosome_tfrc,0.8625896345824002,10,TFRC,Endosome,12,gene_holdout_main,12.0,0.8927435214320818,12.0,-1.0,#C6A16A,9,41
+nuclear_speckles_srrm2,0.8493885807693005,10,SRRM2,Nucleus,13,gene_holdout_main,13.0,0.8776929159959158,13.0,-1.0,#3E6F9C,2,16
+er_golgi_cope,0.8243623409420252,10,COPE,ER/Golgi,14,gene_holdout_main,14.0,0.8292949313918749,17.0,-4.0,#4F9A70,5,17
+chaperones_hspa1b,0.8219783624013265,10,HSPA1B,Stress/PQC,15,gene_holdout_main,15.0,0.8275769112010798,18.0,-4.0,#CC79A7,13,50
+nucleolus-gc_npm3,0.8214593877394993,10,NPM3,Nucleus,16,gene_holdout_main,16.0,0.8391794413328171,15.0,6.0,#3E6F9C,2,14
+nuclei_nucleolive_live_cell_dye,0.8201554869612058,10,NucleoLIVE Live Cell dye,Nucleus,17,gene_holdout_main,17.0,0.8496820899347464,14.0,18.0,#3E6F9C,2,15
+microtubules_map4,0.8168677599479754,10,MAP4,Cytoskeleton,18,gene_holdout_main,18.0,0.823344656576713,19.0,-3.0,#4FA7B8,7,29
+endosome_vps35,0.8163044809053341,10,VPS35,Endosome,19,gene_holdout_main,19.0,0.8381351331869761,16.0,2.0,#C6A16A,9,42
+er_sec61b,0.8011578214665254,10,SEC61B,ER/Golgi,20,gene_holdout_main,20.0,0.8102178797125816,23.0,-6.0,#4F9A70,5,21
+er_golgi_bridge_vapa,0.7998845250656208,10,VAPA,ER/Golgi,21,gene_holdout_main,21.0,0.8229861865441004,20.0,0.0,#4F9A70,5,23
+mitochondria_chromalive_561_excitation,0.792696370681127,10,ChromaLIVE 561 excitation,Mitochondria,22,gene_holdout_main,22.0,0.8209515526890755,21.0,-2.0,#C85A3C,6,25
+peroxisome_peroxi_spy650_live_cell_dye,0.7845023048420747,10,Peroxi_SPY650 live cell dye,Peroxisome,23,gene_holdout_main,23.0,0.8105570050577322,22.0,1.0,#D56C75,11,46
+nucleolus-dfc_fbl,0.7793305455396573,10,FBL,Nucleus,24,gene_holdout_main,24.0,0.7965991554160913,24.0,-2.0,#3E6F9C,2,9
+chromalive_488_excitation,0.765586062396566,10,ChromaLIVE 488 excitation,Mitochondria,25,gene_holdout_main,25.0,0.7724121913313866,26.0,-2.0,#C85A3C,6,24
+chromatin_h2bc21,0.757968520745635,10,H2BC21,Nucleus,26,gene_holdout_main,26.0,0.7774571490784487,25.0,0.0,#3E6F9C,2,10
+plasma_membrane_atp1b3,0.749630705267191,10,ATP1B3,Plasma Membrane,27,gene_holdout_main,27.0,0.7633020480473836,27.0,4.0,#9C8C72,10,43
+endocytic_vesicle_ph_phrodo-dextran_live_cell_dye,0.7449175643424193,10,pHrodo-dextran Live Cell Dye,Signaling,28,gene_holdout_main,28.0,0.7543665262560049,29.0,-2.0,#7B6597,1,6
+5xupre,0.7441053985059262,10,5xUPRE,Stress/PQC,29,gene_holdout_main,29.0,0.7511600545048713,31.0,-5.0,#CC79A7,13,47
+plasma_membrane_wga,0.7419182704554664,10,WGA*,Plasma Membrane,30,gene_holdout_main,30.0,0.7486275320251783,32.0,-4.0,#9C8C72,10,45
+f-actin_phalloidin,0.7399577975273133,10,Phalloidin*,Cytoskeleton,31,gene_holdout_main,31.0,0.7457482559813393,34.0,-5.0,#4FA7B8,7,30
+mitochondria_tomm70a,0.7389631509780884,10,TOMM70A,Mitochondria,32,gene_holdout_main,32.0,0.7465505585074425,33.0,-3.0,#C85A3C,6,27
+lysosome_lamp1,0.7367389331261318,10,LAMP1,Lysosome,33,gene_holdout_main,33.0,0.7512009352445602,30.0,4.0,#E8943A,8,35
+nuclei_hoechst,0.7314091514050961,10,Hoechst*,Nucleus,34,gene_holdout_main,34.0,0.7573144529263178,28.0,5.0,#3E6F9C,2,11
+microtubules_tubulin,0.71860714521673,10,Tubulin*,Cytoskeleton,35,gene_holdout_main,35.0,0.7224402621802357,35.0,0.0,#4FA7B8,7,31
+er_cona,0.7051554984102646,10,ConA*,ER/Golgi,36,gene_holdout_main,36.0,0.7102747335202164,37.0,-1.0,#4F9A70,5,18
+autophagosome_atg101,0.7028304977342487,10,ATG101,Lysosome,37,gene_holdout_main,37.0,0.7153217139343421,36.0,2.0,#E8943A,8,32
+lipid_droplet_plin2,0.697941415819029,10,PLIN2,Lysosome,38,gene_holdout_main,38.0,0.6961377425740163,38.0,-1.0,#E8943A,8,38
+mitochondria_tomm20,0.68048119072078,10,TOMM20*,Mitochondria,39,gene_holdout_main,39.0,0.690567583611442,40.0,-1.0,#C85A3C,6,26
+cell_proliferation_marker_mki67,0.6683644772817692,10,MKI67*,Nucleus,40,gene_holdout_main,40.0,0.6914596130450568,39.0,2.0,#3E6F9C,2,12
+trans-golgi_vamp3,0.663585352525115,10,VAMP3,ER/Golgi,41,gene_holdout_main,41.0,0.6881389747063318,41.0,1.0,#4F9A70,5,22
+oxidative_stress_cellrox_live-cell_dye,0.661024148389697,10,CellROX live-cell dye,Signaling,42,gene_holdout_main,42.0,0.6654244244098664,42.0,-2.0,#7B6597,1,0
+er_ncln,0.6531121644501885,10,NCLN,ER/Golgi,43,gene_holdout_main,43.0,0.6551008938501279,43.0,0.0,#4F9A70,5,19
+p21,0.607278133481741,10,p21*,Signaling,44,gene_holdout_main,44.0,0.6046441742777825,45.0,-1.0,#7B6597,1,4
+proteasome_psmb7,0.5960753543690468,10,PSMB7,Stress/PQC,45,gene_holdout_main,45.0,0.6091717668808997,44.0,1.0,#CC79A7,13,51
+ps6,0.5775233318238557,10,pS6*,Signaling,46,gene_holdout_main,46.0,0.5875179319580396,46.0,2.0,#7B6597,1,8
+caspase_activity_cellevent-caspase_live-cell_dye,0.5755442526589225,10,CellEvent-Caspase live-cell dye,Stress/PQC,47,gene_holdout_main,47.0,0.5873217311687767,47.0,0.0,#CC79A7,13,48
+p53,0.5697864287098249,10,p53*,Signaling,48,gene_holdout_main,48.0,0.5768901832401753,48.0,-2.0,#7B6597,1,5
+b-catenin,0.5556902340302865,10,b-catenin*,Signaling,49,gene_holdout_main,49.0,0.5607133853559694,49.0,1.0,#7B6597,1,2
+c-myc,0.5492729490498702,10,c-Myc*,Signaling,50,gene_holdout_main,50.0,0.5539068301518758,50.0,-1.0,#7B6597,1,3
+nucleoli_npm1,0.5333916893642809,10,NPM1*,Nucleus,51,gene_holdout_main,51.0,0.5439649538033539,51.0,0.0,#3E6F9C,2,13
+prb,0.4474449838272993,10,pRb*,Signaling,52,gene_holdout_main,52.0,0.4591269635409116,52.0,0.0,#7B6597,1,7

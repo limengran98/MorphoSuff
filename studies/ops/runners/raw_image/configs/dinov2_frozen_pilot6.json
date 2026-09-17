@@ -1,0 +1,40 @@
+{
+  "schema_version": "measurement-sufficiency-ops-raw-image-v1",
+  "representation": "dinov2_frozen",
+  "reporters": [
+    "early_endosome_eea1",
+    "stress_granule_g3bp1",
+    "lysosome_lamp1",
+    "mitochondria_tomm20",
+    "nucleoli_npm1",
+    "ps6"
+  ],
+  "reporter_strata": {
+    "early_endosome_eea1": "high",
+    "stress_granule_g3bp1": "high",
+    "lysosome_lamp1": "intermediate",
+    "mitochondria_tomm20": "intermediate",
+    "nucleoli_npm1": "low",
+    "ps6": "low"
+  },
+  "encoder": {
+    "family": "DINOv2",
+    "entrypoint": "dinov2_vits14",
+    "expected_embedding_dimension": 384,
+    "repository_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+    "checkpoint_url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth",
+    "checkpoint_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+  },
+  "image_transform": {
+    "clip_low": -0.8201958790421486,
+    "clip_high": 1.225127985477446,
+    "resize": 224,
+    "normalization": "ImageNet mean and standard deviation"
+  },
+  "evaluation": {
+    "split": "gene_holdout_main",
+    "folds": [0, 1, 2, 3, 4],
+    "primary": "control-relative gene-level Pearson"
+  }
+}
+

@@ -1,0 +1,2 @@
+model,n_reporters,r2_in_sample,permutation_p,permutation_draws,permutation_seed,terms,outcome
+overlapping_stability_constraints_median10,35,0.3871269911021159,0.0009996667777407,3000,20260848,within_screen_split_half_pearson_median; guide_half_consistency; log10_exact_links,P0-A unweighted median10 held-out-gene recoverability

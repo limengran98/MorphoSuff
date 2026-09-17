@@ -1,0 +1,151 @@
+figure_id: Figure6
+role: main
+canvas:
+  width_mm: 183
+  height_mm: 210
+  manuscript_width_mm: 168
+  row_height_ratios: [48, 57, 65, 40]
+  row_spacing: 0.018
+  top_width_ratios: [110, 73]
+  top_spacing: 0.025
+  external_width_ratios: [89, 94]
+  external_spacing: 0.020
+scientific_contract:
+  question: Which scientific uses remain supported when targeted measurements are predicted?
+  claim: Response fidelity, downstream utility and external use-specific evidence support distinct measurement decisions.
+  analysis_mode: frozen inferential summaries with descriptive displays
+  inferential_unit: reporter for OPS summaries; held-out compound for external recall intervals
+  pairing: reporter identifier in OPS; compound identifier linking all external doses and sources
+  missing_value_rule: all frozen reporter and held-out compound rows are retained
+  new_fitting: false
+  new_resampling: false
+  threshold_search: false
+  unsupported_claims: [universal assay substitution, unstained live-cell deployment, predictor superiority, measured-repeat equivalence]
+panels:
+  a:
+    question: Which downstream outputs survive response replacement?
+    n_reporters: 52
+    statistical_unit: reporter
+    source: a_counterfactual_utility_atlas/figure_source_data.csv
+    utility: mean cohort-percentile rank of hit recall and top-ten BP, CC and protein-complex overlap; excludes magnitude rank
+    summaries: reporter distributions, median and interquartile range
+    order: frozen component order
+  b:
+    question: How does ensemble recoverability relate to retained utility?
+    n_reporters: 52
+    statistical_unit: reporter
+    source: d_prediction_utility/figure_source_prediction_utility_plot.csv
+    summary_source: d_prediction_utility/figure_source_prediction_utility_summary.csv
+    label_source: d_prediction_utility/figure_source_direct_labels.csv
+    x: arithmetic fivefold mean of ensemble endpoint-macro Pearson
+    y: leave-one-reporter-out training-reference utility
+    reference_lines: recovery criterion 0.70; descriptive cohort-median utility
+    colour: frozen response-based tier
+    shape: domain-sensitive flag
+  c:
+    question: Which decision criteria support each reporter use?
+    n_reporters: 52
+    statistical_unit: reporter
+    source: c_decision_ledger/source_data/figure6c_decision_ledger_source.csv
+    transition_source: c_decision_ledger/source_data/figure6c_threshold_transition_matrix.csv
+    scenario_source: c_decision_ledger/source_data/figure6c_threshold_assignments.csv
+    threshold_scenarios: 36
+    baseline_tier_counts: [30, 7, 3, 9, 3]
+    tier_order: [quantitative, ranking, measurement-required, not-identifiable, unresolved]
+  d:
+    question: Does brightfield preserve compounds with the strongest measured metabolic loss?
+    statistical_unit: held-out compound
+    n: 217
+    development_compounds: 868
+    source: ../../../supplementary_data/SupplementaryData3/data/selection_ledger.csv
+    context: A_all_heldout
+    predictor: BF_Ridge100
+    selection_fraction: 0.05
+    selected_counts: {measured: 11, predicted: 11, shared: 10, union: 12}
+    transformation: signed loss relative to same-plate DMSO, averaged over eight concentrations after frozen well/source aggregation
+    limits: [-0.15, 1.0]
+    aspect: equal
+    histograms: all 217 compounds in 23 common equal-width bins, with a shared count scale
+    boundary_rule: midpoint between ranked losses eleven and twelve; deposited memberships must match exactly
+    boundary_source: source_data/external_use/external_selection_boundaries.csv
+    histogram_source: source_data/external_use/external_marginal_histograms.csv
+    encodings: blue circles shared; gold triangles predicted-only; rose open squares measured-only; muted circles neither
+    references: identity scale line; dashed fixed-budget separators; pale selected-set intersection
+    summary_annotation_pt: 6.8
+    annotation_layout:
+      coordinate_unit: mm within the native panel
+      sample_count: {left: 64, from_top: 16}
+      retained_hit_summary: {left: 64, from_top: 20.5}
+      selection_key_anchor: {left: 63.2, from_top: 27}
+      selection_key_row_spacing_pt: 3.6
+  e:
+    question: Which measured hits are retained by each fixed predictor?
+    statistical_unit: held-out compound
+    n: 217
+    source: ../../../supplementary_data/SupplementaryData3/data/utility_scores.csv
+    membership_source: source_data/external_use/external_hit_membership.csv
+    context: A_all_heldout
+    selection_fraction: 0.05
+    model_order: [BF_Ridge100, BF_HGB100, FluorescenceCount_Ridge100, FluorescenceCount_HGB100, AcquisitionMetadata_Ridge100, AcquisitionMetadata_HGB100]
+    matrix_shape: [6, 11]
+    matrix_column_order: descending measured loss; compound identifier breaks ties
+    matrix_filled: measured hit is also in the predictor top eleven
+    matrix_empty: measured hit was not recovered
+    matrix_row_sums: [10, 10, 8, 7, 0, 1]
+    uncertainty: deposited 95% percentile intervals from 2000 compound-bootstrap samples
+    reference: random fixed-size selection expectation 11/217
+    colour: blue brightfield; gold fluorescence-derived cell count; grey acquisition metadata
+    forest_shape: circle Ridge; square histogram gradient boosting
+    compact_layout:
+      coordinate_unit: mm within the native panel
+      input_labels: once above each model pair; single-line semibold text
+      input_label_left_mm: 1.8
+      input_label_pt: 6.3
+      model_labels: right-aligned beside the matrix
+      model_label_right_mm: 15.3
+      model_label_pt: 6.2
+      matrix: {left_mm: 18.5, width_mm: 34.4, bottom_mm: 13}
+      forest: {left_mm: 56.4, width_mm: 34.6, bottom_mm: 13}
+      axis_height: panel height minus 24 mm
+      matrix_header_centre_mm: 35.7
+      forest_header_centre_mm: 73.7
+      key_anchor: {left_mm: 55, bottom_mm: 4}
+  f:
+    question: Which broad response criteria are supported in each measurement context?
+    statistical_unit: reporter or registered external measurement context
+    source: f_cross_context_decisions/figure_source_data.csv
+    gate_source: f_cross_context_decisions/figure_source_gate_rows.csv
+    replicate_source: f_cross_context_decisions/figure_source_replicate_detail.csv
+    criteria: [recovery, response rank, amplitude, top-hit recovery, reliability]
+    reliability: OPS cell halves; OASIS dose-averaged well halves; PERISCOPE guide halves
+    pooling: none across external contexts
+    values_and_assignments: frozen response-fidelity analysis; not replaced by signed-loss prioritization
+related_analyses:
+  utility_calibration: Supplementary Figure 4a; b_nested_loo_audit/
+  destination_screen_evidence: Supplementary Figure 4b; e_reporter_context_stability/
+  external_repeat_reference: Supplementary Figure 4c
+  external_selection_budgets: Supplementary Figure 4d
+style:
+  font: DejaVu Sans
+  minimum_text_pt: 6
+  panel_label_pt: 9
+  panel_label_weight: bold
+  panel_titles: false
+  standalone_panel_letters: false
+  background: white
+  grid: false
+export:
+  formats: [pdf, svg, png, tiff]
+  png_dpi: 600
+  preview_dpi: 180
+  editable_text: true
+  pdf_fonttype: 42
+  composite: published/Figure6
+  clean_panels: panels/Figure6a through panels/Figure6f
+source_manifest: published/figure_source_manifest.csv
+external_display_data: source_data/external_use/figure_source_data.tsv
+code: code/build_figure6.py
+shared_drawing_code: code/figure6_layout.py
+methods: figure_methods.md
+legend: caption_en.md
+qa_report: published/figure_qa_report.json

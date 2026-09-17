@@ -1,0 +1,9 @@
+figure_type: raw_dot_forest
+score: held-out-gene Pearson r
+biological_system_unit: reporter
+endpoint_family_unit: reporter_endpoint_family
+intervals:
+  biological_system: frozen reporter-bootstrap 95% interval
+  endpoint_family: frozen deterministic 10000-draw reporter-row bootstrap interval
+canvas_mm: [82, 72]
+font: Arial

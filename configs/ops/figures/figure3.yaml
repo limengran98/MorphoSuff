@@ -1,0 +1,11 @@
+figure: 3
+role: recoverability_structure
+canonical_inputs: [prediction_metrics, reporter_metadata, endpoint_family_map, microscopy_selection_manifest]
+consensus: ten_method_unweighted_median
+splits: [field, gene, strict_whole_screen]
+statistical_units: [reporter, physical_screen, reporter_screen_assay]
+thresholds: {hard_lt: 0.60, intermediate_lt: 0.75, readable_gte: 0.75}
+uncertainty: {endpoint_family: deterministic_reporter_bootstrap, resamples: 10000}
+ordering: final_consensus_only
+output: {formats: [pdf, svg, png], panels: [a, b, c, d]}
+forbidden: [legacy_mean_ordering, earlier_consensus_table, training]

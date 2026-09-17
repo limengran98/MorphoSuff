@@ -1,0 +1,18 @@
+{
+  "question": "Which reporters support quantitative or ranking replacement, and which frozen criterion limits the remaining reporters?",
+  "claim": "Utility retention varies across reporters; fidelity and reliability criteria define response-level tiers, with threshold stability shown separately.",
+  "one_row_represents": "one OPS reporter",
+  "analysis_mode": "descriptive_enumeration",
+  "inferential_unit": "reporter (n=52)",
+  "pairing": "shared reporter order across all tracks",
+  "selected_card": "C11 decision-gate matrix + C05 complex heatmap",
+  "transformations": [
+    "frozen scaled gate margins",
+    "row-normalized frozen transition counts"
+  ],
+  "uncertainty": "none; threshold sensitivity is displayed descriptively",
+  "destination": "main",
+  "final_width_mm": 183,
+  "final_height_mm": 96,
+  "transition_rendering": "25 vector cells and diagonal outlines share the same half-integer boundaries"
+}

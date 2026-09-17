@@ -1,0 +1,17 @@
+panel: Supplementary Figure 4b
+statistical_unit: directed reporter-by-destination-screen evaluation
+n_directions: 81
+n_repeated_reporters: 34
+metrics:
+  - consensus10_strict_gene_pearson
+  - consensus10_strict_magnitude_spearman
+gate: 0.70
+point: destination-screen value
+segment: within-reporter observed range
+diamond: within-reporter median
+axis_padding: physical clearance for the complete diamond and outline at both 0 and 1
+axis_ticks: [0, 1]
+gate_label: shared 0.70 category key; vertical criterion remains at 0.70
+marker_clipping_check: marker paths, sizes and outlines checked after native and composite layout
+backend: Python matplotlib
+exports: [svg, pdf, png, tiff]

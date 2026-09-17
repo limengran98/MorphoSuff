@@ -1,0 +1,14 @@
+{
+  "reporter_slug": "prb",
+  "reporter": "pRb",
+  "exact_linked_cells": 90286,
+  "targeting_cells": 85290,
+  "control_cells": 4996,
+  "screens": [
+    "Biohub_OPS0077"
+  ],
+  "target_kos": 1000,
+  "phase_features": 172,
+  "fluorescence_features": 30,
+  "normalization": "within-screen NTC median/MAD; equal-screen KO means; feature-wise robust display z"
+}

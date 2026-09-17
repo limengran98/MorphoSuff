@@ -1,0 +1,3 @@
+claim_id,status,statement,evidence_or_boundary
+E1,can_say,"The atlas links registered same-cell images to complete phase-feature and targeted-response maps for representative KO cases.","Frozen image manifest and complete KO display tables."
+E2,cannot_say,"The three examples establish population-level reproducibility or measurement sufficiency.","They are descriptive examples; later figures provide inferential evidence."

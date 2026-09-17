@@ -1,0 +1,31 @@
+{
+  "array_spec": "fluorescence:384x384:float32; phase:384x384:float32",
+  "asset_id": "5xupre_hspa5_ntc",
+  "canonical_relative_path": "raw_assets/5xupre_hspa5_ntc.npz",
+  "display_policy": "Use the per-panel fixed windows in render_spec.csv. Do not alter pixels, register, denoise, enhance, or content-edit this asset.",
+  "file_sha256": "add13ffbb58d70fd4fa452b87bc113d7bd249f50dde82c6bdc29923ed4890c20",
+  "orientation": "native stored orientation",
+  "pixel_sha256": "fdea920a0b1c497528e0fa17e384834aa01bb8c9e883a8059d9e2beffc3d3029",
+  "provenance": {
+    "asset_id": "5xupre_hspa5_ntc",
+    "channels": "phase=0; fluorescence=2",
+    "figure_panel_usage": "Fig.3 paired future-edit counterpart",
+    "filename": "5xupre_hspa5_ntc.npz",
+    "gene": "HSPA5",
+    "note": "",
+    "perturbation_role": "NTC",
+    "phase_row_index": "8353156",
+    "pixel_size_um": 0.325,
+    "provenance_uri": "s3://ops-explorer-public/leonetti_ops/ops_data_portal_submission/v1.0.20260521/datasets/Biohub_OPS0001/Biohub_OPS0001.zarr",
+    "reporter": "5xUPRE",
+    "reporter_slug": "5xupre",
+    "screen_id": "Biohub_OPS0001",
+    "segmentation_id": "21304555",
+    "selection_rule": "Frozen paired NTC counterpart for future same-reporter comparisons.",
+    "source_level": "OME-Zarr level 0",
+    "source_relative_path": "figure3/source_data/microscopy/5xupre_hspa5_ntc.npz",
+    "use_status": "potential",
+    "well": "A/1/0"
+  },
+  "spatial_transform": "none"
+}

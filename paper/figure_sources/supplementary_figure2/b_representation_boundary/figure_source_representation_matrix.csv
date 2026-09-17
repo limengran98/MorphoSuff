@@ -1,0 +1,25 @@
+index,reporter_slug,representation,gene_pearson_mean,gene_pearson_sd,n_folds,reporter_label,representation_label
+0,early_endosome_eea1,Cytoland frozen,0.7377193212509155,0.0206739022062619,5,EEA1,Cytoland
+1,early_endosome_eea1,Cytoland partial fine-tune,0.8264855340123176,0.0105631922959168,5,EEA1,Cytoland FT
+2,early_endosome_eea1,DINOv2 frozen,0.6428117354710897,0.0260940093226086,5,EEA1,DINOv2
+3,early_endosome_eea1,Official 172D + MLP,0.9278098935882252,0.00713143157811,5,EEA1,Official 172D
+4,lysosome_lamp1,Cytoland frozen,0.5033236925800642,0.0314427116823372,5,LAMP1,Cytoland
+5,lysosome_lamp1,Cytoland partial fine-tune,0.5254156519969304,0.0220856062165364,5,LAMP1,Cytoland FT
+6,lysosome_lamp1,DINOv2 frozen,0.3917843088507652,0.0163393371605653,5,LAMP1,DINOv2
+7,lysosome_lamp1,Official 172D + MLP,0.7512009352445602,0.0264719059143764,5,LAMP1,Official 172D
+8,mitochondria_tomm20,Cytoland frozen,0.6248243188692464,0.0191687824078888,5,TOMM20,Cytoland
+9,mitochondria_tomm20,Cytoland partial fine-tune,0.6194364133497907,0.013021313094403,5,TOMM20,Cytoland FT
+10,mitochondria_tomm20,DINOv2 frozen,0.5814293663120932,0.0166686778826525,5,TOMM20,DINOv2
+11,mitochondria_tomm20,Official 172D + MLP,0.690567583611442,0.0194044312807601,5,TOMM20,Official 172D
+12,nucleoli_npm1,Cytoland frozen,0.4363711454802089,0.0306892975553429,5,NPM1,Cytoland
+13,nucleoli_npm1,Cytoland partial fine-tune,0.4104455668117023,0.0226622176600531,5,NPM1,Cytoland FT
+14,nucleoli_npm1,DINOv2 frozen,0.391676249101551,0.026489096015928,5,NPM1,DINOv2
+15,nucleoli_npm1,Official 172D + MLP,0.5439649538033539,0.0415056570157425,5,NPM1,Official 172D
+16,ps6,Cytoland frozen,0.5701844444057982,0.0274356466857397,5,pS6,Cytoland
+17,ps6,Cytoland partial fine-tune,0.575693649671351,0.0435013039165649,5,pS6,Cytoland FT
+18,ps6,DINOv2 frozen,0.553597846054472,0.0359843406402403,5,pS6,DINOv2
+19,ps6,Official 172D + MLP,0.5875179319580396,0.0212873327118926,5,pS6,Official 172D
+20,stress_granule_g3bp1,Cytoland frozen,0.6905613288283348,0.0252488164671957,5,G3BP1,Cytoland
+21,stress_granule_g3bp1,Cytoland partial fine-tune,0.7176678930719693,0.015950571064126,5,G3BP1,Cytoland FT
+22,stress_granule_g3bp1,DINOv2 frozen,0.6425775793691476,0.0239311612112107,5,G3BP1,DINOv2
+23,stress_granule_g3bp1,Official 172D + MLP,0.9337998802463212,0.0060212738634503,5,G3BP1,Official 172D

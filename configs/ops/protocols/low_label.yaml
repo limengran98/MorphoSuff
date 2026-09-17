@@ -1,0 +1,13 @@
+name: low_label_calibration
+methods_registry: ../methods/final_ten.yaml
+target_panel: frozen_target12
+label_fractions: [0.001, 0.01, 0.20]
+matched_anchor_fraction: 1.0
+outer_split: gene
+outer_folds: 5
+sampling:
+  manifest_required: true
+  sampling_unit: permitted_target_labels
+  seed: recorded_in_manifest
+  donor_exposure: training_partition_only
+interpretation: Exploratory calibration; does not redefine full-atlas tiers.

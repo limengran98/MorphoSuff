@@ -1,0 +1,16 @@
+{
+  "asset_count": 16,
+  "bundle_scope": "All real microscopy source arrays rendered in final Figures 1\u20136 plus paired/reusable figure-edit counterparts.",
+  "deduplicated_source_aliases": 9,
+  "deduplication": "One canonical copy per unique raw crop; shared figure uses are represented in figure_panel_usage rather than duplicate files.",
+  "derivative_policy": "No PNG/JPEG screenshot or enhancement is stored in this bundle.",
+  "known_provenance_boundary": "A small number of legacy Fig.1/final-stage diagnostic crops are lossless paired arrays with frozen case metadata; their original local staging shard is not encoded in the final figure manifest. The public OPS Zarr location, screen, well, cell ID, crop geometry and channel mapping are recorded whenever available.",
+  "native_crop_geometry": "384 x 384 pixels; float32 arrays; 0.325 micrometres per pixel where recorded.",
+  "potential_only_asset_count": 2,
+  "rendered_asset_count": 14,
+  "status": "PASS",
+  "stored_formats": {
+    "npy": 3,
+    "npz": 13
+  }
+}

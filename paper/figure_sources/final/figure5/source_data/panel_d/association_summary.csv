@@ -1,0 +1,5 @@
+spearman_rho,ci95_low,ci95_high,n_clusters,n_rows,predictor,outcome,reporter_cluster_permutation_p
+0.5613595302619693,0.31096979200923286,0.7630832691864063,34,81,true_ko_profile_cross_screen_pearson,consensus10_strict_gene_pearson,0.000999666777740753
+0.6790876242095754,0.47276639297483286,0.8199080865968545,34,81,true_ko_magnitude_cross_screen_spearman,consensus10_strict_magnitude_spearman,0.0003332222592469177
+-0.6869467028003614,-0.8085149223949385,-0.47440670292203174,34,81,phase_ntc_shift_rms_smd,consensus10_screen_penalty_gene,0.0003332222592469177
+-0.7508355916892502,-0.8286018634180085,-0.5974503856156218,34,81,phenotype_ntc_shift_rms_smd,consensus10_screen_penalty_gene,0.0003332222592469177

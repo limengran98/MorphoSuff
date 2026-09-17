@@ -1,0 +1,31 @@
+{
+  "array_spec": "fluorescence:384x384:float32; phase:384x384:float32",
+  "asset_id": "ferhonox_alg12_ko",
+  "canonical_relative_path": "raw_assets/ferhonox_alg12_ko.npz",
+  "display_policy": "Use the per-panel fixed windows in render_spec.csv. Do not alter pixels, register, denoise, enhance, or content-edit this asset.",
+  "file_sha256": "a23705fe55c3813b0ad31f6024bfd5dd95bc7c097b7337ca79a1ac8f9b5c486d",
+  "orientation": "native stored orientation",
+  "pixel_sha256": "a02e0d698f8254d6ef2338f60c457503e6bb4417430850b61ad1b5b1e7cbe1d1",
+  "provenance": {
+    "asset_id": "ferhonox_alg12_ko",
+    "channels": "phase=0; fluorescence=2",
+    "figure_panel_usage": "Fig.1c; Fig.1e",
+    "filename": "ferhonox_alg12_ko.npz",
+    "gene": "ALG12",
+    "note": "",
+    "perturbation_role": "KO",
+    "phase_row_index": "4515",
+    "pixel_size_um": 0.325,
+    "provenance_uri": "s3://ops-explorer-public/leonetti_ops/ops_data_portal_submission/v1.0.20260521/datasets/Biohub_OPS0047/Biohub_OPS0047.zarr",
+    "reporter": "FeRhoNox",
+    "reporter_slug": "fe2+_ferhonox_live-cell_dye",
+    "screen_id": "Biohub_OPS0047",
+    "segmentation_id": "3546304",
+    "selection_rule": "Frozen registered same-cell crop; fixed display windows are in render_spec.csv.",
+    "source_level": "OME-Zarr level 0",
+    "source_relative_path": "figure1/e_same_cell_response_maps/source_data/frozen_inputs/B_exact_same_cell_microscopy/ferhonox_exact_same_cell.npz",
+    "use_status": "rendered",
+    "well": "A/1/0"
+  },
+  "spatial_transform": "none"
+}

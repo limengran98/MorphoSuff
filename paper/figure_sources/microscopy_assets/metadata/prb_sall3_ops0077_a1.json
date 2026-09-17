@@ -1,0 +1,31 @@
+{
+  "array_spec": "cell_mask:384x384:int32; fluorescence:384x384:float32; nuclear_mask:384x384:int32; phase:384x384:float32; reporter_mask:384x384:int32",
+  "asset_id": "prb_sall3_ops0077_a1",
+  "canonical_relative_path": "raw_assets/prb_sall3_ops0077_a1.npz",
+  "display_policy": "Use the per-panel fixed windows in render_spec.csv. Do not alter pixels, register, denoise, enhance, or content-edit this asset.",
+  "file_sha256": "c194e7ce8f8a4b6cc24a61b874c7b6296872d8a9378700cc58679447e98132dd",
+  "orientation": "native stored orientation",
+  "pixel_sha256": "f1badfb69aa238dd8cdc37d1afa34c385de9fe0d242fb665c7e1e3afe127c8a1",
+  "provenance": {
+    "asset_id": "prb_sall3_ops0077_a1",
+    "channels": "phase=0; fluorescence=9; masks",
+    "figure_panel_usage": "Fig.5b",
+    "filename": "prb_sall3_ops0077_a1.npz",
+    "gene": "SALL3",
+    "note": "",
+    "perturbation_role": "KO",
+    "phase_row_index": "703281",
+    "pixel_size_um": 0.325,
+    "provenance_uri": "Local staged raw crop; original OPS source documented in source figure manifest.",
+    "reporter": "pRb",
+    "reporter_slug": "prb",
+    "screen_id": "Biohub_OPS0077",
+    "segmentation_id": "34071508",
+    "selection_rule": "Soft-QC non-edge targeting cell; phase/geometry medoid within well.",
+    "source_level": "Stage-B level-0 crop",
+    "source_relative_path": "figure5/source_data/microscopy/cell_00.npz",
+    "use_status": "rendered",
+    "well": "A/1/0"
+  },
+  "spatial_transform": "none"
+}

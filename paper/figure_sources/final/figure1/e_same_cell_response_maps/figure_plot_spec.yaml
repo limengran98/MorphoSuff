@@ -1,0 +1,19 @@
+figure_id: Figure1-e
+role: main
+canvas: {width_mm: 123, height_mm: 52}
+scientific_contract:
+  cases: [FeRhoNox-ALG12, LAMP1-BORCS7, pRb-FECH]
+  image_unit: "one frozen registered same-cell crop per predeclared case"
+  heatmap_row: "gene knockout in frozen display order"
+  heatmap_value: "control-relative KO response z-score"
+  analysis_mode: descriptive_examples
+  uncertainty: none
+palette: "blue-white-red, centred at zero"
+font: Arial
+minimum_font_pt: 6.0
+exports: [PNG_600dpi, PDF, SVG_live_text]
+source_data:
+  microscopy: source_data/exact_image_display_manifest.csv
+  ko_order: source_data/ko_display_order.csv
+  feature_order: source_data/feature_display_order.csv
+code: code/build_figure1e.py

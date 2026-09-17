@@ -1,0 +1,3 @@
+metric,metric_label,n_directions,n_reporters,stable_above_gate,crosses_gate,stable_below_gate,median_within_reporter_range,iqr25_within_reporter_range,iqr75_within_reporter_range,maximum_within_reporter_range,reporter_group_eta_squared_descriptive,gate
+consensus10_strict_gene_pearson,Recovery across screens,81,34,15,4,15,0.04723630271231133,0.02056640453520235,0.07482094918183671,0.3168939676967663,0.9582322899754038,0.7
+consensus10_strict_magnitude_spearman,Rank across screens,81,34,12,9,13,0.10796695496695496,0.046708216708216815,0.2571305271305271,0.7477316677316678,0.7055539827852039,0.7

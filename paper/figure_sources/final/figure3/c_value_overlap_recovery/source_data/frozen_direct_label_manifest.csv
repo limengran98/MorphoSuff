@@ -1,0 +1,13 @@
+scatter,reporter_slug,display_label,x,y
+Marker value,prb,pRb,0.0096608849891772,0.4474449838272993
+Marker value,nucleoli_npm1,NPM1,0.0473940152773191,0.5333916893642809
+Marker value,lysosome_lamp1,LAMP1,0.0150711073561528,0.7367389331261318
+Marker value,lysosome_lysotracker_live-cell_dye,LysoTracker,0.1104008174961877,0.9248392219344774
+Phase–marker overlap,prb,pRb,0.0763127264580563,0.4474449838272993
+Phase–marker overlap,nucleoli_npm1,NPM1,0.1378126962385848,0.5333916893642809
+Phase–marker overlap,lysosome_lamp1,LAMP1,0.0070805418575682,0.7367389331261318
+Phase–marker overlap,lysosome_lysotracker_live-cell_dye,LysoTracker,0.2717627723141009,0.9248392219344774
+Value at matched budget,prb,pRb,0.0097910821489712,0.4474449838272993
+Value at matched budget,nucleoli_npm1,NPM1,0.0463650841810154,0.5333916893642809
+Value at matched budget,lysosome_lamp1,LAMP1,0.015166405685624,0.7367389331261318
+Value at matched budget,lysosome_lysotracker_live-cell_dye,LysoTracker,0.0915813936872476,0.9248392219344774

@@ -1,0 +1,32 @@
+{
+  "n_reporters": 52,
+  "n_scenarios": 36,
+  "baseline_counts": {
+    "quantitative_proxy": 30,
+    "not_identifiable": 9,
+    "ranking_proxy": 7,
+    "measurement_required": 3,
+    "unresolved": 3
+  },
+  "reliability_passing": 43,
+  "single_gate": {
+    "n_scenarios": 32,
+    "reporters_unchanged_in_every_scenario": 28,
+    "median_reporters_changed": 1.0,
+    "max_reporters_changed": 8,
+    "proxy_total_range": [
+      31,
+      40
+    ]
+  },
+  "all_gates_together": {
+    "n_scenarios": 4,
+    "max_reporters_changed": 16
+  },
+  "reporters_unchanged_in_every_scenario": 28,
+  "reporters_keeping_proxy_status_in_every_scenario": 40,
+  "proxy_total_range_all_scenarios": [
+    30,
+    42
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": "measurement-sufficiency-ops-biological-runners-v1",
+  "selection": {
+    "metric": "observed_validation_mse",
+    "patience": 0
+  },
+  "scbutterfly": {
+    "architecture": {
+      "phase_encoder_widths": [256, 128],
+      "phenotype_encoder_widths": [128, 128],
+      "phase_decoder_widths": [256],
+      "phenotype_decoder_widths": [128],
+      "latent_dim": 128,
+      "discriminator_hidden_widths": [],
+      "discriminator_output_batch_norm": true,
+      "dropout": 0.1,
+      "phase_input_mask_rate": 0.5,
+      "phenotype_input_mask_rate": 0.0
+    },
+    "phase_pretrain_epochs": 100,
+    "phenotype_pretrain_epochs": 100,
+    "joint_epochs": 200,
+    "steps_per_epoch": 64,
+    "batch_size": 1024,
+    "ema_decay": 0.999
+  },
+  "midas": {
+    "architecture": {
+      "biological_dim": 128,
+      "technical_dim": 32,
+      "modality_width": 768,
+      "shared_encoder_hidden_dims": [768],
+      "shared_decoder_hidden_dims": [768, 768],
+      "dropout": 0.1,
+      "phase_reconstruction_weight": 1.0,
+      "reporter_reconstruction_weight": 1.0,
+      "kl_biological_weight": 1.0,
+      "kl_technical_weight": 1.0,
+      "technical_information_bottleneck_multiplier": 5.0,
+      "modality_alignment_weight": 50.0,
+      "reporter_reconstruction_reduction": "modality_mean",
+      "batch_disentanglement": false,
+      "batch_covariate_kind": "none"
+    },
+    "epochs": 100,
+    "steps_per_epoch": 64,
+    "batch_size": 1024,
+    "reporters_per_step": 4,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01,
+    "gradient_clip_norm": 1.0
+  },
+  "scpair": {
+    "epochs": 40,
+    "steps_per_epoch": 64,
+    "batch_size": 16384,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "gradient_clip_norm": 1.0
+  }
+}
+

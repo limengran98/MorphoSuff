@@ -1,0 +1,31 @@
+{
+  "array_spec": "array:384x384:float32",
+  "asset_id": "eea1_phase_fold0",
+  "canonical_relative_path": "raw_assets/eea1_phase_fold0.npy",
+  "display_policy": "Use the per-panel fixed windows in render_spec.csv. Do not alter pixels, register, denoise, enhance, or content-edit this asset.",
+  "file_sha256": "7f59bbc9f8f85c791f8ca9f0e41a6214c29cda13619258ba568e843640b74334",
+  "orientation": "native stored orientation",
+  "pixel_sha256": "aecd9f42c80505c91731ea5901c6b0359a65464a12e0ea7a352a1ceece93b863",
+  "provenance": {
+    "asset_id": "eea1_phase_fold0",
+    "channels": "phase only",
+    "figure_panel_usage": "Supplementary Fig.2b",
+    "filename": "eea1_phase_fold0.npy",
+    "gene": "",
+    "note": "",
+    "perturbation_role": "KO",
+    "phase_row_index": "2469794",
+    "pixel_size_um": 0.325,
+    "provenance_uri": "Local downloaded crop; original OPS source documented in the Supplementary Figure 2 source table.",
+    "reporter": "EEA1",
+    "reporter_slug": "early_endosome_eea1",
+    "screen_id": "Biohub_OPS0039",
+    "segmentation_id": "",
+    "selection_rule": "Closest to reporter-wise median of four phase-image statistics among 96 evenly spaced full-window targeting cells in held-out gene fold 0.",
+    "source_level": "downloaded level-0 crop",
+    "source_relative_path": "supplementary_figure2/b_representation_boundary/source_images/early_endosome_eea1_phase_crop.npy",
+    "use_status": "rendered",
+    "well": ""
+  },
+  "spatial_transform": "none"
+}

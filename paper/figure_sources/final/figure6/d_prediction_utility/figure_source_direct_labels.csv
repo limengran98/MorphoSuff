@@ -1,0 +1,7 @@
+short_name,reporter_slug,label_x_data,label_y_data,label_reason
+VAPA,er_golgi_bridge_vapa,0.735,0.895,discordant prediction-utility example
+VPS35,endosome_vps35,0.84,0.185,discordant prediction-utility example
+5xUPRE,5xupre,0.445,0.71,discordant prediction-utility example
+Hoechst,nuclei_hoechst,0.8,0.075,discordant prediction-utility example
+CellROX,oxidative_stress_cellrox_live-cell_dye,0.42,0.87,discordant prediction-utility example
+NCLN,er_ncln,0.345,0.22,discordant prediction-utility example

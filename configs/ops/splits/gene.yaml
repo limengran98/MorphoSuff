@@ -1,0 +1,9 @@
+name: gene
+unit_held_out: perturbation_gene
+purpose: Generalization to unseen perturbation programs.
+constraints:
+  - All guides belonging to a held-out gene stay in the same test partition.
+  - Declared control rows are present in every fold's held-out role by design, so that a control-relative response has a same-screen baseline at scoring time. They are exempt from the perturbation_id leakage check and are excluded from every accuracy metric (split_gene carries is_control and scored=false for them). Consequence to disclose: because controls are shared across roles, pred(control) is a well-estimated subtrahend in response_pred = pred(KO) - pred(control), while pred(KO) is genuinely held out. TO BE SIGNED OFF BY THE STUDY LEAD before submission; see the Methods statement.
+  - A gene cannot occur in train, validation, and test of one fold.
+evaluation_units: [cell, perturbation_response, physical_screen, reporter_screen_assay, reporter]
+manifest_columns: [observation_id, split_name, fold, role, is_control, scored]

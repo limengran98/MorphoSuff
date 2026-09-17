@@ -1,0 +1,14 @@
+{
+  "scope": "2026-09-11 numerical correction and validated rendering environment",
+  "python": "3.10.20",
+  "numpy": "1.26.4",
+  "pandas": "2.1.4",
+  "scipy": "1.11.4",
+  "matplotlib": "3.7.5",
+  "Pillow": "10.4.0",
+  "PyMuPDF": "1.24.14",
+  "dependency_installation": "PyMuPDF loaded from a temporary target; no project environment modified",
+  "numerical_rebuild_requires": ["numpy", "pandas", "scipy"],
+  "rendering_requires": ["matplotlib", "numpy", "pandas", "Pillow", "PyMuPDF"],
+  "cross_environment_policy": "verify source checksums and exact statistical tables; PDF bytes can differ across rendering-library versions"
+}

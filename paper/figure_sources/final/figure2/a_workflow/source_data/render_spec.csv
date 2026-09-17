@@ -1,0 +1,5 @@
+figure,panel,asset_id,phase_display_low,phase_display_high,fluorescence_display_low,fluorescence_display_high,display_role,spatial_transform,orientation,source_pixel_size_um,scale_bar_um
+Fig.5,b,prb_sall3_ops0077_a1,-0.5457885962724686,0.8108193516731264,134.47124862670898,1531.5057202148453,three-well stability case,none,native stored orientation,0.325,20
+Fig.4,c,prb_sall3_ops0077_a2,-0.5457885962724686,0.8108193516731264,134.47124862670898,1531.5057202148453,pRb reconstruction case,none,native stored orientation,0.325,20
+Fig.5,b,prb_sall3_ops0077_a2,-0.5457885962724686,0.8108193516731264,134.47124862670898,1531.5057202148453,three-well stability case,none,native stored orientation,0.325,20
+Fig.5,b,prb_sall3_ops0077_a3,-0.5457885962724686,0.8108193516731264,134.47124862670898,1531.5057202148453,three-well stability case,none,native stored orientation,0.325,20

@@ -1,0 +1,15 @@
+{
+  "reporter_slug": "fe2+_ferhonox_live-cell_dye",
+  "reporter": "FeRhoNox",
+  "exact_linked_cells": 211029,
+  "targeting_cells": 200122,
+  "control_cells": 10907,
+  "screens": [
+    "Biohub_OPS0047",
+    "Biohub_OPS0067"
+  ],
+  "target_kos": 1000,
+  "phase_features": 172,
+  "fluorescence_features": 24,
+  "normalization": "within-screen NTC median/MAD; equal-screen KO means; feature-wise robust display z"
+}

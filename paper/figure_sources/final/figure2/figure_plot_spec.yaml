@@ -1,0 +1,51 @@
+figure_id: Figure2
+release: corrected_arithmetic_partition_mean_2026-09-11
+role: main
+canvas:
+  width_mm: 183
+  height: "derived from accepted full-width panel a, a dedicated gutter and the quantitative body; see PDF and QA report"
+  background: white
+typography:
+  family_priority: [Arial, Liberation Sans, DejaVu Sans]
+  minimum_authored_pt: 6.5
+  quantitative_axis_labels_pt: 6.8
+  quantitative_subtitles_pt: 7.8
+  panel_letters: lowercase bold
+  panel_level_subtitles: absent
+  verification: "resolve PDF text after composition/form transforms and apply actual manuscript placement"
+  overlap_gate: "renderer-measured visible text boxes in the quantitative body and all standalone panel crops; separate visual inspection of data/keys remains required"
+scientific_contract:
+  model_roster: ten frozen methods
+  held_out_tests: [Field, Gene, Whole-screen]
+  evaluation_levels: [KO_response, Cell]
+  reporting_units: [Reporter, Screen, Reporter_x_screen_assay]
+  consensus: unweighted median over ten aligned methods
+  reporter_partition_aggregation: arithmetic mean over five folds or eligible destination directions
+  paired_inference: 54 MLP comparisons, Holm P < 0.05 and absolute median paired effect >= 0.02
+  exclusions: unchanged from frozen Figure 2 benchmark
+panels:
+  a: prediction task, data hierarchy and held-out split schematic
+  b: reporter-level KO-response and cell Pearson distributions (legacy views b/c)
+  c: screen-level KO-response and cell consensus ranks and spread (legacy views d/e)
+  d: reporter-by-screen assay KO-response and cell consensus (legacy views f/g)
+layout:
+  reporter_distribution_xlim: [-0.025, 1.0]
+  reporter_distribution_margin_reason: "retain the existing -0.005407 KO-response score; b/c retain common scales and 0/0.5/1 ticks"
+  ranked_curve_keys: "dedicated strip above axes; fixed Field/Gene/Whole-screen order, outside all curves and bands"
+  spread_keys: "separated two-row key above IQR bars"
+  screen_iqr_xlim: [0.0, 0.28]
+  screen_iqr_margin_reason: "existing KO Whole-screen IQR 0.255567 exceeded the previous 0.25 limit; expand both views without changing statistics"
+  standalone_family_keys: "6.5 pt minimum, matching quantitative body type"
+outputs:
+  composite: composite/Figure2.{pdf,svg,png}
+  standalone_panels: panels/{a,b,c,d}/Figure2{letter}.{pdf,svg,png}
+source_root: source_data/frozen_figure2_package
+panel_a_source:
+  editable: a_workflow/source/Figure2a.pptx
+  export_binding: a_workflow/source/export_manifest.json
+  canonical_pdf: panels/a/Figure2a.pdf
+  policy: "hash-verified accepted native export; preserve author arrow deletion; no obsolete generator replay"
+  images: "authentic microscopy plus schematic biological illustrations; not raster-free"
+  editability: "PPTX and live PDF objects; companion SVG may outline panel-a text"
+rendering_change_only: false
+scientific_correction: "legacy partition median replaced by Methods-defined arithmetic mean; independent KO assay/screen sources preserved"

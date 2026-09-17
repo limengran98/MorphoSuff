@@ -1,0 +1,100 @@
+assay_key	reporter_slug	display_name	biological_category	screen_id	gene_guide_concordant_exact_links	coverage_rank	rank_label_flag
+5xupre::Biohub_OPS0007	5xupre	5xUPRE	Stress/PQC	Biohub_OPS0007	31758	1	False
+er_sec61b::Biohub_OPS0007	er_sec61b	SEC61B	ER/Golgi	Biohub_OPS0007	31758	2	False
+lysosome_lamp1::Biohub_OPS0011	lysosome_lamp1	LAMP1	Lysosome	Biohub_OPS0011	38200	3	False
+plasma_membrane_slc3a2::Biohub_OPS0003	plasma_membrane_slc3a2	SLC3A2	Plasma Membrane	Biohub_OPS0003	42992	4	False
+5xupre::Biohub_OPS0009	5xupre	5xUPRE	Stress/PQC	Biohub_OPS0009	46428	5	False
+er_sec61b::Biohub_OPS0009	er_sec61b	SEC61B	ER/Golgi	Biohub_OPS0009	46428	6	False
+chromalive_488_excitation::Biohub_OPS0002	chromalive_488_excitation	ChromaLIVE 488	Mitochondria	Biohub_OPS0002	48117	7	False
+actin_filament_fastact_spy555_live_cell_dye::Biohub_OPS0076	actin_filament_fastact_spy555_live_cell_dye	FastAct	Cytoskeleton	Biohub_OPS0076	49615	8	False
+caspase_activity_cellevent-caspase_live-cell_dye::Biohub_OPS0073	caspase_activity_cellevent-caspase_live-cell_dye	Caspase	Stress/PQC	Biohub_OPS0073	52300	9	False
+late_endosome_rab7a::Biohub_OPS0014	late_endosome_rab7a	RAB7A	Endosome	Biohub_OPS0014	54886	10	False
+lysosome_lysotracker_live-cell_dye::Biohub_OPS0044	lysosome_lysotracker_live-cell_dye	LysoTracker	Lysosome	Biohub_OPS0044	57373	11	False
+lipid_droplet_bodipy_live_cell_dye::Biohub_OPS0034	lipid_droplet_bodipy_live_cell_dye	BODIPY	Lysosome	Biohub_OPS0034	59303	12	False
+clathrin_vesicles_clta::Biohub_OPS0018	clathrin_vesicles_clta	CLTA	Lysosome	Biohub_OPS0018	60298	13	False
+mitochondria_tomm70a::Biohub_OPS0015	mitochondria_tomm70a	TOMM70A	Mitochondria	Biohub_OPS0015	63372	14	False
+late_endosome_rab7a::Biohub_OPS0026	late_endosome_rab7a	RAB7A	Endosome	Biohub_OPS0026	69290	15	False
+autophagosome_atg101::Biohub_OPS0054	autophagosome_atg101	ATG101	Lysosome	Biohub_OPS0054	69650	16	False
+chaperones_hspa1b::Biohub_OPS0028	chaperones_hspa1b	HSPA1B	Stress/PQC	Biohub_OPS0028	72088	17	False
+5xupre::Biohub_OPS0006	5xupre	5xUPRE	Stress/PQC	Biohub_OPS0006	74138	18	False
+er_sec61b::Biohub_OPS0006	er_sec61b	SEC61B	ER/Golgi	Biohub_OPS0006	74138	19	False
+mitochondria_tomm70a::Biohub_OPS0068	mitochondria_tomm70a	TOMM70A	Mitochondria	Biohub_OPS0068	75833	20	False
+5xupre::Biohub_OPS0008	5xupre	5xUPRE	Stress/PQC	Biohub_OPS0008	79061	21	False
+er_sec61b::Biohub_OPS0008	er_sec61b	SEC61B	ER/Golgi	Biohub_OPS0008	79061	22	False
+endosome_vps35::Biohub_OPS0013	endosome_vps35	VPS35	Endosome	Biohub_OPS0013	82554	23	False
+5xupre::Biohub_OPS0005	5xupre	5xUPRE	Stress/PQC	Biohub_OPS0005	85177	24	False
+er_sec61b::Biohub_OPS0005	er_sec61b	SEC61B	ER/Golgi	Biohub_OPS0005	85177	25	False
+lysosome_lamp1::Biohub_OPS0012	lysosome_lamp1	LAMP1	Lysosome	Biohub_OPS0012	86670	26	True
+lipid_droplet_plin2::Biohub_OPS0022	lipid_droplet_plin2	PLIN2	Lysosome	Biohub_OPS0022	87785	27	False
+trans-golgi_vamp3::Biohub_OPS0030	trans-golgi_vamp3	VAMP3	ER/Golgi	Biohub_OPS0030	87806	28	False
+nucleolus-gc_npm3::Biohub_OPS0042	nucleolus-gc_npm3	NPM3	Nucleus	Biohub_OPS0042	88463	29	False
+b-catenin::Biohub_OPS0077	b-catenin	b-catenin	Signaling	Biohub_OPS0077	90286	30	False
+c-myc::Biohub_OPS0077	c-myc	c-Myc	Signaling	Biohub_OPS0077	90286	31	False
+p21::Biohub_OPS0077	p21	p21	Signaling	Biohub_OPS0077	90286	32	False
+p53::Biohub_OPS0077	p53	p53	Signaling	Biohub_OPS0077	90286	33	False
+prb::Biohub_OPS0077	prb	pRb	Signaling	Biohub_OPS0077	90286	34	True
+ps6::Biohub_OPS0077	ps6	pS6	Signaling	Biohub_OPS0077	90286	35	False
+endocytic_vesicle_ph_phrodo-dextran_live_cell_dye::Biohub_OPS0053	endocytic_vesicle_ph_phrodo-dextran_live_cell_dye	pHrodo-dextran	Signaling	Biohub_OPS0053	92592	36	False
+actin_filament_fastact_spy555_live_cell_dye::Biohub_OPS0065	actin_filament_fastact_spy555_live_cell_dye	FastAct	Cytoskeleton	Biohub_OPS0065	92947	37	False
+lipid_droplet_plin2::Biohub_OPS0065	lipid_droplet_plin2	PLIN2	Lysosome	Biohub_OPS0065	93009	38	False
+lipid_droplet_bodipy_live_cell_dye::Biohub_OPS0066	lipid_droplet_bodipy_live_cell_dye	BODIPY	Lysosome	Biohub_OPS0066	95146	39	False
+recycling_endosome_tfrc::Biohub_OPS0027	recycling_endosome_tfrc	TFRC	Endosome	Biohub_OPS0027	96125	40	False
+proteasome_psmb7::Biohub_OPS0029	proteasome_psmb7	PSMB7	Stress/PQC	Biohub_OPS0029	96411	41	False
+nuclei_nucleolive_live_cell_dye::Biohub_OPS0062	nuclei_nucleolive_live_cell_dye	NucleoLIVE	Nucleus	Biohub_OPS0062	97262	42	False
+nucleolus-dfc_fbl::Biohub_OPS0062	nucleolus-dfc_fbl	FBL	Nucleus	Biohub_OPS0062	97262	43	False
+autophagosome_atg101::Biohub_OPS0031	autophagosome_atg101	ATG101	Lysosome	Biohub_OPS0031	97336	44	False
+endosome_vps35::Biohub_OPS0025	endosome_vps35	VPS35	Endosome	Biohub_OPS0025	97931	45	False
+cell_proliferation_marker_mki67::Biohub_OPS0045	cell_proliferation_marker_mki67	MKI67	Nucleus	Biohub_OPS0045	98157	46	False
+peroxisome_peroxi_spy650_live_cell_dye::Biohub_OPS0045	peroxisome_peroxi_spy650_live_cell_dye	Peroxi	Peroxisome	Biohub_OPS0045	98157	47	False
+cell_proliferation_marker_mki67::Biohub_OPS0057	cell_proliferation_marker_mki67	MKI67	Nucleus	Biohub_OPS0057	99468	48	False
+peroxisome_peroxi_spy650_live_cell_dye::Biohub_OPS0057	peroxisome_peroxi_spy650_live_cell_dye	Peroxi	Peroxisome	Biohub_OPS0057	99468	49	False
+proteasome_psmb7::Biohub_OPS0070	proteasome_psmb7	PSMB7	Stress/PQC	Biohub_OPS0070	101203	50	False
+er_golgi_bridge_vapa::Biohub_OPS0020	er_golgi_bridge_vapa	VAPA	ER/Golgi	Biohub_OPS0020	101670	51	False
+lysosome_lysotracker_live-cell_dye::Biohub_OPS0056	lysosome_lysotracker_live-cell_dye	LysoTracker	Lysosome	Biohub_OPS0056	102030	52	False
+plasma_membrane_slc3a2::Biohub_OPS0004	plasma_membrane_slc3a2	SLC3A2	Plasma Membrane	Biohub_OPS0004	102853	53	False
+mitochondria_chromalive_561_excitation::Biohub_OPS0063	mitochondria_chromalive_561_excitation	ChromaLIVE 561	Mitochondria	Biohub_OPS0063	103307	54	False
+caspase_activity_cellevent-caspase_live-cell_dye::Biohub_OPS0050	caspase_activity_cellevent-caspase_live-cell_dye	Caspase	Stress/PQC	Biohub_OPS0050	104880	55	False
+fe2+_ferhonox_live-cell_dye::Biohub_OPS0047	fe2+_ferhonox_live-cell_dye	FeRhoNox	Signaling	Biohub_OPS0047	105043	56	False
+nuclear_speckles_srrm2::Biohub_OPS0036	nuclear_speckles_srrm2	SRRM2	Nucleus	Biohub_OPS0036	105775	57	False
+fe2+_ferhonox_live-cell_dye::Biohub_OPS0067	fe2+_ferhonox_live-cell_dye	FeRhoNox	Signaling	Biohub_OPS0067	105986	58	True
+oxidative_stress_cellrox_live-cell_dye::Biohub_OPS0048	oxidative_stress_cellrox_live-cell_dye	CellROX	Signaling	Biohub_OPS0048	108425	59	False
+autophagosome_map1lc3b::Biohub_OPS0040	autophagosome_map1lc3b	MAP1LC3B	Lysosome	Biohub_OPS0040	108630	60	False
+actin_filament_fastact_spy555_live_cell_dye::Biohub_OPS0074	actin_filament_fastact_spy555_live_cell_dye	FastAct	Cytoskeleton	Biohub_OPS0074	109969	61	False
+er_golgi_cope::Biohub_OPS0074	er_golgi_cope	COPE	ER/Golgi	Biohub_OPS0074	110032	62	False
+clathrin_vesicles_clta::Biohub_OPS0019	clathrin_vesicles_clta	CLTA	Lysosome	Biohub_OPS0019	110369	63	False
+er_cona::Biohub_OPS0043	er_cona	ConA	ER/Golgi	Biohub_OPS0043	111573	64	False
+f-actin_phalloidin::Biohub_OPS0043	f-actin_phalloidin	Phalloidin	Cytoskeleton	Biohub_OPS0043	111573	65	False
+microtubules_tubulin::Biohub_OPS0043	microtubules_tubulin	Tubulin	Cytoskeleton	Biohub_OPS0043	111573	66	False
+mitochondria_tomm20::Biohub_OPS0043	mitochondria_tomm20	TOMM20	Mitochondria	Biohub_OPS0043	111573	67	False
+nuclei_hoechst::Biohub_OPS0043	nuclei_hoechst	Hoechst	Nucleus	Biohub_OPS0043	111573	68	False
+nucleoli_npm1::Biohub_OPS0043	nucleoli_npm1	NPM1	Nucleus	Biohub_OPS0043	111573	69	False
+plasma_membrane_wga::Biohub_OPS0043	plasma_membrane_wga	WGA	Plasma Membrane	Biohub_OPS0043	111573	70	False
+plasma_membrane_atp1b3::Biohub_OPS0032	plasma_membrane_atp1b3	ATP1B3	Plasma Membrane	Biohub_OPS0032	116406	71	False
+5xupre::Biohub_OPS0001	5xupre	5xUPRE	Stress/PQC	Biohub_OPS0001	116789	72	False
+er_sec61b::Biohub_OPS0001	er_sec61b	SEC61B	ER/Golgi	Biohub_OPS0001	116789	73	False
+er_golgi_cope::Biohub_OPS0023	er_golgi_cope	COPE	ER/Golgi	Biohub_OPS0023	116823	74	False
+trans-golgi_vamp3::Biohub_OPS0059	trans-golgi_vamp3	VAMP3	ER/Golgi	Biohub_OPS0059	118777	75	False
+autophagosome_map1lc3b::Biohub_OPS0016	autophagosome_map1lc3b	MAP1LC3B	Lysosome	Biohub_OPS0016	120397	76	False
+actin_filament_fastact_spy555_live_cell_dye::Biohub_OPS0072	actin_filament_fastact_spy555_live_cell_dye	FastAct	Cytoskeleton	Biohub_OPS0072	121173	77	False
+chaperones_hspa1b::Biohub_OPS0072	chaperones_hspa1b	HSPA1B	Stress/PQC	Biohub_OPS0072	121268	78	False
+nucleolus-gc_npm3::Biohub_OPS0058	nucleolus-gc_npm3	NPM3	Nucleus	Biohub_OPS0058	124655	79	False
+nucleolus-dfc_fbl::Biohub_OPS0041	nucleolus-dfc_fbl	FBL	Nucleus	Biohub_OPS0041	127140	80	False
+lysosome_lysotracker_live-cell_dye::Biohub_OPS0055	lysosome_lysotracker_live-cell_dye	LysoTracker	Lysosome	Biohub_OPS0055	129331	81	False
+autophagosome_map1lc3b::Biohub_OPS0017	autophagosome_map1lc3b	MAP1LC3B	Lysosome	Biohub_OPS0017	130085	82	False
+er_golgi_cop-ii_sec23a::Biohub_OPS0035	er_golgi_cop-ii_sec23a	SEC23A	ER/Golgi	Biohub_OPS0035	130846	83	False
+mitochondria_chromalive_561_excitation::Biohub_OPS0075	mitochondria_chromalive_561_excitation	ChromaLIVE 561	Mitochondria	Biohub_OPS0075	131602	84	False
+plasma_membrane_atp1b3::Biohub_OPS0071	plasma_membrane_atp1b3	ATP1B3	Plasma Membrane	Biohub_OPS0071	132075	85	False
+er_ncln::Biohub_OPS0052	er_ncln	NCLN	ER/Golgi	Biohub_OPS0052	132163	86	False
+er_golgi_bridge_vapa::Biohub_OPS0021	er_golgi_bridge_vapa	VAPA	ER/Golgi	Biohub_OPS0021	135855	87	False
+early_endosome_eea1::Biohub_OPS0039	early_endosome_eea1	EEA1	Endosome	Biohub_OPS0039	139936	88	False
+chromalive_488_excitation::Biohub_OPS0051	chromalive_488_excitation	ChromaLIVE 488	Mitochondria	Biohub_OPS0051	140498	89	False
+recycling_endosome_tfrc::Biohub_OPS0060	recycling_endosome_tfrc	TFRC	Endosome	Biohub_OPS0060	144311	90	False
+chromatin_h2bc21::Biohub_OPS0064	chromatin_h2bc21	H2BC21	Nucleus	Biohub_OPS0064	145485	91	False
+endocytic_vesicle_ph_phrodo-dextran_live_cell_dye::Biohub_OPS0064	endocytic_vesicle_ph_phrodo-dextran_live_cell_dye	pHrodo-dextran	Signaling	Biohub_OPS0064	145485	92	False
+actin_filament_fastact_spy555_live_cell_dye::Biohub_OPS0033	actin_filament_fastact_spy555_live_cell_dye	FastAct	Cytoskeleton	Biohub_OPS0033	147412	93	False
+microtubules_map4::Biohub_OPS0046	microtubules_map4	MAP4	Cytoskeleton	Biohub_OPS0046	153231	94	False
+stress_granule_g3bp1::Biohub_OPS0037	stress_granule_g3bp1	G3BP1	Stress/PQC	Biohub_OPS0037	157307	95	False
+chromatin_h2bc21::Biohub_OPS0069	chromatin_h2bc21	H2BC21	Nucleus	Biohub_OPS0069	161213	96	False
+oxidative_stress_cellrox_live-cell_dye::Biohub_OPS0069	oxidative_stress_cellrox_live-cell_dye	CellROX	Signaling	Biohub_OPS0069	161213	97	False
+nuclear_speckles_srrm2::Biohub_OPS0061	nuclear_speckles_srrm2	SRRM2	Nucleus	Biohub_OPS0061	172066	98	False
+nuclei_nucleolive_live_cell_dye::Biohub_OPS0061	nuclei_nucleolive_live_cell_dye	NucleoLIVE	Nucleus	Biohub_OPS0061	172066	99	False

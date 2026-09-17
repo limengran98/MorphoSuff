@@ -1,0 +1,7 @@
+claim_id,status,statement,evidence_or_boundary
+A1,can_say,"The source study links phase/reporter phenotypes and sgRNA identities at the same-cell level.","Authoritative PPT notes and exact-linkage provenance."
+A2,cannot_say,"The schematic establishes predictive accuracy or reporter substitutability.","Those claims require the downstream benchmark and falsification analyses."
+A3,can_say,"52 reporters span 73 physical screens with reporter-specific output blocks.","Source-study counts; 1–7 reporters per screen and 99 acquired assays."
+A4,cannot_say,"All 52 reporters were measured in every cell.","Reporter coverage is distributed across screens."
+A5,cannot_say,"The segmentation, labware and atlas schema drawings are experimental measurements.","Generated assets and editable schema blocks are explanatory only."
+A6,can_say,"The measured image pair is LAMP1–BORCS7 from OPS0011.","Raw paired arrays and calibrated microscopy provenance."

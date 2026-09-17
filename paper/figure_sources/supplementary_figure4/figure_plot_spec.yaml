@@ -1,0 +1,77 @@
+figure_id: SupplementaryFigure4
+role: supplement
+target_journal: Nature-family
+canvas:
+  width_mm: 183
+  height_mm: 130
+scientific_contract:
+  question: How do reporter-level utility, destination context and repeated measurements refine the uses supported by prediction?
+  claim: Reporter-level utility and context evidence complement compound-level repeat references and selection-budget assessment.
+  unsupported_claims: [measurement equivalence, universally calibrated sufficiency thresholds, confirmed cell death, unstained live-cell deployment, donor transfer]
+  row_represents: reporter, directed reporter-by-destination evaluation, or compound-model-context bootstrap summary
+  analysis_mode: inferential
+  inferential_unit: reporter in panel a; compound in panel c; descriptive ranges and budget curves in panels b and d
+  pairing: reporter identifier for OPS evidence; compound identifier with its entire dose/source group for external evidence
+  grouping: [reporter decision tier, destination-screen criterion status, source direction, selection budget]
+  nesting: [destination evaluations within reporter, wells within concentration within source within compound]
+  exclusions: [cross-source comparisons restricted to 94 compounds with eight matching concentrations in both sources]
+  missing_value_rule: All frozen reporter and external outcomes are retained; cross-source rows use complete matched compounds.
+  transformations: [training-reference utility percentiles, outer-holdout predicted-minus-observed residual, destination benchmark method-score median, same-plate DMSO-relative response, negate response for loss, equal-source average per concentration, equal eight-dose average]
+  summary: outer-holdout utility calibration; reporter median and range across destinations; fixed-budget top-set overlap divided by k
+  uncertainty: frozen 95% reporter-percentile intervals from 10000 resamples in panel a; paired 95% compound-percentile intervals from 2000 resamples in panel c
+panels:
+  a:
+    statistical_unit: reporter
+    n: 52
+    source: ../final/figure6/b_nested_loo_audit/
+    utility_reference: outer training reporters only
+    label_rule: four largest absolute outer-holdout residuals
+    bootstrap_seed: 20260831
+  b:
+    statistical_unit: directed destination-screen evaluation nested within reporter
+    n_evaluations: 81
+    n_reporters: 34
+    source: ../final/figure6/e_reporter_context_stability/
+    point: unweighted ten-method benchmark score median
+    order: mean of reporter recovery and rank medians; two consecutive blocks of 17
+    criterion: 0.70
+    uncertainty: none; segments are observed ranges
+  c:
+    statistical_unit: compound
+    n: 94
+    source: ../../supplementary_data/SupplementaryData3/
+    point: paired recall difference between brightfield and measured-repeat prioritization
+    source_roles: source 26 versus source 27 for 38 compounds and source 30 for 56
+  d:
+    statistical_unit: compound
+    source: ../../supplementary_data/SupplementaryData3/
+    budgets: [0.05, 0.10, 0.20]
+    contexts: [all held-out compounds, complete-pair source average, source 0 to 1, source 1 to 0]
+    uncertainty: none; points are observed recalls
+plot:
+  card: C03 and C16
+  grammar: nested-holdout scatter with residual and association forest; reporter destination ranges; paired-difference forest with point counts; ordered budget sensitivity
+  rejected_alternative: bar-plus-significance comparisons or two independent CIs interpreted as equivalence
+  x: observed utility or association; destination recovery or rank; paired recall difference; fixed selection budget
+  y: predicted utility or residual; reporter; ordered source direction; hit recall
+  colour: frozen tier palette in a; blue above, grey below and gold crossing in b; house blue and gold for external contexts
+  size: fixed marker sizes (not quantitative encodings)
+  facet: four panels
+  order: frozen reporter orders; 5%, 10%, 20% budgets; both source directions
+  highlights: [four largest absolute outer-holdout utility residuals]
+  random_seed: no renderer resampling or jitter
+style:
+  font: DejaVu Sans
+  body_pt: 6.0
+  minimum_text_pt: 6.0
+  panel_label_pt: 9
+  panel_titles: false
+  standalone_panel_letters: false
+  background: white
+  grid: false
+export:
+  formats: [pdf, svg, png]
+  png_dpi: 600
+  editable_text: true
+source_data: figure_source_data.csv
+code: code/build_supplementary_figure4.py

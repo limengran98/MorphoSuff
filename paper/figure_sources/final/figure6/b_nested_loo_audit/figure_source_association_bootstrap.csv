@@ -1,0 +1,5 @@
+predictor,label,rho,ci_low,ci_high,n_reporters,ci_method,bootstrap_reps,bootstrap_seed
+ensemble_recoverability_r,Recovery,0.69028815431095,0.4945070190997207,0.8256139921514942,52,reporter-level percentile bootstrap,10000,20260831
+magnitude_spearman,Rank,0.7914621138481764,0.6398201590163641,0.8851746422911837,52,reporter-level percentile bootstrap,10000,20260831
+amplitude_fidelity,Amplitude,0.6351760944955243,0.4384361053925273,0.7725871937127003,52,reporter-level percentile bootstrap,10000,20260831
+within_screen_split_half_pearson_median,Reliability,0.6590394883273004,0.46645387459387955,0.7845286003322596,52,reporter-level percentile bootstrap,10000,20260831

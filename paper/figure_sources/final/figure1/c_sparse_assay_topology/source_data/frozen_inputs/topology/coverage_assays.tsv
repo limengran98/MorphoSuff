@@ -1,0 +1,100 @@
+assay_key	reporter_slug	display_name	biological_category	screen_id	screen_number	screen_group	figure_row	figure_column	gene_guide_concordant_exact_links	targeting_exact_links	control_exact_links	marker_area_pt2	is_anchor
+late_endosome_rab7a::Biohub_OPS0014	late_endosome_rab7a	RAB7A	Endosome	Biohub_OPS0014	14	Single-reporter	0	0	54886	52170	2716	7.655574023921053	False
+late_endosome_rab7a::Biohub_OPS0026	late_endosome_rab7a	RAB7A	Endosome	Biohub_OPS0026	26	Single-reporter	0	1	69290	65823	3467	9.664663559331885	False
+recycling_endosome_tfrc::Biohub_OPS0027	recycling_endosome_tfrc	TFRC	Endosome	Biohub_OPS0027	27	Single-reporter	1	2	96125	91896	4229	13.407645903316169	False
+recycling_endosome_tfrc::Biohub_OPS0060	recycling_endosome_tfrc	TFRC	Endosome	Biohub_OPS0060	60	Single-reporter	1	3	144311	137276	7035	20.12869480315693	False
+endosome_vps35::Biohub_OPS0013	endosome_vps35	VPS35	Endosome	Biohub_OPS0013	13	Single-reporter	2	4	82554	78601	3953	11.514744342287262	False
+endosome_vps35::Biohub_OPS0025	endosome_vps35	VPS35	Endosome	Biohub_OPS0025	25	Single-reporter	2	5	97931	93556	4375	13.65954924273244	False
+early_endosome_eea1::Biohub_OPS0039	early_endosome_eea1	EEA1	Endosome	Biohub_OPS0039	39	Single-reporter	3	6	139936	132634	7302	19.518463845268677	False
+lysosome_lysotracker_live-cell_dye::Biohub_OPS0044	lysosome_lysotracker_live-cell_dye	LysoTracker	Lysosome	Biohub_OPS0044	44	Single-reporter	4	7	57373	54295	3078	8.002464170725187	False
+lysosome_lysotracker_live-cell_dye::Biohub_OPS0055	lysosome_lysotracker_live-cell_dye	LysoTracker	Lysosome	Biohub_OPS0055	55	Single-reporter	4	8	129331	122531	6800	18.039264003347554	False
+lysosome_lysotracker_live-cell_dye::Biohub_OPS0056	lysosome_lysotracker_live-cell_dye	LysoTracker	Lysosome	Biohub_OPS0056	56	Single-reporter	4	9	102030	96815	5215	14.231283344763057	False
+autophagosome_map1lc3b::Biohub_OPS0016	autophagosome_map1lc3b	MAP1LC3B	Lysosome	Biohub_OPS0016	16	Single-reporter	5	10	120397	114988	5409	16.79313751699929	False
+autophagosome_map1lc3b::Biohub_OPS0017	autophagosome_map1lc3b	MAP1LC3B	Lysosome	Biohub_OPS0017	17	Single-reporter	5	11	130085	124428	5657	18.144432950147035	False
+autophagosome_map1lc3b::Biohub_OPS0040	autophagosome_map1lc3b	MAP1LC3B	Lysosome	Biohub_OPS0040	40	Single-reporter	5	12	108630	102946	5684	15.151860332663048	False
+autophagosome_atg101::Biohub_OPS0031	autophagosome_atg101	ATG101	Lysosome	Biohub_OPS0031	31	Single-reporter	6	13	97336	92566	4770	13.576557832459638	False
+autophagosome_atg101::Biohub_OPS0054	autophagosome_atg101	ATG101	Lysosome	Biohub_OPS0054	54	Single-reporter	6	14	69650	65910	3740	9.714876849580975	False
+lipid_droplet_bodipy_live_cell_dye::Biohub_OPS0034	lipid_droplet_bodipy_live_cell_dye	BODIPY	Lysosome	Biohub_OPS0034	34	Single-reporter	7	15	59303	56393	2910	8.271663199005033	False
+lipid_droplet_bodipy_live_cell_dye::Biohub_OPS0066	lipid_droplet_bodipy_live_cell_dye	BODIPY	Lysosome	Biohub_OPS0066	66	Single-reporter	7	16	95146	90086	5060	13.271093650111004	False
+clathrin_vesicles_clta::Biohub_OPS0018	clathrin_vesicles_clta	CLTA	Lysosome	Biohub_OPS0018	18	Single-reporter	8	17	60298	57256	3042	8.410447153999048	False
+clathrin_vesicles_clta::Biohub_OPS0019	clathrin_vesicles_clta	CLTA	Lysosome	Biohub_OPS0019	19	Single-reporter	8	18	110369	104686	5683	15.394418420838516	False
+lysosome_lamp1::Biohub_OPS0011	lysosome_lamp1	LAMP1	Lysosome	Biohub_OPS0011	11	Single-reporter	9	19	38200	36422	1778	5.328188020875711	True
+lysosome_lamp1::Biohub_OPS0012	lysosome_lamp1	LAMP1	Lysosome	Biohub_OPS0012	12	Single-reporter	9	20	86670	82555	4115	12.08884962746853	True
+lipid_droplet_plin2::Biohub_OPS0022	lipid_droplet_plin2	PLIN2	Lysosome	Biohub_OPS0022	22	Single-reporter	10	21	87785	83638	4147	12.244371345878907	False
+lipid_droplet_plin2::Biohub_OPS0065	lipid_droplet_plin2	PLIN2	Lysosome	Biohub_OPS0065	65	Multi-reporter	10	56	93009	88316	4693	12.973021979937931	False
+er_sec61b::Biohub_OPS0001	er_sec61b	SEC61B	ER/Golgi	Biohub_OPS0001	1	Multi-reporter	11	58	116789	111409	5380	16.289888763613963	False
+er_sec61b::Biohub_OPS0005	er_sec61b	SEC61B	ER/Golgi	Biohub_OPS0005	5	Multi-reporter	11	59	85177	81152	4025	11.880603954296607	False
+er_sec61b::Biohub_OPS0006	er_sec61b	SEC61B	ER/Golgi	Biohub_OPS0006	6	Multi-reporter	11	60	74138	70677	3461	10.34086920135297	False
+er_sec61b::Biohub_OPS0007	er_sec61b	SEC61B	ER/Golgi	Biohub_OPS0007	7	Multi-reporter	11	61	31758	30305	1453	4.429649088140597	False
+er_sec61b::Biohub_OPS0008	er_sec61b	SEC61B	ER/Golgi	Biohub_OPS0008	8	Multi-reporter	11	62	79061	75601	3460	11.027535945509282	False
+er_sec61b::Biohub_OPS0009	er_sec61b	SEC61B	ER/Golgi	Biohub_OPS0009	9	Multi-reporter	11	63	46428	44153	2275	6.475840665791034	False
+er_golgi_cope::Biohub_OPS0023	er_golgi_cope	COPE	ER/Golgi	Biohub_OPS0023	23	Single-reporter	12	22	116823	110873	5950	16.294631129915263	False
+er_golgi_cope::Biohub_OPS0074	er_golgi_cope	COPE	ER/Golgi	Biohub_OPS0074	74	Multi-reporter	12	57	110032	104769	5263	15.347413201910895	False
+trans-golgi_vamp3::Biohub_OPS0030	trans-golgi_vamp3	VAMP3	ER/Golgi	Biohub_OPS0030	30	Single-reporter	13	23	87806	83612	4194	12.24730045447677	False
+trans-golgi_vamp3::Biohub_OPS0059	trans-golgi_vamp3	VAMP3	ER/Golgi	Biohub_OPS0059	59	Single-reporter	13	24	118777	112832	5945	16.567177710878383	False
+er_golgi_bridge_vapa::Biohub_OPS0020	er_golgi_bridge_vapa	VAPA	ER/Golgi	Biohub_OPS0020	20	Single-reporter	14	25	101670	96846	4824	14.181070054513965	False
+er_golgi_bridge_vapa::Biohub_OPS0021	er_golgi_bridge_vapa	VAPA	ER/Golgi	Biohub_OPS0021	21	Single-reporter	14	26	135855	129457	6398	18.949240407750516	False
+er_cona::Biohub_OPS0043	er_cona	ConA	ER/Golgi	Biohub_OPS0043	43	Multi-reporter	15	65	111573	105887	5686	15.562353980449362	False
+er_ncln::Biohub_OPS0052	er_ncln	NCLN	ER/Golgi	Biohub_OPS0052	52	Single-reporter	16	27	132163	125564	6599	18.43427521997373	False
+er_golgi_cop-ii_sec23a::Biohub_OPS0035	er_golgi_cop-ii_sec23a	SEC23A	ER/Golgi	Biohub_OPS0035	35	Single-reporter	17	28	130846	124430	6416	18.250578266479142	False
+actin_filament_fastact_spy555_live_cell_dye::Biohub_OPS0033	actin_filament_fastact_spy555_live_cell_dye	FastAct	Cytoskeleton	Biohub_OPS0033	33	Single-reporter	18	29	147412	139635	7777	20.56122650610812	False
+actin_filament_fastact_spy555_live_cell_dye::Biohub_OPS0076	actin_filament_fastact_spy555_live_cell_dye	FastAct	Cytoskeleton	Biohub_OPS0076	76	Single-reporter	18	30	49615	47117	2498	6.9203677658572875	False
+actin_filament_fastact_spy555_live_cell_dye::Biohub_OPS0065	actin_filament_fastact_spy555_live_cell_dye	FastAct	Cytoskeleton	Biohub_OPS0065	65	Multi-reporter	18	56	92947	88293	4654	12.964374135506143	False
+actin_filament_fastact_spy555_live_cell_dye::Biohub_OPS0074	actin_filament_fastact_spy555_live_cell_dye	FastAct	Cytoskeleton	Biohub_OPS0074	74	Multi-reporter	18	57	109969	104747	5222	15.338625876117304	False
+actin_filament_fastact_spy555_live_cell_dye::Biohub_OPS0072	actin_filament_fastact_spy555_live_cell_dye	FastAct	Cytoskeleton	Biohub_OPS0072	72	Multi-reporter	18	64	121173	115483	5690	16.901375053758443	False
+microtubules_map4::Biohub_OPS0046	microtubules_map4	MAP4	Cytoskeleton	Biohub_OPS0046	46	Single-reporter	19	31	153231	145439	7792	21.372868550439946	False
+f-actin_phalloidin::Biohub_OPS0043	f-actin_phalloidin	Phalloidin	Cytoskeleton	Biohub_OPS0043	43	Multi-reporter	20	65	111573	105887	5686	15.562353980449362	False
+microtubules_tubulin::Biohub_OPS0043	microtubules_tubulin	Tubulin	Cytoskeleton	Biohub_OPS0043	43	Multi-reporter	21	65	111573	105887	5686	15.562353980449362	False
+peroxisome_peroxi_spy650_live_cell_dye::Biohub_OPS0045	peroxisome_peroxi_spy650_live_cell_dye	Peroxi	Peroxisome	Biohub_OPS0045	45	Multi-reporter	22	66	98157	93175	4982	13.691072030499924	False
+peroxisome_peroxi_spy650_live_cell_dye::Biohub_OPS0057	peroxisome_peroxi_spy650_live_cell_dye	Peroxi	Peroxisome	Biohub_OPS0057	57	Multi-reporter	22	67	99468	94387	5081	13.873932095823696	False
+5xupre::Biohub_OPS0001	5xupre	5xUPRE	Stress/PQC	Biohub_OPS0001	1	Multi-reporter	23	58	116789	111409	5380	16.289888763613963	False
+5xupre::Biohub_OPS0005	5xupre	5xUPRE	Stress/PQC	Biohub_OPS0005	5	Multi-reporter	23	59	85177	81152	4025	11.880603954296607	False
+5xupre::Biohub_OPS0006	5xupre	5xUPRE	Stress/PQC	Biohub_OPS0006	6	Multi-reporter	23	60	74138	70677	3461	10.34086920135297	False
+5xupre::Biohub_OPS0007	5xupre	5xUPRE	Stress/PQC	Biohub_OPS0007	7	Multi-reporter	23	61	31758	30305	1453	4.429649088140597	False
+5xupre::Biohub_OPS0008	5xupre	5xUPRE	Stress/PQC	Biohub_OPS0008	8	Multi-reporter	23	62	79061	75601	3460	11.027535945509282	False
+5xupre::Biohub_OPS0009	5xupre	5xUPRE	Stress/PQC	Biohub_OPS0009	9	Multi-reporter	23	63	46428	44153	2275	6.475840665791034	False
+caspase_activity_cellevent-caspase_live-cell_dye::Biohub_OPS0050	caspase_activity_cellevent-caspase_live-cell_dye	Caspase	Stress/PQC	Biohub_OPS0050	50	Single-reporter	24	32	104880	99384	5496	14.628805225901688	False
+caspase_activity_cellevent-caspase_live-cell_dye::Biohub_OPS0073	caspase_activity_cellevent-caspase_live-cell_dye	Caspase	Stress/PQC	Biohub_OPS0073	73	Single-reporter	24	33	52300	49684	2616	7.294875222298421	False
+chaperones_hspa1b::Biohub_OPS0028	chaperones_hspa1b	HSPA1B	Stress/PQC	Biohub_OPS0028	28	Single-reporter	25	34	72088	68798	3290	10.05493240965676	False
+chaperones_hspa1b::Biohub_OPS0072	chaperones_hspa1b	HSPA1B	Stress/PQC	Biohub_OPS0072	72	Multi-reporter	25	64	121268	115519	5749	16.91462578312973	False
+proteasome_psmb7::Biohub_OPS0029	proteasome_psmb7	PSMB7	Stress/PQC	Biohub_OPS0029	29	Single-reporter	26	35	96411	91798	4613	13.447537572791836	False
+proteasome_psmb7::Biohub_OPS0070	proteasome_psmb7	PSMB7	Stress/PQC	Biohub_OPS0070	70	Single-reporter	26	36	101203	95926	5277	14.11593225855195	False
+stress_granule_g3bp1::Biohub_OPS0037	stress_granule_g3bp1	G3BP1	Stress/PQC	Biohub_OPS0037	37	Single-reporter	27	37	157307	148862	8445	21.941394581149094	False
+chromalive_488_excitation::Biohub_OPS0002	chromalive_488_excitation	ChromaLIVE 488	Mitochondria	Biohub_OPS0002	2	Single-reporter	28	38	48117	45760	2357	6.7114246858763495	False
+chromalive_488_excitation::Biohub_OPS0051	chromalive_488_excitation	ChromaLIVE 488	Mitochondria	Biohub_OPS0051	51	Single-reporter	28	39	140498	132657	7841	19.59685237060198	False
+mitochondria_chromalive_561_excitation::Biohub_OPS0063	mitochondria_chromalive_561_excitation	ChromaLIVE 561	Mitochondria	Biohub_OPS0063	63	Single-reporter	29	40	103307	97749	5558	14.409401043785524	False
+mitochondria_chromalive_561_excitation::Biohub_OPS0075	mitochondria_chromalive_561_excitation	ChromaLIVE 561	Mitochondria	Biohub_OPS0075	75	Single-reporter	29	41	131602	125337	6265	18.35602617600223	False
+mitochondria_tomm70a::Biohub_OPS0015	mitochondria_tomm70a	TOMM70A	Mitochondria	Biohub_OPS0015	15	Single-reporter	30	42	63372	60099	3273	8.839212860181558	False
+mitochondria_tomm70a::Biohub_OPS0068	mitochondria_tomm70a	TOMM70A	Mitochondria	Biohub_OPS0068	68	Single-reporter	30	43	75833	71835	3998	10.577290109609104	False
+mitochondria_tomm20::Biohub_OPS0043	mitochondria_tomm20	TOMM20	Mitochondria	Biohub_OPS0043	43	Multi-reporter	31	65	111573	105887	5686	15.562353980449362	False
+plasma_membrane_atp1b3::Biohub_OPS0032	plasma_membrane_atp1b3	ATP1B3	Plasma Membrane	Biohub_OPS0032	32	Single-reporter	32	44	116406	110862	5544	16.236467402043402	False
+plasma_membrane_atp1b3::Biohub_OPS0071	plasma_membrane_atp1b3	ATP1B3	Plasma Membrane	Biohub_OPS0071	71	Single-reporter	32	45	132075	125068	7007	18.422000860135064	False
+plasma_membrane_slc3a2::Biohub_OPS0003	plasma_membrane_slc3a2	SLC3A2	Plasma Membrane	Biohub_OPS0003	3	Single-reporter	33	46	42992	40885	2107	5.9965827066358255	False
+plasma_membrane_slc3a2::Biohub_OPS0004	plasma_membrane_slc3a2	SLC3A2	Plasma Membrane	Biohub_OPS0004	4	Single-reporter	33	47	102853	97696	5157	14.346076505526948	False
+plasma_membrane_wga::Biohub_OPS0043	plasma_membrane_wga	WGA	Plasma Membrane	Biohub_OPS0043	43	Multi-reporter	34	65	111573	105887	5686	15.562353980449362	False
+nucleolus-dfc_fbl::Biohub_OPS0041	nucleolus-dfc_fbl	FBL	Nucleus	Biohub_OPS0041	41	Single-reporter	35	48	127140	121510	5630	17.733660339637115	False
+nucleolus-dfc_fbl::Biohub_OPS0062	nucleolus-dfc_fbl	FBL	Nucleus	Biohub_OPS0062	62	Multi-reporter	35	68	97262	92590	4672	13.566236211686213	False
+chromatin_h2bc21::Biohub_OPS0069	chromatin_h2bc21	H2BC21	Nucleus	Biohub_OPS0069	69	Multi-reporter	36	70	161213	153068	8145	22.486208780351724	False
+chromatin_h2bc21::Biohub_OPS0064	chromatin_h2bc21	H2BC21	Nucleus	Biohub_OPS0064	64	Multi-reporter	36	71	145485	137727	7758	20.292445921913686	False
+cell_proliferation_marker_mki67::Biohub_OPS0045	cell_proliferation_marker_mki67	MKI67	Nucleus	Biohub_OPS0045	45	Multi-reporter	37	66	98157	93175	4982	13.691072030499924	False
+cell_proliferation_marker_mki67::Biohub_OPS0057	cell_proliferation_marker_mki67	MKI67	Nucleus	Biohub_OPS0057	57	Multi-reporter	37	67	99468	94387	5081	13.873932095823696	False
+nucleolus-gc_npm3::Biohub_OPS0042	nucleolus-gc_npm3	NPM3	Nucleus	Biohub_OPS0042	42	Single-reporter	38	49	88463	84131	4332	12.33893970918136	False
+nucleolus-gc_npm3::Biohub_OPS0058	nucleolus-gc_npm3	NPM3	Nucleus	Biohub_OPS0058	58	Single-reporter	38	50	124655	118466	6189	17.38704915555659	False
+nuclei_nucleolive_live_cell_dye::Biohub_OPS0062	nuclei_nucleolive_live_cell_dye	NucleoLIVE	Nucleus	Biohub_OPS0062	62	Multi-reporter	39	68	97262	92590	4672	13.566236211686213	False
+nuclei_nucleolive_live_cell_dye::Biohub_OPS0061	nuclei_nucleolive_live_cell_dye	NucleoLIVE	Nucleus	Biohub_OPS0061	61	Multi-reporter	39	69	172066	163583	8483	24.0	False
+nuclear_speckles_srrm2::Biohub_OPS0036	nuclear_speckles_srrm2	SRRM2	Nucleus	Biohub_OPS0036	36	Single-reporter	40	51	105775	100489	5286	14.7536410447154	False
+nuclear_speckles_srrm2::Biohub_OPS0061	nuclear_speckles_srrm2	SRRM2	Nucleus	Biohub_OPS0061	61	Multi-reporter	40	69	172066	163583	8483	24.0	False
+nuclei_hoechst::Biohub_OPS0043	nuclei_hoechst	Hoechst	Nucleus	Biohub_OPS0043	43	Multi-reporter	41	65	111573	105887	5686	15.562353980449362	False
+nucleoli_npm1::Biohub_OPS0043	nucleoli_npm1	NPM1	Nucleus	Biohub_OPS0043	43	Multi-reporter	42	65	111573	105887	5686	15.562353980449362	False
+oxidative_stress_cellrox_live-cell_dye::Biohub_OPS0048	oxidative_stress_cellrox_live-cell_dye	CellROX	Signaling	Biohub_OPS0048	48	Single-reporter	43	52	108425	102488	5937	15.123266653493427	False
+oxidative_stress_cellrox_live-cell_dye::Biohub_OPS0069	oxidative_stress_cellrox_live-cell_dye	CellROX	Signaling	Biohub_OPS0069	69	Multi-reporter	43	70	161213	153068	8145	22.486208780351724	False
+fe2+_ferhonox_live-cell_dye::Biohub_OPS0047	fe2+_ferhonox_live-cell_dye	FeRhoNox	Signaling	Biohub_OPS0047	47	Single-reporter	44	53	105043	99656	5387	14.651540687875583	True
+fe2+_ferhonox_live-cell_dye::Biohub_OPS0067	fe2+_ferhonox_live-cell_dye	FeRhoNox	Signaling	Biohub_OPS0067	67	Single-reporter	44	54	105986	100466	5520	14.783071612055839	True
+endocytic_vesicle_ph_phrodo-dextran_live_cell_dye::Biohub_OPS0053	endocytic_vesicle_ph_phrodo-dextran_live_cell_dye	pHrodo-dextran	Signaling	Biohub_OPS0053	53	Single-reporter	45	55	92592	87924	4668	12.914858252066068	False
+endocytic_vesicle_ph_phrodo-dextran_live_cell_dye::Biohub_OPS0064	endocytic_vesicle_ph_phrodo-dextran_live_cell_dye	pHrodo-dextran	Signaling	Biohub_OPS0064	64	Multi-reporter	45	71	145485	137727	7758	20.292445921913686	False
+b-catenin::Biohub_OPS0077	b-catenin	b-catenin	Signaling	Biohub_OPS0077	77	Multi-reporter	46	72	90286	85290	4996	12.593214231748282	False
+c-myc::Biohub_OPS0077	c-myc	c-Myc	Signaling	Biohub_OPS0077	77	Multi-reporter	47	72	90286	85290	4996	12.593214231748282	False
+p21::Biohub_OPS0077	p21	p21	Signaling	Biohub_OPS0077	77	Multi-reporter	48	72	90286	85290	4996	12.593214231748282	False
+p53::Biohub_OPS0077	p53	p53	Signaling	Biohub_OPS0077	77	Multi-reporter	49	72	90286	85290	4996	12.593214231748282	False
+prb::Biohub_OPS0077	prb	pRb	Signaling	Biohub_OPS0077	77	Multi-reporter	50	72	90286	85290	4996	12.593214231748282	True
+ps6::Biohub_OPS0077	ps6	pS6	Signaling	Biohub_OPS0077	77	Multi-reporter	51	72	90286	85290	4996	12.593214231748282	False

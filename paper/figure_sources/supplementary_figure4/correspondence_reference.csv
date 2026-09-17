@@ -1,0 +1,2 @@
+context,model,fraction,observed_recall,null_mean_recall,null_lower95,null_upper95,n_permutations,upper_tail_fraction_plus_one,movable_well_fraction,n_strata,null_type
+A_all_heldout,BF_Ridge100,0.05,0.9090909090909091,0.05377272727272727,0.0,0.18181818181818182,2000,0.0004997501249375312,1.0,61,fixed_model_within_plate_correspondence_not_refit

@@ -1,0 +1,134 @@
+{
+  "source_pptx_sha256": "03c36cf11ca70bc65e9755308e5bd023d16f8ea2653ff54b4a43376c12e063e0",
+  "exported_pdf_sha256": "cb76da46dbc88ac3b4a694ea3f3174e34c14a0c1bc236996dec4bb9fcf2413d5",
+  "image_restoration": [
+    {
+      "pptx_part": "ppt/media/image.png",
+      "source_image_sha256": "c108f58c58fc37018c7ee44edc3036a320ff8a617d5ad50d4541a0a91f3a770b",
+      "rects_pt": [
+        [
+          211.5,
+          73.5,
+          259.5,
+          121.5
+        ]
+      ],
+      "downsampled_size_px": [
+        133,
+        133
+      ]
+    },
+    {
+      "pptx_part": "ppt/media/image2.png",
+      "source_image_sha256": "414f3c3e0f341d0d809453b78e44b0924b06d71098f6c6f4f40556d36e5cce61",
+      "rects_pt": [
+        [
+          263.25,
+          73.5,
+          311.25,
+          121.5
+        ]
+      ],
+      "downsampled_size_px": [
+        133,
+        133
+      ]
+    },
+    {
+      "pptx_part": "ppt/media/image3.png",
+      "source_image_sha256": "a5fbb84edcbef41f395d6ef203d98c4a248504bbd7ad4f55ee5960c9dfbde61b",
+      "rects_pt": [
+        [
+          21,
+          54,
+          108,
+          97.5
+        ]
+      ],
+      "downsampled_size_px": [
+        241,
+        120
+      ]
+    },
+    {
+      "pptx_part": "ppt/media/image4.png",
+      "source_image_sha256": "207e0a9301615d236ebd0f2965257128464ce0482a6cc5c2ab51a594500527c3",
+      "rects_pt": [
+        [
+          25.5,
+          105.75,
+          104.25,
+          158.25
+        ]
+      ],
+      "downsampled_size_px": [
+        218,
+        145
+      ]
+    },
+    {
+      "pptx_part": "ppt/media/image5.png",
+      "source_image_sha256": "563a1d57c8fea88b48cc3c8bc1e5b3c85856685b00c72171830d08d375b7f192",
+      "rects_pt": [
+        [
+          129.1300048828125,
+          42.75,
+          197.1300048828125,
+          144.75
+        ]
+      ],
+      "downsampled_size_px": [
+        188,
+        283
+      ]
+    },
+    {
+      "pptx_part": "ppt/media/image6.png",
+      "source_image_sha256": "7fe345a970c3b15850f91fd0e17a625ab2264442079992a2a843c7dfad8104b2",
+      "rects_pt": [
+        [
+          354,
+          31.5,
+          402,
+          79.5
+        ]
+      ],
+      "downsampled_size_px": [
+        133,
+        133
+      ]
+    }
+  ],
+  "source_pptx": "Figure1a.pptx",
+  "exported_pdf": "source/Figure1a.pdf",
+  "authority": "Accepted editable PowerPoint; non-rendered source notes use portable project-relative paths.",
+  "conversion": "Native PowerPoint PDF; original embedded PNG image streams restored without pixel edits to prevent automatic export downsampling.",
+  "nonvisual_note_amendment": {
+    "date": "2026-09-08",
+    "previous_pptx_sha256": "a420bfaf47df400006fc9839e22cd92fb5dac2629bec33c030d77dc709f50196",
+    "normalized_source_path": "paper/manuscript.tex",
+    "all_rendered_slide_parts_unchanged": true,
+    "accepted_pdf_unchanged": true
+  },
+  "manuscript_typography_amendment": {
+    "date": "2026-09-09",
+    "previous": {
+      "pptx_sha256": "694a7d47ac5e847a57280f42f1d299f121e7090c3484df73ffbb91e6054f9fec",
+      "pdf_sha256": "c1e2ecadd643a33794250e5b33647aabf8b7772ef49497aa53291b5825e8fcbe"
+    },
+    "panel_letter": "9 pt DejaVu Sans bold",
+    "removed_explanatory_headings": [],
+    "scientific_images": "Every embedded image payload is byte-identical; transforms unchanged.",
+    "export_note": "Native PowerPoint baseline with matching editable-PPT and vector-PDF text amendments."
+  },
+  "clean_panel_amendment": {
+    "date": "2026-09-09",
+    "previous": {
+      "pptx_sha256": "0651314faf7842ea875d0143521c1fe98ce859293fb0b70b9fb5cd06eeddf076",
+      "pdf_sha256": "f2321de838118aa71c9a4f542c80b08cfb18f297615f7d8a7645af919236b1ce"
+    },
+    "change": "Remove standalone panel letter from matching editable PPT and vector PDF; compositor now owns the letter.",
+    "scientific_images": "Embedded image payloads and displayed transforms are unchanged.",
+    "export_note": "Text-only amendment of the accepted PowerPoint export, not a new PowerPoint conversion."
+  }
+}

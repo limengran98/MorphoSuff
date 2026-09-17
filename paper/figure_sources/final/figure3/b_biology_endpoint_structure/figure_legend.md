@@ -1,0 +1,1 @@
+Held-out-gene recoverability is grouped by biological system and endpoint family. Pale points show individual reporter or reporter–endpoint-family values, large points show means and horizontal lines show frozen 95% intervals. Sample sizes are printed for every row.

@@ -1,0 +1,2 @@
+n_reporters,exact_q1,exact_median,exact_q3,residual_q1,residual_median,residual_q3,median_exact_minus_residual,median_bootstrap_ci95_low,median_bootstrap_ci95_high,bootstrap_resamples,bootstrap_unit,bootstrap_seed
+52,0.6051559248732197,0.7569575357561309,0.8404690862322847,0.5759462770385048,0.661704817439119,0.7603696239491304,0.0343818616122007,0.0200357489784558,0.07411943189799791,20000,reporter,20260828

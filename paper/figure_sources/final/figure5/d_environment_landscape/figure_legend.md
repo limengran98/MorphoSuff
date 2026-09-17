@@ -1,0 +1,3 @@
+# Figure 5d legend
+
+Whole-screen transfer loss across 81 directed reporter-to-destination-screen evaluations, ordered from the smallest to the largest loss. Aligned strips show phase and targeted-phenotype NTC shifts, and the lower strip identifies the reporter biological system. The forest plot shows direction-level Spearman correlations with reporter-cluster bootstrap 95% confidence intervals; P values use 3,000 permutations of reporter-median shift summaries, with plus-one correction. Diamonds identify the two FeRhoNox directions; registered phase and FeRhoNox images show the prespecified screen-specific NTC medoid cells. Scale bars, 20 µm.

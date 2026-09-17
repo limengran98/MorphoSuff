@@ -1,0 +1,18 @@
+figure,panel,asset_id,phase_display_low,phase_display_high,fluorescence_display_low,fluorescence_display_high,display_role,spatial_transform,orientation,source_pixel_size_um,scale_bar_um
+Fig.1,c,lamp1_borcs7_ko,-0.3490651994943619,0.6395067185163511,106.61254043579102,211.3301994323731,same-cell inset,none,native stored orientation,0.325,20
+Fig.1,c,ferhonox_alg12_ko,-0.775179436802864,1.2993500113487255,492.0,4255.0,same-cell inset,none,native stored orientation,0.325,20
+Fig.1,e,lamp1_borcs7_ko,-0.3490651994943619,0.6395067185163511,106.61254043579102,211.3301994323731,same-cell response map,none,native stored orientation,0.325,20
+Fig.1,e,ferhonox_alg12_ko,-0.775179436802864,1.2993500113487255,492.0,4255.0,same-cell response map,none,native stored orientation,0.325,20
+Fig.1,e,prb_fech_ko,-0.5261821895837784,0.71541805267334,121.01383781433105,1530.6487609863318,same-cell response map,none,native stored orientation,0.325,20
+Fig.3,a,fastact_actr3_ko,-0.7747886502742767,1.0280601310729984,173.0,4551.0,rank-atlas callout,none,native stored orientation,0.325,20
+Fig.3,a,lamp1_borcs7_ntc,-0.4185225659608841,0.6370304238796235,105.15650020599364,261.90295123291105,rank-atlas callout,none,native stored orientation,0.325,20
+Fig.3,a,5xupre_hspa5_ko,-0.556718013882637,0.7848890328407298,105.53495250701904,452.9303023071303,rank-atlas callout,none,native stored orientation,0.325,20
+Fig.4,c,prb_sall3_ops0077_a2,-0.5457885962724686,0.8108193516731264,134.47124862670898,1531.5057202148453,pRb reconstruction case,none,native stored orientation,0.325,20
+Fig.5,b,prb_sall3_ops0077_a1,-0.5457885962724686,0.8108193516731264,134.47124862670898,1531.5057202148453,three-well stability case,none,native stored orientation,0.325,20
+Fig.5,b,prb_sall3_ops0077_a2,-0.5457885962724686,0.8108193516731264,134.47124862670898,1531.5057202148453,three-well stability case,none,native stored orientation,0.325,20
+Fig.5,b,prb_sall3_ops0077_a3,-0.5457885962724686,0.8108193516731264,134.47124862670898,1531.5057202148453,three-well stability case,none,native stored orientation,0.325,20
+Fig.5,d,ferhonox_ntc_ops0047,-0.3795731547474861,0.8340505826473242,112.0,4465.0,repeated-screen environment case,none,native stored orientation,0.325,20
+Fig.5,d,ferhonox_ntc_ops0067,-0.3795731547474861,0.8340505826473242,112.0,4465.0,repeated-screen environment case,none,native stored orientation,0.325,20
+Supplementary Fig.2,b,eea1_phase_fold0,-0.6203947246074677,1.0548125565052042,,,representation boundary example,none,native stored orientation,0.325,
+Supplementary Fig.2,b,tomm20_phase_fold0,-0.4085839435458183,0.7731417328119281,,,representation boundary example,none,native stored orientation,0.325,
+Supplementary Fig.2,b,npm1_phase_fold0,-0.3872894838452339,0.5882009357214006,,,representation boundary example,none,native stored orientation,0.325,

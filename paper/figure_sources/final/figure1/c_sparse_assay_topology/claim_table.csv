@@ -1,0 +1,7 @@
+claim_id,status,statement,evidence_or_boundary
+C1,can_say,"The OPS atlas contains 99 observed reporter-screen assays linking 52 reporters and 73 screens.","Complete enumeration of unique reporter_slug::screen_id keys."
+C2,can_say,"Most physical screens contain one reporter, whereas cross-screen coverage is available for 34 reporters.","56/73 screens contain one reporter; 34/52 reporters occur in more than one screen."
+C3,can_say,"Assay-level exact-linked coverage is uneven across reporter-screen combinations.","Glyph area encodes 31,758-172,066 exact-linked observations per assay."
+C4,cannot_say,"Blank cells represent negative biology or failed measurements.","Blank cells are structurally unassayed combinations."
+C5,cannot_say,"Repeated reporters are independent biological replicates.","Screens are repeated experimental environments, not automatically independent biological replicates."
+C6,cannot_say,"More screens or cells imply greater recoverability or biological importance.","This panel contains no prediction outcome or inferential analysis."

@@ -1,0 +1,56 @@
+figure_id: SupplementaryFigure3
+role: supplement
+target_journal: Nature-family
+canvas:
+  width_mm: 183
+  height_mm: 162
+scientific_contract:
+  question: "How does the supported measurement use change when only the predictor changes?"
+  claim: "For the 43 reliability-passing reporters, 20 support a proxy with every method, 6 with none, and 17 cross the boundary in the primary state."
+  unsupported_claims:
+    - "Reporter tiers are intrinsic model-independent biological properties."
+    - "Finite method-roster agreement estimates a probability of future success."
+    - "Unresolved means direct measurement is proven necessary."
+    - "The illustrative LAMP1 case was prespecified."
+  row_represents: reporter
+  analysis_mode: descriptive_enumeration
+  inferential_unit: none
+  pairing: reporter_slug
+  grouping: [run_state, method_id]
+  nesting: [gene, screen, endpoint, fold]
+  exclusions: ["Nine reliability-failing reporters retained visually but excluded from stability denominators"]
+  missing_value_rule: "No required evidence missing in the plotted 52-reporter matrix"
+  transformations:
+    - "Saved fold scale divided by fixed common-control endpoint scale"
+    - "Equal screen weight before gene response magnitude"
+    - "Coherent profile median before screen averaging"
+  summary: "No extra aggregation in figure code; exact canonical evidence"
+  uncertainty: none
+plot:
+  card: [C05, C11]
+  grammar: "Two consecutive 26-row categorical matrix blocks plus four aligned continuous threshold axes for one result-selected reporter"
+  rejected_alternative: "52-row single block below legible size; dense many-reporter gate matrix"
+  x: predictor_or_native_metric
+  y: reporter_or_method
+  colour: tier
+  size: constant
+  facet: reporter_block_or_metric
+  order: "Frozen Figure 6 reporter order and Figure 2 method roster"
+  highlights: ["LAMP1 selected after completed analysis to illustrate Q/R/M"]
+  random_seed: none
+style:
+  font: DejaVu Sans
+  body_pt: 6.3
+  minimum_pt: 6.0
+  panel_label_pt: 9
+  panel_letters: composite_only
+  panel_subtitles: none
+  background: white
+  grid: false
+export:
+  formats: [pdf, svg, png]
+  png_dpi: 600
+  editable_text: true
+source_data: "../../supplementary_data/SupplementaryData1/evidence.csv"
+source_keys: source_data/plotted_point_keys.csv
+code: code/build_supplementary_figure3.py

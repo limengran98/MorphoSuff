@@ -1,0 +1,5 @@
+path,sha256
+../../supplementary_data/SupplementaryData1/evidence.csv,dfec16e9ff5cf00102b5cb61bf5b7dfb5ee756efc73671f0d4c7f738eeb40c1c
+../../supplementary_data/SupplementaryData1/reporter_order.csv,bc972963e755c8b33484f364a3aaa104bc9cef68d5175be4feff981b18e6f66b
+../../supplementary_data/SupplementaryData1/method_roster.csv,2ede2524d578cef87e640343f120d71c60b92d8ce05f4836e2786494a8e8a376
+../../figure_sources/publication_style.py,edb521dc8477acbb170fa980781141078b3014b3c9fcf97ca39e235ac3b74838

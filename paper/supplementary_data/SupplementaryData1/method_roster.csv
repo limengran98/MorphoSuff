@@ -1,0 +1,11 @@
+method_id,method,method_order
+ridge,Ridge,1
+gbdt,GBDT,2
+catboost_multirmse,CatBoost,3
+mlp,MLP,4
+tabm_specialists,TabM,5
+scbutterfly_ops_b,scButterfly,6
+resmlp_52head,ResMLP,7
+multitab_pilot,MultiTab,8
+midas_ops,MIDAS,9
+scpair_ops,scPair,10

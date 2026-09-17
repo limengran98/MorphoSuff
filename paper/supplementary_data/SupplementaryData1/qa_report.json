@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "scope": "Independent complete-table rule/reference/aggregation QA; no training",
+  "n_evidence_rows": 1144,
+  "n_reporters": 52,
+  "n_reliability_passing": 43,
+  "primary_state": "checkpoint_average",
+  "reference": "checkpoint_average/coherent_median_ensemble",
+  "max_delta_error": 1.7763568394002505e-15,
+  "stability_counts_all_proxy_none_crossing": {
+    "checkpoint_average": [
+      20,
+      6,
+      17
+    ],
+    "single": [
+      22,
+      6,
+      15
+    ]
+  },
+  "per_method_fold_rows": 5200,
+  "endpoint_scale_rows": 8020,
+  "scale_sensitivity_rows": 104,
+  "scale_only_changed_reporter": "er_ncln",
+  "all_method_recoveries_reproduced_by_mean_of_five_folds": true,
+  "required_prediction_archive_included": false
+}

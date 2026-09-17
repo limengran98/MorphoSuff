@@ -1,0 +1,5 @@
+claim,status,rationale
+The three examples exhibit distinct response-reconstruction modes,supported,"Frozen heatmaps, magnitude ordering and variance ratios agree"
+pRb retains some KO ordering while compressing response amplitude,supported,"Magnitude Spearman rho is 0.71 while variance ratio is 0.017"
+The three examples estimate the frequency of each mode,not_supported,"Examples were preselected and are not a random sample"
+Color intensity is directly comparable across reporter columns,not_supported,"Each reporter uses its own stated symmetric color range"

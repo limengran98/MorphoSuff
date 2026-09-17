@@ -1,0 +1,86 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "measurement-sufficiency"
+version = "0.1.0"
+description = "Portable contracts and analyses for paired-measurement sufficiency studies."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Measurement Sufficiency contributors"}]
+dependencies = ["numpy>=1.23", "pandas>=1.5"]
+keywords = ["cell imaging", "perturbation", "measurement sufficiency", "benchmark", "multimodal"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+
+[project.optional-dependencies]
+# The core remains importable without scikit-learn.  Install this extra to run
+# the built-in Ridge, GBDT, and MLP training adapters.
+sklearn = ["scikit-learn>=1.2"]
+catboost = ["catboost>=1.2"]
+torch = ["torch>=2.0"]
+# TabM itself must be installed from the separately pinned official wheel or
+# supplied as the checksummed source file; this runtime-only extra mirrors the
+# requirements declared by official TabM 0.0.3.
+tabm = ["torch>=1.12,<3", "rtdl_num_embeddings>=0.0.12,<0.1", "typing_extensions>=4.6.0,<5"]
+models = [
+  "scikit-learn>=1.2",
+  "catboost>=1.2",
+  "torch>=2.0,<3",
+  "rtdl_num_embeddings>=0.0.12,<0.1",
+  "typing_extensions>=4.6.0,<5",
+]
+# pyarrow is here for a reason beyond the parquet code paths: installing it
+# switches on pandas' Arrow backend, which changes how a Series of str-subclass
+# enums is materialised.  ``tier_table`` and ``summarize_evidence`` both broke
+# under it while the suite stayed green, because no CI job had ever loaded the
+# backend.  Keep it in the default test install so that class of defect fails in
+# `core` rather than in a user's environment.
+test = ["pytest>=7", "scikit-learn>=1.2", "h5py>=3.8", "pyyaml>=6", "pyarrow>=12"]
+figures = ["matplotlib>=3.7", "pyyaml>=6"]
+parquet = ["pyarrow>=12"]
+ops-data = ["boto3>=1.28", "h5py>=3.8", "scipy>=1.10", "pyarrow>=12"]
+release-data = ["huggingface_hub>=0.24", "h5py>=3.8", "pyarrow>=12"]
+image = [
+  "torch>=2.0,<3",
+  "h5py>=3.8",
+  "scipy>=1.10",
+  "pyarrow>=12",
+  "fsspec>=2023.6",
+  "s3fs>=2023.6",
+  "zarr>=2.16,<3",
+]
+
+[project.scripts]
+measurement-sufficiency = "measurement_sufficiency.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/limengran98/MorphoSuff"
+Repository = "https://github.com/limengran98/MorphoSuff"
+Data = "https://huggingface.co/datasets/Amanda1998/MorphoSuff"
+Issues = "https://github.com/limengran98/MorphoSuff/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"
+markers = [
+  "requires_torch: needs the optional torch dependency (extras: torch, models, image)",
+  "requires_catboost: needs the optional catboost dependency (extras: catboost, models)",
+  "requires_scipy: needs the optional scipy dependency (extras: ops-data, image)",
+]

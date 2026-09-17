@@ -1,0 +1,31 @@
+{
+  "array_spec": "array:384x384:float32",
+  "asset_id": "tomm20_phase_fold0",
+  "canonical_relative_path": "raw_assets/tomm20_phase_fold0.npy",
+  "display_policy": "Use the per-panel fixed windows in render_spec.csv. Do not alter pixels, register, denoise, enhance, or content-edit this asset.",
+  "file_sha256": "c570a50b11829392a3806ab14e21eccbdcc7acd461f21d73e506c25339c97c93",
+  "orientation": "native stored orientation",
+  "pixel_sha256": "3128031015d72071ace809b8e646775baf52ecf7cb5950ae6f9318b7d34e0c45",
+  "provenance": {
+    "asset_id": "tomm20_phase_fold0",
+    "channels": "phase only",
+    "figure_panel_usage": "Supplementary Fig.2b",
+    "filename": "tomm20_phase_fold0.npy",
+    "gene": "",
+    "note": "",
+    "perturbation_role": "KO",
+    "phase_row_index": "6999129",
+    "pixel_size_um": 0.325,
+    "provenance_uri": "Local downloaded crop; original OPS source documented in the Supplementary Figure 2 source table.",
+    "reporter": "TOMM20",
+    "reporter_slug": "mitochondria_tomm20",
+    "screen_id": "Biohub_OPS0043",
+    "segmentation_id": "",
+    "selection_rule": "Closest to reporter-wise median of four phase-image statistics among 96 evenly spaced full-window targeting cells in held-out gene fold 0.",
+    "source_level": "downloaded level-0 crop",
+    "source_relative_path": "supplementary_figure2/b_representation_boundary/source_images/mitochondria_tomm20_phase_crop.npy",
+    "use_status": "rendered",
+    "well": ""
+  },
+  "spatial_transform": "none"
+}

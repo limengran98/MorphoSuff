@@ -1,0 +1,11 @@
+figure,published_pdf,sha256,code_root,source_data_root,notes
+Figure1,paper/figures/Figure1.pdf,8362f526f98924ac26ead5163c506e59f6c238cfc1805f83826db22c1dfcecb9,final/figure1,final/figure1,Atlas scale topology and exact-cell examples.
+Figure2,paper/figures/Figure2.pdf,f0e29371aecde18c1303980178ef3f1b13b673dcb267934dab35bb89d1533a24,final/figure2/code,final/figure2,Ten-method benchmark across three reporting units.
+Figure3,paper/figures/Figure3.pdf,5510426fc88ee5bf07deea50c7c900c51f088a0d89df2b6ba335e6d225dd8450,final/figure3/code,final/figure3,Recoverability landscape and biological interpretation.
+Figure4,paper/figures/Figure4.pdf,49dc3c639479f577370f0bcd4e747c78d0552c1086a4e9a5aad3031e3e64dfef,final/figure4/code,final/figure4/source_data,Same-cell information interventions and transfer fidelity.
+Figure5,paper/figures/Figure5.pdf,01aaebc60936a2074aaf8bb63058160a9d27edca1a71ed05a672157d6544826c,final/figure5/code,final/figure5/source_data,Measurement stability and failure boundaries.
+Figure6,paper/figures/Figure6.pdf,f04a929a90041b0048e710a4ec6bea901210871f465192495a18d7e83acb35dd,final/figure6/code,final/figure6,"Measurement decisions and use-specific external validation, including held-out hepatocyte metabolic-loss prioritization."
+SupplementaryFigure1,paper/figures/SupplementaryFigure1.pdf,2b80e85329671ec1947ae4089152691d6178e82d2dd8acb1c820baec7a452e78,supplementary_figure1/code,supplementary_figure1/source_data,Complete threshold evidence controls and sensitivity analyses across OPS OASIS and PERISCOPE.
+SupplementaryFigure2,paper/figures/SupplementaryFigure2.pdf,99651122ce0d234ee89e644cada3c86a825aa174e6ea0e44a0635532b57a802e,supplementary_figure2/code,supplementary_figure2,Label-efficiency calibration and phase-representation sensitivity.
+SupplementaryFigure3,paper/figures/SupplementaryFigure3.pdf,c098fa9b4597f75c57df9145a103358184e2c9e5c00d1d2d1d60f9dbdf0e83ec,supplementary_figure3/code,../supplementary_data/SupplementaryData1,Complete predictor-specific decision map and LAMP1 criterion-level comparison.
+SupplementaryFigure4,paper/figures/SupplementaryFigure4.pdf,2644fa91d7d2e564637c3b3f2b96c812fc75ee51ae90d187482e990543169e61,supplementary_figure4/code,supplementary_figure4,"Supporting utility prediction, screen-context stability, repeated-measurement comparisons and external selection-budget analyses."

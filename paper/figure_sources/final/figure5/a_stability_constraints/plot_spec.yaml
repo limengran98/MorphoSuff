@@ -1,0 +1,27 @@
+panel: a
+claim: Reporter recoverability is associated with overlapping measurement-stability and coverage constraints.
+canvas_mm: [183, 53]
+inferential_unit: reporter
+outcome: unweighted median of ten frozen held-out-gene reporter-level Pearson scores
+forest:
+  predictors:
+    - within-screen reliability
+    - guide-half consistency
+    - cross-screen consistency
+    - log10 exact-link coverage
+  interval: reporter-bootstrap 95% confidence interval
+correlation_matrix:
+  method: pairwise-complete Spearman
+  lower_triangle: correlation coefficient
+  upper_triangle: pairwise-complete reporter count
+joint_model:
+  terms: [within-screen reliability, guide-half consistency, log10 exact-link coverage]
+  estimand: in-sample ordinary least-squares R2
+  permutation_draws: 3000
+  permutation_seed: 20260848
+  permutation_unit: reporter outcome label
+style:
+  font: Arial
+  panel_letter: lowercase
+  significance_stars: false
+  export: [PNG, PDF, SVG]

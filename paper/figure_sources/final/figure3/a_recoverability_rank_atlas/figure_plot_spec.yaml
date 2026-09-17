@@ -1,0 +1,16 @@
+figure_type: rank_spectrum_with_microscopy
+inferential_units:
+  - reporter
+  - physical_screen
+  - reporter_screen_assay
+splits: [Field, Gene, Whole-screen]
+score: KO-level Pearson r
+consensus: unweighted median across ten frozen models
+uncertainty: model Q25-Q75 descriptive spread
+difficulty_thresholds:
+  low: "r < 0.60"
+  intermediate: "0.60 <= r < 0.75"
+  high: "r >= 0.75"
+microscopy_selection: frozen and outcome-independent
+canvas_mm: [183, 98]
+font: Arial

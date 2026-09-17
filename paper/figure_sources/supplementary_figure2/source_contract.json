@@ -1,0 +1,13 @@
+{
+  "figure": "Supplementary Figure 2",
+  "panels": {
+    "a": "Label-efficiency calibration on the frozen 12-reporter panel",
+    "b": "Representation sensitivity on six prespecified reporters"
+  },
+  "statistical_units": {
+    "a": "held-out-gene fold within method and label fraction",
+    "b": "reporter for paired contrasts; held-out-gene fold for matrix uncertainty"
+  },
+  "claim_boundary": "These exploratory analyses define extension requirements and do not alter the frozen reporter-level decision tiers.",
+  "build_entry_point": "build.ps1"
+}

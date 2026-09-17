@@ -1,0 +1,630 @@
+{
+  "status": "PASS",
+  "audited_utc": "2026-09-11T06:13:07.322166+00:00",
+  "independence": "Threshold grid and metrics independently reconstructed and cached before producer evaluation. Fresh standard-library Decimal classification; no import or call to SD2 builder or package classifier.",
+  "counts": {
+    "contexts": 12,
+    "baseline_plus_scenarios": 37,
+    "assignments": 444,
+    "atomic_criterion_rows": 3552,
+    "context_summary_rows": 12,
+    "context_summary_groups": 36,
+    "scenario_summary_rows": 74,
+    "historical_rows": 6,
+    "table7_rows": 12,
+    "si_baseline_metrics": 60,
+    "source_median_checks": 18
+  },
+  "mismatches": 0,
+  "checks": {
+    "contexts": 1,
+    "unchanged_original_metrics": 1,
+    "input_metric_strings": 60,
+    "biological_unit": 12,
+    "fitting_unit": 12,
+    "scenario_order_coverage": 1,
+    "threshold_fields": 296,
+    "threshold_rows": 37,
+    "scenario_group": 37,
+    "scenario_denominators": 1,
+    "legacy_rule_baselines": 1,
+    "baseline_labels": 12,
+    "assignment_coverage": 1,
+    "assignment_fields": 10656,
+    "assignment_rows": 444,
+    "criterion_coverage": 1,
+    "criterion_fields": 49728,
+    "criterion_rows": 3552,
+    "summary_coverage": 1,
+    "context_summary_fields": 384,
+    "context_summary_rows": 12,
+    "scenario_summary_coverage": 1,
+    "scenario_summary_fields": 814,
+    "scenario_summary_rows": 74,
+    "historical_coverage": 1,
+    "historical_fields": 114,
+    "historical_rows": 6,
+    "table7_count": 1,
+    "table7_rows": 12,
+    "SI_numeric_baselines": 60,
+    "SI_baseline_tiers": 12,
+    "SI_baseline_coverage": 1,
+    "replicate_depth": 18,
+    "source_medians": 18,
+    "source_median_count": 1,
+    "original_source_hash_bytes": 4,
+    "freeze_hashes": 5,
+    "clarification_fixed_grid_sources": 2,
+    "normalized_assignment_hash": 1
+  },
+  "summary": {
+    "oasis:mtt_viability": {
+      "single32": {
+        "n_scenarios": 32,
+        "tier_changes": 0,
+        "tier_unchanged_fraction": 1,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 0,
+        "scenarios_with_quantitative_fidelity_vector_changes": 0,
+        "possible_tiers": "unresolved",
+        "possible_short": "U"
+      },
+      "joint4": {
+        "n_scenarios": 4,
+        "tier_changes": 0,
+        "tier_unchanged_fraction": 1,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 0,
+        "scenarios_with_quantitative_fidelity_vector_changes": 0,
+        "possible_tiers": "unresolved",
+        "possible_short": "U"
+      },
+      "all36": {
+        "n_scenarios": 36,
+        "tier_changes": 0,
+        "tier_unchanged_fraction": 1,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 0,
+        "scenarios_with_quantitative_fidelity_vector_changes": 0,
+        "possible_tiers": "unresolved",
+        "possible_short": "U"
+      }
+    },
+    "oasis:ldh_release": {
+      "single32": {
+        "n_scenarios": 32,
+        "tier_changes": 1,
+        "tier_unchanged_fraction": 0.96875,
+        "proxy_changes": 1,
+        "proxy_unchanged_fraction": 0.96875,
+        "scenarios_with_criterion_changes": 3,
+        "scenarios_with_quantitative_fidelity_vector_changes": 3,
+        "possible_tiers": "ranking_proxy;unresolved",
+        "possible_short": "R/U"
+      },
+      "joint4": {
+        "n_scenarios": 4,
+        "tier_changes": 1,
+        "tier_unchanged_fraction": 0.75,
+        "proxy_changes": 1,
+        "proxy_unchanged_fraction": 0.75,
+        "scenarios_with_criterion_changes": 2,
+        "scenarios_with_quantitative_fidelity_vector_changes": 2,
+        "possible_tiers": "quantitative_proxy;unresolved",
+        "possible_short": "Q/U"
+      },
+      "all36": {
+        "n_scenarios": 36,
+        "tier_changes": 2,
+        "tier_unchanged_fraction": 0.9444444444444444,
+        "proxy_changes": 2,
+        "proxy_unchanged_fraction": 0.9444444444444444,
+        "scenarios_with_criterion_changes": 5,
+        "scenarios_with_quantitative_fidelity_vector_changes": 5,
+        "possible_tiers": "quantitative_proxy;ranking_proxy;unresolved",
+        "possible_short": "Q/R/U"
+      }
+    },
+    "periscope_cells:tomm20_mito": {
+      "single32": {
+        "n_scenarios": 32,
+        "tier_changes": 0,
+        "tier_unchanged_fraction": 1,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 5,
+        "scenarios_with_quantitative_fidelity_vector_changes": 5,
+        "possible_tiers": "not_identifiable",
+        "possible_short": "N"
+      },
+      "joint4": {
+        "n_scenarios": 4,
+        "tier_changes": 0,
+        "tier_unchanged_fraction": 1,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 2,
+        "scenarios_with_quantitative_fidelity_vector_changes": 2,
+        "possible_tiers": "not_identifiable",
+        "possible_short": "N"
+      },
+      "all36": {
+        "n_scenarios": 36,
+        "tier_changes": 0,
+        "tier_unchanged_fraction": 1,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 7,
+        "scenarios_with_quantitative_fidelity_vector_changes": 7,
+        "possible_tiers": "not_identifiable",
+        "possible_short": "N"
+      }
+    },
+    "periscope_guide:tomm20_mito": {
+      "single32": {
+        "n_scenarios": 32,
+        "tier_changes": 0,
+        "tier_unchanged_fraction": 1,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 2,
+        "scenarios_with_quantitative_fidelity_vector_changes": 2,
+        "possible_tiers": "not_identifiable",
+        "possible_short": "N"
+      },
+      "joint4": {
+        "n_scenarios": 4,
+        "tier_changes": 0,
+        "tier_unchanged_fraction": 1,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 2,
+        "scenarios_with_quantitative_fidelity_vector_changes": 2,
+        "possible_tiers": "not_identifiable",
+        "possible_short": "N"
+      },
+      "all36": {
+        "n_scenarios": 36,
+        "tier_changes": 0,
+        "tier_unchanged_fraction": 1,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 4,
+        "scenarios_with_quantitative_fidelity_vector_changes": 4,
+        "possible_tiers": "not_identifiable",
+        "possible_short": "N"
+      }
+    },
+    "oasis:prod_25:mtt_viability": {
+      "single32": {
+        "n_scenarios": 32,
+        "tier_changes": 0,
+        "tier_unchanged_fraction": 1,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 2,
+        "scenarios_with_quantitative_fidelity_vector_changes": 2,
+        "possible_tiers": "unresolved",
+        "possible_short": "U"
+      },
+      "joint4": {
+        "n_scenarios": 4,
+        "tier_changes": 0,
+        "tier_unchanged_fraction": 1,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 2,
+        "scenarios_with_quantitative_fidelity_vector_changes": 2,
+        "possible_tiers": "unresolved",
+        "possible_short": "U"
+      },
+      "all36": {
+        "n_scenarios": 36,
+        "tier_changes": 0,
+        "tier_unchanged_fraction": 1,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 4,
+        "scenarios_with_quantitative_fidelity_vector_changes": 4,
+        "possible_tiers": "unresolved",
+        "possible_short": "U"
+      }
+    },
+    "oasis:prod_25:ldh_release": {
+      "single32": {
+        "n_scenarios": 32,
+        "tier_changes": 4,
+        "tier_unchanged_fraction": 0.875,
+        "proxy_changes": 2,
+        "proxy_unchanged_fraction": 0.9375,
+        "scenarios_with_criterion_changes": 6,
+        "scenarios_with_quantitative_fidelity_vector_changes": 4,
+        "possible_tiers": "ranking_proxy;measurement_required;unresolved",
+        "possible_short": "R/M/U"
+      },
+      "joint4": {
+        "n_scenarios": 4,
+        "tier_changes": 2,
+        "tier_unchanged_fraction": 0.5,
+        "proxy_changes": 2,
+        "proxy_unchanged_fraction": 0.5,
+        "scenarios_with_criterion_changes": 2,
+        "scenarios_with_quantitative_fidelity_vector_changes": 2,
+        "possible_tiers": "ranking_proxy;measurement_required",
+        "possible_short": "R/M"
+      },
+      "all36": {
+        "n_scenarios": 36,
+        "tier_changes": 6,
+        "tier_unchanged_fraction": 0.8333333333333334,
+        "proxy_changes": 4,
+        "proxy_unchanged_fraction": 0.8888888888888888,
+        "scenarios_with_criterion_changes": 8,
+        "scenarios_with_quantitative_fidelity_vector_changes": 6,
+        "possible_tiers": "ranking_proxy;measurement_required;unresolved",
+        "possible_short": "R/M/U"
+      }
+    },
+    "oasis:prod_26:mtt_viability": {
+      "single32": {
+        "n_scenarios": 32,
+        "tier_changes": 1,
+        "tier_unchanged_fraction": 0.96875,
+        "proxy_changes": 1,
+        "proxy_unchanged_fraction": 0.96875,
+        "scenarios_with_criterion_changes": 1,
+        "scenarios_with_quantitative_fidelity_vector_changes": 1,
+        "possible_tiers": "quantitative_proxy;unresolved",
+        "possible_short": "Q/U"
+      },
+      "joint4": {
+        "n_scenarios": 4,
+        "tier_changes": 1,
+        "tier_unchanged_fraction": 0.75,
+        "proxy_changes": 1,
+        "proxy_unchanged_fraction": 0.75,
+        "scenarios_with_criterion_changes": 1,
+        "scenarios_with_quantitative_fidelity_vector_changes": 1,
+        "possible_tiers": "quantitative_proxy;unresolved",
+        "possible_short": "Q/U"
+      },
+      "all36": {
+        "n_scenarios": 36,
+        "tier_changes": 2,
+        "tier_unchanged_fraction": 0.9444444444444444,
+        "proxy_changes": 2,
+        "proxy_unchanged_fraction": 0.9444444444444444,
+        "scenarios_with_criterion_changes": 2,
+        "scenarios_with_quantitative_fidelity_vector_changes": 2,
+        "possible_tiers": "quantitative_proxy;unresolved",
+        "possible_short": "Q/U"
+      }
+    },
+    "oasis:prod_26:ldh_release": {
+      "single32": {
+        "n_scenarios": 32,
+        "tier_changes": 0,
+        "tier_unchanged_fraction": 1,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 2,
+        "scenarios_with_quantitative_fidelity_vector_changes": 2,
+        "possible_tiers": "unresolved",
+        "possible_short": "U"
+      },
+      "joint4": {
+        "n_scenarios": 4,
+        "tier_changes": 0,
+        "tier_unchanged_fraction": 1,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 2,
+        "scenarios_with_quantitative_fidelity_vector_changes": 2,
+        "possible_tiers": "unresolved",
+        "possible_short": "U"
+      },
+      "all36": {
+        "n_scenarios": 36,
+        "tier_changes": 0,
+        "tier_unchanged_fraction": 1,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 4,
+        "scenarios_with_quantitative_fidelity_vector_changes": 4,
+        "possible_tiers": "unresolved",
+        "possible_short": "U"
+      }
+    },
+    "oasis:prod_27:mtt_viability": {
+      "single32": {
+        "n_scenarios": 32,
+        "tier_changes": 0,
+        "tier_unchanged_fraction": 1,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 0,
+        "scenarios_with_quantitative_fidelity_vector_changes": 0,
+        "possible_tiers": "unresolved",
+        "possible_short": "U"
+      },
+      "joint4": {
+        "n_scenarios": 4,
+        "tier_changes": 0,
+        "tier_unchanged_fraction": 1,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 0,
+        "scenarios_with_quantitative_fidelity_vector_changes": 0,
+        "possible_tiers": "unresolved",
+        "possible_short": "U"
+      },
+      "all36": {
+        "n_scenarios": 36,
+        "tier_changes": 0,
+        "tier_unchanged_fraction": 1,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 0,
+        "scenarios_with_quantitative_fidelity_vector_changes": 0,
+        "possible_tiers": "unresolved",
+        "possible_short": "U"
+      }
+    },
+    "oasis:prod_27:ldh_release": {
+      "single32": {
+        "n_scenarios": 32,
+        "tier_changes": 1,
+        "tier_unchanged_fraction": 0.96875,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 5,
+        "scenarios_with_quantitative_fidelity_vector_changes": 4,
+        "possible_tiers": "not_identifiable;unresolved",
+        "possible_short": "N/U"
+      },
+      "joint4": {
+        "n_scenarios": 4,
+        "tier_changes": 1,
+        "tier_unchanged_fraction": 0.75,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 3,
+        "scenarios_with_quantitative_fidelity_vector_changes": 2,
+        "possible_tiers": "not_identifiable;unresolved",
+        "possible_short": "N/U"
+      },
+      "all36": {
+        "n_scenarios": 36,
+        "tier_changes": 2,
+        "tier_unchanged_fraction": 0.9444444444444444,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 8,
+        "scenarios_with_quantitative_fidelity_vector_changes": 6,
+        "possible_tiers": "not_identifiable;unresolved",
+        "possible_short": "N/U"
+      }
+    },
+    "oasis:prod_30:mtt_viability": {
+      "single32": {
+        "n_scenarios": 32,
+        "tier_changes": 0,
+        "tier_unchanged_fraction": 1,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 0,
+        "scenarios_with_quantitative_fidelity_vector_changes": 0,
+        "possible_tiers": "unresolved",
+        "possible_short": "U"
+      },
+      "joint4": {
+        "n_scenarios": 4,
+        "tier_changes": 0,
+        "tier_unchanged_fraction": 1,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 0,
+        "scenarios_with_quantitative_fidelity_vector_changes": 0,
+        "possible_tiers": "unresolved",
+        "possible_short": "U"
+      },
+      "all36": {
+        "n_scenarios": 36,
+        "tier_changes": 0,
+        "tier_unchanged_fraction": 1,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 0,
+        "scenarios_with_quantitative_fidelity_vector_changes": 0,
+        "possible_tiers": "unresolved",
+        "possible_short": "U"
+      }
+    },
+    "oasis:prod_30:ldh_release": {
+      "single32": {
+        "n_scenarios": 32,
+        "tier_changes": 2,
+        "tier_unchanged_fraction": 0.9375,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 4,
+        "scenarios_with_quantitative_fidelity_vector_changes": 2,
+        "possible_tiers": "measurement_required;not_identifiable",
+        "possible_short": "M/N"
+      },
+      "joint4": {
+        "n_scenarios": 4,
+        "tier_changes": 2,
+        "tier_unchanged_fraction": 0.5,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 2,
+        "scenarios_with_quantitative_fidelity_vector_changes": 2,
+        "possible_tiers": "measurement_required;not_identifiable",
+        "possible_short": "M/N"
+      },
+      "all36": {
+        "n_scenarios": 36,
+        "tier_changes": 4,
+        "tier_unchanged_fraction": 0.8888888888888888,
+        "proxy_changes": 0,
+        "proxy_unchanged_fraction": 1,
+        "scenarios_with_criterion_changes": 6,
+        "scenarios_with_quantitative_fidelity_vector_changes": 4,
+        "possible_tiers": "measurement_required;not_identifiable",
+        "possible_short": "M/N"
+      }
+    }
+  },
+  "source_median_checks": [
+    {
+      "context_id": "oasis:mtt_viability",
+      "metric": "recoverability_r",
+      "n_replicates": 5,
+      "absolute_error": "1E-16"
+    },
+    {
+      "context_id": "oasis:mtt_viability",
+      "metric": "magnitude_spearman",
+      "n_replicates": 5,
+      "absolute_error": "0E-16"
+    },
+    {
+      "context_id": "oasis:mtt_viability",
+      "metric": "variance_ratio",
+      "n_replicates": 5,
+      "absolute_error": "0E-14"
+    },
+    {
+      "context_id": "oasis:mtt_viability",
+      "metric": "top5pct_recall",
+      "n_replicates": 5,
+      "absolute_error": "0E-16"
+    },
+    {
+      "context_id": "oasis:ldh_release",
+      "metric": "recoverability_r",
+      "n_replicates": 5,
+      "absolute_error": "4E-16"
+    },
+    {
+      "context_id": "oasis:ldh_release",
+      "metric": "magnitude_spearman",
+      "n_replicates": 5,
+      "absolute_error": "0E-16"
+    },
+    {
+      "context_id": "oasis:ldh_release",
+      "metric": "variance_ratio",
+      "n_replicates": 5,
+      "absolute_error": "0E-16"
+    },
+    {
+      "context_id": "oasis:ldh_release",
+      "metric": "top5pct_recall",
+      "n_replicates": 5,
+      "absolute_error": "0E-16"
+    },
+    {
+      "context_id": "periscope_cells:tomm20_mito",
+      "metric": "recoverability_r",
+      "n_replicates": 5,
+      "absolute_error": "0E-16"
+    },
+    {
+      "context_id": "periscope_cells:tomm20_mito",
+      "metric": "magnitude_spearman",
+      "n_replicates": 5,
+      "absolute_error": "0E-16"
+    },
+    {
+      "context_id": "periscope_cells:tomm20_mito",
+      "metric": "variance_ratio",
+      "n_replicates": 5,
+      "absolute_error": "0E-16"
+    },
+    {
+      "context_id": "periscope_cells:tomm20_mito",
+      "metric": "top5pct_recall",
+      "n_replicates": 5,
+      "absolute_error": "0E-16"
+    },
+    {
+      "context_id": "periscope_cells:tomm20_mito",
+      "metric": "reliability",
+      "n_replicates": 9,
+      "absolute_error": "0E-16"
+    },
+    {
+      "context_id": "periscope_guide:tomm20_mito",
+      "metric": "recoverability_r",
+      "n_replicates": 5,
+      "absolute_error": "0E-16"
+    },
+    {
+      "context_id": "periscope_guide:tomm20_mito",
+      "metric": "magnitude_spearman",
+      "n_replicates": 5,
+      "absolute_error": "0E-15"
+    },
+    {
+      "context_id": "periscope_guide:tomm20_mito",
+      "metric": "variance_ratio",
+      "n_replicates": 5,
+      "absolute_error": "0E-16"
+    },
+    {
+      "context_id": "periscope_guide:tomm20_mito",
+      "metric": "top5pct_recall",
+      "n_replicates": 5,
+      "absolute_error": "0E-16"
+    },
+    {
+      "context_id": "periscope_guide:tomm20_mito",
+      "metric": "reliability",
+      "n_replicates": 9,
+      "absolute_error": "0E-16"
+    }
+  ],
+  "original_source_sha256": {
+    "paper/figure_sources/final/figure6/f_cross_context_decisions/figure_source_gate_rows.csv": "a6280981c8a9ebee84993b481d69d28df9bbdb29afc3aa83704be6170918479d",
+    "paper/figure_sources/final/figure6/f_cross_context_decisions/figure_source_data.csv": "176e8c30fa9cba42a661a1bd13617c55bfca1aa4456d7ac4265738c16cf0fef9",
+    "paper/figure_sources/supplementary_figure1/source_data/external_context/batch_verdicts.csv": "91230091de2c0a78d3697e7c99c8c6ef1e7d57ad3d332c936da37bb13902dd21",
+    "paper/figure_sources/final/figure6/code/rebuild_coherent_statistics.py": "ddda3907d35ef262b6d7ef0f8bc39ff908af8be21f4fa64a159e5aa8a5d49f1b"
+  },
+  "additional_reference_sha256": {
+    "paper/figure_sources/final/figure6/f_cross_context_decisions/figure_source_replicate_detail.csv": "b26bd5e36e1ccd03cf38bfadf650d8d03789ae7abcd7830d5352c48734fa5199",
+    "configs/ops/protocols/measurement_tiers.yaml": "ae2ec2f48988d6e8ca096adba9ae6d96c7d1bb0b63d8c18feb299d5aba7b0f70"
+  },
+  "audited_bundle_sha256": {
+    "protocol.md": "4c19bf4418375d9b3a571530f17342ba9da6449d4e80ba2bd8cdb5f90a16630f",
+    "README.md": "d5136edab7ec217f120b1d30b872c66848493b837543b1883eb234646b71a2a9",
+    "analysis_freeze.json": "0e8e9311f0a2427cc3f65d5e75a394aeeeaf6c9ec9a5e7d32d3f5559b423f60a",
+    "inputs/context_metrics.csv": "7a76055e50ec52cb7f6528892e444ffee46dd21ce375b2c6336d9348e2be3d1d",
+    "inputs/threshold_scenarios.csv": "3225f8e1e358c6f913b39347224ddb6d92092a41811737f0599d277344f5e093",
+    "inputs/source_manifest.csv": "5abbd6b9c71a9f605e6bf867ae95f2dab5054ef47f5444a3cb2e3f247a886c97",
+    "code/build_sensitivity.py": "3bb5827636a5766992e18fdd8214bce8983cf4d89ef91e80c2581070257c5b32",
+    "table_rows.tex": "64e525e8b8bf53a9b132ded872d8c42c139cfc089fc6cef9f05d027cca921a10",
+    "derived/assignments.csv": "0cd8ead2a7d8f4d743f02083c2bdbd0b25f66734d22e30c07ae2c6dbe7ee6011",
+    "derived/criterion_evidence.csv": "4596b9f6700cc9cacdd3d9c33cbc4059ce1a67c9c9bfb230fe5b486a48cc5880",
+    "derived/context_summary.csv": "a15b3e1cab6359bd8ed984adb682c382611340bb07b49f306303d25365039ac1",
+    "derived/scenario_summary.csv": "b2570205d7435e140203833c6b0d6a961813eea227d26f0c89c256c91bd4eac9",
+    "derived/historical_rank_only.csv": "1cca4e7b192c90a579cfeb3ebaf7d206f6ff944aadfa3f2a769781021fe3ba28"
+  },
+  "normalized_assignment_sha256": "dc5386b4255a88858308ed545408a9d0d5493453a5543a267a31fc9c222c8833",
+  "notes": [
+    "All 60 canonical metric strings match the original full-precision source CSVs exactly; no rounded manuscript values entered classification.",
+    "All 60 numerical values in the 12 pre-existing SI baseline rows agree after independent three-decimal rounding; all baseline labels agree.",
+    "The 16 main-application fidelity summaries agree with five-fold medians, and the two PERISCOPE reliability summaries agree with nine-plate medians within 1e-12.",
+    "OASIS reliability and eight batch-context metrics were audited as their separately deposited source summaries; their lower-level raw-data regeneration is outside this audit.",
+    "The main4 and OASIS_batch8 groups were not pooled, reweighted or treated as independent biological replicates.",
+    "The three historical rank-only thresholds (0.65, 0.60, 0.55) were audited for two pooled OASIS readouts as six separate rows, excluded from every 32/4/36 sensitivity denominator.",
+    "Both PERISCOPE final classifications remain not_identifiable throughout 36 scenarios, but their four-component quantitative-fidelity vectors change in 7/36 cell-input and 4/36 guide-input scenarios. This is not a claim of proxy-use robustness or cross-system threshold validity.",
+    "The pre-evaluation technical clarification distinguishes input/fitting resolution from the response evaluation unit and exposes requested derived summaries. The metric strings, original source hashes and 36-scenario grid remained unchanged.",
+    "Descriptive sensitivity on already-known external evidence is not prospective calibration. No new operating point is selected."
+  ],
+  "replay_command_from_repository_root": "python3 - <<'PY'\nimport json\nPRE=json.loads(r'''{\"metrics\":{\"oasis:mtt_viability\":{\"recoverability_r\":\"0.826094403561396\",\"magnitude_spearman\":\"0.6041505188442152\",\"variance_ratio\":\"0.89703992643403\",\"top5pct_recall\":\"0.7272727272727273\",\"reliability\":\"0.7162720741260995\"},\"oasis:ldh_release\":{\"recoverability_r\":\"0.6703210612939918\",\"magnitude_spearman\":\"0.6325800814554884\",\"variance_ratio\":\"0.7360849367366954\",\"top5pct_recall\":\"0.7272727272727273\",\"reliability\":\"0.6383702228050183\"},\"periscope_cells:tomm20_mito\":{\"recoverability_r\":\"0.7602489189323185\",\"magnitude_spearman\":\"0.8515795085501604\",\"variance_ratio\":\"0.5092803360785861\",\"top5pct_recall\":\"0.6274509803921569\",\"reliability\":\"0.0051509934755871\"},\"periscope_guide:tomm20_mito\":{\"recoverability_r\":\"0.7244846405595476\",\"magnitude_spearman\":\"0.911908535650516\",\"variance_ratio\":\"0.5587221227268911\",\"top5pct_recall\":\"0.6911764705882353\",\"reliability\":\"0.0473571535467417\"},\"oasis:prod_25:ldh_release\":{\"recoverability_r\":\"0.5710933905508183\",\"magnitude_spearman\":\"0.6693573303337083\",\"variance_ratio\":\"0.9202373285960148\",\"top5pct_recall\":\"0.5714285714285714\",\"reliability\":\"0.4317914218459194\"},\"oasis:prod_25:mtt_viability\":{\"recoverability_r\":\"0.7727466707147929\",\"magnitude_spearman\":\"0.6017697787776528\",\"variance_ratio\":\"1.26106272395305\",\"top5pct_recall\":\"0.5714285714285714\",\"reliability\":\"0.5151597958203917\"},\"oasis:prod_26:ldh_release\":{\"recoverability_r\":\"0.6888483507256162\",\"magnitude_spearman\":\"0.6224551931008624\",\"variance_ratio\":\"0.7622623875107509\",\"top5pct_recall\":\"0.8571428571428571\",\"reliability\":\"0.561407563538768\"},\"oasis:prod_26:mtt_viability\":{\"recoverability_r\":\"0.8300868070157964\",\"magnitude_spearman\":\"0.6322211981566819\",\"variance_ratio\":\"0.9621864532826164\",\"top5pct_recall\":\"0.8571428571428571\",\"reliability\":\"0.6113974863478906\"},\"oasis:prod_27:ldh_release\":{\"recoverability_r\":\"0.6847795104689672\",\"magnitude_spearman\":\"0.5289148856392951\",\"variance_ratio\":\"0.9924851039695776\",\"top5pct_recall\":\"0.5714285714285714\",\"reliability\":\"0.3424704461002013\"},\"oasis:prod_27:mtt_viability\":{\"recoverability_r\":\"0.8059193165802689\",\"magnitude_spearman\":\"0.4890998463901689\",\"variance_ratio\":\"1.0476105836733316\",\"top5pct_recall\":\"0.7142857142857143\",\"reliability\":\"0.5803422599392686\"},\"oasis:prod_30:ldh_release\":{\"recoverability_r\":\"0.4068058892876557\",\"magnitude_spearman\":\"0.4428960331864143\",\"variance_ratio\":\"0.5350517622729964\",\"top5pct_recall\":\"0.3333333333333333\",\"reliability\":\"0.314623922430076\"},\"oasis:prod_30:mtt_viability\":{\"recoverability_r\":\"0.8052871858620463\",\"magnitude_spearman\":\"0.5219082188229194\",\"variance_ratio\":\"0.6788106861745933\",\"top5pct_recall\":\"0.6666666666666666\",\"reliability\":\"0.454501598608551\"}},\"scenarios\":{\"baseline\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"absolute:all gates:looser\":{\"recoverability_min\":\"0.6500000000\",\"magnitude_spearman_min\":\"0.6500000000\",\"top5pct_quantitative_min\":\"0.5500000000\",\"top5pct_ranking_min\":\"0.4500000000\",\"reliability_min\":\"0.2500000000\",\"measurement_recoverability_max_exclusive\":\"0.5500000000\",\"variance_ratio_min\":\"0.4500000000\",\"variance_ratio_max\":\"1.5500000000\"},\"absolute:all gates:tighter\":{\"recoverability_min\":\"0.7500000000\",\"magnitude_spearman_min\":\"0.7500000000\",\"top5pct_quantitative_min\":\"0.6500000000\",\"top5pct_ranking_min\":\"0.5500000000\",\"reliability_min\":\"0.3500000000\",\"measurement_recoverability_max_exclusive\":\"0.6500000000\",\"variance_ratio_min\":\"0.5500000000\",\"variance_ratio_max\":\"1.4500000000\"},\"absolute:recoverability_min:looser\":{\"recoverability_min\":\"0.6500000000\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"absolute:recoverability_min:tighter\":{\"recoverability_min\":\"0.7500000000\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"absolute:magnitude_spearman_min:looser\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.6500000000\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"absolute:magnitude_spearman_min:tighter\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.7500000000\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"absolute:top5pct_quantitative_min:looser\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.5500000000\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"absolute:top5pct_quantitative_min:tighter\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.6500000000\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"absolute:top5pct_ranking_min:looser\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.4500000000\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"absolute:top5pct_ranking_min:tighter\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.5500000000\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"absolute:reliability_min:looser\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.2500000000\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"absolute:reliability_min:tighter\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.3500000000\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"absolute:measurement_recoverability_max_exclusive:looser\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.5500000000\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"absolute:measurement_recoverability_max_exclusive:tighter\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.6500000000\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"absolute:variance_ratio_min:looser\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.4500000000\",\"variance_ratio_max\":\"1.50\"},\"absolute:variance_ratio_min:tighter\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.5500000000\",\"variance_ratio_max\":\"1.50\"},\"absolute:variance_ratio_max:looser\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.5500000000\"},\"absolute:variance_ratio_max:tighter\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.4500000000\"},\"relative:all gates:looser\":{\"recoverability_min\":\"0.6300000000\",\"magnitude_spearman_min\":\"0.6300000000\",\"top5pct_quantitative_min\":\"0.5400000000\",\"top5pct_ranking_min\":\"0.4500000000\",\"reliability_min\":\"0.2700000000\",\"measurement_recoverability_max_exclusive\":\"0.5400000000\",\"variance_ratio_min\":\"0.4500000000\",\"variance_ratio_max\":\"1.6500000000\"},\"relative:all gates:tighter\":{\"recoverability_min\":\"0.7700000000\",\"magnitude_spearman_min\":\"0.7700000000\",\"top5pct_quantitative_min\":\"0.6600000000\",\"top5pct_ranking_min\":\"0.5500000000\",\"reliability_min\":\"0.3300000000\",\"measurement_recoverability_max_exclusive\":\"0.6600000000\",\"variance_ratio_min\":\"0.5500000000\",\"variance_ratio_max\":\"1.3500000000\"},\"relative:recoverability_min:looser\":{\"recoverability_min\":\"0.6300000000\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"relative:recoverability_min:tighter\":{\"recoverability_min\":\"0.7700000000\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"relative:magnitude_spearman_min:looser\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.6300000000\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"relative:magnitude_spearman_min:tighter\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.7700000000\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"relative:top5pct_quantitative_min:looser\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.5400000000\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"relative:top5pct_quantitative_min:tighter\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.6600000000\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"relative:top5pct_ranking_min:looser\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.4500000000\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"relative:top5pct_ranking_min:tighter\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.5500000000\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"relative:reliability_min:looser\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.2700000000\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"relative:reliability_min:tighter\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.3300000000\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"relative:measurement_recoverability_max_exclusive:looser\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.5400000000\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"relative:measurement_recoverability_max_exclusive:tighter\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.6600000000\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.50\"},\"relative:variance_ratio_min:looser\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.4500000000\",\"variance_ratio_max\":\"1.50\"},\"relative:variance_ratio_min:tighter\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.5500000000\",\"variance_ratio_max\":\"1.50\"},\"relative:variance_ratio_max:looser\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.6500000000\"},\"relative:variance_ratio_max:tighter\":{\"recoverability_min\":\"0.70\",\"magnitude_spearman_min\":\"0.70\",\"top5pct_quantitative_min\":\"0.60\",\"top5pct_ranking_min\":\"0.50\",\"reliability_min\":\"0.30\",\"measurement_recoverability_max_exclusive\":\"0.60\",\"variance_ratio_min\":\"0.50\",\"variance_ratio_max\":\"1.3500000000\"}}}''')\nimport csv,json,hashlib,re,ast\nfrom pathlib import Path\nfrom decimal import Decimal as D\nfrom collections import Counter,defaultdict\nfrom statistics import median\nfrom datetime import datetime,timezone\nR=Path.cwd();B=R/'paper/supplementary_data/SupplementaryData2'\ndef read(p):\n with p.open(newline='') as h:return list(csv.DictReader(h))\ndef hashfile(p):return hashlib.sha256(p.read_bytes()).hexdigest()\nchecks=Counter()\ndef chk(ok,name,detail=None):\n assert ok,(name,detail)\n checks[name]+=1\ndef verify(row,want,name):\n for k,v in want.items():\n  ok=abs(D(row[k])-D(str(v)))<=D('1e-14') if isinstance(v,(int,float,D)) and not isinstance(v,bool) else row[k]==str(v)\n  chk(ok,name+'_fields',(k,row.get(k),v))\n checks[name+'_rows']+=1\nM=PRE['metrics'];T={s:{k:D(v) for k,v in z.items()} for s,z in PRE['scenarios'].items()};base=T['baseline'];rules=list(base)\nqnames=['quantitative_recovery_pass','quantitative_rank_pass','quantitative_amplitude_pass','quantitative_hit_recall_pass']\ntiers=['quantitative_proxy','ranking_proxy','measurement_required','not_identifiable','unresolved'];short=dict(zip(tiers,'QRMNU'));proxy=lambda t:t in tiers[:2]\ngroups={s:'baseline' if s=='baseline' else 'joint4' if ':all gates:' in s else 'single32' for s in T}\ninp=read(B/'inputs/context_metrics.csv');meta={x['context_id']:x for x in inp};chk(len(inp)==12 and set(meta)==set(M),'contexts')\nsource=R/'paper/figure_sources/final/figure6/f_cross_context_decisions/figure_source_gate_rows.csv'\noriginal={}\nfor x in read(source):\n if x['band']=='admitted':original.setdefault(x['row_key'],{})[x['quantity']]=x['value']\nfor x in read(R/'paper/figure_sources/supplementary_figure1/source_data/external_context/batch_verdicts.csv'):original['oasis:'+x['batch']+':'+x['reporter_id']]={q:x[q] for q in next(iter(M.values()))}\nchk(original==M,'unchanged_original_metrics')\nfor c,x in meta.items():\n for q,v in M[c].items():chk(x[q]==v,'input_metric_strings',(c,q))\n chk(x['biological_unit']==('held_out_gene' if c.startswith('periscope') else 'compound'),'biological_unit')\n chk(x['fitting_unit']==('cell' if c.startswith('periscope_cells') else 'guide_profile' if c.startswith('periscope_guide') else 'well'),'fitting_unit')\nss=read(B/'inputs/threshold_scenarios.csv');chk([x['scenario_id'] for x in ss]==list(T),'scenario_order_coverage')\nfor x in ss:verify(x,T[x['scenario_id']],'threshold');chk(x['scenario_group']==groups[x['scenario_id']],'scenario_group')\nchk(Counter(groups.values())==Counter(baseline=1,single32=32,joint4=4),'scenario_denominators')\nlegacy=R/'paper/figure_sources/final/figure6/code/rebuild_coherent_statistics.py'\nfor node in ast.parse(legacy.read_text()).body:\n if isinstance(node,ast.Assign) and any(isinstance(t,ast.Name) and t.id=='RULES' for t in node.targets):\n  lr={kw.arg:D(str(ast.literal_eval(kw.value))) for kw in node.value.keywords};chk(lr==base,'legacy_rule_baselines')\ndef calc(m,t):\n r,z,v,h,q=[D(m[k]) for k in ['recoverability_r','magnitude_spearman','variance_ratio','top5pct_recall','reliability']]\n g=dict(recoverability_min=r>=t['recoverability_min'],magnitude_spearman_min=z>=t['magnitude_spearman_min'],top5pct_quantitative_min=h>=t['top5pct_quantitative_min'],top5pct_ranking_min=h>=t['top5pct_ranking_min'],reliability_min=q>=t['reliability_min'],measurement_recoverability_max_exclusive=r<t['measurement_recoverability_max_exclusive'],variance_ratio_min=v>=t['variance_ratio_min'],variance_ratio_max=v<=t['variance_ratio_max'])\n a=dict(reference_reliability_pass=g['reliability_min'],fidelity_complete=all(D(v).is_finite() for v in m.values()),quantitative_recovery_pass=g['recoverability_min'],quantitative_rank_pass=g['magnitude_spearman_min'],quantitative_amplitude_pass=g['variance_ratio_min'] and g['variance_ratio_max'],quantitative_hit_recall_pass=g['top5pct_quantitative_min'],measurement_required_eligible=g['measurement_recoverability_max_exclusive'])\n a['quantitative_fidelity_pass']=all(a[k] for k in qnames);a['ranking_fidelity_pass']=g['magnitude_spearman_min'] and g['top5pct_ranking_min']\n tier='not_identifiable' if not a['reference_reliability_pass'] else 'unresolved' if not a['fidelity_complete'] else 'quantitative_proxy' if a['quantitative_fidelity_pass'] else 'ranking_proxy' if a['ranking_fidelity_pass'] else 'measurement_required' if a['measurement_required_eligible'] else 'unresolved'\n return tier,g,a\nE={}\nfor c,m in M.items():\n bt,bg,ba=calc(m,base);chk(meta[c]['published_baseline_tier']==bt,'baseline_labels')\n for s,t in T.items():\n  tier,g,a=calc(m,t);dc=[k for k in rules if g[k]!=bg[k]];df=[k for k in qnames if a[k]!=ba[k]]\n  E[c,s]=dict(context_id=c,context_group=meta[c]['context_group'],label=meta[c]['label'],scenario_id=s,scenario_group=groups[s],baseline_tier=bt,tier=tier,tier_short=short[tier],tier_changed=tier!=bt,proxy_status_changed=proxy(tier)!=proxy(bt),n_criterion_conditions_changed=len(dc),changed_criterion_conditions=';'.join(dc),quantitative_fidelity_vector_changed=bool(df),n_quantitative_fidelity_conditions_changed=len(df),changed_quantitative_fidelity_conditions=';'.join(df),**a)\nA=read(B/'derived/assignments.csv');chk(len(A)==444 and {(x['context_id'],x['scenario_id']) for x in A}==set(E),'assignment_coverage')\nfor x in A:verify(x,E[x['context_id'],x['scenario_id']],'assignment')\nmetric_for=dict(recoverability_min='recoverability_r',magnitude_spearman_min='magnitude_spearman',top5pct_quantitative_min='top5pct_recall',top5pct_ranking_min='top5pct_recall',reliability_min='reliability',measurement_recoverability_max_exclusive='recoverability_r',variance_ratio_min='variance_ratio',variance_ratio_max='variance_ratio')\nroles={k:'quantitative_fidelity' for k in rules};roles.update(magnitude_spearman_min='quantitative_and_ranking_fidelity',top5pct_ranking_min='ranking_fidelity',reliability_min='reference_identifiability',measurement_recoverability_max_exclusive='measurement_required_eligibility_not_good_performance')\nC=read(B/'derived/criterion_evidence.csv');chk(len(C)==3552 and len({(x['context_id'],x['scenario_id'],x['criterion']) for x in C})==3552,'criterion_coverage')\nfor x in C:\n c,s,k=x['context_id'],x['scenario_id'],x['criterion'];tier,g,a=calc(M[c],T[s]);_,bg,_=calc(M[c],base)\n verify(x,dict(context_group=meta[c]['context_group'],scenario_group=groups[s],criterion_role=roles[k],metric=metric_for[k],metric_value=M[c][metric_for[k]],comparator='<' if k=='measurement_recoverability_max_exclusive' else '<=' if k=='variance_ratio_max' else '>=',threshold=T[s][k],baseline_threshold=base[k],threshold_changed=T[s][k]!=base[k],gate_condition_met=g[k],baseline_gate_condition_met=bg[k],gate_condition_changed=g[k]!=bg[k],tier=tier,hierarchy_reference_pass=a['reference_reliability_pass']),'criterion')\nS=read(B/'derived/context_summary.csv');chk(len(S)==12 and {x['context_id'] for x in S}==set(M),'summary_coverage');summary={}\nfor x in S:\n c=x['context_id'];bt=E[c,'baseline']['tier'];want=dict(display_order=int(meta[c]['display_order']),context_group=meta[c]['context_group'],label=meta[c]['label'],baseline_tier=bt,baseline_short=short[bt]);summary[c]={}\n for group in ['single32','joint4','all36']:\n  ids=[s for s in T if s!='baseline' and (group=='all36' or groups[s]==group)];es=[E[c,s] for s in ids];n=len(ids);tc=sum(v['tier_changed'] for v in es);pc=sum(v['proxy_status_changed'] for v in es);gc=sum(v['n_criterion_conditions_changed']>0 for v in es);fc=sum(v['quantitative_fidelity_vector_changed'] for v in es);seen=[t for t in tiers if t in {bt,*[v['tier'] for v in es]}]\n  vals=dict(n_scenarios=n,tier_changes=tc,tier_unchanged_fraction=(n-tc)/n,proxy_changes=pc,proxy_unchanged_fraction=(n-pc)/n,scenarios_with_criterion_changes=gc,scenarios_with_quantitative_fidelity_vector_changes=fc,possible_tiers=';'.join(seen),possible_short='/'.join(short[t] for t in seen));summary[c][group]=vals;want.update({group+'_'+k:v for k,v in vals.items()})\n verify(x,want,'context_summary')\nG=read(B/'derived/scenario_summary.csv');chk(len(G)==74 and {(x['context_group'],x['scenario_id']) for x in G}=={(g,s) for g in ['main4','OASIS_batch8'] for s in T},'scenario_summary_coverage')\nfor x in G:\n s=x['scenario_id'];es=[E[c,s] for c in M if meta[c]['context_group']==x['context_group']];counts=Counter(v['tier'] for v in es)\n verify(x,dict(scenario_group=groups[s],n_contexts=len(es),tier_changes=sum(v['tier_changed'] for v in es),proxy_changes=sum(v['proxy_status_changed'] for v in es),contexts_with_criterion_changes=sum(v['n_criterion_conditions_changed']>0 for v in es),contexts_with_quantitative_fidelity_vector_changes=sum(v['quantitative_fidelity_vector_changed'] for v in es),**{t:counts[t] for t in tiers}),'scenario_summary')\nH=read(B/'derived/historical_rank_only.csv');chk(len(H)==6 and {(x['context_id'],D(x['rank_threshold'])) for x in H}=={(c,D(t)) for c in ['oasis:mtt_viability','oasis:ldh_release'] for t in ['.65','.60','.55']},'historical_coverage')\nfor x in H:\n c=x['context_id'];t=base.copy();t['magnitude_spearman_min']=D(x['rank_threshold']);tier,_,a=calc(M[c],t);bt=E[c,'baseline']['tier']\n verify(x,dict(analysis_group='historical_rank_only_not_in_36',baseline_tier=bt,tier=tier,tier_short=short[tier],tier_changed=tier!=bt,**M[c],**a),'historical')\ntab=[[z.strip() for z in line.rstrip('\\\\').split('&')] for line in (B/'table_rows.tex').read_text().splitlines() if line.startswith(('OASIS ','PERISCOPE '))];chk(len(tab)==12,'table7_count')\nfor x,m in zip(tab,inp):\n c=m['context_id'];bt=E[c,'baseline']['tier'];seen=summary[c]['all36']['possible_tiers'].split(';');other='/'.join(short[t] for t in tiers if t!=bt and t in seen) or '---'\n chk(x==[m['label'],short[bt],str(32-summary[c]['single32']['tier_changes'])+'/32',str(4-summary[c]['joint4']['tier_changes'])+'/4',other],'table7_rows')\nqs=['recoverability_r','magnitude_spearman','variance_ratio','top5pct_recall','reliability'];seen=[]\nfor line in (R/'paper/supplementary.tex').read_text().splitlines():\n if not line.startswith(('cpg0037 & ','cpg0021 & ','metabolic activity & ','LDH release & ')):continue\n a=[v.strip() for v in re.sub(r'\\\\textbf\\{([^}]+)\\}',r'\\1',line).split('&')]\n if a[0]=='cpg0037':c='oasis:'+('mtt_viability' if a[1].startswith('metabolic') else 'ldh_release')\n elif a[0]=='cpg0021':c=('periscope_cells' if '(cell)' in a[1] else 'periscope_guide')+':tomm20_mito'\n else:c='oasis:prod_'+a[1]+':'+('mtt_viability' if a[0]=='metabolic activity' else 'ldh_release')\n for q,v in zip(qs,a[2:7]):chk(D(M[c][q]).quantize(D('.001'))==D(v),'SI_numeric_baselines')\n chk(a[7].rstrip('\\\\').strip().replace(' ','_')==E[c,'baseline']['tier'],'SI_baseline_tiers');seen.append(c)\nchk(len(seen)==12 and set(seen)==set(M),'SI_baseline_coverage')\nfp=source.with_name('figure_source_replicate_detail.csv');rep=defaultdict(list)\nfor x in read(fp):\n if x['row_key'] in M:rep[x['row_key'],x['quantity']].append(D(x['value']))\nmedians=[]\nfor (c,q),vs in rep.items():\n chk(len(vs)==(9 if q=='reliability' else 5),'replicate_depth');err=abs(D(M[c][q])-median(vs));chk(err<=D('1e-12'),'source_medians');medians.append(dict(context_id=c,metric=q,n_replicates=len(vs),absolute_error=str(err)))\nchk(len(medians)==18,'source_median_count')\nsources={}\nfor x in read(B/'inputs/source_manifest.csv'):\n p=R/x['repository_relative_path'];chk(hashfile(p)==x['sha256'] and p.stat().st_size==int(x['bytes']),'original_source_hash_bytes');sources[x['repository_relative_path']]=hashfile(p)\nfreeze=json.loads((B/'analysis_freeze.json').read_text())\nfor p,h in freeze['frozen_files'].items():chk(hashfile(B/p)==h,'freeze_hashes')\nfor p in ['inputs/threshold_scenarios.csv','inputs/source_manifest.csv']:chk(freeze['initial_freeze_record']['frozen_files'][p]==freeze['frozen_files'][p],'clarification_fixed_grid_sources')\nfiles=['protocol.md','README.md','analysis_freeze.json','inputs/context_metrics.csv','inputs/threshold_scenarios.csv','inputs/source_manifest.csv','code/build_sensitivity.py','table_rows.tex']+['derived/'+n for n in ['assignments.csv','criterion_evidence.csv','context_summary.csv','scenario_summary.csv','historical_rank_only.csv']]\ndef digest(x):return hashlib.sha256(json.dumps(x,sort_keys=True,separators=(',',':')).encode()).hexdigest()\nexpected=[{k:str(v) for k,v in E[c,s].items()} for c,s in sorted(E)]\nactual=[{k:x[k] for k in E[x['context_id'],x['scenario_id']]} for x in sorted(A,key=lambda x:(x['context_id'],x['scenario_id']))]\nchk(digest(expected)==digest(actual),'normalized_assignment_hash')\nprint(json.dumps(dict(status='PASS',audited_utc=datetime.now(timezone.utc).isoformat(),independence='Threshold grid and metrics independently reconstructed and cached before producer evaluation. Fresh standard-library Decimal classification; no import or call to SD2 builder or package classifier.',counts=dict(contexts=12,baseline_plus_scenarios=37,assignments=444,atomic_criterion_rows=3552,context_summary_rows=12,context_summary_groups=36,scenario_summary_rows=74,historical_rows=6,table7_rows=12,si_baseline_metrics=60,source_median_checks=18),mismatches=0,checks=dict(checks),summary=summary,source_median_checks=medians,original_source_sha256=sources,additional_reference_sha256={str(fp.relative_to(R)):hashfile(fp),'configs/ops/protocols/measurement_tiers.yaml':hashfile(R/'configs/ops/protocols/measurement_tiers.yaml')},audited_bundle_sha256={p:hashfile(B/p) for p in files},normalized_assignment_sha256=digest(expected)),indent=2))\n\nPY"
+}

@@ -1,0 +1,24 @@
+panel: SupplementaryFigure2-a
+question: How much full-label recoverability is retained as target labels are reduced?
+primary_metric: held-out-gene gene-macro endpoint Pearson r
+statistical_unit: frozen gene fold
+scope:
+  methods: 10
+  reporters: 12
+  low_label_fractions: [0.001, 0.01, 0.20]
+  full_label_anchor: 1.0
+  folds: 5
+visual_grammar:
+  wide:
+    size_mm: [183, 78]
+    layers: [family-faceted learning curves, split-glyph calibration matrix, descriptive log-AULC rank]
+  compact:
+    size_mm: [105, 65]
+    layers: [family-faceted learning curves, split-glyph calibration matrix, aligned log-AULC track]
+encoding:
+  method: frozen method colour
+  uncertainty: fold standard deviation
+  split_glyph_left: absolute Pearson r
+  split_glyph_right: relative to each method's 100% anchor
+inference: descriptive; no significance tests
+font: Arial TrueType embedded in PDF; live text in SVG

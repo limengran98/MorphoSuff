@@ -1,0 +1,45 @@
+{
+  "canvas_mm": [
+    183,
+    85
+  ],
+  "n_assays": 99,
+  "n_reporters": 52,
+  "n_screens": 73,
+  "single_reporter_screens": 56,
+  "multi_reporter_screens": 17,
+  "single_screen_reporters": 18,
+  "cross_screen_reporters": 34,
+  "exact_linked_observations": 9996286,
+  "ordering": {
+    "reporters": "manuscript biological-system order; n_screens descending; display_name",
+    "screens": "single/multi occupancy; reporter-row barycentre; occupancy; screen_number"
+  },
+  "display_mapping": {
+    "axis_type": "categorical; display pitch is not a quantitative scale",
+    "single_reporter_screen_pitch": 0.68,
+    "multi_reporter_screen_pitch": 1.85,
+    "single_reporter_screens": "compressed",
+    "multi_reporter_screens": "expanded",
+    "source_coordinate": "figure_column",
+    "visual_coordinate": "display_column"
+  },
+  "upstream_sha256": {
+    "coverage_assays.tsv": "24a7fe2ec2e962a310c24ab7bd8ada5309331abc5c4107a42010a8e863d4e330",
+    "reporter_order.tsv": "b330d44dbc324b94b7a6c4dce6c6be6ef15c67c63e9b5bdc80bddabb089f5ce0",
+    "screen_order.tsv": "04143b63200a04c0e7ba132a884475302a785ff2dca6383b408472ffb977e097"
+  },
+  "microscopy_sha256": {
+    "display_manifest.csv": "bda7998a0f94000041f46601de0b162dd4d37bbe5af99b39564b63cbc02994a3",
+    "lamp1_exact_same_cell.npz": "81925e7524f4e97bb096b67d5135c674ae3c3b194ee0d0e29e903b11aac12152",
+    "ferhonox_exact_same_cell.npz": "a23705fe55c3813b0ad31f6024bfd5dd95bc7c097b7337ca79a1ac8f9b5c486d"
+  },
+  "reporter_labels": {
+    "displayed": 26,
+    "selection": "manuscript cases; >=3 screens; system representative; alternating frozen rows"
+  },
+  "font": {
+    "policy": "Use local Arial when available; otherwise use a portable sans-serif fallback.",
+    "family": "DejaVu Sans"
+  }
+}

@@ -1,0 +1,14 @@
+question: Does cell-specific reporter signal remain after condition means are removed?
+claim: Positive cross-fitted residual recoverability is retained across the full reporter atlas.
+one_row_represents: one reporter
+analysis_mode: inferential
+inferential_unit: reporter (n=52)
+pairing: reporter_slug
+ordering: ascending within-condition residual Pearson, reporter_slug tie-break
+annotation_layout: renderer-measured text heights plus 1.2 pt clearance; short leaders retain exact reporter rows
+uncertainty: reporter-bootstrap 95% CI for the median exact-minus-residual difference
+selected_card: C02 marginal raincloud combined with C03 paired-effect barcode
+rejected_alternative: ordinary scatter; it duplicates agreement without exposing paired direction
+final_width_mm: 60
+final_height_mm: 67
+destination: main

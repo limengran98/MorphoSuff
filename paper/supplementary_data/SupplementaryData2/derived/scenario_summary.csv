@@ -1,0 +1,75 @@
+context_group,scenario_id,scenario_group,n_contexts,tier_changes,proxy_changes,contexts_with_criterion_changes,contexts_with_quantitative_fidelity_vector_changes,quantitative_proxy,ranking_proxy,measurement_required,not_identifiable,unresolved
+main4,baseline,baseline,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,baseline,baseline,8,0,0,0,0,0,0,2,0,6
+main4,absolute:all gates:looser,joint4,4,0,0,1,1,0,0,0,2,2
+OASIS_batch8,absolute:all gates:looser,joint4,8,1,1,4,4,0,1,1,0,6
+main4,absolute:all gates:tighter,joint4,4,0,0,2,2,0,0,0,2,2
+OASIS_batch8,absolute:all gates:tighter,joint4,8,2,0,2,1,0,0,1,2,5
+main4,absolute:recoverability_min:looser,single32,4,0,0,1,1,0,0,0,2,2
+OASIS_batch8,absolute:recoverability_min:looser,single32,8,0,0,2,2,0,0,2,0,6
+main4,absolute:recoverability_min:tighter,single32,4,0,0,1,1,0,0,0,2,2
+OASIS_batch8,absolute:recoverability_min:tighter,single32,8,0,0,0,0,0,0,2,0,6
+main4,absolute:magnitude_spearman_min:looser,single32,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,absolute:magnitude_spearman_min:looser,single32,8,1,1,1,1,0,1,1,0,6
+main4,absolute:magnitude_spearman_min:tighter,single32,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,absolute:magnitude_spearman_min:tighter,single32,8,0,0,0,0,0,0,2,0,6
+main4,absolute:top5pct_quantitative_min:looser,single32,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,absolute:top5pct_quantitative_min:looser,single32,8,0,0,3,3,0,0,2,0,6
+main4,absolute:top5pct_quantitative_min:tighter,single32,4,0,0,1,1,0,0,0,2,2
+OASIS_batch8,absolute:top5pct_quantitative_min:tighter,single32,8,0,0,0,0,0,0,2,0,6
+main4,absolute:top5pct_ranking_min:looser,single32,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,absolute:top5pct_ranking_min:looser,single32,8,0,0,0,0,0,0,2,0,6
+main4,absolute:top5pct_ranking_min:tighter,single32,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,absolute:top5pct_ranking_min:tighter,single32,8,0,0,0,0,0,0,2,0,6
+main4,absolute:reliability_min:looser,single32,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,absolute:reliability_min:looser,single32,8,0,0,0,0,0,0,2,0,6
+main4,absolute:reliability_min:tighter,single32,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,absolute:reliability_min:tighter,single32,8,2,0,2,0,0,0,1,2,5
+main4,absolute:measurement_recoverability_max_exclusive:looser,single32,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,absolute:measurement_recoverability_max_exclusive:looser,single32,8,1,0,1,0,0,0,1,0,7
+main4,absolute:measurement_recoverability_max_exclusive:tighter,single32,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,absolute:measurement_recoverability_max_exclusive:tighter,single32,8,0,0,0,0,0,0,2,0,6
+main4,absolute:variance_ratio_min:looser,single32,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,absolute:variance_ratio_min:looser,single32,8,0,0,0,0,0,0,2,0,6
+main4,absolute:variance_ratio_min:tighter,single32,4,0,0,1,1,0,0,0,2,2
+OASIS_batch8,absolute:variance_ratio_min:tighter,single32,8,0,0,1,1,0,0,2,0,6
+main4,absolute:variance_ratio_max:looser,single32,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,absolute:variance_ratio_max:looser,single32,8,0,0,0,0,0,0,2,0,6
+main4,absolute:variance_ratio_max:tighter,single32,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,absolute:variance_ratio_max:tighter,single32,8,0,0,0,0,0,0,2,0,6
+main4,relative:all gates:looser,joint4,4,1,1,1,1,1,0,0,2,1
+OASIS_batch8,relative:all gates:looser,joint4,8,2,2,5,5,1,1,1,0,5
+main4,relative:all gates:tighter,joint4,4,0,0,2,2,0,0,0,2,2
+OASIS_batch8,relative:all gates:tighter,joint4,8,1,0,1,1,0,0,1,1,6
+main4,relative:recoverability_min:looser,single32,4,0,0,1,1,0,0,0,2,2
+OASIS_batch8,relative:recoverability_min:looser,single32,8,0,0,2,2,0,0,2,0,6
+main4,relative:recoverability_min:tighter,single32,4,0,0,2,2,0,0,0,2,2
+OASIS_batch8,relative:recoverability_min:tighter,single32,8,0,0,0,0,0,0,2,0,6
+main4,relative:magnitude_spearman_min:looser,single32,4,1,1,1,1,0,1,0,2,1
+OASIS_batch8,relative:magnitude_spearman_min:looser,single32,8,2,2,2,2,1,1,1,0,5
+main4,relative:magnitude_spearman_min:tighter,single32,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,relative:magnitude_spearman_min:tighter,single32,8,0,0,0,0,0,0,2,0,6
+main4,relative:top5pct_quantitative_min:looser,single32,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,relative:top5pct_quantitative_min:looser,single32,8,0,0,3,3,0,0,2,0,6
+main4,relative:top5pct_quantitative_min:tighter,single32,4,0,0,1,1,0,0,0,2,2
+OASIS_batch8,relative:top5pct_quantitative_min:tighter,single32,8,0,0,0,0,0,0,2,0,6
+main4,relative:top5pct_ranking_min:looser,single32,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,relative:top5pct_ranking_min:looser,single32,8,0,0,0,0,0,0,2,0,6
+main4,relative:top5pct_ranking_min:tighter,single32,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,relative:top5pct_ranking_min:tighter,single32,8,0,0,0,0,0,0,2,0,6
+main4,relative:reliability_min:looser,single32,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,relative:reliability_min:looser,single32,8,0,0,0,0,0,0,2,0,6
+main4,relative:reliability_min:tighter,single32,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,relative:reliability_min:tighter,single32,8,1,0,1,0,0,0,1,1,6
+main4,relative:measurement_recoverability_max_exclusive:looser,single32,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,relative:measurement_recoverability_max_exclusive:looser,single32,8,1,0,1,0,0,0,1,0,7
+main4,relative:measurement_recoverability_max_exclusive:tighter,single32,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,relative:measurement_recoverability_max_exclusive:tighter,single32,8,0,0,0,0,0,0,2,0,6
+main4,relative:variance_ratio_min:looser,single32,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,relative:variance_ratio_min:looser,single32,8,0,0,0,0,0,0,2,0,6
+main4,relative:variance_ratio_min:tighter,single32,4,0,0,1,1,0,0,0,2,2
+OASIS_batch8,relative:variance_ratio_min:tighter,single32,8,0,0,1,1,0,0,2,0,6
+main4,relative:variance_ratio_max:looser,single32,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,relative:variance_ratio_max:looser,single32,8,0,0,0,0,0,0,2,0,6
+main4,relative:variance_ratio_max:tighter,single32,4,0,0,0,0,0,0,0,2,2
+OASIS_batch8,relative:variance_ratio_max:tighter,single32,8,0,0,0,0,0,0,2,0,6

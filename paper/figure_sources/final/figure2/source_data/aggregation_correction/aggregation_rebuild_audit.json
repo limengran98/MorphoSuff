@@ -1,0 +1,213 @@
+{
+  "status": "PASS",
+  "n_frozen_partition_rows": 6010,
+  "partition_aggregation": "arithmetic mean; five equal-weight folds or all eligible destination directions",
+  "cross_method_consensus": "unweighted median of ten method-specific scores",
+  "correction_summary": [
+    {
+      "metric": "cell_macro_feature_pearson",
+      "split": "field_holdout_sanity",
+      "n_reporter_method_rows": 520,
+      "n_mean_different_from_median": 520,
+      "max_abs_change": 0.14570309408785143
+    },
+    {
+      "metric": "cell_macro_feature_pearson",
+      "split": "gene_holdout_main",
+      "n_reporter_method_rows": 520,
+      "n_mean_different_from_median": 520,
+      "max_abs_change": 0.16974845990553145
+    },
+    {
+      "metric": "cell_macro_feature_pearson",
+      "split": "strict_whole_screen",
+      "n_reporter_method_rows": 340,
+      "n_mean_different_from_median": 50,
+      "max_abs_change": 0.21033066693457342
+    },
+    {
+      "metric": "gene_macro_feature_pearson",
+      "split": "field_holdout_sanity",
+      "n_reporter_method_rows": 520,
+      "n_mean_different_from_median": 520,
+      "max_abs_change": 0.1284657524141949
+    },
+    {
+      "metric": "gene_macro_feature_pearson",
+      "split": "gene_holdout_main",
+      "n_reporter_method_rows": 520,
+      "n_mean_different_from_median": 520,
+      "max_abs_change": 0.17518496802464767
+    },
+    {
+      "metric": "gene_macro_feature_pearson",
+      "split": "strict_whole_screen",
+      "n_reporter_method_rows": 340,
+      "n_mean_different_from_median": 50,
+      "max_abs_change": 0.23715084184934515
+    }
+  ],
+  "independent_ko_tables_preserved_byte_exact": {
+    "d": {
+      "relative_path": "source_data/frozen_figure2_package/D_screen_ko/source_data/screen_ko_by_method.csv",
+      "sha256": "0b695af3aaa7ae3bf4f6601255d9cad25a2950d900c4e557ca5f7dd0c339e1e5",
+      "bytes": 236870
+    },
+    "f": {
+      "relative_path": "source_data/frozen_figure2_package/F_assay_ko/source_data/assay_ko_by_method.csv",
+      "sha256": "630e1f755cdd190ac9a4736f579c7befedce439cdff7110dfb8d17d6dcfa8011",
+      "bytes": 506492
+    }
+  },
+  "strict_destination_assay_scores_unchanged": true,
+  "n_primary_tests": 54,
+  "n_passing_holm_and_effect": 11,
+  "passing_comparisons": [
+    {
+      "panel": "b",
+      "split": "Field",
+      "method": "Ridge",
+      "median_paired_delta": -0.02066486701369291,
+      "p_holm_reporter54": 2.0419384013278254e-07
+    },
+    {
+      "panel": "b",
+      "split": "Field",
+      "method": "scButterfly",
+      "median_paired_delta": -0.07298267287512633,
+      "p_holm_reporter54": 1.0761890964667982e-07
+    },
+    {
+      "panel": "b",
+      "split": "Field",
+      "method": "MIDAS",
+      "median_paired_delta": -0.12312600944579263,
+      "p_holm_reporter54": 1.892087080672462e-08
+    },
+    {
+      "panel": "b",
+      "split": "Gene",
+      "method": "scButterfly",
+      "median_paired_delta": -0.08071593611966821,
+      "p_holm_reporter54": 1.892087080672462e-08
+    },
+    {
+      "panel": "b",
+      "split": "Gene",
+      "method": "MIDAS",
+      "median_paired_delta": -0.13338304782907173,
+      "p_holm_reporter54": 1.892087080672462e-08
+    },
+    {
+      "panel": "c",
+      "split": "Field",
+      "method": "Ridge",
+      "median_paired_delta": -0.020476489058799285,
+      "p_holm_reporter54": 4.772602595026496e-07
+    },
+    {
+      "panel": "c",
+      "split": "Field",
+      "method": "scButterfly",
+      "median_paired_delta": -0.056719929362104016,
+      "p_holm_reporter54": 5.727887688981585e-08
+    },
+    {
+      "panel": "c",
+      "split": "Field",
+      "method": "MIDAS",
+      "median_paired_delta": -0.09074145640350054,
+      "p_holm_reporter54": 1.892087080672462e-08
+    },
+    {
+      "panel": "c",
+      "split": "Gene",
+      "method": "Ridge",
+      "median_paired_delta": -0.02032325764497117,
+      "p_holm_reporter54": 2.5284588834707498e-08
+    },
+    {
+      "panel": "c",
+      "split": "Gene",
+      "method": "scButterfly",
+      "median_paired_delta": -0.07365886255477866,
+      "p_holm_reporter54": 2.7796255491058485e-08
+    },
+    {
+      "panel": "c",
+      "split": "Gene",
+      "method": "MIDAS",
+      "median_paired_delta": -0.11147847980260853,
+      "p_holm_reporter54": 1.892087080672462e-08
+    }
+  ],
+  "leading_marginal_medians": [
+    {
+      "view": "b",
+      "split": "Gene",
+      "method": "MLP",
+      "n_reporters": 52,
+      "median": 0.7678571196893851,
+      "q25": 0.691236605686653,
+      "q75": 0.8566847964500387,
+      "minimum": 0.4591269635409116,
+      "maximum": 0.9388250542183718
+    },
+    {
+      "view": "c",
+      "split": "Field",
+      "method": "MLP",
+      "n_reporters": 52,
+      "median": 0.7633217873672644,
+      "q25": 0.6042756340880361,
+      "q75": 0.8409727865209182,
+      "minimum": 0.3202433038254578,
+      "maximum": 0.9567687208453816
+    },
+    {
+      "view": "c",
+      "split": "Gene",
+      "method": "MLP",
+      "n_reporters": 52,
+      "median": 0.7601023436213532,
+      "q25": 0.6057162447522084,
+      "q75": 0.8413713072116177,
+      "minimum": 0.3079705707232157,
+      "maximum": 0.9574326621989409
+    },
+    {
+      "view": "b",
+      "split": "Whole-screen",
+      "method": "Ridge",
+      "n_reporters": 34,
+      "median": 0.7304411999260385,
+      "q25": 0.5578534120771412,
+      "q75": 0.8113598711788654,
+      "minimum": 0.1383289362032276,
+      "maximum": 0.9285891792840428
+    },
+    {
+      "view": "b",
+      "split": "Field",
+      "method": "MLP",
+      "n_reporters": 52,
+      "median": 0.7148080700387558,
+      "q25": 0.635877916092674,
+      "q75": 0.8089442351212105,
+      "minimum": 0.3573981012403965,
+      "maximum": 0.913864643375079
+    },
+    {
+      "view": "c",
+      "split": "Whole-screen",
+      "method": "Ridge",
+      "n_reporters": 34,
+      "median": 0.6212830269295309,
+      "q25": 0.47049587901710765,
+      "q75": 0.7279172083362937,
+      "minimum": 0.1012286013331807,
+      "maximum": 0.8663707971572876
+    }
+  ],
+  "model_training_or_prediction_recalculation": false
+}

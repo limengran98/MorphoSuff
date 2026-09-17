@@ -1,0 +1,28 @@
+unit,split,difficulty,n,total
+Reporter,Field,Intermediate (0.60–0.75),22,52
+Reporter,Field,Readable (≥0.75),19,52
+Reporter,Field,Hard (<0.60),11,52
+Reporter,Gene,Readable (≥0.75),26,52
+Reporter,Gene,Intermediate (0.60–0.75),18,52
+Reporter,Gene,Hard (<0.60),8,52
+Reporter,Whole-screen,Readable (≥0.75),14,34
+Reporter,Whole-screen,Hard (<0.60),12,34
+Reporter,Whole-screen,Intermediate (0.60–0.75),8,34
+Physical screen,Field,Intermediate (0.60–0.75),33,73
+Physical screen,Field,Readable (≥0.75),32,73
+Physical screen,Field,Hard (<0.60),8,73
+Physical screen,Gene,Readable (≥0.75),42,73
+Physical screen,Gene,Intermediate (0.60–0.75),26,73
+Physical screen,Gene,Hard (<0.60),5,73
+Physical screen,Whole-screen,Readable (≥0.75),27,66
+Physical screen,Whole-screen,Intermediate (0.60–0.75),21,66
+Physical screen,Whole-screen,Hard (<0.60),18,66
+Reporter×screen assay,Field,Intermediate (0.60–0.75),43,99
+Reporter×screen assay,Field,Readable (≥0.75),37,99
+Reporter×screen assay,Field,Hard (<0.60),19,99
+Reporter×screen assay,Gene,Readable (≥0.75),54,99
+Reporter×screen assay,Gene,Intermediate (0.60–0.75),33,99
+Reporter×screen assay,Gene,Hard (<0.60),12,99
+Reporter×screen assay,Whole-screen,Readable (≥0.75),34,81
+Reporter×screen assay,Whole-screen,Intermediate (0.60–0.75),26,81
+Reporter×screen assay,Whole-screen,Hard (<0.60),21,81

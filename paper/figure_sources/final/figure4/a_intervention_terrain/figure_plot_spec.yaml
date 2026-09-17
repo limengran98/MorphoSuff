@@ -1,0 +1,12 @@
+question: Which same-cell information interventions reduce recoverability?
+claim: Exact pairing carries information beyond group identity, covariate matching and gross size/shape.
+one_row_represents: one reporter under one frozen intervention arm
+analysis_mode: inferential
+inferential_unit: reporter (n=52)
+pairing: reporter_slug
+uncertainty: reporter-resampled bootstrap 95% CI from frozen source
+selected_card: C02 raincloud combined with C03 paired-effect
+rejected_alternative: volcano; no reporter-level multiple-testing family exists
+final_width_mm: 118
+final_height_mm: 67
+destination: main

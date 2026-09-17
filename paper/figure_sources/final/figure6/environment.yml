@@ -1,0 +1,10 @@
+name: figure6-reproduction
+channels: [conda-forge]
+dependencies:
+  - python=3.12
+  - matplotlib
+  - numpy
+  - pandas
+  - pillow
+  - scipy
+  - pymupdf
