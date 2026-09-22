@@ -260,14 +260,14 @@
     {
       "path": "paper/manuscript.pdf",
       "role": "canonical_document",
-      "bytes": 13975176,
-      "sha256": "3683e0af746d9672fd0b659695cc86694685eb7086839da105e14f12b2a88562"
+      "bytes": 13977752,
+      "sha256": "7160640c3c01f4fdd32e9d6e04f8ab4ee8f82809ba5f63ed7e089b9019b0480e"
     },
     {
       "path": "website/assets/manuscript.pdf",
       "role": "document_download",
-      "bytes": 13975176,
-      "sha256": "3683e0af746d9672fd0b659695cc86694685eb7086839da105e14f12b2a88562",
+      "bytes": 13977752,
+      "sha256": "7160640c3c01f4fdd32e9d6e04f8ab4ee8f82809ba5f63ed7e089b9019b0480e",
       "source": "paper/manuscript.pdf"
     },
     {
