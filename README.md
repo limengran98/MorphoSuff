@@ -12,6 +12,7 @@ A Python toolkit for connecting morphology-based prediction to scientific use.</
   <a href="pyproject.toml"><img alt="Python 3.10+" src="https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white"></a>
   <a href="LICENSE"><img alt="MIT code licence" src="https://img.shields.io/badge/code-MIT-4B8B72"></a>
   <a href="paper/manuscript.pdf"><img alt="Manuscript PDF" src="https://img.shields.io/badge/manuscript-PDF-786A95"></a>
+  <a href="https://doi.org/10.64898/2026.09.22.753654"><img alt="bioRxiv preprint" src="https://img.shields.io/badge/preprint-bioRxiv-8A4182"></a>
   <a href="https://huggingface.co/datasets/Amanda1998/MorphoSuff"><img alt="Processed data on Hugging Face" src="https://img.shields.io/badge/data-Hugging%20Face-E0A16B?logo=huggingface&logoColor=black"></a>
 </p>
 
@@ -312,10 +313,22 @@ arrays and representative fitted states are distributed through the
 ## Citation and support
 
 MorphoSuff accompanies **[When label-free morphology is sufficient for targeted
-cellular measurements](paper/manuscript.pdf)**. Please cite the manuscript when
-using the framework; [CITATION.cff](CITATION.cff) provides software citation
-metadata. Cite the original datasets and external predictors used in your
-analysis as well.
+cellular measurements](https://doi.org/10.64898/2026.09.22.753654)**. Please cite
+the bioRxiv preprint when using the framework:
+
+```bibtex
+@article{li2026morphosuff,
+  title = {When label-free morphology is sufficient for targeted cellular measurements},
+  author = {Li, Mengran and Zhu, Jianqing and Li, Bo and Zhang, Chengyang and Tang, Zhenchao and Wang, Jiaying and Xing, Wenbin and Zhang, Boyu and Xu, Jinfeng and Meng, Lingbei and Zhang, Bob and Chen, Junzhou and Zhang, Ronghui and Zhang, Lian and Xu, Jinchao},
+  journal = {bioRxiv},
+  year = {2026},
+  doi = {10.64898/2026.09.22.753654},
+  url = {https://doi.org/10.64898/2026.09.22.753654}
+}
+```
+
+[CITATION.cff](CITATION.cff) provides separate software citation metadata. Cite
+the original datasets and external predictors used in your analysis as well.
 
 Study-owned code is released under the [MIT License](LICENSE). Source datasets
 and third-party software retain their respective terms;
