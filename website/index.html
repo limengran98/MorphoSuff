@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MorphoSuff: a framework for assessing which scientific uses can be supported by measurements inferred from cellular morphology.">
+  <meta name="theme-color" content="#183746">
+  <title>MorphoSuff — When is morphology enough?</title>
+  <link rel="canonical" href="https://limengran98.github.io/MorphoSuff/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="MorphoSuff">
+  <meta property="og:title" content="MorphoSuff — When is morphology enough?">
+  <meta property="og:description" content="Explore the evidence behind morphology-based measurement decisions: response recovery, reference reliability and retained scientific use.">
+  <meta property="og:url" content="https://limengran98.github.io/MorphoSuff/">
+  <meta property="og:image" content="https://limengran98.github.io/MorphoSuff/assets/workflow.png">
+  <meta property="og:image:alt" content="MorphoSuff paired-measurement workflow, evaluated on held-out fields, genes and screens.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="MorphoSuff — When is morphology enough?">
+  <meta name="twitter:description" content="A framework and Python toolkit for assessing what morphology-based predictions can support.">
+  <meta name="twitter:image" content="https://limengran98.github.io/MorphoSuff/assets/workflow.png">
+  <meta name="twitter:image:alt" content="MorphoSuff paired-measurement evaluation workflow.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#top" aria-label="MorphoSuff home"><img src="favicon.svg" width="31" height="31" alt=""><span>Morpho<span class="brand-light">Suff</span></span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="nav">Menu <span>☰</span></button>
+      <nav id="nav" aria-label="Main navigation">
+        <a href="#approach">The approach</a><a href="#evidence">Evidence</a><a href="#external">Across datasets</a><a href="#software">Software</a>
+        <a class="nav-github" href="https://github.com/limengran98/MorphoSuff" target="_blank" rel="noopener noreferrer">Repository <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" id="top">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> Morphology · measurement · scientific use</div>
+        <h1>When is<br>morphology <em>enough?</em></h1>
+        <p class="hero-lead">Predicting a cellular measurement is one question.<br class="desktop-break"> Knowing what you can do with it is another.</p>
+        <p class="hero-description">MorphoSuff evaluates predictors by the scientific analyses they can support: choosing strong perturbations, preserving response magnitudes and recovering functional conclusions.</p>
+        <div class="hero-actions"><a class="button primary" href="https://raw.githubusercontent.com/limengran98/MorphoSuff/main/paper/manuscript.pdf" target="_blank" rel="noopener">Read the paper <span aria-hidden="true">↗</span></a><a class="text-link" href="#evidence">Explore the evidence <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-note">Assess the reference. Define the use. Test the decision on held-out perturbations.</div>
+      </div>
+      <div class="hero-visual">
+        <div class="chart-card hero-chart">
+          <div class="chart-card-heading"><span class="overline">The reporter landscape</span><span class="small-label">52 readouts · A549</span></div>
+          <h2>Recovery is only part of the picture.</h2>
+          <div id="landscape" class="landscape" aria-label="Interactive reporter landscape"><p class="loading-message">Loading the paired-measurement evidence…</p></div>
+          <div class="chart-selection" id="chart-selection" aria-live="polite"></div>
+          <div class="mini-legend"><span><i class="legend-dot quantitative"></i>Quantitative proxy</span><span><i class="legend-dot ranking"></i>Ranking proxy</span><span><i class="legend-dot other"></i>Other decisions</span></div>
+          <p class="chart-footnote">One point per reporter. Dashed lines mark two reference gates; the full decision also uses rank, amplitude and reliability. Select a point to inspect its evidence.</p>
+        </div>
+        <span class="visual-caption">Real measurements. Explicit uses. Evidence-led decisions.</span>
+      </div>
+    </section>
+
+    <section class="question-band">
+      <div class="section-wrap question-inner"><span class="overline">The scientific question</span><p>If a measurement is inferred rather than acquired,<br> <strong>which properties survive — and which uses remain valid?</strong></p></div>
+    </section>
+
+    <section class="section-wrap content-section" id="approach">
+      <div class="section-heading"><div><span class="section-number">01 / The approach</span><h2>From prediction to<br><em>measurement decisions.</em></h2></div><p>When a model stands in for a measurement, prediction accuracy is only one part of validation. MorphoSuff asks whether substituting its predictions preserves the intended analysis.</p></div>
+      <figure class="figure-panel workflow-panel">
+        <button class="figure-zoom" data-image="assets/workflow.png" data-pdf="https://raw.githubusercontent.com/limengran98/MorphoSuff/main/paper/figures/Figure2.pdf" data-caption="The paired-measurement evaluation workflow" aria-label="Enlarge the evaluation workflow"><img src="assets/workflow.webp" alt="Paired phase features and targeted reporter endpoints, evaluated on held-out fields, genes and screens" loading="lazy"><span class="zoom-hint" aria-hidden="true">↗ Expand</span></button>
+        <figcaption>The OPS atlas provides 9,996,286 paired phase–reporter observations across 1,000 gene knockouts, 52 reporters and 73 screens. One phase-imaged cell can contribute observations for multiple reporters.</figcaption>
+      </figure>
+      <div class="approach-steps">
+        <article><span class="step-index">01</span><h3>Define the use and reference</h3><p>Specify the intended analysis and assess repeat measurements. A reliable reference is needed to judge an inferred readout.</p></article>
+        <article><span class="step-index">02</span><h3>Evaluate what prediction retains</h3><p>Replace measured responses with predictions. Examine response ranking, amplitude, strong-hit selection and functional results.</p></article>
+        <article><span class="step-index">03</span><h3>Separate selection from evaluation</h3><p>Apply fixed acceptance rules to calibration perturbations, then count supported successes, failures and missed uses on separate evaluation perturbations.</p></article>
+      </div>
+      <div class="finding-grid calibration-feature">
+        <article class="finding-copy"><span class="overline">A decision that can be tested</span><h3>Choose useful readouts,<br>then test the choice.</h3><p>Across 260 OPS reporter–fold cases, ranking-based acceptance supported <strong>204 successful prioritization uses</strong>, compared with <strong>184</strong> for Pearson-recovery-only acceptance, with <strong>7 versus 8</strong> supported failures.</p><p>Combining response criteria selected a smaller set: 170 successes and one failure, while missing 58 successful uses. Coverage and failure counts make that trade-off explicit.</p></article>
+        <figure class="figure-panel compact-figure"><button class="figure-zoom" data-image="assets/calibration.png" data-pdf="https://raw.githubusercontent.com/limengran98/MorphoSuff/main/paper/figures/Figure3.pdf" data-caption="Calibration-based acceptance and held-out task outcomes" aria-label="Enlarge calibration and evaluation results"><img src="assets/calibration.webp" loading="lazy" alt="Calibration recovery and ranking for 260 reporter–fold cases, with separate evaluation outcomes and acceptance-rule comparisons"><span class="zoom-hint" aria-hidden="true">↗ Expand</span></button><figcaption>Fixed MLP predictions; calibration and evaluation genes are disjoint. A successful use retains at least 60% of the measured top-20% responses on evaluation genes.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="evidence-section" id="evidence">
+      <div class="section-wrap content-section">
+        <div class="section-heading"><div><span class="section-number">02 / Explore the evidence</span><h2>Different readouts.<br><em>Different decisions.</em></h2></div><p>Browse the frozen, ten-method ensemble results. Each assignment belongs to a target–predictor–context combination, evaluated against the study’s reference operating points.</p></div>
+        <div class="tier-distribution" id="tier-distribution" role="img" aria-label="30 quantitative proxies, 7 ranking proxies, 3 measurement required, 9 not identifiable and 3 unresolved"></div>
+        <div class="tier-filters" id="tier-filters" aria-label="Filter reporters by decision"></div>
+        <div class="explorer">
+          <div class="reporter-browser">
+            <label class="search-box" for="reporter-search"><span aria-hidden="true">⌕</span><input id="reporter-search" type="search" aria-label="Find a reporter or biological system" placeholder="Find a reporter or biological system…" autocomplete="off"></label>
+            <div class="browser-label"><span>Reporter / biological system</span><span id="reporter-count" aria-live="polite"></span></div>
+            <div id="reporter-list" class="reporter-list" aria-label="Reporter selection"></div>
+          </div>
+          <div id="reporter-detail" class="reporter-detail" aria-live="polite"><p>Select a reporter to inspect its measurements.</p></div>
+        </div>
+        <div class="explorer-footer"><p>Assignments summarize the fixed ensemble. Reference gates are operating points for this study; calibration-based use decisions are evaluated separately above.</p><a class="text-link" href="https://raw.githubusercontent.com/limengran98/MorphoSuff/main/paper/figures/Figure3.pdf" target="_blank" rel="noopener">View the figure <span aria-hidden="true">↗</span></a></div>
+        <details class="decision-key"><summary>What do the five decisions mean?</summary><div class="decision-definitions"><p><strong>Quantitative proxy</strong> meets the study’s recovery, rank, amplitude and strong-hit criteria for a reproducible target.</p><p><strong>Ranking proxy</strong> meets rank and strong-hit criteria for a reproducible target, but not all quantitative criteria.</p><p><strong>Measurement required</strong> fails both proxy tiers despite a reproducible target, with recovery below the measurement-required cut-off.</p><p><strong>Not identifiable</strong> has insufficient or unavailable reference-response reliability to establish sufficiency.</p><p><strong>Unresolved</strong> has mixed or incomplete evidence under the reference decision rules.</p></div></details>
+        <div class="finding-grid">
+          <article class="finding-copy"><span class="overline">What correlation can miss</span><h3>A preserved ranking can hide<br>a compressed response.</h3><p>Eleven reporters retain less than half the measured response-magnitude variance. A model can therefore preserve a useful ordering while losing the quantitative scale of a perturbation.</p><p class="finding-takeaway">The right criterion follows the scientific use.</p></article>
+          <figure class="figure-panel compact-figure"><button class="figure-zoom" data-image="assets/rank-amplitude.png" data-pdf="https://raw.githubusercontent.com/limengran98/MorphoSuff/main/paper/figures/Figure5.pdf" data-caption="Response rank and amplitude fidelity" aria-label="Enlarge response rank and amplitude plot"><img src="assets/rank-amplitude.webp" loading="lazy" alt="Reporter-level comparison of response ranking and response-magnitude variance"><span class="zoom-hint" aria-hidden="true">↗ Expand</span></button><figcaption>Ranking and quantitative amplitude are separate properties of the inferred response.</figcaption></figure>
+        </div>
+        <details class="ledger-details"><summary>View all reporter criteria and assignments <span aria-hidden="true">↗</span></summary><figure class="figure-panel"><button class="figure-zoom" data-image="assets/decisions.png" data-pdf="https://raw.githubusercontent.com/limengran98/MorphoSuff/main/paper/figures/Figure3.pdf" data-caption="Reporter criteria and fixed-ensemble assignments" aria-label="Enlarge reporter criteria and assignments"><img src="assets/decisions.webp" loading="lazy" alt="Five criterion margins and fixed-ensemble tiers for 52 reporters, with threshold sensitivity and domain flags"></button><figcaption>Five criterion margins for each of 52 reporters, with fixed-ensemble tiers, threshold sensitivity and separate domain-transfer flags.</figcaption></figure></details>
+      </div>
+    </section>
+
+    <section class="section-wrap content-section" id="external">
+      <div class="section-heading"><div><span class="section-number">03 / Across measurement settings</span><h2>Find the perturbations<br><em>worth measuring first.</em></h2></div><p>Independent hepatocyte, cell-health and RNA resources connect prediction to a concrete use: selecting strong perturbation responses for follow-up.</p></div>
+      <div class="external-story"><span class="dataset-label">OASIS / primary hepatocytes</span><p>Selecting the predicted top 5% retained <strong>10 of the 11</strong> compounds with the largest measured losses among <strong>217 held-out compounds.</strong></p><span class="story-footnote">Signed, dose-averaged metabolic loss · compound-held-out evaluation</span></div>
+      <div class="external-figures">
+        <figure class="figure-panel"><div class="figure-heading"><span>01</span><h3>Measured priorities, inferred from images</h3></div><button class="figure-zoom" data-image="assets/oasis-scatter.png" data-pdf="https://raw.githubusercontent.com/limengran98/MorphoSuff/main/paper/figures/Figure6.pdf" data-caption="OASIS: dose responses and held-out metabolic-loss ranking" aria-label="Enlarge OASIS dose responses and compound ranking"><img src="assets/oasis-scatter.webp" loading="lazy" alt="Three measured and predicted metabolic-loss dose curves, followed by a ranking of all 217 held-out compounds"><span class="zoom-hint" aria-hidden="true">↗ Expand</span></button><figcaption>Measured and predicted loss relative to same-plate DMSO for three compounds, followed by all 217 held-out compounds. Ranking uses signed loss averaged over the assayed concentrations; dose is scaled to each compound’s assayed maximum.</figcaption></figure>
+        <figure class="figure-panel"><div class="figure-heading"><span>02</span><h3>Put the recovery in context</h3></div><button class="figure-zoom" data-image="assets/oasis-comparison.png" data-pdf="https://raw.githubusercontent.com/limengran98/MorphoSuff/main/paper/figures/Figure6.pdf" data-caption="OASIS: brightfield, cell-count and acquisition-metadata comparisons" aria-label="Enlarge OASIS input and model comparison"><img src="assets/oasis-comparison.webp" loading="lazy" alt="Ridge and histogram gradient boosting with brightfield features, fluorescence-derived cell counts and acquisition metadata; hit memberships and recall intervals"><span class="zoom-hint" aria-hidden="true">↗ Expand</span></button><figcaption>Brightfield Ridge recovered 10/11 hits, versus 8/11 for matched fluorescence-derived cell-count Ridge. Filled cells mark recovered hits among the measured top eleven; lower intervals are compound-bootstrap 95% intervals. HGB denotes histogram gradient boosting.</figcaption></figure>
+      </div>
+      <div class="external-interpretation"><span class="note-line"></span><p><strong>One dataset, more than one question.</strong> This focused analysis uses brightfield-DINO features to prioritize strong metabolic loss. The broader assessment uses CellProfiler-derived brightfield features to examine response ranking and amplitude. They evaluate different scientific uses with different representations.</p></div>
+
+      <div class="cross-context-heading"><div><span class="overline">Prediction agreement and task success can diverge</span><h3>Two complementary examples.</h3></div><p>A correlation score does not determine whether the strongest biological responses can be selected.</p></div>
+      <div class="external-figures">
+        <figure class="figure-panel"><div class="figure-heading"><span>03</span><h3>Cell Health: high correlation is not enough</h3></div><button class="figure-zoom" data-image="assets/cell-health.png" data-pdf="https://raw.githubusercontent.com/limengran98/MorphoSuff/main/paper/figures/Figure6.pdf" data-caption="Cell Health: different prioritization outcomes in ES2 cells" aria-label="Enlarge Cell Health held-out response comparison"><img src="assets/cell-health.webp" loading="lazy" alt="Measured and predicted ES2 S-phase and late-apoptosis responses for twelve held-out genes, with strongest responses outlined"><span class="zoom-hint" aria-hidden="true">↗ Expand</span></button><figcaption>Among twelve held-out genes, S-phase predictions recovered 3/4 strongest responses at Pearson r = 0.604; late-apoptosis predictions recovered 2/4 at r = 0.950. Whiskers show two-plate ranges. These readouts are predicted from fluorescent Cell Painting profiles.</figcaption></figure>
+        <figure class="figure-panel"><div class="figure-heading"><span>04</span><h3>LINCS: useful selection at moderate correlation</h3></div><button class="figure-zoom" data-image="assets/lincs.png" data-pdf="https://raw.githubusercontent.com/limengran98/MorphoSuff/main/paper/figures/Figure6.pdf" data-caption="LINCS: BRCA1 strong-response retrieval across RNA references" aria-label="Enlarge BRCA1 response and hit-membership map"><img src="assets/lincs.webp" loading="lazy" alt="BRCA1 RNA response map for 42 compounds in the union of measured, predicted and two RNA-reference strongest-response sets"><span class="zoom-hint" aria-hidden="true">↗ Expand</span></button><figcaption>BRCA1 predictions recovered 17/26 strongest responses among 260 held-out compounds at Pearson r = 0.515, and 17/26 against each of two separately acquired RNA references. Outlines mark top-26 membership; colour shows signed RNA response.</figcaption></figure>
+      </div>
+      <div class="external-interpretation"><span class="note-line"></span><p><strong>A successful target and a successful selection rule answer different questions.</strong> Across 20 Cell Health endpoint–context cases, calibration task evidence accepted three successful uses and two failures. Across all 978 LINCS probes, task-based acceptance did not consistently outperform recovery-only acceptance. The held-out evaluation shows where a rule identifies useful predictions and where its decisions still fail.</p></div>
+
+      <div class="cross-context-heading"><div><span class="overline">The same questions, new measurement settings</span><h3>A reusable assessment workflow.</h3></div><p>Re-fit predictors for the new data, define the intended use, and assess its evidence with the same framework.</p></div>
+      <div class="context-tabs" role="tablist" aria-label="Measurement contexts"><button id="tab-ops" role="tab" aria-selected="true" aria-controls="context-detail" data-context="ops">OPS <span>A549 reporter atlas</span></button><button id="tab-oasis" role="tab" aria-selected="false" aria-controls="context-detail" data-context="oasis" tabindex="-1">OASIS <span>Primary hepatocytes</span></button><button id="tab-cellhealth" role="tab" aria-selected="false" aria-controls="context-detail" data-context="cellhealth" tabindex="-1">Cell Health <span>ES2 &amp; HCC44</span></button><button id="tab-lincs" role="tab" aria-selected="false" aria-controls="context-detail" data-context="lincs" tabindex="-1">LINCS <span>RNA responses</span></button><button id="tab-periscope" role="tab" aria-selected="false" aria-controls="context-detail" data-context="periscope" tabindex="-1">PERISCOPE <span>Anti-TOMM20</span></button></div>
+      <div class="context-detail" id="context-detail" role="tabpanel" aria-labelledby="tab-ops"></div>
+      <figure class="figure-panel cross-context-figure"><button class="figure-zoom" data-image="assets/cross-dataset.png" data-pdf="https://raw.githubusercontent.com/limengran98/MorphoSuff/main/paper/figures/SupplementaryFigure1.pdf" data-caption="Response evidence and controls in OASIS and PERISCOPE" aria-label="Enlarge cross-dataset response evidence"><img src="assets/cross-dataset.webp" loading="lazy" alt="OASIS and PERISCOPE response evidence, negative controls and sensitivity to predictor-channel removal"><span class="zoom-hint" aria-hidden="true">↗ Expand</span></button><figcaption>Response-level evidence complements the task-specific examples above. PERISCOPE uses fluorescent inputs; low guide-partition reliability limits the sufficiency assignment even when predictive recovery is high.</figcaption></figure>
+    </section>
+
+    <section class="software-section" id="software"><div class="section-wrap content-section">
+      <div class="section-heading"><div><span class="section-number">04 / Use MorphoSuff</span><h2>Your data.<br><em>The same questions.</em></h2></div><p>A Python toolkit for paired-measurement assessment: prediction evaluation, response fidelity, reference reliability and use-specific decisions.</p></div>
+      <div class="software-grid"><div class="software-copy"><h3>Bring a paired dataset.<br>Leave with an evidence profile.</h3><p>Use aligned measured and predicted endpoints, perturbation identifiers and control annotations. Add replicate information to assess the reliability of the measured response.</p><div class="software-links"><a href="https://github.com/limengran98/MorphoSuff/blob/main/docs/adapt_new_dataset.md" target="_blank" rel="noopener noreferrer">Adapt to a new dataset <span aria-hidden="true">↗</span></a><a href="https://github.com/limengran98/MorphoSuff/blob/main/docs/README.md" target="_blank" rel="noopener noreferrer">Read the documentation <span aria-hidden="true">↗</span></a><a href="https://github.com/limengran98/MorphoSuff" target="_blank" rel="noopener noreferrer">Browse the source code <span aria-hidden="true">↗</span></a></div><div class="package-meta"><span>Python ≥ 3.10</span><span>MIT license</span><span>Dataset-adaptable</span></div></div>
+      <div class="code-card"><div class="code-toolbar"><div class="code-tabs" role="tablist" aria-label="Code examples"><button role="tab" aria-selected="true" aria-controls="code-content" id="code-install" data-code="install">Install</button><button role="tab" aria-selected="false" aria-controls="code-content" id="code-evidence" data-code="evidence" tabindex="-1">Explore evidence</button></div><button class="copy-button" id="copy-code" aria-label="Copy code example">Copy</button></div><pre id="code-content" role="tabpanel" aria-labelledby="code-install"><code id="code-text"></code></pre><p class="code-note" id="code-note"></p></div></div>
+    </div></section>
+
+    <section class="section-wrap content-section paper-section" id="paper">
+      <div class="paper-mark" aria-hidden="true"><span>M</span><i></i></div><div class="paper-copy"><span class="section-number">The paper & resources</span><h2>When label-free morphology is sufficient for targeted cellular measurements</h2><p class="paper-authors">Mengran Li, Jianqing Zhu, Bo Li, and colleagues</p><div class="resource-links"><a class="button primary" href="https://raw.githubusercontent.com/limengran98/MorphoSuff/main/paper/manuscript.pdf" target="_blank" rel="noopener">Manuscript <span aria-hidden="true">↗</span></a><a class="button secondary" href="https://raw.githubusercontent.com/limengran98/MorphoSuff/main/paper/supplementary.pdf" target="_blank" rel="noopener">Supplementary information <span aria-hidden="true">↗</span></a><a class="text-link" href="https://huggingface.co/datasets/Amanda1998/MorphoSuff" target="_blank" rel="noopener noreferrer">Processed OPS data ↗</a></div><p class="resource-note">Figures and the interactive reporter summary correspond to the current manuscript. Expand a panel for a closer view, or open its complete figure PDF.</p></div>
+    </section>
+  </main>
+
+  <footer><div class="section-wrap footer-inner"><a class="brand" href="#top"><img src="favicon.svg" width="26" height="26" alt=""><span>Morpho<span class="brand-light">Suff</span></span></a><p>From morphology to measurement decisions.</p><div><span class="preview-badge">Research &amp; software</span><a href="https://github.com/limengran98/MorphoSuff" target="_blank" rel="noopener noreferrer" >Repository ↗</a><a href="#top">Back to top ↑</a></div></div></footer>
+  <dialog id="figure-dialog" aria-labelledby="dialog-title"><div class="dialog-toolbar"><h2 id="dialog-title">Figure</h2><div><a id="dialog-pdf" class="text-link" target="_blank" rel="noopener">Download PDF ↗</a><button id="close-dialog" aria-label="Close enlarged figure">✕</button></div></div><div class="dialog-image-wrap"><img id="dialog-image" alt=""></div><p>Panel preview · the PDF link opens its complete manuscript figure</p></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

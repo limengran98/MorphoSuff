@@ -1,0 +1,60 @@
+{
+  "schema_version": "ops-biological-baseline-full52-formal-campaign-v1",
+  "campaign_id": "ops-biological-baseline-full52-formal-v1",
+  "frozen": true,
+  "created_at": "2026-07-21",
+  "reporter_scope": "all52_in_frozen_reporter_targets_order",
+  "endpoint_scope": "all_1604_frozen_exact_endpoints",
+  "splits": [
+    "gene_holdout_main",
+    "field_holdout_sanity"
+  ],
+  "folds": [0, 1, 2, 3, 4],
+  "seed": 20260721,
+  "base_method_config": {
+    "path": "configs/ops_biological_baseline_panel12_development_v2.json",
+    "sha256": "193788cd37d6af6c0ffae52afae105e4730c3f550de4b95c7ab8cd1b17acdb0d"
+  },
+  "methods": {
+    "ops_captain": {
+      "fixed_trial_index": 0,
+      "fixed_config_role": "source_shaped_fixed_anchor"
+    },
+    "scbutterfly_ops_b": {
+      "fixed_trial_index": 0,
+      "fixed_config_role": "source_anchor"
+    },
+    "midas_ops": {
+      "fixed_trial_index": 0,
+      "fixed_config_role": "source_fixed_adamw_anchor"
+    }
+  },
+  "selection_policy": {
+    "hyperparameter_search": false,
+    "validation_selects_architecture_or_hyperparameters": false,
+    "outer_test_selects_anything": false,
+    "fixed_default_configuration_per_method": true
+  },
+  "training_contract": {
+    "cohort": "frozen_complete_core",
+    "preprocessing": "frozen_train_only_resmlp_v1_reference",
+    "outer_test_y_access_during_training": "physically_sealed",
+    "checkpoint_selection": "inner_validation_only",
+    "gpu_only": true,
+    "cpu_fallback": false
+  },
+  "evaluation_contract": {
+    "evaluator": "common_ops_reporter_evaluator_v2_cell_eval_adapted",
+    "outer_test_evaluated_after_checkpoint_freeze": true,
+    "evaluation_states": [
+      "single",
+      "ema",
+      "checkpoint_average"
+    ],
+    "test_may_select_state": false,
+    "statistical_units": [
+      "exact_paired_cell",
+      "gene"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+name: image_representation_pilot
+role: exploratory
+target_panel: frozen_six_reporter_panel
+outer_split: gene
+outer_folds: 5
+representations: [frozen_image_encoder, adapted_image_encoder, phase172_reference]
+asset_policy: Images, crops, embeddings, and encoder weights are external and checksum-verified.
+interpretation: Not an intrinsic raw-image ceiling or a tier-changing experiment.
+runner_root: studies/ops/runners/raw_image
+configs:
+  dinov2_frozen: studies/ops/runners/raw_image/configs/dinov2_frozen_pilot6.json
+  cytoland_frozen: studies/ops/runners/raw_image/configs/cytoland_frozen_pilot6.json
+  cytoland_partial_finetune: studies/ops/runners/raw_image/configs/cytoland_finetune_pilot6.json
+execution:
+  crop_plan: studies/ops/runners/raw_image/build_crop_plan.py
+  crop_download: studies/ops/runners/raw_image/download_crops.py
+  embedding_extraction: studies/ops/runners/raw_image/extract_embeddings.py
+  frozen_head: studies/ops/runners/raw_image/train_frozen_head.py
+  partial_finetune: studies/ops/runners/raw_image/finetune_cytoland.py
+  plan_builder: studies/ops/runners/raw_image/build_plan.py
+  plan_runner: studies/ops/runners/raw_image/run_plan.py
+  preflight: studies/ops/runners/raw_image/preflight.py
+  smoke: studies/ops/runners/raw_image/smoke.py

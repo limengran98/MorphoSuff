@@ -1,0 +1,14 @@
+{
+  "phase_cache": "local/ops/phase172_indexed",
+  "exact_cache_root": "local/ops/full_reporter_exact/reporters",
+  "target_feature_dictionary": "local/ops/target_feature_dictionary.csv",
+  "stage_b_root": "local/ops/raw_phase_crops_384",
+  "stage_b_cells": "local/ops/raw_phase_crops_384/cells.parquet",
+  "dinov2_repository": "external/dinov2",
+  "dinov2_checkpoint": "weights/dinov2_vits14_pretrain.pth",
+  "dinov2_embedding_root": "local/ops/embeddings/dinov2_vits14_pilot6",
+  "viscy_repository": "external/VisCy",
+  "cytoland_checkpoint": "weights/VSCyto2D_epoch399-step23200.ckpt",
+  "cytoland_embedding_root": "local/ops/embeddings/cytoland_vscyto2d_pilot6"
+}
+

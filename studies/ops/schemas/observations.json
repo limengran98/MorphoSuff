@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "OPS canonical observation row",
+  "type": "object",
+  "required": [
+    "observation_id", "input_cell_id", "target_cell_id", "assay_id", "perturbation_id",
+    "screen_id", "well_id", "field_id", "is_control"
+  ],
+  "properties": {
+    "observation_id": {"type": "string"},
+    "input_cell_id": {"type": "string"},
+    "target_cell_id": {"type": "string"},
+    "assay_id": {"type": "string"},
+    "perturbation_id": {"type": "string"},
+    "guide_id": {"type": ["string", "null"]},
+    "screen_id": {"type": "string"},
+    "well_id": {"type": "string"},
+    "field_id": {"type": "string"},
+    "is_control": {"type": "boolean"}
+  },
+  "additionalProperties": true
+}

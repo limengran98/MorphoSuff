@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it."
+title: "MorphoSuff: measurement sufficiency for targeted cellular phenotypes"
+type: software
+authors:
+  - name: "MorphoSuff contributors"
+version: "0.1.0"
+date-released: "2026-08-12"
+license: MIT
+repository-code: "https://github.com/limengran98/MorphoSuff"
+url: "https://github.com/limengran98/MorphoSuff"
+keywords:
+  - cell imaging
+  - perturbation biology
+  - measurement sufficiency
+  - multimodal prediction

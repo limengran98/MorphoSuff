@@ -1,0 +1,10 @@
+{
+  "phase_cache": "/path/to/derived/ops_phase172_indexed",
+  "exact_root": "/path/to/derived/ops_full_reporter_exact/reporters",
+  "target_table": "/path/to/derived/reporter_targets.csv",
+  "target_feature_dictionary": "/path/to/derived/target_feature_dictionary.csv",
+  "specialist_reference_root": "/path/to/full_label/reporter_specialists",
+  "preprocessing_reference_root": "/path/to/full_label/masked_multitask_preprocessing",
+  "tabm_source": "/path/to/pinned/tabm/tabm.py",
+  "tabm_dependency_wheel": ""
+}

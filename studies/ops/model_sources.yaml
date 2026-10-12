@@ -1,0 +1,183 @@
+schema_version: 1
+purpose: >-
+  Machine-readable provenance boundary for the OPS frozen model roster. This
+  file records identities and checksums; it does not bundle checkpoints,
+  third-party source, or historical result files.
+
+study_owned_sources:
+  - logical_name: candidate_model_architectures
+    historical_filename: ops_reporter_candidate_models.py
+    sha256: eeb80b7838ade5ab111b0aa41827b8b72d270910519e67d1992d5c7bdbdeda3d
+    covers: [MLP, ResMLP, MultiTab, TabM wrapper]
+    public_status: OPS-native architecture and training API available
+    numerical_parity_requirement: >-
+      Frozen preprocessing, split manifests, optimization configuration,
+      validation selection, AMP and checkpoint state must also match before
+      claiming identical numerical outputs.
+  - logical_name: masked_multitask_training
+    historical_filename: ops_reporter_masked_multitask_v2_lib.py
+    sha256: edde55c07d4266aaa6ced494fddabda3cce2206d3dcf1013485979b61f87b0e1
+    covers: [ResMLP, reporter-balanced sampling, observed-only loss]
+    public_status: OPS-native architecture and training API available
+    numerical_parity_requirement: >-
+      Exact interrupted-run trajectory additionally requires the same AMP,
+      RNG, optimizer and checkpoint state.
+
+external_sources:
+  - method: TabM
+    repository: https://github.com/yandex-research/tabm
+    revision: 28e47ae301c92ec37787dde1ce923a0793f405b4
+    version: 0.0.3
+    source_file: tabm.py
+    sha256: fc654af6a16bac53d893a8265c79d7af4ebddcb95ad0d600cc6b6bc6b7317ade
+    license: Apache-2.0
+    loading_policy: exact wheel version or exact source SHA-256; fail closed
+  - method: scButterfly
+    repository: https://github.com/BioX-NKU/scButterfly.git
+    revision: eb31e04bb8c4abdf85c4cbecd044fcd359105caa
+    source_companion_repository: https://github.com/BioX-NKU/scButterfly_source.git
+    source_companion_revision: 36941cb97f9de21705ce3ec12d3294d4519df82e
+    package_version: 0.0.9
+    license: MIT
+    source_anchors:
+      model_component.py: b765dfa75f78274e7ec340ed7def6a752d09e79d0fa64c4c80e72b9487b40416
+      train_model_cite.py: ec33bcb30bce9c59891267ef31fafbe05fb46d07114f4cdcc87ae3138c2077a7
+      requirements.txt: 4b5f4e16325cecedf493c2ce70429ea15eb00fec3fa027de5b62e31b11676c21
+    ops_adapter_anchors:
+      ops_biological_baseline_scbutterfly.py: 0ab203c1a94e3b3a99bebc9348257a8dc8850916bac765e00c52b8da360bdd55
+      ops_biological_baseline_scbutterfly_training.py: 533cd215269a6ce3e3a9e3776ee63e47458aa4b5e5cb1a4f60c081f04a50f9d4
+    execution_anchors:
+      runners/common.py: a387c592bee66c31969d47acc55357315d18b68f9e321d4e3300c957bd8bbd42
+      runners/run_external_fold.py: 45797b72c351c546c0876ab26ffde3effa2dd04edb4e6445fb5c592dccdc0388
+      configs/ops/methods/biological_runners.json: 01c4437046fc7fa45e6bb0cd13ee6e333281d4edac0fd9748276d0bbd42db668
+    archived_study_components:
+      - external_runners/scbutterfly/ops_biological_baseline_scbutterfly.py
+      - external_runners/scbutterfly/ops_biological_baseline_scbutterfly_training.py
+    public_status: >-
+      Executable through studies/ops/runners/run_external_fold.py. The runner
+      binds canonical OPS tables, frozen roles, train-only preprocessing,
+      validation-selected checkpoints and canonical held-out predictions to
+      the checksummed study-authored architecture and optimizer controller.
+  - method: MIDAS
+    repository: https://github.com/labomics/midas.git
+    revision: 3ef7847c88c90583c05147cafef496d862986dd3
+    branch: reproducibility
+    source_anchors:
+      modules/models.py: 74c72abca48c273861b86981a400031eebbf480b99ffba781b278279afc440c9
+    ops_adapter_anchors:
+      ops_biological_baseline_midas_multimodal.py: b8ba33a88c5127f1c0816f44805766326e339578edd1380047b11e740def85a7
+      ops_biological_baseline_midas_multimodal_training.py: 7da8fce96afd353e3171a55145b89a6415c9d7ea9d23eb9a00f4699db7a98234
+    archived_study_components:
+      - external_runners/midas/ops_biological_baseline_midas_multimodal.py
+      - external_runners/midas/ops_biological_baseline_midas_multimodal_training.py
+    license: NOASSERTION
+    license_caveat: >-
+      No licence file was present at the pinned reproducibility commit. The
+      upstream repository is therefore not redistributed here. The executable
+      OPS path uses separately authored adapter code and records the upstream
+      identity for method provenance.
+    execution_anchors:
+      runners/common.py: a387c592bee66c31969d47acc55357315d18b68f9e321d4e3300c957bd8bbd42
+      runners/run_external_fold.py: 45797b72c351c546c0876ab26ffde3effa2dd04edb4e6445fb5c592dccdc0388
+      configs/ops/methods/biological_runners.json: 01c4437046fc7fa45e6bb0cd13ee6e333281d4edac0fd9748276d0bbd42db668
+    public_status: >-
+      Executable through studies/ops/runners/run_external_fold.py using the
+      checksummed study-owned multimodal model and sparse batch/training
+      bridge, with validation-only model selection and canonical prediction
+      export.
+  - method: scPair
+    repository: https://github.com/quon-titative-biology/scPair.git
+    revision: c585949ca8ea1314f5e68b260e3d9c5b2dabe61c
+    package_version: 0.1.0
+    license: MIT
+    source_anchors:
+      scpair/model.py: 2aa5e9afdc9c634c0f55aaba3994b4254e219e3db749e336cef3c1e86c055409
+      pyproject.toml: 791f3d93e34b09c4a9971b8d8a510bd7fe8e8984e55b8e9628e5320533eecaec
+      legacy_env_files/requirements.txt: 996c348f20cf90618d194b288850acdaba864274c577f07620f4a9cfc9c05315
+    ops_adapter_anchors:
+      run_ops_paired_source_gate.py: 9be2d33c9b51cb2826471360ec0e9a91dbe28d7badcfd4b57b6b74e7c9f832ed
+      run_ops_paired_source_benchmark_task.py: 0656d408b101977ad1aff484fafdff8800f66e660270a76d83a9975a17da16c9
+      run_ops_low_label_scpair_reporter_task.py: d6401905d0634f644c0bea449350c09cd55a46892fb706eb15ae9f7740a8d518
+    execution_anchors:
+      runners/common.py: a387c592bee66c31969d47acc55357315d18b68f9e321d4e3300c957bd8bbd42
+      runners/run_external_fold.py: 45797b72c351c546c0876ab26ffde3effa2dd04edb4e6445fb5c592dccdc0388
+      runners/scpair_core.py: 488c12069f5954e4e36bdc859970f64eb358ab5507456b488f8a6547dd9f40a0
+      configs/ops/methods/biological_runners.json: 01c4437046fc7fa45e6bb0cd13ee6e333281d4edac0fd9748276d0bbd42db668
+    public_status: >-
+      Executable through studies/ops/runners/run_external_fold.py. The runner
+      verifies the pinned public scpair/model.py digest, constructs the
+      reporter-local modules, trains on frozen roles and exports canonical
+      held-out predictions.
+
+released_study_campaigns:
+  low_label:
+    purpose: >-
+      Study entry points that produced the frozen exploratory gene low-label
+      campaign. The public study layer includes exact nested sampling and the
+      model-specific local execution closure; data and result locations remain
+      caller supplied.
+    study_entry_anchors:
+      ops_low_label_sampling_lib.py: 4280339d4f4582f3a426fd049eceffc0917633f7e15bc85f6b8300f0fc61aaa8
+      build_ops_low_label_sampling_manifest.py: e85221ad58e3415f5e97fba50063bbb5c3cfffa05cf9c325b6b36477b32aa5fc
+      run_ops_low_label_generic_task.py: 312f99966266318d059becea5d4920a9a7a989d69e152f7f55cc8de4e965ba13
+      run_ops_low_label_biological_task.py: 3f13e9b9bd1c9a5ea2a0bdc413e381273c93c249b42e2547b82d000b23e1248f
+      run_ops_low_label_classical_task.py: 23782123442d8e758af6e0f0d295c4ff9ef206c2330d7841cb89c968bf62f1e1
+      run_ops_low_label_scipenn_task.py: f5b7728567ec2e1305777abc69b20de09a5351eaf6b6a9bbd6dc25bf439bb1c0
+      run_ops_low_label_scpair_reporter_task.py: d6401905d0634f644c0bea449350c09cd55a46892fb706eb15ae9f7740a8d518
+    frozen_plan_anchors:
+      ops_low_label_remaining7_acp4_v3.json: ab8495c17081a782def16c0519af21d25a1faf0ada075ab754aae5b52ed7abfd
+      ops_low_label_remaining4_acp2_v1.json: 32341ff784e49c3427ac688046efdb507642cf28510a4360ab20dca00a41e129
+      ops_low_label_scpair_gene5_cci1_v1.json: 6f2034d5f9cd0d6aed4b22716bff3eb8dca6b83c747741cf05d175ee6dbf92dc
+    released_study_harness:
+      root: studies/ops/runners/low_label/legacy_exact/scripts
+      facade: studies/ops/runners/low_label/run.py
+      sampler: studies/ops/runners/low_label/build_sampling.py
+      provenance: studies/ops/runners/low_label/MIGRATION_MANIFEST.tsv
+    public_status: >-
+      Sampling and model-specific low-label study runners are executable after
+      the declared public OPS assets and separately pinned upstream sources are
+      supplied at runtime.
+  raw_image_pilot:
+    purpose: >-
+      Study entry points for frozen DINOv2 and Cytoland VSCyto2D embeddings,
+      frozen-head training, and supervised partial fine-tuning on the six-
+      reporter image pilot.
+    study_entry_anchors:
+      extract_ops_panel12_frozen_embeddings.py: 85fb9d6c12c4a4aa579d4c2dee86fbe63d73c0576d4263365ded84fc90f2fd5a
+      extract_ops_panel12_cytoland_embeddings.py: fa280961c997fc873f1f2cc1c2ab4a6d062af497faa0068940d222bd853ad117
+      run_ops_frozen_embedding_reporter.py: 1624e4409cf50b17affcdd5c88c0ccfba145521a6f8bb53f7a379e62d0c2dcf8
+      run_ops_cytoland_finetune_reporter.py: 88caa1e09cb08b96c987e7fd97c31659b29a1385092bab3e6bda27f6a356aa08
+      build_ops_raw_phase_cytoland_head_plan.py: 7c19e4a47948ec374dc3e5620519519c633a122670ce85aa91cb07df1e5094d0
+      build_ops_raw_phase_cytoland_finetune_plan.py: c4835446789d65b3f7690ff203a034c0eed4fd1a45addc3600ed92d7b04f79d8
+    frozen_config_anchors:
+      ops_raw_phase_frozen_encoder_pilot6_v1.json: 41d5e9ac9fa2db32adeaf4453219329f5267b3dac68e0e49fb176d29648fa0ca
+      ops_raw_phase_cytoland_vscyto2d_pilot6_gene5_v1.json: d569dba061ae1d7ac77a287b08f76c3d8832fb50b4d35968a07da696de857776
+      ops_raw_phase_frozen_heads_pilot6_gene5_v2.json: 847c3a8b4ad8a0e75afe8dfbb028efe42b1b25b82fe7d8ba5b649be1bf720b08
+      ops_raw_phase_cytoland_heads_pilot6_gene5_v1.json: dd7678f01ebd2e75d7ec15499abcfa065f276a466d8e3992f358fdd4a07b43eb
+      ops_raw_phase_cytoland_finetune_pilot6_gene5_v1.json: b8bace5283e3e2687d64e2d9b2a551fa6f8916d0c9b9e6006f214c698d9c70af
+      ops_raw_phase_cytoland_finetune_heads_pilot6_gene5_v1.json: 3b0c833d3eb40d62eb651e564daa992b2dc84868e98100389ad67f336fd2316d
+    encoder_evidence:
+      dinov2_repository: https://github.com/facebookresearch/dinov2.git
+      dinov2_repository_revision: 7764ea0f912e53c92e82eb78a2a1631e92725fc8
+      dinov2_checkpoint_url: https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth
+      dinov2_checkpoint_sha256: b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9
+      viscy_repository: https://github.com/mehta-lab/VisCy.git
+      viscy_repository_revision: 4b62365c0df25929bffc7f01b3bb2d1c11d69cce
+      cytoland_model_card: https://virtualcellmodels.cziscience.com/model/cytoland
+      cytoland_checkpoint_url: https://public.czbiohub.org/comp.micro/viscy/VS_models/VSCyto2D/VSCyto2D/epoch=399-step=23200.ckpt
+      cytoland_checkpoint_sha256: 1abdbc1c727aba33dad0d174dba57d128a12019b712db946ce06012ecd64c1fe
+    released_study_harness:
+      root: studies/ops/runners/raw_image
+      crop_plan: studies/ops/runners/raw_image/build_crop_plan.py
+      crop_download: studies/ops/runners/raw_image/download_crops.py
+      embedding_extraction: studies/ops/runners/raw_image/extract_embeddings.py
+      frozen_head: studies/ops/runners/raw_image/train_frozen_head.py
+      partial_finetune: studies/ops/runners/raw_image/finetune_cytoland.py
+      plan_builder: studies/ops/runners/raw_image/build_plan.py
+      plan_runner: studies/ops/runners/raw_image/run_plan.py
+      smoke: studies/ops/runners/raw_image/smoke.py
+    public_status: >-
+      Crop construction, frozen embedding extraction, identical reporter-head
+      fitting and Cytoland partial fine-tuning are executable after the public
+      OPS locations, pinned upstream sources and checksum-verified public
+      weights are supplied through the documented asset manifest.

@@ -1,0 +1,10 @@
+name: full_label_benchmark
+methods_registry: ../methods/final_ten.yaml
+splits: [field, gene, strict_whole_screen]
+training:
+  label_fraction: 1.0
+  target_scope: all_eligible_reporters
+  endpoint_handling: observed_reporter_specific_mask
+outputs:
+  required_tables: [predictions_long, fold_manifest, run_provenance]
+  forbidden_artifacts: [checkpoints, weights, raw_arrays, aggregate_results]

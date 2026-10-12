@@ -1,0 +1,9 @@
+figure: 4
+role: same_cell_and_transfer_fidelity
+canonical_inputs: [same_cell_arm_metrics, residual_metrics, response_profiles, strict_screen_metrics]
+panel_a: {estimator: MLP, unit: reporter, scope: all_52_reporters, fold_aggregation: arithmetic_mean_over_5_gene_folds}
+panel_b: {unit: reporter, residualization: cross_fitted_within_gene_screen}
+panel_c: {unit: reporter_gene, consensus: ten_method_unweighted_median, profile_cases: frozen_predeclared}
+panel_d: {unit: directed_reporter_destination_screen, methods: final_ten_registry_only}
+output: {formats: [pdf, svg, png], panels: [a, b, c, d]}
+forbidden: [claiming_unique_mechanism, prevalence_from_cases, training]

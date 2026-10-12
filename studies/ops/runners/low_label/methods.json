@@ -1,0 +1,18 @@
+{
+  "schema_version": "ops-low-label-public-method-registry-v1",
+  "methods": {
+    "ridge": {"family": "classical", "runner_method": "ridge", "gpu": false},
+    "knn": {"family": "classical", "runner_method": "knn", "gpu": true},
+    "gbdt": {"family": "classical", "runner_method": "gbdt", "gpu": true},
+    "catboost": {"family": "classical", "runner_method": "catboost", "gpu": true},
+    "mlp": {"family": "specialist", "runner_model": "mlp", "gpu": true},
+    "resmlp": {"family": "generic_transfer", "runner_method": "resmlp_52head", "gpu": true},
+    "mmoe": {"family": "generic_transfer", "runner_method": "mmoe_52head", "gpu": true},
+    "multitab": {"family": "generic_transfer", "runner_method": "multitab_pilot", "gpu": true},
+    "tabm": {"family": "generic_tabular", "runner_method": "tabm_specialists", "gpu": true},
+    "scbutterfly": {"family": "biological", "runner_method": "scbutterfly_ops_b", "gpu": true},
+    "midas": {"family": "biological", "runner_method": "midas_ops", "gpu": true},
+    "scipenn": {"family": "biological", "runner_method": "scipenn_ops", "gpu": true},
+    "scpair": {"family": "paired_biological", "runner_method": "scpair_ops", "gpu": true}
+  }
+}

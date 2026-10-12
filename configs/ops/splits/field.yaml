@@ -1,0 +1,9 @@
+name: field
+unit_held_out: field_id
+purpose: Generalization to unseen imaging fields while retaining study context.
+constraints:
+  - A field appears in exactly one partition within a fold.
+  - All rows from a held-out field are excluded from train and validation.
+  - Reporter-specific endpoint masks are unchanged across partitions.
+evaluation_units: [cell, perturbation_response, physical_screen, reporter_screen_assay, reporter]
+manifest_columns: [observation_id, split_name, fold, role, is_control, scored]

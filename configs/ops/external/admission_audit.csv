@@ -1,0 +1,60 @@
+resource,accession,c1,c2,c3,c4,c5,c6,decided_by,outcome,evidence,note
+cpg0037-oasis,cpg0037-oasis,yes,yes,partial,yes,yes,yes,none,admitted,opened,brightfield channel with two biochemical plate assays on the wells that were imaged; C3 is well level because MTT and LDH are not per-cell assays
+cpg0021-periscope,cpg0021-periscope,no,yes,yes,yes,yes,yes,C1,admitted_partial,agent,four generic dyes rather than a label-free channel; admitted for the perturbation and environment halves only and never quotable as label-free evidence
+VarChAMP,cpg0020-varchamp,yes,yes,yes,yes,yes,yes,none,blocked,agent,passes all six; cell line unresolved after six routes and the imaged protein is the perturbed protein so the reporter and perturbation axes are nested rather than crossed
+VIS-seq,S-BIAD3095,no,yes,yes,yes,yes,partial,C1,rejected,agent,anti-pAKT T308 readout but no label-free channel; C6 holds for the LMNA arm only
+Light My Cells,S-BIAD1047,yes,partial,yes,no,no,yes,C4,rejected,agent,brightfield phase and DIC against four coarse organelle targets but no perturbation set and no in-batch controls
+Allen Label-Free Determination,Allen downloads portal,yes,yes,yes,no,no,yes,C4,rejected,agent,11 to 13 endogenous mEGFP tags pixel registered to transmitted light; about 891 paired 3D fields of view and no perturbation
+In Silico Labeling,GCS bucket only,yes,yes,yes,no,no,unknown,C4,rejected,agent,136 stitched whole-well images; no accession and the batch structure is confounded
+JUMP-CP pilot,cpg0000-jump-pilot,unknown,no,unknown,unknown,unknown,unknown,C2,rejected,sampled_header,one fixed six-dye organelle panel identical in every well; no antibody no engineered reporter no endogenous tag. Retains a role as a contrast arm
+JUMP production,cpg0016-jump,unknown,no,unknown,unknown,unknown,unknown,C2,rejected,sampled_header,no targeted readout; the CRISPR arm additionally has no brightfield
+EU-OS bioactives,cpg0036-EU-OS-bioactives,unknown,no,unknown,unknown,unknown,unknown,C2,rejected,sampled_header,no targeted readout
+RxRx1,RxRx1,unknown,no,unknown,unknown,unknown,unknown,C2,rejected,sampled_header,no targeted readout
+RxRx3,RxRx3,unknown,no,unknown,unknown,unknown,unknown,C2,rejected,sampled_header,no targeted readout
+Zhuang mouse brain aging MERFISH atlas,,unknown,no,unknown,unknown,unknown,unknown,C2,rejected,agent,no targeted protein readout to substitute for
+idr0109-zaritsky-melanoma,idr0109,unknown,no,unknown,unknown,unknown,unknown,C2,rejected,agent,no targeted readout
+Allen label-free imaging collection,s3://allencell/aics/label-free-imaging-collection/,unknown,no,unknown,unknown,unknown,unknown,C2,rejected,agent,its 12 fluorescence channels and 251 per-cell features are model predictions rather than acquired signal so using it as ground truth is circular
+Replogle,,unknown,no,unknown,unknown,unknown,unknown,C2,rejected,by_definition,single-modality perturbation screen; there is nothing to substitute for
+Norman,,unknown,no,unknown,unknown,unknown,unknown,C2,rejected,by_definition,single-modality perturbation screen
+Adamson,,unknown,no,unknown,unknown,unknown,unknown,C2,rejected,by_definition,single-modality perturbation screen
+Virtual Cell Challenge,,unknown,no,unknown,unknown,unknown,unknown,C2,rejected,by_definition,single-modality perturbation screen
+Cell Health,idr0080,unknown,yes,no,unknown,unknown,unknown,C3,rejected,agent,Way et al. 2021; Cell Painting and the targeted readouts were run on separate replicate plates so pairing is at the perturbation not the cell. The closest published precedent and cited as one
+cpg0003-rosetta,cpg0003-rosetta,unknown,unknown,no,unknown,unknown,unknown,C3,rejected,sampled_header,no same-cell linkage between the two modalities
+cpg0004-lincs,cpg0004-lincs,unknown,unknown,no,unknown,unknown,unknown,C3,rejected,sampled_header,no same-cell linkage between the two modalities
+cpg0026-lacoste_haghighi-rare-diseases,cpg0026,no,yes,unknown,unknown,unknown,unknown,C1,rejected,opened,channels are DNA ER DsRed and Protein; there is a targeted readout and there is no brightfield. An earlier pass recorded both halves the wrong way round
+Perturb-Multimodal,GSE275483,no,yes,yes,yes,yes,unknown,C1,rejected,agent,Saunders et al. Cell 188(17):4790-4809 2025 PMID 40513557; the broad channel is 213-gene RCA-MERFISH which is broad but not cheap and there is no label-free channel
+Feldman optical pooled screening,idr0071,no,unknown,unknown,unknown,unknown,unknown,C1,rejected,agent,no label-free channel released
+Perturb-map,GSE193460,no,unknown,unknown,unknown,unknown,unknown,C1,rejected,agent,no label-free channel released
+Zhuang genome-scale chromatin imaging,Zenodo 3928890,no,unknown,unknown,unknown,unknown,unknown,C1,rejected,agent,deposits coordinate tables rather than images
+STORM category,,no,unknown,unknown,unknown,unknown,unknown,C1,rejected,agent,no cheap broad input
+CODEX and PhenoCycler category,,no,unknown,unknown,unknown,unknown,unknown,C1,rejected,agent,no cheap broad input
+MIBI-TOF category,,no,unknown,unknown,unknown,unknown,unknown,C1,rejected,agent,no cheap broad input
+IMC category,,no,unknown,unknown,unknown,unknown,unknown,C1,rejected,agent,no cheap broad input
+IBEX category,,no,unknown,unknown,unknown,unknown,unknown,C1,rejected,agent,no cheap broad input
+OpenCell,s3://czb-opencell,no,yes,unknown,no,unknown,unknown,C1,rejected,agent,1310 tagged proteins is unmatched C2 breadth but there is no cheap input and no perturbation so it is a target library rather than a validation set
+Human Protein Atlas Cell Atlas,,no,yes,unknown,no,unknown,unknown,C1,rejected,agent,no cheap broad input and no perturbation set
+Cross-Zamirski et al.,Sci Rep 12:10001,yes,yes,unknown,yes,unknown,unknown,access,rejected,agent,AstraZeneca; methodologically the exact precedent at screen scale and proprietary so it is cited and not used
+QLIPP,S-BIAD25,yes,yes,unknown,unknown,unknown,unknown,access,rejected,agent,the deposit contains mouse kidney slices rather than the U2OS phase-to-fluorescence pairs the study reports
+DynaCLR,,unknown,unknown,unknown,unknown,unknown,unknown,access,rejected,agent,no accession yet
+PerturbView,,unknown,unknown,unknown,unknown,unknown,unknown,access,rejected,agent,no accession yet
+NeurIPS 2021 multimodal benchmark,GSE194122,no,yes,yes,unknown,unknown,yes,economics,rejected,agent,the cleanest nested donor-by-site layout found anywhere; excluded because in CITE-seq the RNA modality is not cheaper than the ADT panel and both come from one assay so there is no cheap-substitutes-for-expensive gap
+Perturb-CITE-seq,SCP1064,no,yes,yes,yes,unknown,unknown,economics,rejected,agent,no cheap-substitutes-for-expensive gap
+ECCITE-seq,GSE153056,no,yes,yes,yes,unknown,unknown,economics,rejected,agent,no cheap-substitutes-for-expensive gap
+Mantis,S-BIAD1287,unknown,unknown,unknown,unknown,unknown,unknown,independence,rejected,agent,same laboratory and platform as the source atlas and organised as five study components named Figure 1 to Figure 5 so it is a figure-reproduction deposit rather than a screen
+holotomography paired with fluorescence,,unknown,unknown,unknown,unknown,unknown,unknown,none,absent,searched,no public accession located; Tomocube Nanolive and KAIST lineage
+PICS or SLIM paired phase and fluorescence,,unknown,unknown,unknown,unknown,unknown,unknown,none,absent,searched,no public accession located; Popescu lab
+stimulated or hyperspectral Raman with immunofluorescence,,unknown,unknown,unknown,unknown,unknown,unknown,none,absent,searched,no public accession located
+correlative light and electron microscopy with a perturbation panel,,unknown,unknown,unknown,unknown,unknown,unknown,none,absent,searched,no public accession located
+BSCCM,10.5061/dryad.sxksn038s,yes,yes,unknown,unknown,unknown,unknown,none,unverified,unverified,244.8 GB in 4 GB chunks with no standalone per-cell index; whether CD16 CD45 CD123 HLA-DR and CD14 are co-measured per cell needs BSCCM-tiny extracted. The only candidate that could supply several chemically independent targeted readouts on a genuinely label-free input
+SciLifeLab brightfield MoA,10.17044/scilifelab.21378906,yes,unknown,unknown,yes,unknown,unknown,none,unverified,unverified,reported as 6 brightfield z-planes plus 5 Cell Painting channels in U2OS over 231 compounds and 18 plates; if it holds it is the open twin of the Cross-Zamirski precedent. Not opened
+4i CAMPA,Zenodo 7299516,unknown,unknown,unknown,unknown,unknown,unknown,none,unverified,unverified,discovery pass only
+Cytoland,S-BIAD1702,unknown,unknown,unknown,unknown,unknown,unknown,none,unverified,unverified,discovery pass only
+Funk Vesuvius,S-BIAD394 S-BIAD693 S-BIAD3221,unknown,unknown,unknown,unknown,unknown,unknown,none,unverified,unverified,discovery pass only
+Carlson IRF3,,unknown,unknown,unknown,unknown,unknown,unknown,none,unverified,unverified,discovery pass only
+CRISPRmap,S-BIAD985,unknown,unknown,unknown,unknown,unknown,unknown,none,unverified,unverified,discovery pass only
+idr0097-reicher-proteintag,idr0097,unknown,unknown,unknown,unknown,unknown,unknown,none,unverified,unverified,discovery pass only
+VIRVS,,unknown,unknown,unknown,unknown,unknown,unknown,none,unverified,unverified,discovery pass only
+Olszewski,idr0128 idr0129 idr0130,unknown,unknown,unknown,unknown,unknown,unknown,none,unverified,unverified,discovery pass only
+idr0065-camsund-crispri,idr0065,unknown,unknown,unknown,unknown,unknown,unknown,none,unverified,unverified,discovery pass only
+Orion,,unknown,unknown,unknown,unknown,unknown,unknown,none,unverified,unverified,discovery pass only
+Allen WTC-11 single-cell image dataset,,unknown,unknown,unknown,unknown,unknown,unknown,none,unverified,unverified,discovery pass only

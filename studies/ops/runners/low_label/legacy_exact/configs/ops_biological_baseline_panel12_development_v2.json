@@ -1,0 +1,799 @@
+{
+  "schema_version": "ops-biological-baseline-development-campaign-v2",
+  "campaign_id": "ops-biological-baseline-panel12-development-v2",
+  "supersedes_campaign_id": "ops-biological-baseline-panel12-development-v1",
+  "revision_reason": "Correct three method-fidelity issues in one immutable v2 campaign: anchor CAPTAIN to its public endpoint decoder and fixed optimizer, expose source-anchor versus OPS-stabilized scButterfly mechanics without claiming an exact upstream schedule, and replace the synthetic MIDAS target union with phase plus 52 independent sparse reporter modalities. HPO selection is validation-only on gene_holdout_main fold 0; field_holdout_sanity fold 0 is a reported guardrail and is never averaged into selection.",
+  "frozen": true,
+  "created_at": "2026-07-21",
+  "method_order": [
+    "ops_captain",
+    "scbutterfly_ops_b",
+    "midas_ops"
+  ],
+  "reporter_panel": [
+    "ps6",
+    "nucleoli_npm1",
+    "er_golgi_cop-ii_sec23a",
+    "lysosome_lamp1",
+    "5xupre",
+    "mitochondria_tomm20",
+    "actin_filament_fastact_spy555_live_cell_dye",
+    "early_endosome_eea1",
+    "plasma_membrane_wga",
+    "peroxisome_peroxi_spy650_live_cell_dye",
+    "nuclei_hoechst",
+    "stress_granule_g3bp1"
+  ],
+  "execution_boundary": {
+    "development_only": true,
+    "outer_test_label_access_allowed": false,
+    "outer_test_identity_metadata_access_allowed": true,
+    "outer_test_evaluation_allowed": false,
+    "formal_training_authorized": false,
+    "automatic_parallel_launch_allowed": false,
+    "runner_entrypoint": "scripts/run_ops_biological_baseline_training.py",
+    "result_filename": "training_result.json"
+  },
+  "comparison_contract": {
+    "dataset_version": "ops_phase172_exact_frozen_v1",
+    "cohort": "frozen_complete_core",
+    "split_contract": "frozen_field_and_gene_holdout_v1",
+    "endpoint_definition": "frozen_exact_reporter_endpoint_schema_v1",
+    "statistical_unit": "exact_paired_cell",
+    "preprocessing": "frozen_train_only_resmlp_v1_reference",
+    "evaluator": "common_ops_reporter_evaluator_v1",
+    "development_folds": [
+      {
+        "split": "gene_holdout_main",
+        "fold": 0
+      },
+      {
+        "split": "field_holdout_sanity",
+        "fold": 0
+      }
+    ],
+    "search_seed": 20260721,
+    "trial_count_per_method": 4,
+    "selection_objective": {
+      "name": "reporter_normalized_validation_score",
+      "direction": "minimize",
+      "primary_development_job": {
+        "split": "gene_holdout_main",
+        "fold": 0,
+        "role": "hpo_selection_primary"
+      },
+      "guardrail_development_job": {
+        "split": "field_holdout_sanity",
+        "fold": 0,
+        "role": "reported_guardrail_not_selection"
+      },
+      "cross_fold_aggregation": "none",
+      "tie_break": "lowest_trial_index",
+      "validation_only": true,
+      "outer_test_may_select_trial": false
+    },
+    "shared_primary_exposure": {
+      "shared_model_reporters_per_primary_event": 4,
+      "specialist_reporters_per_primary_event": 1,
+      "observations_per_reporter_per_event": 1024,
+      "reporter_rounds_per_epoch": "frozen V1 reporter rounds for the same split/fold",
+      "per_reporter_event_batch_size_matched": true,
+      "total_joint_reporter_exposure_equalized": false,
+      "scbutterfly_joint_reporter_exposure_multiplier_vs_standard": 2.0,
+      "scbutterfly_total_target_bearing_exposure_multiplier_vs_standard": 3.0,
+      "optimizer_step_calls_equalized": false,
+      "event_and_optimizer_step_reporting_policy": "method-native primary events, target-bearing exposures and owner optimizer.step calls are counted separately",
+      "standard_vector_model_joint_epochs": 100,
+      "standard_vector_validation_opportunities": 100,
+      "scbutterfly_joint_epochs": "OPS task-adapted per-trial schedule, reported separately and never described as an exact upstream schedule",
+      "scbutterfly_validation_opportunities": 200,
+      "early_stopping_changes_budget": false
+    },
+    "native_auxiliary_training": {
+      "allowed": true,
+      "equalized_across_families": false,
+      "must_be_reported_separately": true,
+      "reason": "CAPTAIN MGE, scButterfly modality pretraining/adversarial steps, and MIDAS variational objectives are defining method mechanisms"
+    },
+    "checkpoint_policy": {
+      "complete_validation_trajectory": true,
+      "single_checkpoint_selected_by_validation": true,
+      "ema_read_only_comparison": true,
+      "checkpoint_average_read_only_comparison": true,
+      "outer_test_may_select_state": false
+    },
+    "parameter_policy": {
+      "matching_required": false,
+      "parameter_count_is_admission_or_selection_input": false,
+      "parameter_limits": null,
+      "native_capacity_selected_by_validation": true
+    },
+    "resource_metrics": {
+      "role": "reporting_only",
+      "used_for_admission_or_hpo_selection": false,
+      "metrics": [
+        "total_parameter_count",
+        "active_parameter_count",
+        "method_native_stage_events_and_owner_optimizer_step_calls",
+        "training_gpu_seconds",
+        "peak_allocated_bytes",
+        "peak_reserved_bytes",
+        "cells_per_second",
+        "endpoint_predictions_per_second"
+      ]
+    }
+  },
+  "methods": {
+    "ops_captain": {
+      "scope": "panel12_development_with_full_52_reporter_1604_endpoint_registry",
+      "method_name_for_reporting": "OPS-CAPTAIN (CAPTAIN-inspired endpoint-token cross-attention, trained from scratch)",
+      "source_anchor_contract": {
+        "trial_index": 0,
+        "upstream_repository": "external/original_methods/captain",
+        "upstream_commit": "19a94cbe8d859ce9f89b7f480f7faaa234935a4b",
+        "source_files": [
+          "pretrain/protein_model.py",
+          "pretrain/torchrun.py"
+        ],
+        "source_shaped_endpoint_decoder": {
+          "model_dim": 512,
+          "cross_attention_depth": 6,
+          "num_heads": 8,
+          "quantile_levels": [0.1, 0.25, 0.75, 0.9],
+          "loss_weights": {
+            "mean": 0.6,
+            "quantile": 0.2,
+            "phase_reconstruction": 0.2
+          }
+        },
+        "source_shaped_dropout": {
+          "embedding_dropout": 0.0,
+          "attention_dropout": 0.1,
+          "feedforward_dropout": 0.1
+        },
+        "source_shaped_optimizer": {
+          "name": "adam",
+          "learning_rate": 0.00001,
+          "epsilon": 0.0001,
+          "weight_decay": 0.0
+        },
+        "source_shaped_scheduler": {
+          "name": "fixed_step_lr",
+          "step_size_epochs": 1,
+          "gamma": 1.0
+        },
+        "ops_phase_task_adapter": {
+          "input": "frozen_172D_phase_morphology",
+          "implementation": "172 feature-ID plus continuous-value tokens followed by a train-from-scratch OPS phase encoder",
+          "phase_encoder_depth": 2,
+          "reason": "The upstream RNA vocabulary, RNA encoder, and pretrained checkpoint do not map to OPS phase172 features.",
+          "pretrained_checkpoint_transfer": false
+        },
+        "claim_boundary": "Source-shaped CAPTAIN endpoint decoder and optimizer anchor under an OPS-native phase adapter; not an exact end-to-end CAPTAIN reproduction and not checkpoint transfer."
+      },
+      "defining_mechanisms": [
+        "phase_feature_id_plus_value_tokens",
+        "single_concrete_global_endpoint_embedding_table",
+        "endpoint_query_to_phase_key_value_cross_attention",
+        "mean_plus_quantile_prediction",
+        "masked_phase_feature_reconstruction"
+      ],
+      "forbidden_adaptations": [
+        "reporter_endpoint_factorization",
+        "semantic_query_fields",
+        "query_self_attention",
+        "pretrained_captain_checkpoint_transfer"
+      ],
+      "trial_configs": [
+        {
+          "trial_role": "source_shaped_fixed_anchor",
+          "model": {
+            "model_dim": 512,
+            "num_heads": 8,
+            "phase_encoder_depth": 2,
+            "cross_attention_depth": 6,
+            "feedforward_multiplier": 4,
+            "embedding_dropout": 0.0,
+            "attention_dropout": 0.1,
+            "feedforward_dropout": 0.1,
+            "quantile_levels": [0.1, 0.25, 0.75, 0.9],
+            "phase_reconstruction_enabled": true,
+            "loss_weights": {
+              "mean": 0.6,
+              "quantile": 0.2,
+              "phase_reconstruction": 0.2
+            }
+          },
+          "optimizer": {
+            "name": "adam",
+            "learning_rate": 0.00001,
+            "epsilon": 0.0001,
+            "weight_decay": 0.0
+          },
+          "training": {
+            "joint_epochs": 100,
+            "scheduler": {
+              "name": "fixed_step_lr",
+              "step_size_epochs": 1,
+              "gamma": 1.0
+            },
+            "phase_mask_rate": 0.25,
+            "batch_heads": 4,
+            "observations_per_head": 1024,
+            "gradient_clip_norm": 1.0,
+            "ema_decay": 0.999
+          }
+        },
+        {
+          "trial_role": "validation_only_ops_variant",
+          "model": {
+            "model_dim": 256,
+            "num_heads": 4,
+            "phase_encoder_depth": 1,
+            "cross_attention_depth": 3,
+            "feedforward_multiplier": 4,
+            "embedding_dropout": 0.0,
+            "attention_dropout": 0.1,
+            "feedforward_dropout": 0.1,
+            "quantile_levels": [0.1, 0.25, 0.75, 0.9],
+            "phase_reconstruction_enabled": true,
+            "loss_weights": {
+              "mean": 0.6,
+              "quantile": 0.2,
+              "phase_reconstruction": 0.2
+            }
+          },
+          "optimizer": {
+            "name": "adam",
+            "learning_rate": 0.0003,
+            "epsilon": 0.0001,
+            "weight_decay": 0.0
+          },
+          "training": {
+            "joint_epochs": 100,
+            "scheduler": {
+              "name": "common_linear_warmup_cosine_decay",
+              "warmup_epochs": 2
+            },
+            "phase_mask_rate": 0.25,
+            "batch_heads": 4,
+            "observations_per_head": 1024,
+            "gradient_clip_norm": 1.0,
+            "ema_decay": 0.999
+          }
+        },
+        {
+          "trial_role": "validation_only_ops_variant",
+          "model": {
+            "model_dim": 384,
+            "num_heads": 8,
+            "phase_encoder_depth": 2,
+            "cross_attention_depth": 4,
+            "feedforward_multiplier": 4,
+            "embedding_dropout": 0.0,
+            "attention_dropout": 0.05,
+            "feedforward_dropout": 0.05,
+            "quantile_levels": [0.1, 0.25, 0.75, 0.9],
+            "phase_reconstruction_enabled": true,
+            "loss_weights": {
+              "mean": 0.6,
+              "quantile": 0.2,
+              "phase_reconstruction": 0.2
+            }
+          },
+          "optimizer": {
+            "name": "adam",
+            "learning_rate": 0.0001,
+            "epsilon": 0.0001,
+            "weight_decay": 0.0002
+          },
+          "training": {
+            "joint_epochs": 100,
+            "scheduler": {
+              "name": "common_linear_warmup_cosine_decay",
+              "warmup_epochs": 2
+            },
+            "phase_mask_rate": 0.15,
+            "batch_heads": 4,
+            "observations_per_head": 1024,
+            "gradient_clip_norm": 1.0,
+            "ema_decay": 0.999
+          }
+        },
+        {
+          "trial_role": "validation_only_ops_variant",
+          "model": {
+            "model_dim": 768,
+            "num_heads": 12,
+            "phase_encoder_depth": 2,
+            "cross_attention_depth": 6,
+            "feedforward_multiplier": 4,
+            "embedding_dropout": 0.05,
+            "attention_dropout": 0.1,
+            "feedforward_dropout": 0.1,
+            "quantile_levels": [0.1, 0.25, 0.75, 0.9],
+            "phase_reconstruction_enabled": true,
+            "loss_weights": {
+              "mean": 0.6,
+              "quantile": 0.2,
+              "phase_reconstruction": 0.2
+            }
+          },
+          "optimizer": {
+            "name": "adam",
+            "learning_rate": 0.0001,
+            "epsilon": 0.0001,
+            "weight_decay": 0.0002
+          },
+          "training": {
+            "joint_epochs": 100,
+            "scheduler": {
+              "name": "common_linear_warmup_cosine_decay",
+              "warmup_epochs": 4
+            },
+            "phase_mask_rate": 0.25,
+            "batch_heads": 4,
+            "observations_per_head": 1024,
+            "gradient_clip_norm": 1.0,
+            "ema_decay": 0.999
+          }
+        }
+      ]
+    },
+    "scbutterfly_ops_b": {
+      "scope": "twelve_independent_reporter_specialists",
+      "method_name_for_reporting": "scButterfly-OPS-B specialists",
+      "source_fidelity_contract": {
+        "upstream_repository": "external/original_methods/scbutterfly",
+        "upstream_commit": "eb31e04bb8c4abdf85c4cbecd044fcd359105caa",
+        "source_files": [
+          "scButterfly/model_component.py",
+          "scButterfly/train_model_cite.py",
+          "external/original_methods/scbutterfly_source/experiment/RNA_ADT/cross_validation_by_cell/run_model.py"
+        ],
+        "source_architecture_factory": "ScButterflyOPSConfig.source_anchor",
+        "source_training_factory": "ScButterflyTrainingConfig.source_anchor",
+        "task_adaptations": [
+          "OPS phase172 and continuous reporter endpoints replace RNA and ADT counts",
+          "explicit observed-endpoint masks replace dense target assumptions",
+          "reporter-balanced batches use 1024 observations instead of the upstream batch size 64",
+          "one reporter specialist is trained per primary event; the native 200-epoch joint schedule and 100-epoch phenotype pretraining are reported as additional target-bearing exposure rather than forced to match shared methods",
+          "the frozen OPS development budget does not reproduce upstream patience-based early stopping",
+          "campaign seed 20260721 replaces the upstream example seed 19193"
+        ],
+        "source_anchor_precision_and_clipping": "float32 with TF32 disabled and no gradient clipping",
+        "claim_boundary": "Trial 0 anchors architecture, adversarial mechanics, noise rates, optimizer families, loss coefficients, float32 precision and absence of gradient clipping. The data loader, batch size, validation clock, seed and stopping rule are OPS task adaptations, so no trial is an exact end-to-end upstream schedule reproduction."
+      },
+      "training_schedule_contract": {
+        "phase_pretrain_epochs": 100,
+        "phenotype_pretrain_epochs": 100,
+        "joint_epochs": 200,
+        "kl_warmup_epochs": 50,
+        "discriminator_steps_per_generator_step": 1,
+        "source_relationship": "source-centered epoch counts under an OPS task-adapted batch and checkpoint protocol",
+        "upstream_execution_exact": false
+      },
+      "primary_exposure_contract": {
+        "specialists_per_primary_event": 1,
+        "observations_per_specialist": 1024,
+        "per_reporter_event_batch_size_matches_shared_methods": true,
+        "joint_reporter_exposure_multiplier_vs_standard": 2.0,
+        "phenotype_pretraining_target_exposure_multiplier_vs_standard": 1.0,
+        "phase_pretraining_target_exposure_multiplier_vs_standard": 0.0,
+        "total_target_bearing_exposure_multiplier_vs_standard": 3.0,
+        "validation_opportunities": 200,
+        "paired_discriminator_generator_events": true,
+        "owner_optimizer_step_calls_per_event": {
+          "phase_pretrain": 3,
+          "phenotype_pretrain": 3,
+          "joint_discriminator": 2,
+          "joint_generator": 5
+        },
+        "reporting_rule": "report primary events, target-bearing reporter exposure and owner optimizer.step calls separately"
+      },
+      "defining_mechanisms": [
+        "dual_modality_encoders_and_decoders",
+        "dual_variational_latents",
+        "phase_to_phase_phase_to_phenotype_phenotype_to_phase_phenotype_to_phenotype",
+        "two_latent_discriminators",
+        "modality_pretraining_then_joint_alternating_training"
+      ],
+      "forbidden_adaptations": [
+        "shared_52_reporter_encoder",
+        "reporter_query",
+        "pseudo_pairing",
+        "dense_1604_union_target"
+      ],
+      "trial_configs": [
+        {
+          "trial_role": "source_anchor",
+          "model": {
+            "architecture_factory": "source_anchor",
+            "phase_encoder_widths": [256, 128],
+            "phenotype_encoder_widths": [128, 128],
+            "phase_decoder_widths": [256],
+            "phenotype_decoder_widths": [128],
+            "latent_dim": 128,
+            "discriminator_hidden_widths": [],
+            "discriminator_output_batch_norm": true,
+            "dropout": 0.1,
+            "phase_input_mask_rate": 0.5,
+            "phenotype_input_mask_rate": 0.0
+          },
+          "optimizer": {
+            "generator_name": "adam",
+            "generator_learning_rate": 0.001,
+            "generator_weight_decay": 0.0,
+            "discriminator_name": "sgd",
+            "discriminator_learning_rate": 0.005
+          },
+          "training": {
+            "adversarial_protocol": "source_anchor",
+            "source_adversarial_threshold": 1.35,
+            "loss_weights": {
+              "phase_pretrain_kl": 0.11627906976744186,
+              "phenotype_pretrain_kl": 0.11627906976744186,
+              "phase_reconstruction": 1.0,
+              "phenotype_reconstruction": 2.0,
+              "phase_joint_kl": 0.23255813953488372,
+              "phenotype_joint_kl": 0.23255813953488372,
+              "adversarial": 1.0
+            },
+            "phase_pretrain_epochs": 100,
+            "phenotype_pretrain_epochs": 100,
+            "joint_epochs": 200,
+            "kl_warmup_epochs": 50,
+            "discriminator_steps_per_generator_step": 1,
+            "precision_policy": "float32_no_tf32",
+            "specialists_per_primary_event": 1,
+            "observations_per_head": 1024,
+            "gradient_clip_norm": null,
+            "ema_decay": 0.999
+          }
+        },
+        {
+          "trial_role": "source_mechanics_ops_tuned",
+          "model": {
+            "architecture_factory": "ops_explicit",
+            "phase_encoder_widths": [512, 512],
+            "phenotype_encoder_widths": [256, 256],
+            "phase_decoder_widths": [512, 512],
+            "phenotype_decoder_widths": [256, 256],
+            "latent_dim": 256,
+            "discriminator_hidden_widths": [],
+            "discriminator_output_batch_norm": true,
+            "dropout": 0.05,
+            "phase_input_mask_rate": 0.5,
+            "phenotype_input_mask_rate": 0.0
+          },
+          "optimizer": {
+            "generator_name": "adam",
+            "generator_learning_rate": 0.0003,
+            "generator_weight_decay": 0.0001,
+            "discriminator_name": "sgd",
+            "discriminator_learning_rate": 0.001
+          },
+          "training": {
+            "adversarial_protocol": "source_anchor",
+            "source_adversarial_threshold": 1.35,
+            "loss_weights": {
+              "phase_pretrain_kl": 0.11627906976744186,
+              "phenotype_pretrain_kl": 0.11627906976744186,
+              "phase_reconstruction": 1.0,
+              "phenotype_reconstruction": 2.0,
+              "phase_joint_kl": 0.23255813953488372,
+              "phenotype_joint_kl": 0.23255813953488372,
+              "adversarial": 1.0
+            },
+            "phase_pretrain_epochs": 100,
+            "phenotype_pretrain_epochs": 100,
+            "joint_epochs": 200,
+            "kl_warmup_epochs": 50,
+            "discriminator_steps_per_generator_step": 1,
+            "precision_policy": "amp_bfloat16_tf32",
+            "specialists_per_primary_event": 1,
+            "observations_per_head": 1024,
+            "gradient_clip_norm": 1.0,
+            "ema_decay": 0.999
+          }
+        },
+        {
+          "trial_role": "source_mechanics_ops_tuned",
+          "model": {
+            "architecture_factory": "ops_explicit",
+            "phase_encoder_widths": [768, 512],
+            "phenotype_encoder_widths": [384, 256],
+            "phase_decoder_widths": [512, 768],
+            "phenotype_decoder_widths": [256, 384],
+            "latent_dim": 384,
+            "discriminator_hidden_widths": [128],
+            "discriminator_output_batch_norm": true,
+            "dropout": 0.1,
+            "phase_input_mask_rate": 0.25,
+            "phenotype_input_mask_rate": 0.0
+          },
+          "optimizer": {
+            "generator_name": "adam",
+            "generator_learning_rate": 0.0003,
+            "generator_weight_decay": 0.0002,
+            "discriminator_name": "sgd",
+            "discriminator_learning_rate": 0.001
+          },
+          "training": {
+            "adversarial_protocol": "source_anchor",
+            "source_adversarial_threshold": 1.35,
+            "loss_weights": {
+              "phase_pretrain_kl": 0.11627906976744186,
+              "phenotype_pretrain_kl": 0.11627906976744186,
+              "phase_reconstruction": 1.0,
+              "phenotype_reconstruction": 2.0,
+              "phase_joint_kl": 0.23255813953488372,
+              "phenotype_joint_kl": 0.23255813953488372,
+              "adversarial": 1.0
+            },
+            "phase_pretrain_epochs": 100,
+            "phenotype_pretrain_epochs": 100,
+            "joint_epochs": 200,
+            "kl_warmup_epochs": 50,
+            "discriminator_steps_per_generator_step": 1,
+            "precision_policy": "amp_bfloat16_tf32",
+            "specialists_per_primary_event": 1,
+            "observations_per_head": 1024,
+            "gradient_clip_norm": 1.0,
+            "ema_decay": 0.999
+          }
+        },
+        {
+          "trial_role": "ops_stabilized_sensitivity",
+          "model": {
+            "architecture_factory": "ops_explicit",
+            "phase_encoder_widths": [384, 384],
+            "phenotype_encoder_widths": [192, 192],
+            "phase_decoder_widths": [384, 384],
+            "phenotype_decoder_widths": [192, 192],
+            "latent_dim": 128,
+            "discriminator_hidden_widths": [128],
+            "discriminator_output_batch_norm": false,
+            "dropout": 0.1,
+            "phase_input_mask_rate": 0.25,
+            "phenotype_input_mask_rate": 0.0
+          },
+          "optimizer": {
+            "generator_name": "adam",
+            "generator_learning_rate": 0.001,
+            "generator_weight_decay": 0.0001,
+            "discriminator_name": "sgd",
+            "discriminator_learning_rate": 0.005
+          },
+          "training": {
+            "adversarial_protocol": "ops_stabilized",
+            "source_adversarial_threshold": 1.35,
+            "loss_weights": {
+              "phase_pretrain_kl": 0.006666666666666667,
+              "phenotype_pretrain_kl": 0.006666666666666667,
+              "phase_reconstruction": 1.0,
+              "phenotype_reconstruction": 1.0,
+              "phase_joint_kl": 0.006666666666666667,
+              "phenotype_joint_kl": 0.006666666666666667,
+              "adversarial": 1.0
+            },
+            "phase_pretrain_epochs": 100,
+            "phenotype_pretrain_epochs": 100,
+            "joint_epochs": 200,
+            "kl_warmup_epochs": 50,
+            "discriminator_steps_per_generator_step": 1,
+            "precision_policy": "amp_bfloat16_tf32",
+            "specialists_per_primary_event": 1,
+            "observations_per_head": 1024,
+            "gradient_clip_norm": 1.0,
+            "ema_decay": 0.999
+          }
+        }
+      ]
+    },
+    "midas_ops": {
+      "scope": "phase_plus_52_independent_sparse_reporter_modalities",
+      "method_name_for_reporting": "MIDAS-OPS 53-modality development baseline",
+      "source_fidelity_contract": {
+        "upstream_repository": "external/original_methods/midas_reproducibility",
+        "upstream_commit": "3ef7847c88c90583c05147cafef496d862986dd3",
+        "source_file": "modules/models.py",
+        "source_optimizer_file": "run.py",
+        "source_optimizer": {
+          "name": "adamw",
+          "learning_rate": 0.0001,
+          "epsilon": 1e-08,
+          "weight_decay": 0.01,
+          "scheduler": "fixed"
+        },
+        "source_modality_alignment_multiplier": 50.0,
+        "technical_information_bottleneck_multiplier": 5.0,
+        "ops_adaptations": [
+          "phase is one always-observed continuous source modality",
+          "each reporter is an independent sparse continuous target modality",
+          "masked diagonal-Gaussian likelihood replaces count-specific likelihoods",
+          "source anchor retains the upstream default modality-alignment multiplier of 50",
+          "no technical batch adversary is used because no trustworthy covariate is frozen"
+        ],
+        "claim_boundary": "The 53-modality PoE and asymmetric technical bottleneck preserve MIDAS mechanics under continuous OPS likelihoods; the latent split is not identifiable batch correction."
+      },
+      "defining_mechanisms": [
+        "phase_plus_52_independent_sparse_modalities",
+        "modality_specific_fronts_and_heads_with_shared_encoder_decoder",
+        "unit_prior_diagonal_gaussian_product_of_experts",
+        "biological_and_technical_latent_partition",
+        "asymmetric_technical_information_bottleneck",
+        "same_cell_unimodal_posterior_alignment",
+        "masked_gaussian_reporter_likelihood"
+      ],
+      "forbidden_adaptations": [
+        "dense_1604_target_union",
+        "reporter_id_as_batch_covariate",
+        "fabricated_independent_reporter_objectives"
+      ],
+      "batch_policy": {
+        "batch_disentanglement": false,
+        "batch_covariate_kind": "none",
+        "reporter_id_as_batch_forbidden": true,
+        "reason": "No trustworthy technical-batch covariate has been frozen independently of reporter/screen confounding"
+      },
+      "trial_configs": [
+        {
+          "trial_role": "source_fixed_adamw_anchor",
+          "model": {
+            "biological_dim": 128,
+            "technical_dim": 32,
+            "modality_width": 768,
+            "shared_encoder_hidden_dims": [768],
+            "shared_decoder_hidden_dims": [768, 768],
+            "dropout": 0.1,
+            "loss_weights": {
+              "phase_reconstruction": 1.0,
+              "reporter_reconstruction": 1.0,
+              "kl_biological": 1.0,
+              "kl_technical": 1.0,
+              "modality_alignment": 50.0
+            },
+            "technical_information_bottleneck_multiplier": 5.0,
+            "reporter_reconstruction_reduction": "modality_mean",
+            "batch_disentanglement": false,
+            "batch_covariate_kind": "none"
+          },
+          "optimizer": {
+            "name": "adamw",
+            "learning_rate": 0.0001,
+            "epsilon": 1e-08,
+            "weight_decay": 0.01
+          },
+          "training": {
+            "joint_epochs": 100,
+            "scheduler": {
+              "name": "fixed"
+            },
+            "batch_heads": 4,
+            "observations_per_head": 1024,
+            "gradient_clip_norm": 1.0,
+            "ema_decay": 0.999
+          }
+        },
+        {
+          "trial_role": "validation_only_ops_variant",
+          "model": {
+            "biological_dim": 128,
+            "technical_dim": 32,
+            "modality_width": 768,
+            "shared_encoder_hidden_dims": [768],
+            "shared_decoder_hidden_dims": [768, 768],
+            "dropout": 0.1,
+            "loss_weights": {
+              "phase_reconstruction": 1.0,
+              "reporter_reconstruction": 1.0,
+              "kl_biological": 0.1,
+              "kl_technical": 0.1,
+              "modality_alignment": 10.0
+            },
+            "technical_information_bottleneck_multiplier": 5.0,
+            "reporter_reconstruction_reduction": "modality_mean",
+            "batch_disentanglement": false,
+            "batch_covariate_kind": "none"
+          },
+          "optimizer": {
+            "name": "adamw",
+            "learning_rate": 0.0001,
+            "epsilon": 1e-08,
+            "weight_decay": 0.0001
+          },
+          "training": {
+            "joint_epochs": 100,
+            "scheduler": {
+              "name": "common_linear_warmup_cosine_decay",
+              "warmup_epochs": 2
+            },
+            "batch_heads": 4,
+            "observations_per_head": 1024,
+            "gradient_clip_norm": 1.0,
+            "ema_decay": 0.999
+          }
+        },
+        {
+          "trial_role": "validation_only_ops_variant",
+          "model": {
+            "biological_dim": 256,
+            "technical_dim": 64,
+            "modality_width": 1024,
+            "shared_encoder_hidden_dims": [1024, 768],
+            "shared_decoder_hidden_dims": [768, 1024],
+            "dropout": 0.05,
+            "loss_weights": {
+              "phase_reconstruction": 1.0,
+              "reporter_reconstruction": 1.0,
+              "kl_biological": 0.1,
+              "kl_technical": 0.1,
+              "modality_alignment": 1.0
+            },
+            "technical_information_bottleneck_multiplier": 5.0,
+            "reporter_reconstruction_reduction": "observed_scalar_mean",
+            "batch_disentanglement": false,
+            "batch_covariate_kind": "none"
+          },
+          "optimizer": {
+            "name": "adamw",
+            "learning_rate": 0.0001,
+            "epsilon": 1e-08,
+            "weight_decay": 0.0002
+          },
+          "training": {
+            "joint_epochs": 100,
+            "scheduler": {
+              "name": "common_linear_warmup_cosine_decay",
+              "warmup_epochs": 4
+            },
+            "batch_heads": 4,
+            "observations_per_head": 1024,
+            "gradient_clip_norm": 1.0,
+            "ema_decay": 0.999
+          }
+        },
+        {
+          "trial_role": "validation_only_ops_variant",
+          "model": {
+            "biological_dim": 128,
+            "technical_dim": 32,
+            "modality_width": 512,
+            "shared_encoder_hidden_dims": [512],
+            "shared_decoder_hidden_dims": [512, 512],
+            "dropout": 0.15,
+            "loss_weights": {
+              "phase_reconstruction": 1.0,
+              "reporter_reconstruction": 1.0,
+              "kl_biological": 0.01,
+              "kl_technical": 0.01,
+              "modality_alignment": 0.1
+            },
+            "technical_information_bottleneck_multiplier": 2.0,
+            "reporter_reconstruction_reduction": "modality_mean",
+            "batch_disentanglement": false,
+            "batch_covariate_kind": "none"
+          },
+          "optimizer": {
+            "name": "adamw",
+            "learning_rate": 0.0003,
+            "epsilon": 1e-08,
+            "weight_decay": 0.0002
+          },
+          "training": {
+            "joint_epochs": 100,
+            "scheduler": {
+              "name": "common_linear_warmup_cosine_decay",
+              "warmup_epochs": 2
+            },
+            "batch_heads": 4,
+            "observations_per_head": 1024,
+            "gradient_clip_norm": 1.0,
+            "ema_decay": 0.999
+          }
+        }
+      ]
+    }
+  }
+}

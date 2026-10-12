@@ -1,0 +1,58 @@
+# Public, unsigned source locators and release checksums only. Do not commit
+# signed URLs or invent a SHA-256 when the public record supplies MD5.
+dataset: OPS
+study_system: A549
+upstream:
+  processed_single_cell_h5ad:
+    bucket: ops-explorer-public
+    prefix: leonetti_ops/ops_data_portal_submission/v1.0.20260521/atlas/cell_features/
+    access: unsigned public S3
+    inventory_command: python studies/ops/acquisition/public_s3.py inventory --output ops_inventory.csv
+    license: upstream OPS release terms apply
+  analysis_code:
+    locator: https://github.com/czbiohub-sf/ops-paper-analysis
+    revision: c51e707916fe42c29814cf2db3ea0b70fc4cc8ec
+    branch: main
+    license: upstream repository terms apply
+  small_source_archive:
+    doi: doi:10.5281/zenodo.20495192
+    record_revision: 6
+    published: 2026-06-01
+    file_name: altair.zip
+    bytes: 57025221
+    release_checksum: md5:baf7974ac926445c726760fed57525ab
+    license: CC-BY-4.0
+    required: true
+  preprint:
+    doi: doi:10.64898/2026.06.01.728087
+    required: false
+assets:
+  phase_features:
+    kind: external derived input
+    expected_schema: ops_phase_172
+    expected_sha256: null
+  targeted_measurements:
+    kind: external source data
+    expected_schema: ops_reporter_sparse_blocks
+    expected_sha256: null
+  exact_same_cell_cache:
+    kind: reproducible derived input
+    builder: studies/ops/preparation/build_exact_caches.py
+    expected_schema: ops-full-reporter-exact-v2
+  phase172_cache:
+    kind: reproducible derived input
+    builder: studies/ops/preparation/build_phase172.py
+    expected_schema: ops-phase172-index-v1
+  canonical_training_bundles:
+    kind: reproducible derived input
+    builder: studies/ops/preparation/export_canonical.py
+    expected_schema: ops canonical tables v1
+  microscopy:
+    kind: optional external image asset
+    expected_schema: ops_image_inventory
+    expected_sha256: null
+acquisition_rules:
+  - Record URL or DOI, retrieval date, byte count, the published checksum, a locally computed SHA-256, and upstream revision.
+  - Use a user-supplied local destination; do not commit downloaded assets.
+  - Verify the published MD5 exactly and independently record a local SHA-256 after download.
+  - Treat signed object-store URLs as secrets and keep them out of manifests.

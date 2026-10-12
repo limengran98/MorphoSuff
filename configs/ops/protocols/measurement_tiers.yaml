@@ -1,0 +1,31 @@
+name: ops_a549_measurement_tiers
+scope: reporter
+consensus: ten_method_unweighted_median
+quantitative_proxy:
+  recoverability_min: 0.70
+  magnitude_spearman_min: 0.70
+  variance_ratio: [0.50, 1.50]
+  top5pct_recall_min: 0.60
+  reliability_min: 0.30
+ranking_proxy:
+  magnitude_spearman_min: 0.70
+  top5pct_recall_min: 0.50
+  condition: does_not_meet_quantitative_proxy
+measurement_required:
+  reliability_min: 0.30
+  recoverability_max_exclusive: 0.60
+not_identifiable:
+  reliability_max_exclusive: 0.30
+  or: reliability_missing
+unresolved: all_remaining_reporters
+# Precedence, which the thresholds alone do not fix. A reporter can satisfy both
+# ranking_proxy and measurement_required; PSMB7 does. The published decision table
+# resolves it as a ranking proxy, so the tests run in this order.
+precedence: [not_identifiable, unresolved_if_evidence_missing, quantitative_proxy,
+             ranking_proxy, measurement_required, unresolved]
+# top5pct_recall_min is recall at the top 5% of held-out genes, produced by
+# measurement_sufficiency.analysis.response_fidelity.top_fraction_recall.
+# These values mirror OPSTierRules in analysis/tiers.py; the mirror is enforced
+# by tests/known_answers/test_tier_rule_contract.py.
+domain_sensitivity: separate_flag_not_a_tier
+boundary: These prospective assignments are OPS/A549-specific, not universal.

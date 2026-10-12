@@ -1,0 +1,12 @@
+figure: 2
+role: full_label_benchmark
+canonical_inputs: [predictions_long, split_manifest, methods_registry]
+required_columns:
+  predictions_long: [observation_id, reporter_id, endpoint_id, split_name, fold, model_id, y_true, y_pred, screen_id, perturbation_id]
+splits: [field, gene, strict_whole_screen]
+aggregation_units: [reporter, physical_screen, reporter_screen_assay]
+metrics: [cell_pearson, perturbation_response_pearson]
+methods: final_ten_registry_only
+statistics: {reference: MLP, unit: reporter, test: paired_wilcoxon, multiplicity: holm_over_54, display: no_inferential_stars}
+output: {formats: [pdf, svg, png], panels: [a, b, c, d, e, f, g]}
+forbidden: [training, benchmark_reestimation, method_averaging]

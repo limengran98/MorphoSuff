@@ -1,0 +1,61 @@
+figure: 6
+role: measurement_sufficiency_decision
+canonical_inputs: [scientific_utility, fidelity_metrics, measurement_tiers, low_label_metrics, image_pilot_metrics]
+consensus: ten_method_unweighted_median
+main_panels: [a, b, c]
+exploratory_panels: [d, e]
+panel_a: {unit: reporter, nested: [perturbation_gene, enrichment_term], diagnostic: counterfactual_assay_deletion}
+panel_b: {unit: reporter, model: nested_leave_one_reporter_out_ridge, interpretation: operational_not_causal}
+panel_c: {unit: reporter, protocol: ../protocols/measurement_tiers.yaml, domain_flag: separate_from_tier}
+panel_d: {unit: outer_gene_fold, target_panel: frozen_target12, role: exploratory}
+panel_e: {unit: representation_reporter_fold, target_panel: frozen_six_reporter_panel, role: exploratory}
+# Panel f applies the same frozen rule to screens the atlas did not generate. The
+# replicate unit is not the same in every column and the panel must not pretend it is:
+# the four fidelity quantities carry one point per held-out gene fold, while
+# reliability is a property of the target measurement with no fold structure, estimated
+# per screen for PERISCOPE and from replicate compound wells for OASIS.
+panel_f:
+  unit: external_reporter
+  datasets: [cpg0037_oasis, cpg0021_periscope]
+  rules: ../protocols/measurement_tiers.yaml
+  tuning: none
+  replicate_unit: {recoverability_r: gene_fold, magnitude_spearman: gene_fold,
+                   variance_ratio: gene_fold, top5pct_recall: gene_fold,
+                   reliability: screen_or_replicate_pair}
+  role: external_application
+  # Two bands, and they answer different questions. The upper band carries the
+  # datasets admitted by the six capabilities. The lower band carries a second
+  # substitution question on an admitted deposit plus a negative control, and it is
+  # not admitted evidence: a generic organelle dye is not a targeted readout under C2,
+  # which is the ground cpg0000-jump-pilot was rejected on.
+  bands:
+    admitted: {source: admission_audit, capabilities: [C1, C2, C3, C4, C5, C6]}
+    second_question: {claims_c2: false, control_row: inputs_permuted_within_screen}
+  # The four OASIS production batches are drawn as verdict chips beside the pooled
+  # row rather than as eight further rows. The question they answer is whether the
+  # verdict is stable, and a chip answers it; their five evidence quantities live in
+  # the per-panel source data and the supplementary table.
+  batch_chips: {datasets: [cpg0037_oasis], unit: production_batch}
+  # The funnel reports the admission audit, and the evidence tier of each judgement is
+  # part of the judgement. Drawing an automated pass in the same ink as an opened
+  # accession would turn a known-weak decision into a fact; the audit itself records
+  # that the sampled-header method mis-read cpg0037 and cpg0026.
+  funnel: {source: ../external/admission_audit.csv, encode: evidence_tier}
+output: {formats: [pdf, svg, png], panels: [a, b, c, d, e, f]}
+forbidden:
+  - tier_redefinition_from_exploratory_panels
+  - training
+  # External reporters differ from the 52 atlas reporters in response definition,
+  # endpoint count and control structure. Drawing them on a shared axis would invite a
+  # numeric comparison the data does not support.
+  - external_reporters_on_a_shared_axis_with_ops_reporters
+  # Every quantity in panel f must be the value the tier rule consumed. The renderer
+  # checks each fold median against evidence.csv and refuses to draw on a mismatch.
+  - panel_f_values_recomputed_outside_the_analysis
+  # The two bands are different question classes, not two halves of one comparison.
+  # A shared numeric axis between them would read as "dyes substitute better than
+  # antibodies", which is not a claim this study makes or could support.
+  - panel_f_bands_on_a_shared_numeric_axis
+  # The funnel must not present agent, sampled_header or unverified rows in the same
+  # ink as opened ones.
+  - admission_funnel_without_evidence_tiers

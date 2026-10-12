@@ -1,0 +1,10 @@
+name: strict_whole_screen
+aliases: [strict_screen, whole_screen, whole-screen]  # the file name is referenced by source_map.tsv
+unit_held_out: destination_screen_id
+purpose: Directed transfer to an unseen physical screen.
+constraints:
+  - No cells from the destination screen are used in fit, tuning, normalization fitting, or label-budget selection.
+  - Source and destination are recorded for every directed evaluation.
+  - Only repeated reporters with eligible source and destination screens enter transfer summaries.
+evaluation_units: [destination_cell, destination_perturbation_response, directed_reporter_destination_screen]
+manifest_columns: [observation_id, split_name, fold, role, destination_screen, is_control, scored]
