@@ -2,7 +2,7 @@
 
 This repository is a compact, current release of MorphoSuff. It contains one
 reusable Python package, the analysis workflows supporting the paper, the
-manuscript and Supplementary Information PDFs, and six main and six
+v3 manuscript and Supplementary Information PDFs, and six main and nine
 Supplementary figure PDFs.
 
 | Component | Included |
@@ -14,8 +14,8 @@ Supplementary figure PDFs.
 | Manuscript PDFs | `paper/manuscript.pdf` and `paper/supplementary.pdf` |
 | Figure PDFs | `paper/figures/` |
 | Project website | `website/` (static HTML, styles, scripts and figure previews) |
-| Processed OPS training data | External Hugging Face dataset linked in the README |
-| Supplementary Data 1–3 | Separate manuscript-submission attachments |
+| Processed OPS training data and selected checkpoints | [Hugging Face companion](https://huggingface.co/datasets/Amanda1998/MorphoSuff) · [inventory](release/huggingface/README.md) |
+| Supplementary Data | Separate manuscript-submission attachment; not part of the Hub data/model deposit |
 
 The `paper/` directory contains only final PDFs. LaTeX, plotting source files,
 figure source data and submission materials remain outside this public checkout.

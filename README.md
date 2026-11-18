@@ -3,7 +3,7 @@
 <div align="center">
 
 <h1>MorphoSuff</h1>
-<h3>Measurement sufficiency for cellular phenotypes</h3>
+<h3>When image-based predictions can replace targeted measurements in perturbation screens</h3>
 
 <p><b>What can a predicted measurement support?</b><br>
 A Python toolkit for connecting morphology-based prediction to scientific use.</p>
@@ -13,7 +13,7 @@ A Python toolkit for connecting morphology-based prediction to scientific use.</
   <a href="LICENSE"><img alt="MIT code licence" src="https://img.shields.io/badge/code-MIT-4B8B72"></a>
   <a href="paper/manuscript.pdf"><img alt="Manuscript PDF" src="https://img.shields.io/badge/manuscript-PDF-786A95"></a>
   <a href="https://doi.org/10.64898/2026.09.22.753654"><img alt="bioRxiv preprint" src="https://img.shields.io/badge/preprint-bioRxiv-8A4182"></a>
-  <a href="https://huggingface.co/datasets/Amanda1998/MorphoSuff"><img alt="Processed data on Hugging Face" src="https://img.shields.io/badge/data-Hugging%20Face-E0A16B?logo=huggingface&logoColor=black"></a>
+  <a href="https://huggingface.co/datasets/Amanda1998/MorphoSuff"><img alt="Companion data and models on Hugging Face" src="https://img.shields.io/badge/data%20%26%20models-Hugging%20Face-E0A16B?logo=huggingface&logoColor=black"></a>
 </p>
 
 <p>
@@ -46,9 +46,9 @@ adapters describe the experiment; shared analysis functions evaluate the
 predictions and the uses they support.
 
 <p align="center">
-  <a href="paper/figures/Figure2.pdf"><img src="docs/assets/workflow.png" alt="OPS prediction design: paired phase morphology and targeted reporter features, evaluated on held-out imaging fields, genes and whole screens." width="920"></a>
+  <a href="paper/figures/Figure1.pdf"><img src="docs/assets/workflow.png" alt="MorphoSuff compares biological analyses based on measured and predicted responses and assesses the support for each use." width="920"></a>
   <br>
-  <sub>Prediction and generalization in the OPS study · <a href="paper/figures/Figure2.pdf">Figure 2a ↗</a></sub>
+  <sub>From paired measurements to use decisions · <a href="paper/figures/Figure1.pdf">Figure 1a ↗</a></sub>
 </p>
 
 ### From prediction to measurement decisions
@@ -193,7 +193,16 @@ for pooling, reliability estimation and decision criteria.
 
 ## 🔬 Selected results
 
-### Test the use, not only prediction accuracy
+### What predictions preserve—and what they miss
+
+Across 52 targets in the OPS atlas, predictions recovered a median **79%** of
+the 50 knockouts with the strongest measured effects per target. They
+preserved MTOR-related LysoTracker responses but underestimated the p53 and
+p21 changes after DDX18 knockout and missed a p21 association with ribosomal
+RNA maturation. See [Figure 3](paper/figures/Figure3.pdf) and
+[Figure 4](paper/figures/Figure4.pdf).
+
+### Choose when to rely on prediction
 
 Across 260 OPS reporter–fold cases, acceptance based on calibration response
 ranking supported **204 successful prioritization uses**, compared with **184**
@@ -201,11 +210,14 @@ for acceptance based on Pearson recovery. These rules supported **7 and 8
 failures**, respectively, on separate evaluation perturbations. Combining
 response criteria supported 170 successes with one failure, at the cost of
 missing more usable cases.
+Compared with using predictions for every case, the ranking rule reduced
+the failure fraction from **12.3% to 3.3%** while retaining **89.5%** of
+successful uses.
 
 <p align="center">
   <a href="paper/figures/Figure3.pdf"><img src="docs/assets/decisions.png" alt="Calibration recovery and response ranking for 260 OPS cases, with independent evaluation outcomes and a comparison of acceptance rules." width="920"></a>
   <br>
-  <sub>Calibration evidence and held-out use decisions · <a href="paper/figures/Figure3.pdf">Figure 3e ↗</a></sub>
+  <sub>Calibration evidence and decisions on separate perturbations · <a href="paper/figures/Figure3.pdf">Figure 3f ↗</a></sub>
 </p>
 
 The task selects the strongest 20% of responses and requires hit recall of
@@ -228,6 +240,13 @@ application, specify acceptance criteria from the intended decision and
 relevant repeat measurements. Downstream hit or functional-analysis retention
 is evaluated alongside response fidelity.
 
+### Use pilot measurements to choose which assays to retain
+
+With the same number of direct assays and prediction and measurement compared
+on the same cells, selection using pilot measurements reduced quantitative error
+by **7.7%** relative to selection by predictive correlation.
+See [Figure 5](paper/figures/Figure5.pdf).
+
 ### Prioritize strong metabolic loss in primary hepatocytes
 
 A brightfield-based Ridge predictor recovered **10 of the 11 largest measured
@@ -236,9 +255,9 @@ compounds for follow-up. Training used paired data from 868 other compounds;
 all doses and sources of each test compound were held out.
 
 <p align="center">
-  <a href="paper/figures/Figure6.pdf"><img src="docs/assets/oasis_prioritization.png" alt="Recovery of the eleven strongest measured metabolic-activity losses using brightfield, cell-count and acquisition-metadata predictors, with compound-bootstrap confidence intervals." width="920"></a>
+  <a href="paper/figures/Figure6.pdf"><img src="docs/assets/oasis_prioritization.png" alt="Observed and predicted compound responses and hit membership for metabolic loss and LDH release in primary hepatocytes." width="920"></a>
   <br>
-  <sub>Strong metabolic-loss prioritization · <a href="paper/figures/Figure6.pdf">Figure 6b ↗</a></sub>
+  <sub>Compound prioritization for metabolic loss and LDH release · <a href="paper/figures/Figure6.pdf">Figure 6a ↗</a></sub>
 </p>
 
 The matched Ridge model using fluorescence-derived cell counts recovered
@@ -295,7 +314,7 @@ across the panel.
 | Goal | Entry point |
 | :--- | :--- |
 | **Use your own data** | [Dataset guide](docs/adapt_new_dataset.md) · [Model adapters](docs/model_adapters.md) |
-| **Obtain the study data** | [Hugging Face release](https://huggingface.co/datasets/Amanda1998/MorphoSuff) · [Data access and contents](docs/data_code_availability.md) |
+| **Obtain core data and models** | [Hugging Face companion](https://huggingface.co/datasets/Amanda1998/MorphoSuff) · [Data and checkpoint inventory](docs/data_code_availability.md) |
 | **Run external workflows** | [OASIS and PERISCOPE](studies/external/README.md) |
 | **Reproduce the OPS analyses** | [Protocols](docs/ops_protocols.md) · [Data preparation](docs/ops_data_and_preparation.md) · [Model runners](studies/ops/runners/README.md) |
 | **Read the study** | [Manuscript](paper/manuscript.pdf) · [Supplementary Information](paper/supplementary.pdf) · [Figure PDFs](paper/figures/) |
@@ -313,10 +332,10 @@ reproducibility/               Data manifests and provenance tools
 paper/                        Manuscript, Supplementary Information and figure PDFs
 ```
 
-The [companion data release](release/huggingface/README.md) provides processed
-OPS training arrays, exact-linked targets and frozen field/gene assignments.
-Supplementary Data 1–3, including frozen predictions and result-verification
-scripts, accompany the manuscript submission separately.
+The [companion data and model release](release/huggingface/README.md) covers
+the processed OPS training arrays, exact-linked targets, frozen field/gene
+assignments and selected fitted states. A separate Supplementary Data
+archive accompanies the manuscript; it is not part of the Hub dataset.
 
 </details>
 
@@ -324,9 +343,11 @@ scripts, accompany the manuscript submission separately.
 
 ## Citation and support
 
-MorphoSuff accompanies **[When label-free morphology is sufficient for targeted
-cellular measurements](https://doi.org/10.64898/2026.09.22.753654)**. Please cite
-the bioRxiv preprint when using the framework:
+The current manuscript is **[MorphoSuff: when image-based predictions can
+replace targeted measurements of molecular states, organelle organization and
+cellular activity in perturbation screens](paper/manuscript.pdf)**.
+The DOI below identifies the earlier bioRxiv preprint; please keep that
+version's published bibliographic details when citing the DOI:
 
 ```bibtex
 @article{li2026morphosuff,

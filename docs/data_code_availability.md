@@ -5,7 +5,7 @@
 This repository contains the reusable MorphoSuff package, dataset-specific
 workflows, the [manuscript](../paper/manuscript.pdf),
 [Supplementary Information](../paper/supplementary.pdf) and
-[six main and six Supplementary figure PDFs](../paper/figures/).
+[six main and nine Supplementary figure PDFs](../paper/figures/).
 Study-owned code is released under the
 [MIT License](../LICENSE). See [software citation metadata](../CITATION.cff)
 and [code ownership and licensing](../CODE_OWNERSHIP_AND_LICENSE.md).
@@ -23,21 +23,18 @@ matrix, frozen field/gene assignments, 52 exact-linked sparse reporter target
 blocks and metadata. Its embedded `ARCHIVE_MANIFEST.tsv` records file sizes,
 SHA-256 hashes and provenance.
 
-Raw microscopy, fitted model states, frozen predictions and figure source
-tables are not included in this training-data archive.
+Selected fitted states and their required preprocessing are listed separately
+in the [checkpoint inventory](../release/huggingface/MODEL_METADATA.md). The
+[Hub file list](https://huggingface.co/datasets/Amanda1998/MorphoSuff/tree/main)
+shows which files have been deposited. Raw microscopy, frozen predictions and
+figure source tables are not included in the Hub release.
 
 ## Supplementary data
 
-Three data archives accompany the manuscript submission:
-
-- **Supplementary Data 1:** OPS predictor-specific evidence, calibration–evaluation
-  decisions and functional analyses.
-- **Supplementary Data 2:** external response evidence and threshold sensitivity.
-- **Supplementary Data 3:** held-out OASIS, Cell Health and LINCS predictions,
-  reference measurements and selection records.
-
-These archives include reconstruction and verification scripts for the reported
-results. They are provided separately from this software repository.
+One Supplementary Data archive accompanies the manuscript submission. It
+contains OPS predictor-specific evidence, calibration–evaluation decisions,
+functional analyses and external-use evidence for OASIS, Cell Health and LINCS.
+It is supplied separately from this software repository and the Hub deposit.
 
 ## Upstream resource
 

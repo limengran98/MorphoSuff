@@ -21,16 +21,16 @@ use of a targeted readout. Start with the workflow that matches your data.
 | OPS acquisition and canonical preparation | [Preparation guide](ops_data_and_preparation.md) |
 | Splits, metrics and measurement criteria | [Study protocols](ops_protocols.md) |
 | Full-label, low-label and image comparisons | [Study runners](../studies/ops/runners/README.md) |
-| Six main and six Supplementary figures | [Figure PDFs](../paper/figures/) |
+| Six main and nine Supplementary figures | [Figure PDFs](../paper/figures/) |
 | External measurement evidence and threshold sensitivity | [Supplementary Information](../paper/supplementary.pdf) |
 | Brightfield-supported metabolic-loss prioritization | [Worked example](../studies/external/README.md#oasis-prioritize-metabolic-activity-loss) |
 | Manuscript and Supplementary Information | [Main text](../paper/manuscript.pdf) · [Supplementary Information](../paper/supplementary.pdf) |
 | Code-to-analysis mapping | [Source map](../reproducibility/ops/source_map.tsv) |
 | OPS-native implementation identities | [Model-code provenance](ops_model_code_provenance.md) |
 
-Supplementary Data 1–3 accompany the manuscript submission as separate
-archives. They contain frozen study predictions, decision ledgers and
-result-verification scripts; these archives are not part of this Git checkout.
+One Supplementary Data archive accompanies the manuscript submission. It
+contains frozen study predictions, decisions and result-verification scripts
+and is not part of this Git checkout.
 
 ## Package interfaces
 

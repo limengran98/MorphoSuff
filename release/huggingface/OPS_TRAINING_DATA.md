@@ -42,7 +42,12 @@ same phase features 52 times while preserving exact same-cell linkage.
 - endpoint blocks: 22 × 24D, 6 × 30D and 24 × 72D.
 
 This is the processed training archive's inventory before downstream
-analysis-specific inclusion and endpoint selection.
+analysis-specific inclusion and endpoint selection. The v3 paper counts
+7,344,374 distinct phase-imaged cells in the linked analysis set, not all
+8,410,291 input rows in the training archive.
+
+The existing 6,031,461,927-byte archive is unchanged. Download fingerprint
+(SHA-256): `7900ae6dac934678e85aa18178243b9b3aadc96f8c2250c14f01404ba4f32d2d`.
 
 ## Validate without copying
 
@@ -67,7 +72,7 @@ python studies/ops/preparation/export_canonical.py \
 
 Install `.[ops-data,parquet]` from the software repository before exporting.
 Use `--reporter lysosome_lamp1` for a single-reporter export. Then follow the
-[full-label runner guide](../../studies/ops/runners/full_label/README.md)
+[full-label runner guide](https://github.com/limengran98/MorphoSuff/tree/main/studies/ops/runners/full_label)
 to materialize a fold and fit a chosen predictor. Field and gene role
 assignments are supplied in the archive; strict whole-screen tasks are
 constructed from the canonical assay topology.
